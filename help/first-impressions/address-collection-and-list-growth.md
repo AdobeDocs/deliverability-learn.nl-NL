@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: 5a15354aa88e34479f2a1ba37cf4dde239c17bd2
+source-git-commit: 131e3f06ac8d593d4b67711ee3688ff895aa380c
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ Raadpleeg de sectie [Gegevenskwaliteit en -hygiëne](#data-quality-and-hygiene) 
 
 >[!NOTE]
 >
->Abonnees gebruiken vaak wegwerpadressen, verlopen adressen of adressen die niet van hen zijn om te krijgen wat zij van een website willen, maar om te voorkomen dat zij worden toegevoegd aan marketinglijsten. Wanneer dit gebeurt, leiden de lijsten van marketeers tot een hoog aantal harde grenzen, hoge tarieven van de spamklacht, en abonnees die niet klikken, openen of positief met e-mails in verband brengen. Dit kan als rode vlag voor brievenbusleveranciers en ISPs worden gezien.
+>Abonnees gebruiken vaak wegwerpadressen, verlopen adressen of adressen die niet van hen zijn om te krijgen wat zij van een website willen, maar om te voorkomen dat zij worden toegevoegd aan marketinglijsten. Wanneer dit gebeurt, leiden de lijsten van marketeers tot een hoog aantal harde grenzen, hoge tarieven van de spamklacht, en abonnees die niet klikken, openen of positief met e-mails in verband brengen. Het kan als rode vlag voor brievenbusleveranciers en ISPs worden gezien.
 
 ## Aanmeldingsformulieren
 
-Naast de velden voor de gegevens, wilt u informatie verzamelen over uw nieuwe abonnees, die relevantere verbindingen met uw klanten kunnen aanmoedigen, zijn er een paar andere dingen u met uw aanmeldingsformulier op de website zou moeten doen.
+Naast het toevoegen van de velden voor de gegevens, wilt u gegevens verzamelen over uw nieuwe abonnees, zijn er een paar andere dingen u met uw aanmeldingsformulier op de website zou moeten doen.
 
-* Stel duidelijke verwachtingen in bij de abonnee die ze bereid zijn e-mail te ontvangen, wat ze zullen ontvangen en hoe vaak ze deze zullen ontvangen.
+* Stel duidelijke verwachtingen in bij de abonnee die bereid is e-mails te ontvangen, wat ze zullen ontvangen en hoe vaak ze deze zullen ontvangen.
 * Voeg opties toe die de abonnee toestaan om de frequentie of het type van mededelingen te selecteren die zij ontvangen. Met deze opties kunt u de voorkeuren van de abonnee vanaf het begin kennen, zodat u de best mogelijke ervaring voor uw nieuwe klant kunt bieden.
 * Vergelijk het risico dat de abonneebelangen tijdens het aanmeldingsproces verloren gaan door te vragen om zoveel mogelijk informatie. Dingen zoals geboortedatum, plaats of interesses helpen u om meer aangepaste inhoud te sturen. De abonnees van elk merk hebben verschillende verwachtingen en tolerantiedrempels, zodat is het testen essentieel om het juiste evenwicht voor uw situatie te vinden.
 
@@ -51,20 +51,19 @@ Naast de velden voor de gegevens, wilt u informatie verzamelen over uw nieuwe ab
 
 ## Kwaliteit en hygiëne van de gegevens
 
-Het verzamelen van gegevens is slechts een deel van de uitdaging. U moet ervoor zorgen dat de gegevens nauwkeurig en bruikbaar zijn. Er moeten filters voor de basisindeling aanwezig zijn. Een e-mailadres is niet geldig als het geen &#39;@&#39; of &#39;.&#39; bevat bijvoorbeeld. Ben zeker om gemeenschappelijke aliasadressen niet toe te staan, die ook als rolrekeningen worden bedoeld (zoals &quot;info,&quot;admin,&quot;verkoop,&quot;steun,&quot;etc.). Rolaccounts kunnen risico&#39;s opleveren omdat de ontvanger door zijn aard een groep personen bevat in tegenstelling tot één abonnee. De verwachtingen en de tolerantie kunnen binnen een groep variëren, die klachten, variërende betrokkenheid, unsubscribes, en algemene verwarring riskeert.
+Het verzamelen van gegevens is slechts een deel van de uitdaging. U moet er ook voor zorgen dat de gegevens nauwkeurig en bruikbaar zijn. Er moeten filters voor de basisindeling aanwezig zijn. Een e-mailadres is niet geldig als het geen &#39;@&#39; of &#39;.&#39; bevat bijvoorbeeld. Ben zeker om gemeenschappelijke aliasadressen niet toe te staan, die ook als rolrekeningen worden bedoeld (zoals &quot;info,&quot;admin,&quot;verkoop,&quot;steun,&quot;). Rolaccounts kunnen risico&#39;s opleveren omdat de ontvanger door zijn aard een groep personen bevat in tegenstelling tot één abonnee. De verwachtingen en de tolerantie kunnen binnen een groep variëren, die klachten, variërende betrokkenheid, unsubscribes, en algemene verwarring riskeert.
 
 Hier volgen enkele oplossingen voor veelvoorkomende problemen die u kunt oplossen met uw e-mailadresgegevens:
 
 **[!DNL Double opt-in (DOI)]**
-[!DNL Double opt-in (DOI)] wordt door de meeste e-mailexperts beschouwd als de beste manier om te leveren. Als u problemen hebt met spamtraps of klachten over uw welkome e-mails, is DOI een goede manier om ervoor te zorgen dat de abonnee die uw e-mails ontvangt, de persoon is die zich daadwerkelijk heeft aangemeld voor uw e-mailprogramma en uw e-mails wil ontvangen.
+[!DNL Double opt-in (DOI)] wordt door de meeste e-mailexperts beschouwd als de beste manier om te leveren. Als u problemen hebt met spamtraps of klachten over uw welkome e-mails, is DOI een goede manier om ervoor te zorgen dat de abonnee die uw e-mailberichten ontvangt, zich daadwerkelijk heeft aangemeld voor uw e-mailprogramma en uw e-mails wil ontvangen.
 
-DOI bestaat uit het verzenden van een bevestigingsbericht naar het e-mailadres van de abonnee dat zich zojuist heeft aangemeld bij uw e-mailprogramma met een koppeling waarop u moet klikken om de toestemming te bevestigen. Als de abonnee deze methode niet bevestigt, stuurt de afzender de abonnee geen e-mails meer. Laat nieuwe abonnees weten dat u dit doet op de website en moedig ze aan om de aanmelding te voltooien voordat u verdergaat. Deze methode ziet wel een vermindering van het aantal aanmeldingen, maar degenen die zich wel aanmelden, zijn vaak erg betrokken en blijven op de lange termijn, en het leidt meestal tot een veel hoger rendement voor de afzender.
+DOI bestaat uit het verzenden van een bevestigingsbericht naar het e-mailadres van de abonnee dat zich heeft aangemeld bij uw e-mailprogramma en dat een koppeling bevat waarop moet worden geklikt om de toestemming te bevestigen. Als de abonnee deze methode niet bevestigt, stuurt de afzender de abonnee geen e-mails meer. Laat nieuwe abonnees weten dat u dit doet op de website en moedig ze aan om de aanmelding te voltooien voordat u verdergaat. Deze methode leidt wel tot een vermindering van het aantal aanmeldingen, maar de mensen die zich wel aanmelden, zijn vaak zeer betrokken en blijven voor de lange termijn. Het resulteert gewoonlijk in een veel hoger ROI voor de afzender.
 
 **Verborgen**
 veldHet toepassen van een verborgen veld op uw aanmeldingsformulier is een geweldige manier om automatische beide aanmeldingen te onderscheiden van echte menselijke abonnees. Omdat het gegevensveld niet zichtbaar is en verborgen is in de HTML-code, voert een bot gegevens in waar een mens dat niet wil. Met deze methode kunt u regels maken om elke aanmelding te onderdrukken die gegevens bevat die in dat verborgen veld zijn ingevuld.
 
-**[!DNL re-CAPTCHA]**
-[!DNL re-CAPTCHA] Dit is een validatiemethode waarmee u de kans kunt verkleinen dat de abonnee een bot is en geen echte persoon. Er zijn verschillende versies, waarvan sommige trefwoordidentificatie of afbeeldingen bevatten. Sommige versies zijn effectiever dan andere en wat u wint aan beveiliging en het voorkomen van problemen met betrekking tot de leverbaarheid is veel hoger dan de negatieve gevolgen voor conversies.
+**[!DNL re-CAPTCHA] is een validatiemethode die u kunt gebruiken om de kans te verkleinen dat de abonnee een bot is en geen echte persoon. Er zijn verschillende versies, waarvan sommige trefwoordidentificatie of afbeeldingen bevatten. Sommige versies zijn effectiever dan andere en wat u wint aan beveiliging en het voorkomen van problemen met betrekking tot de leverbaarheid is veel hoger dan de negatieve gevolgen voor conversies.
 
 ## Juridische richtsnoeren
 
@@ -76,18 +75,18 @@ Raadpleeg uw advocaten om lokale en nationale wetten betreffende e-mail te inter
 
 ## Andere niet-aanbevolen methoden voor het verzamelen van lijsten
 
-Er zijn vele andere manieren om adressen te verzamelen, elk met zijn eigen kansen, uitdagingen, en nadelen. We raden deze aanbevelingen in het algemeen niet aan, omdat het gebruik vaak wordt beperkt via beleid voor acceptabel gebruik van leveranciers. We zullen naar een paar voorbeelden kijken, zodat u de gevaren leert om u te helpen de risico&#39;s te beperken of te vermijden:
+Er zijn vele andere manieren om adressen te verzamelen, elk met zijn eigen kansen, uitdagingen, en nadelen. Adobe adviseert deze in het algemeen niet, aangezien het gebruik vaak door leverancier aanvaardbaar gebruiksbeleid beperkt is. We zullen naar een paar voorbeelden kijken, zodat u de gevaren leert om u te helpen de risico&#39;s te beperken of te vermijden:
 
 **Kopen of huren een**
 lijstEr zijn veel soorten e-mailadressen. Primaire e-mail, e-mails voor werk, e-mails voor scholen, secundaire e-mails en inactieve e-mails om er een paar te noemen. De typen adressen die via aangekochte of gehuurde lijsten worden verzameld en gedeeld, zijn zelden primaire e-mailaccounts, waar bijna alle betrokkenheid- en aankoopactiviteiten plaatsvinden.
 
-Als u geluk hebt, krijgt u secundaire accounts, waar mensen op zoek zijn naar deals en aanbiedingen wanneer ze klaar zijn om iets te zoeken. Dit resulteert gewoonlijk in lage betrokkenheidsniveaus - als om het even welk. Als je geen geluk hebt, zal de lijst vol met inactieve e-mails zijn, dat kunnen nu spamvallen zijn. Vaak krijg je een mengeling van zowel secundaire als inactieve e-mails. Over het algemeen heeft een e-mailprogramma meer schade dan de kwaliteit van dit soort lijsten. Deze praktijk wordt niet toegestaan door het [Beleid voor acceptabele toepassingen van Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+Als u geluk hebt, krijgt u secundaire accounts, waar mensen op zoek zijn naar deals en aanbiedingen wanneer ze klaar zijn om iets te zoeken. Dit resulteert gewoonlijk in lage betrokkenheidsniveaus - als om het even welk. Als je geluk hebt, is de lijst vol met inactieve e-mails, die kunnen nu spamvallen zijn. Vaak krijg je een mengeling van zowel secundaire als inactieve e-mails. Over het algemeen heeft een e-mailprogramma meer schade dan de kwaliteit van dit soort lijsten. Deze praktijk wordt niet toegestaan door het [Beleid voor acceptabele toepassingen van Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Lijsten**
-toevoegenDit zijn klanten die ervoor hebben gekozen om met uw merk in te gaan, wat geweldig is. Maar ze kozen ervoor om een andere methode te gebruiken dan e-mail (in-store, sociale media, enz.). Ze kunnen geen ongevraagde e-mail van u ontvangen en zijn ook bezorgd over de manier waarop u hun e-mailadres hebt gekregen omdat ze het niet hebben opgegeven. Deze methode houdt het risico in dat een klant of potentiële klant die zich met uw merk bezighoudt, wordt omgedoopt tot een afschrikmiddel dat uw merk niet langer vertrouwt en in plaats daarvan naar uw concurrentie gaat. Deze praktijk wordt niet toegestaan door het [Beleid voor acceptabele toepassingen van Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+toevoegenDit zijn klanten die ervoor hebben gekozen om met uw merk in te gaan, wat geweldig is. Maar ze kozen ervoor om een andere methode te gebruiken dan e-mail (in-store, sociale media, enz.). Ze kunnen geen ongevraagde e-mail van u ontvangen en zijn ook bezorgd over de manier waarop u hun e-mailadres hebt gekregen omdat ze het niet hebben opgegeven. Deze methode houdt het risico in dat een klant of potentiële klant die zich met uw merk bezighoudt, wordt omgedoopt tot een aanjager die uw merk niet langer vertrouwt en in plaats daarvan naar uw concurrentie gaat. Deze praktijk wordt niet toegestaan door het [Beleid voor acceptabele toepassingen van Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **De handel toont of andere gebeurtenis**
-inzamelingHet verzamelen van adressen bij een cabine of door een andere officiële, duidelijk brandde methode kan nuttig zijn. Het risico is dat bij veel gebeurtenissen als deze alle adressen worden verzameld en verspreid via de promotor of gastheer van de gebeurtenis. Dit betekent dat de gebruikers van deze e-mailadressen nooit om e-mails van uw merk hebben gevraagd. Deze abonnees zullen waarschijnlijk uw post als spam klagen en merken, en zij zouden geen nauwkeurige contactinformatie kunnen hebben verstrekt.
+inzamelingHet verzamelen van adressen bij een cabine of door een andere officiële, duidelijk brandde methode kan nuttig zijn. Het risico is dat bij veel gebeurtenissen als deze alle adressen worden verzameld en verspreid via de promotor of gastheer van de gebeurtenis. Dit betekent dat de eigenaars van deze e-mailadressen nooit hebben gevraagd om e-mails van uw merk te ontvangen. Deze abonnees zullen waarschijnlijk uw post als spam klagen en merken, en zij zouden geen nauwkeurige contactinformatie kunnen hebben verstrekt.
 
 ****
-SweepstakesSweepstakes biedt snel een groot aantal e-mailadressen. Maar deze abonnees willen de prijs, niet je e-mails. Ze hebben misschien zelfs niet eens aandacht besteed aan de naam van wie hen zou bereiken. Deze abonnees zullen waarschijnlijk uw post als spam klagen en merken, en zij zullen waarschijnlijk nooit een aankoop in dienst nemen of maken.
+SweepstakesSweepstakes biedt snel een groot aantal e-mailadressen. Maar deze abonnees willen de prijs, niet je e-mails. Ze hebben misschien zelfs niet eens aandacht besteed aan de naam van wie hen zou bereiken. Ze zullen waarschijnlijk een klacht indienen en je post als spam markeren, en het is onwaarschijnlijk dat ze ooit een aankoop zullen doen of doen.
