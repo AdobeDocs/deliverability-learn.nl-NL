@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,17 @@ In veel gevallen volgt transactionele post niet de traditionele opwarmingsmethod
 2. Afmelden van winkelwagentje—gemiddeld - hoge betrokkenheid over het algemeen
 3. Welkom-e-mails — hoge betrokkenheid maar kunnen slechte adressen bevatten, afhankelijk van de methoden die u gebruikt voor het verzamelen van lijsten
 4. E-mails met Winback-up — lagere betrokkenheid over het algemeen
+
+## Productspecifieke bronnen
+
+**Campaign**
+
+* Meer informatie over het beheren van de leverbaarbaarheid bij het starten van een nieuw platform met Adobe Campaign vindt u in [deze sectie](/help/putting-it-in-practice/ac-starting-new-platform.md).
+* Leer hoe te om het gebruiken van veelvoudige golven met Adobe Campaign Classic in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves) te verzenden.
+* Leer hoe te om een subdomain aan Adobe Campaign Classic of Norm in [deze sectie](/help/putting-it-in-practice/ac-domain-name-setup.md) volledig te delegeren.
+* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
+* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
+
+## Aanvullende bronnen
+
+* Leer meer bij het verhogen van uw e-mailreputatie met IP opwarmen in [deze sectie](/help/additional-resources/increase-reputation-with-ip-warming.md).
