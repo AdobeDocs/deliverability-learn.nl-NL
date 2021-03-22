@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Succesvolle prestaties zijn afhankelijk van een sterke basis. E-mailinfrastructuur is een kernelement. Een goed geconstrueerde e-mailinfrastructuur omvat meerdere componenten, namelijk domein(en) en IP-adres(sen). Deze onderdelen zijn als de machine achter de e-mails die je verzendt en zijn vaak het anker van het versturen van reputatie. Leveringsconsultants zorgen ervoor dat deze elementen tijdens de implementatie op de juiste wijze worden ingesteld, maar vanwege het faam-element is het belangrijk dat u over deze basiskennis beschikt.
 
-## Instellen en strategie van domeinen
+## Domeininstelling en -strategie {#domain-setup-and-strategy}
 
 De tijden zijn veranderd, en sommige ISPs (zoals Gmail en Yahoo) neemt nu domeinreputatie als extra punt op wanneer het komt om e-mailreputatie aan een afzender vast te maken. Uw domeinreputatie is gebaseerd op uw verzendend domein in plaats van uw IP adres. Dit betekent dat uw merk belangrijkheid neemt wanneer het over ISP het filtreren besluiten komt.
 
@@ -32,7 +32,7 @@ Een deel van het onboarding proces voor nieuwe afzenders op de platforms van Ado
 * U kunt overwegen een subdomein van het bovenliggende domein te gebruiken om het verzendende domein te legitimeren.
 * Scheid uw subdomeinen voor Transactionele en het berichtcategorieën van de Marketing. Dit zal uw e-mailverkeer op een betrouwbaardere basis helpen stromen aangezien ISPs deze verzendende methode zoekt, die een bekende e-mailbeste praktijk is en hoogst geadviseerd.
 
-## IP-strategie
+## IP-strategie {#ip-strategy}
 
 Het is belangrijk om een goed gestructureerde IP strategie te vormen helpen een positieve reputatie vestigen. Het aantal IPs en de opstelling varieert afhankelijk van uw bedrijfsmodel en marketing doelstellingen. Werk samen met een deskundige om een duidelijke strategie te ontwikkelen om van rechts te beginnen. Houd rekening met het volgende:
 
@@ -41,11 +41,11 @@ Het is belangrijk om een goed gestructureerde IP strategie te vormen helpen een 
 * Het scheiden van verkeer voor overseinentypen is zeer belangrijk. Het is belangrijk om, op een absoluut minimum, afzonderlijke marketing en transactionele post op afzonderlijke IP pools te behandelen.
 * Afhankelijk van uw poststrategie, kan het ook raadzaam zijn om verschillende producten of marketing stromen op verschillende IP pools te scheiden als uw reputatie drastisch verschillend is. Sommige markten segmenteren ook per regio. Het scheiden van IP voor verkeer met een lagere reputatie zal niet de reputatie kwestie oplossen, maar het zal kwesties met uw &quot;goede&quot;reputatie e-mailleveringen verhinderen. U wilt uw goede publiek immers niet opofferen voor een riskantere doelgroep.
 
-## Feedbackloops
+## Feedbacklussen {#feedback-loops}
 
 Achter de schermen verwerken Adobe-platforms gegevens over stormen, klachten, afmeldingsmeldingen en nog veel meer. De opstelling van deze terugkoppelt lijnen is een belangrijk aspect aan leverbaarheid. Klachten kunnen een reputatie beschadigen, dus u moet e-mailadressen versturen die uw klachten van het doelpubliek registreren. Het is belangrijk om op te merken dat Gmail deze gegevens niet teruggeeft. De lijst unsubscribe kopballen en overeenkomst het filtreren zijn vooral belangrijk voor abonnees Gmail, die nu de meerderheid van abonneegegevensbestanden bestaan.
 
-## Verificatie
+## Verificatie {#authentication}
 
 De authentificatie is het proces dat ISPs gebruikt om de identiteit van een afzender te bevestigen. De twee meest voorkomende verificatieprotocollen zijn [!DNL Sender Policy Framework] (SPF) en [!DNL DomainKeys Identified Mail] (DKIM). Deze zijn niet zichtbaar aan het eind - gebruiker maar helpen ISPs filtere-mail van geverifieerde afzenders. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) wint populariteit, hoewel zijn beleid nog niet door alle ISP&#39;s in hun reputatie wordt opgenomen.
 
@@ -63,10 +63,14 @@ De authentificatie is het proces dat ISPs gebruikt om de identiteit van een afze
 
 ## Productspecifieke bronnen
 
-**Campaign Standard**
+**Campaign**
 
-* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html):  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
+* Leer hoe te om een subdomain aan Adobe Campaign Classic of Norm in [deze sectie](/help/putting-it-in-practice/ac-domain-name-setup.md) volledig te delegeren.
+* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
+* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
+* Leer meer bij het uitvoeren van een terugkoppel lijn voor een instantie van Campaign Classic in [dit sectie](/help/putting-it-in-practice/acc-technical-recommendations.md#feedback-loop-acc).
 
-**Campaign Classic**
+## Aanvullende bronnen
 
-* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html):  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
+* Meer informatie over SPF-, DKIM- en DMARC-verificatiemethoden vindt u in [deze sectie](/help/additional-resources/authentication.md).
+* Leer meer bij het verhogen van uw e-mailreputatie met IP opwarmen in [deze sectie](/help/additional-resources/increase-reputation-with-ip-warming.md).
