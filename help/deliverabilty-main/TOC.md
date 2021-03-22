@@ -3,10 +3,10 @@ user-guide-title: Handleiding voor best practices voor levering
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Leer de belangrijkste termen, concepten en benaderingen van de leverbaarheid om u in staat te stellen uw marketingprogramma te laten slagen.
 translation-type: tm+mt
-source-git-commit: 5019165cd38a3b7cd26e4971e11f155278c3d3da
+source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 3%
+source-wordcount: '163'
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
    + [Spam-overvullingen](/help/metrics/spam-traps.md)
    + [Opsomming en blokkering](/help/metrics/bulking-and-blocking.md)
 + [Betrokkenheid](/help/engagement.md)
-+ Overgangsproces - Overschakelen van e-mailplatforms{#transition-process}
++ Overgangsproces - Overschakelen van e-mailplatforms {#transition-process}
    + [Hoe kan ik vloeiend overschakelen bij het schakelen tussen e-mailplatforms](/help/transition-process/switching-email-platforms.md)
    + [Infrastructuur](/help/transition-process/infrastructure.md)
    + [Doelcriteria](/help/transition-process/targeting-criteria.md)
@@ -40,4 +40,19 @@ ht-degree: 3%
    + [Microsoft (Hotmail, Outlook, Windows Live enz.)](/help/internet-service-provider-specifics/microsoft.md)
    + [Verizon Media Group (Yahoo, AOL, Verizon, enz.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Doorlopende bewaking](/help/ongoing-monitoring.md)
-+ [In de praktijk brengen](/help/putting-it-in-practice.md)
++ In de praktijk brengen {#putting-it-in-practice}
+   + [Hoe succesvol te zijn](/help/putting-it-in-practice/how-to-reach-success.md)
+   + Campaign {#campaign}
+      + [Instellen van domeinnaam](/help/putting-it-in-practice/ac-domain-name-setup.md)
+      + [SSL-certificaataanvraagproces](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
+      + [Een nieuw platform starten](/help/putting-it-in-practice/ac-starting-new-platform.md)
+      + [Campaign Classic - Technische aanbevelingen](/help/putting-it-in-practice/acc-technical-recommendations.md)
++ Aanvullende bronnen {#additional-resources}
+   + [Overzicht](/help/additional-resources/general-resources.md)
+   + [Alles over spamovervullingen](/help/additional-resources/all-about-spam-traps.md)
+   + [Verhoog uw e-mailreputatie met opwarming van IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
+   + [Verificatie](/help/additional-resources/authentication.md)
+   + [Duplicaten](/help/additional-resources/duplicates.md)
+   + [Best practices voor hernieuwde betrokkenheid](/help/additional-resources/re-engagement.md)
+   + [Real-time zwarte-outlijsten](/help/additional-resources/blocklist-databases.md)
+   + [Problemen oplossen](/help/additional-resources/troubleshooting.md)
