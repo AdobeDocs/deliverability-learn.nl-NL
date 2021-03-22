@@ -3,10 +3,10 @@ user-guide-title: Handleiding voor best practices voor levering
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Leer de belangrijkste termen, concepten en benaderingen van de leverbaarheid om u in staat te stellen uw marketingprogramma te laten slagen.
 translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+source-git-commit: a823349a7619595c6dc3e0d135c253bc5150046e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 9%
+source-wordcount: '160'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 9%
    + [Verizon Media Group (Yahoo, AOL, Verizon, enz.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Doorlopende bewaking](/help/ongoing-monitoring.md)
 + In de praktijk brengen {#putting-it-in-practice}
-   + [Hoe succesvol te zijn](/help/putting-it-in-practice/how-to-reach-success.md)
+   + [Overzicht](/help/putting-it-in-practice/putting-it-in-practice.md)
    + Campaign {#campaign}
       + [Instellen van domeinnaam](/help/putting-it-in-practice/ac-domain-name-setup.md)
       + [SSL-certificaataanvraagproces](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
