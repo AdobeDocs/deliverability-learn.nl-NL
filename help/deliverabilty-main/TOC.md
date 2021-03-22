@@ -3,10 +3,10 @@ user-guide-title: Handleiding voor best practices voor levering
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Leer de belangrijkste termen, concepten en benaderingen van de leverbaarheid om u in staat te stellen uw marketingprogramma te laten slagen.
 translation-type: tm+mt
-source-git-commit: a823349a7619595c6dc3e0d135c253bc5150046e
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 10%
+source-wordcount: '165'
+ht-degree: 8%
 
 ---
 
@@ -40,19 +40,20 @@ ht-degree: 10%
    + [Microsoft (Hotmail, Outlook, Windows Live enz.)](/help/internet-service-provider-specifics/microsoft.md)
    + [Verizon Media Group (Yahoo, AOL, Verizon, enz.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Doorlopende bewaking](/help/ongoing-monitoring.md)
-+ In de praktijk brengen {#putting-it-in-practice}
-   + [Overzicht](/help/putting-it-in-practice/putting-it-in-practice.md)
-   + Campaign {#campaign}
-      + [Instellen van domeinnaam](/help/putting-it-in-practice/ac-domain-name-setup.md)
-      + [SSL-certificaataanvraagproces](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
-      + [Een nieuw platform starten](/help/putting-it-in-practice/ac-starting-new-platform.md)
-      + [Campaign Classic - Technische aanbevelingen](/help/putting-it-in-practice/acc-technical-recommendations.md)
-+ Aanvullende bronnen {#additional-resources}
++ [In de praktijk brengen](/help/putting-it-in-practice.md)
++ Aanhangsel: Aanvullende bronnen {#additional-resources}
    + [Overzicht](/help/additional-resources/general-resources.md)
-   + [Alles over spamovervullingen](/help/additional-resources/all-about-spam-traps.md)
-   + [Verhoog uw e-mailreputatie met opwarming van IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
-   + [Verificatie](/help/additional-resources/authentication.md)
-   + [Duplicaten](/help/additional-resources/duplicates.md)
-   + [Best practices voor hernieuwde betrokkenheid](/help/additional-resources/re-engagement.md)
-   + [Real-time zwarte-outlijsten](/help/additional-resources/blocklist-databases.md)
-   + [Problemen oplossen](/help/additional-resources/troubleshooting.md)
+   + Algemene bronnen {#generic-resources}
+      + [Alles over spamovervullingen](/help/additional-resources/all-about-spam-traps.md)
+      + [Verhoog uw e-mailreputatie met opwarming van IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
+      + [Verificatie](/help/additional-resources/authentication.md)
+      + [Duplicaten](/help/additional-resources/duplicates.md)
+      + [Best practices voor hernieuwde betrokkenheid](/help/additional-resources/re-engagement.md)
+      + [Real-time zwarte-outlijsten](/help/additional-resources/blocklist-databases.md)
+      + [Problemen oplossen](/help/additional-resources/troubleshooting.md)
+   + Productspecifieke bronnen {#product-specific-resources}
+      + Campaign {#campaign}
+         + [Instellen van domeinnaam](/help/additional-resources/ac-domain-name-setup.md)
+         + [SSL-certificaataanvraagproces](/help/additional-resources/ac-ssl-certificate-request.md)
+         + [Een nieuw platform starten](/help/additional-resources/ac-starting-new-platform.md)
+         + [Campaign Classic - Technische aanbevelingen](/help/additional-resources/acc-technical-recommendations.md)
