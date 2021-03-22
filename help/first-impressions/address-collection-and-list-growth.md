@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: 131e3f06ac8d593d4b67711ee3688ff895aa380c
+source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De meest voorkomende vorm van **aanmelding voor websites** is &quot;Single opt-i
 
 * Niet-bevestigde e-mailadressen kunnen typos hebben of onjuist zijn geformuleerd, onjuist zijn of slecht worden gebruikt. De typos en de misvormde adressen veroorzaken hoge stuittarieven, die en veroorzaken blokken die door ISPs of IP reputatieverlies worden uitgegeven.
 
-* De kwaadwillige voorlegging van bekende spamvallen (soms genoemd &quot;lijstvergiftiging&quot;) kan enorme problemen met levering en reputatie veroorzaken als de eigenaar van die val actie onderneemt. Het is onmogelijk te weten of de ontvanger zonder bevestiging echt aan een marketinglijst wil worden toegevoegd. Dit maakt het even onmogelijk om de verwachtingen van de ontvanger te bepalen en kan tot verhoogde spamklachten leiden-en soms zwarte lijst als de verzamelde e-mail een spamval toevallig is.
+* De kwaadwillige voorlegging van bekende spamvallen (soms genoemd &quot;lijstvergiftiging&quot;) kan enorme problemen met levering en reputatie veroorzaken als de eigenaar van die val actie onderneemt. Het is onmogelijk te weten of de ontvanger zonder bevestiging echt aan een marketinglijst wil worden toegevoegd. Dit maakt het even onmogelijk om de verwachtingen van de ontvanger te bepalen en kan tot verhoogde spamklachten leiden — en soms voegend op lijst van gewenste personen als de verzamelde e-mail een spamval blijkt te zijn.
 
 Raadpleeg de sectie [Gegevenskwaliteit en -hygiëne](#data-quality-and-hygiene) in deze handleiding voor de details en voordelen van dubbele opt-in voor hulp bij het minimaliseren van de problemen die zowel in de fysieke opslag als in één enkele opt-in worden voorgesteld.
 
@@ -88,5 +88,17 @@ toevoegenDit zijn klanten die ervoor hebben gekozen om met uw merk in te gaan, w
 **De handel toont of andere gebeurtenis**
 inzamelingHet verzamelen van adressen bij een cabine of door een andere officiële, duidelijk brandde methode kan nuttig zijn. Het risico is dat bij veel gebeurtenissen als deze alle adressen worden verzameld en verspreid via de promotor of gastheer van de gebeurtenis. Dit betekent dat de eigenaars van deze e-mailadressen nooit hebben gevraagd om e-mails van uw merk te ontvangen. Deze abonnees zullen waarschijnlijk uw post als spam klagen en merken, en zij zouden geen nauwkeurige contactinformatie kunnen hebben verstrekt.
 
-****
-SweepstakesSweepstakes biedt snel een groot aantal e-mailadressen. Maar deze abonnees willen de prijs, niet je e-mails. Ze hebben misschien zelfs niet eens aandacht besteed aan de naam van wie hen zou bereiken. Ze zullen waarschijnlijk een klacht indienen en je post als spam markeren, en het is onwaarschijnlijk dat ze ooit een aankoop zullen doen of doen.
+**Krenkte**
+
+Zweepstakes biedt snel een groot aantal e-mailadressen. Maar deze abonnees willen de prijs, niet je e-mails. Ze hebben misschien zelfs niet eens aandacht besteed aan de naam van wie hen zou bereiken. Ze zullen waarschijnlijk een klacht indienen en je post als spam markeren, en het is onwaarschijnlijk dat ze ooit een aankoop zullen doen of doen.
+
+## Productspecifieke bronnen
+
+**Adobe Campaign Classic**
+
+* [Abonnementsformulieren met dubbele aanmelding maken](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+
+**Adobe Campaign Standard**
+
+* [Dubbele aanmeldingsprocedure](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
+
