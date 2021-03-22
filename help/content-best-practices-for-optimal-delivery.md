@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '196'
+ht-degree: 4%
 
 ---
 
@@ -27,10 +27,10 @@ Inhoud is toets. U hebt al ons standpunt over relevantie gelezen, maar hier volg
 
 ## Productspecifieke bronnen
 
-**Campaign Standard**
-
-* [E-mailinhoud beheren (productdocumentatie)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=en#testing-and-sending)
-
 **Campaign Classic**
 
-* [De inhoud van uw bericht beheren (productdocumentatie)](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+* [De inhoud van uw bericht beheren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+
+**Campaign Standard**
+
+* [E-mailcontent beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)
