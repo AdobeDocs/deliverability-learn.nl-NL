@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 9e4c4c56a09fb505a431d3799104c2684aed4a70
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-# Hoe te overgang regelmatig wanneer het schakelen van e-mailplatforms.
+# Hoe kan ik vloeiend overschakelen bij het schakelen tussen e-mailplatforms
 
 Wanneer het bewegen van e-maildienstverleners (ESPs), is het niet mogelijk om uw bestaande, gevestigde IP adressen ook over te brengen. Het is belangrijk dat u de beste praktijken volgt om een positieve reputatie te ontwikkelen wanneer u opnieuw begint. Omdat de nieuwe IP adressen u nog zal gebruiken geen reputatie hebben, kan ISPs niet volledig de post vertrouwen die uit hen komt en moet voorzichtig zijn in wat zij toestaan om aan hun klanten worden geleverd.
 
