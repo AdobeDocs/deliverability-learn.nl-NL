@@ -1,6 +1,6 @@
 ---
 title: Bounces
-description: Meer informatie over de verschillende typen grenzen
+description: Meer informatie over de verschillende typen grenzen.
 feature: Metrics
 topics: Deliverability
 kt: 7047
@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '478'
+ht-degree: 4%
 
 ---
 
@@ -51,11 +51,14 @@ De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij m
 
 ## Productspecifieke bronnen
 
-**Adobe Campaign Standard**
-
-* [Lijst met rapporten - Bounce-overzicht (productdocumentatie)](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
-* [Werken met leveringsfouten (productdocumentatie)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=en#about-delivery-failures)
-
 **Adobe Campaign Classic**
 
-* [Werken met leveringsfouten (productdocumentatie)](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=en#sending-messages)
+* [Typen leveringsfouten en redenen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
+* [Bounce mail management](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-management)
+* [Niet-te leveren items en samenvattingsrapport](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html#non-deliverables-and-bounces)
+
+**Adobe Campaign Standard**
+
+* [Typen leveringsfouten en redenen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
+* [Kwalificatie van niet-bezorgde e-mails](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#bounce-mail-qualification)
+* [Samenvattingsrapport voor stuiteren](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
