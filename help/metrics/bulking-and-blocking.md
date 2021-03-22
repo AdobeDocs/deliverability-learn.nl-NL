@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ Een voegende op lijst van gewenste personen treedt op wanneer een manager van de
 
 ## Aanvullende bronnen
 
-* [Lijst van gewezen personen databases](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/block-list-databases.html?lang=en#sending-messages)
+* Leer meer op [Real-time zwarte lijsten](/help/additional-resources/blocklist-databases.md) die gegevensbestanden van IP adressen en domeinen handhaven waarschijnlijk om door spammers worden gebruikt.
