@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 3%
+source-wordcount: '208'
+ht-degree: 1%
 
 ---
 
@@ -33,9 +33,5 @@ Doorgaans is een betrokkenheidspercentage gebaseerd op een specifieke periode. D
 
 **Campaign Standard**
 
-* [E-mails met een AI-processor: Predictieve betrokkenheidsscoring](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=en#predictive-scoring)
-
-**Campaign Classic**
-
-* [Uw reputatie verbeteren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/improve-reputation.html)
+* [E-mails met een AI-processor: Predictieve betrokkenheidsscoring](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
 
