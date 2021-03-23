@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -65,10 +65,10 @@ De authentificatie is het proces dat ISPs gebruikt om de identiteit van een afze
 
 **Campaign**
 
-* Leer hoe te om een subdomain aan Adobe Campaign Classic of Norm in [deze sectie](/help/putting-it-in-practice/ac-domain-name-setup.md) volledig te delegeren.
+* Leer hoe te om een subdomain aan Adobe Campaign Classic of Norm in [deze sectie](/help/additional-resources/ac-domain-name-setup.md) volledig te delegeren.
 * [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
 * [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
-* Leer meer bij het uitvoeren van een terugkoppel lijn voor een instantie van Campaign Classic in [dit sectie](/help/putting-it-in-practice/acc-technical-recommendations.md#feedback-loop-acc).
+* Leer meer bij het uitvoeren van een terugkoppel lijn voor een instantie van Campaign Classic in [dit sectie](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Aanvullende bronnen
 
