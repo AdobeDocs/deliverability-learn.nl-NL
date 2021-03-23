@@ -1,6 +1,6 @@
 ---
 title: Bounces
-description: Meer informatie over de verschillende typen grenzen.
+description: Meer informatie over de verschillende typen bounces.
 feature: Metrics
 topics: Deliverability
 kt: 7047
@@ -12,42 +12,42 @@ translation-type: tm+mt
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 4%
+ht-degree: 88%
 
 ---
 
 
 # Bounces
 
-De grenzen zijn het resultaat van een leveringspoging en mislukking waar ISP achtermislukkingsberichten verstrekt. De verwerking van de stuitbehandeling is een kritiek deel van lijsthygiëne. Nadat een bepaalde e-mail meerdere keren achter elkaar is teruggestuurd, wordt deze tijdens dit proces gemarkeerd voor onderdrukking. Het aantal en het type van grenzen die worden vereist om onderdrukking teweeg te brengen variëren van systeem tot systeem. Hierdoor wordt voorkomen dat systemen ongeldige e-mailadressen blijven verzenden. De grenzen zijn één van de belangrijkste stukken van gegevens die ISPs gebruikt om IP reputatie te bepalen. Het is heel belangrijk om deze maatstaf in de gaten te houden. &quot;Geleverd&quot; versus &quot;teruggestort&quot; is waarschijnlijk de meest gebruikelijke manier om de levering van marketingberichten te meten: hoe hoger het geleverde percentage is , hoe beter .
+Bounces zijn het resultaat van een mislukte leveringspoging waarbij de ISP een melding van de mislukte poging stuurt. Een goede afhandeling van de bounces is cruciaal voor een schone mailinglijst. Nadat een bepaalde e-mail meerdere keren achter elkaar is afgewezen, zorgt het afhandelingsproces ervoor dat dit e-mailadres wordt gemarkeerd om te worden onderdrukt. Het aantal en het type bounces die erin resulteren dat het e-mailadres wordt onderdrukt, variëren per systeem. Dit proces voorkomt dat systemen doorgaan met het verzenden van e-mails naar ongeldige adressen. Bounces zijn één van de belangrijkste gegevenselementen die ISP’s gebruiken voor het bepalen van de IP-reputatie. Het is erg belangrijk om deze metric in de gaten te houden. ‘Afgeleverd’ versus ‘niet bezorgd’ is waarschijnlijk de meest gebruikelijke manier om de aflevering van marketingberichten te meten: hoe hoger het afleverpercentage, hoe beter.
 
-We graven in twee verschillende soorten stommingen.
+We gaan wat dieper in op twee soorten bounces.
 
-## Harde vlekken
+## Hard bounces
 
-De harde stegels zijn permanente mislukkingen die worden geproduceerd nadat ISP een postingspoging aan een abonneeadres als niet te leveren niet bepaalt. In Adobe Campaign worden harde golven die als niet-leverbaar zijn gecategoriseerd, aan de quarantaine toegevoegd, wat betekent dat ze niet opnieuw zouden worden geplaatst. In sommige gevallen wordt een harde stuit genegeerd als de oorzaak van de fout onbekend is.
-Hier volgen enkele voorbeelden van harde grenzen:
+Een hard bounce is een permanent mislukte leveringspoging die wordt gemeld nadat de ISP heeft vastgesteld dat een e-mail niet kan worden afgeleverd op het e-mailadres van de abonnee. Bij Adobe Campaign worden hard bounces die als niet-leverbaar zijn gecategoriseerd, in quarantaine geplaatst. Dat houdt in dat er geen nieuwe verzendpoging volgt. In sommige gevallen wordt een hard bounce genegeerd als de oorzaak van de fout onbekend is.
+Hier volgen enkele voorbeelden van hard bounces:
 
 * Adres bestaat niet
-* Account uitgeschakeld
-* Ongeldige syntaxis
+* Account is uitgeschakeld
+* Onjuiste syntaxis
 * Ongeldig domein
 
-## Zachte golven
+## Soft bounces
 
-De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij moeilijkheden hebben leverend post. Zachte mislukkingen zullen veelvoudige tijden (met variantie afhankelijk van gebruik van douane of uit-van-doos leveringsmontages) opnieuw proberen om een succesvolle levering te proberen. Adressen dat voortdurend zachte stuit niet aan quarantaine zal worden toegevoegd tot het maximumaantal herpogingen is geprobeerd (die opnieuw afhankelijk van montages) variëren. Tot de meest voorkomende oorzaken van zachte grenzen behoren:
+Een soft bounce is een tijdelijk mislukte leveringspoging die wordt gemeld wanneer de ISP problemen heeft met het afleveren van de e-mail. Er volgen meerdere verzendpogingen (met variantie, afhankelijk van het gebruik van aangepaste of standaardinstellingen voor e-maillevering) om de e-mail succesvol af te leveren. Adressen waarbij telkens opnieuw een soft bounce optreedt, worden niet in quarantaine geplaatst totdat het maximumaantal hernieuwde pogingen is bereikt (ook dat varieert op basis van de instellingen). Tot de meest voorkomende oorzaken van soft bounces behoren:
 
-* Postbus vol
-* E-mailserver ontvangen
-* Problemen met reputatie van afzender
+* Mailbox is vol
+* De ontvangende e-mailserver is down
+* Problemen met de reputatie van de verzender
 
-![stuitertypen](../assets/bounce-types.png)
+![soorten bounces](../assets/bounce-types.png)
 
 >[!NOTE]
 >
->De stuiteringen zijn een zeer belangrijke indicator van een reputatie kwestie omdat zij een slechte gegevensbron (harde stuit) of een reputatie kwestie met ISP (zachte stuit) kunnen benadrukken.
+>Bounces zijn een belangrijke indicator van een reputatieprobleem omdat ze een slechte databron (hard bounce) of een reputatieprobleem met een ISP (soft bounce) aan het licht kunnen brengen.
 >
->Zachte grenzen treden vaak op als onderdeel van het verzenden van e-mail en moeten tijdens de hertestverwerking kunnen worden opgelost voordat ze worden gekarakteriseerd als een probleem dat werkelijk te leveren is. Als uw soft bounce tarief voor één enkele ISP groter is dan 30 percenten en niet binnen 24 uren oplost, is het een goed idee om een zorg met uw adviseur van de Leesbaarheid van Adobe Campaign te verhogen.
+>Soft bounces treden vaak op bij het verzenden van e-mail en moeten de kans krijgen om te worden opgelost bij hernieuwde verzendpogingen voordat ze worden gecategoriseerd als een echt leveringsprobleem. Als uw percentage van soft bounces bij één ISP hoger is dan 30% en de soft bounces niet binnen 24 uur zijn opgelost, is het raadzaam om deze kwestie aan te kaarten bij uw Adobe Campaign-consultant voor leverbaarheid.
 
 ## Productspecifieke bronnen
 
@@ -61,4 +61,4 @@ De zachte grenzen zijn tijdelijke mislukkingen die ISPs produceert wanneer zij m
 
 * [Typen leveringsfouten en redenen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
 * [Kwalificatie van niet-bezorgde e-mails](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#bounce-mail-qualification)
-* [Samenvattingsrapport voor stuiteren](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
+* [Samenvattingsrapport voor stuiteren](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=nl#reporting)
