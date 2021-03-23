@@ -1,6 +1,6 @@
 ---
-title: Metriek voor de leverbaarheid
-description: Begrijp welke zeer belangrijke leverbaarheidsmetriek te controleren en hoe te om hen te gebruiken om een reputatie te identificeren.
+title: Metrics voor leverbaarheid
+description: Leer welke belangrijke metrics voor leverbaarheid u in de gaten moet houden en hoe u ze kunt gebruiken om een reputatieprobleem aan het licht te brengen.
 feature: Metrics
 topics: Deliverability
 kt: 5256
@@ -12,19 +12,19 @@ translation-type: tm+mt
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 15%
+ht-degree: 62%
 
 ---
 
 
-# Metriek voor de leverbaarheid
+# Metrics voor leverbaarheid
 
-Één van de beste manieren om een verzendende reputatie te identificeren is door de metriek. Laten we eens kijken naar enkele belangrijke resultaten die u kunt controleren en hoe u deze kunt gebruiken om een reputatie-probleem te identificeren.
+Eén van de beste manieren om een probleem met de verzendreputatie aan het licht te brengen is door metrics te gebruiken. Laten we eens kijken naar enkele kernmetrics voor leverbaarheid die u in de gaten moet houden en hoe u die kunt gebruiken om een reputatieprobleem aan het licht te brengen.
 
 * [Bounces](/help/metrics/bounces.md)
 * [Klachten](/help/metrics/complaints.md)
-* [Spam-overvullingen](/help/metrics/spam-traps.md)
-* [Opsomming en blokkering](/help/metrics/bulking-and-blocking.md)
+* [Spamvallen](/help/metrics/spam-traps.md)
+* [Berichten in map voor ongewenste e-mail plaatsen en e-mails blokkeren](/help/metrics/bulking-and-blocking.md)
 
 ## Productspecifieke bronnen
 
