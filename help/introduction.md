@@ -1,7 +1,7 @@
 ---
-title: Inleiding tot best practices op het gebied van leverbaarheid
-description: Leer de belangrijkste termen, concepten en benaderingen van de leverbaarheid om u in staat te stellen uw marketingprogramma te laten slagen.
-feature: Bezorging
+title: Inleiding tot best practices voor leverbaarheid
+description: Leer de belangrijkste termen, concepten en benaderingen van leverbaarheid zodat u over de juiste kennis beschikt om van uw marketingprogramma een succes te maken.
+feature: Leverbaarheid
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article
@@ -11,45 +11,45 @@ translation-type: tm+mt
 source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
 
-# Inleiding tot best practices op het gebied van leverbaarheid
+# Inleiding tot best practices voor leverbaarheid
 
-E-maillevering, een essentieel onderdeel van het succes van het marketingprogramma van elke afzender, wordt gekenmerkt door voortdurend veranderende criteria en regels. ISP&#39;s hebben een continue behoefte om spammers te voorkomen, zodat ze genoodzaakt zijn geavanceerde filtertechnieken te ontwikkelen om hun klanten te beschermen. E-mailzenders kunnen onbedoeld in deze inspanningen worden opgenomen. Voor een effectieve navigatie in deze digitale wereld is een regelmatige afstemming van uw e-mailstrategie vereist, waarbij rekening wordt gehouden met belangrijke ontwikkelingen op het gebied van de leverbaarheid, zodat uw publiek het beste kan bereiken.
+Leverbaarheid van e-mails, voor elke afzender een essentieel onderdeel van een succesvol marketingprogramma, wordt gekenmerkt door voortdurend veranderende criteria en regels. ISP’s hebben een continue behoefte om spammers een stap vóór te zijn, zodat ze genoodzaakt zijn geavanceerde filtertechnieken te ontwikkelen om hun klanten te beschermen. E-mailafzenders kunnen onbedoeld verstrikt raken in deze inspanningen om spam te blokkeren. Voor een effectieve navigatie in deze digitale wereld is het nodig om uw e-mailstrategie regelmatig te herzien, daarbij rekening houdend met belangrijke ontwikkelingen op het gebied van leverbaarheid, zodat u uw doelgroep het beste bereikt.
 
-Volgens [!DNL Lifewire] bestaan er vandaag meer dan 3,8 miljard e-mailadressen. Daarnaast melden consultants voor sociale media [!DNL Lori Lewis] en [!DNL Chad Callahan] dat elke minuut 188 miljoen e-mails worden verzonden, die meer dan de helft van de wereldbevolking omvatten. Maar het zijn de dagen dat er maximale hoeveelheden e-mail worden verzonden voor minimale conversie. De realiteit is dat het afwegen van het volume alleen al uw zeer betrokken klanten het risico loopt hun e-mails niet te ontvangen. Dit kan belangrijke inkomstengevolgen voor u als afzender hebben. Het bekijken van e-mail als goedkope kanaal met onbeperkt potentieel is uitdagend en breekbaar.
+Volgens [!DNL Lifewire] bestaan er vandaag de dag meer dan 3,8 miljard e-mailadressen. Daarnaast melden de social media-consultants [!DNL Lori Lewis] en [!DNL Chad Callahan] dat elke minuut 188 miljoen e-mails worden verzonden, die meer dan de helft van de wereldbevolking omvatten. Echter, de tijd dat een maximale hoeveelheid e-mail werd verstuurd voor minimale conversie is voorbij. De realiteit is dat wanneer u zich alleen richt op volume, de kans bestaat dat uw zeer betrokken klanten uw e-mails niet krijgen. Dit kan voor u als afzender belangrijke gevolgen hebben voor uw inkomsten. Het beschouwen van e-mail als een goedkoop kanaal met onbeperkt potentieel kan u in een problematische en kwetsbare positie brengen.
 
-In dit digitale tijdperk verwachten mensen dat het snel wordt geschreven. Ze willen dat &quot;ah ha&quot;-moment met iedereen waarmee ze willen communiceren, en concurrentie is fel. Tussen apparaten zoals computers, mobiele telefoons en slimme thuisapparatuur en de inhoud die wordt ondersteund, zoals instant messaging-, e-mail-, web-, push- en sociale-mediatoepassingen, worden consumenten voortdurend met inhoud gebombardeerd. Als een bericht niet overtuigend is, kan het worden verwijderd of kan het volledig worden losgekoppeld.
+In dit digitale tijdperk verwachten mensen meteen een &#39;wow&#39;-ervaring. Ze willen dat ‘aha’-moment beleven met iedereen met wie ze communiceren, en de concurrentie is fel. Met apparaten zoals computers, mobiele telefoons en smart home-systemen, en de content die door instant messaging-, e-mail-, web-, push- en social media-applicaties wordt aangevoerd, worden klanten voortdurend overspoeld met allerlei content. Als een bericht niet boeiend is, is de klant snel geneigd dit te verwijderen of wil hij of zij helemaal niets meer met de afzender te maken hebben.
 
-Laten we eerlijk zijn. Vandaag, meer dan ooit, moet u opkomen. Dit betekent dat u uw klanten unieke, persoonlijke en uiterst relevante klantervaringen moet bieden. Anders loopt u het risico een klant voor altijd te verliezen. Het is absoluut noodzakelijk om een geïntegreerde, dynamische, meerkanaalsstrategie te hebben die uw publiek motiveert om betrokken te blijven.
+Laten we eerlijk zijn. Nu, meer dan ooit, moet u opvallen. Dit betekent dat u uw klanten unieke, gepersonaliseerde en uiterst relevante klantervaringen moet bieden. Anders loopt u het risico een klant voor altijd te verliezen. Het is absoluut noodzakelijk om een geïntegreerde, dynamische meerkanaalsstrategie te hebben die uw doelgroep motiveert om betrokken te blijven.
 
-In deze handleiding leert u belangrijke termen, concepten en benaderingen op het gebied van aflevering, zodat u altijd op de curve kunt blijven. Gebruik dit kanaal om het e-mailkanaal vooraan in uw marketingmix te houden, met hoge prioriteit op het gebied van de levering, plaatsing in postvak en uw inkomsten.
+In deze gids leert u belangrijke termen, concepten en benaderingen op het gebied van leverbaarheid, zodat u de concurrentie voor kunt blijven. Gebruik deze kennis om het e-mailkanaal als belangrijkste onderdeel van uw marketingmix te blijven inzetten, waarbij de meeste aandacht uitgaat naar leverbaarheid, plaatsing in inbox en natuurlijk uw omzet.
 
-Deze gids van de Beste praktijken van de Leverbaarheid behandelt de volgende onderwerpen:
+In deze gids met best practices op het gebied van leverbaarheid komen de volgende onderwerpen aan bod:
 
-1. [Leverbaarheidsstrategie en definitie](/help/deliverability-strategy-and-definition.md)
-2. [Metriek voor de leverbaarheid](/help/metrics/metrics-overview.md)
-3. [Betrokkenheid](/help/engagement.md)
-4. [Overgangsproces - Overschakelen van e-mailplatforms](/help/transition-process/switching-email-platforms.md)
-5. [Eerste indrukken - Verzameling weergeven en e-mails ontvangen](/help/first-impressions/address-collection-and-list-growth.md)
-6. [Beste werkwijzen voor inhoud voor optimale leverbaarheid](/help/content-best-practices-for-optimal-delivery.md)
-7. [Permanent verzender](/help/sender-permanence.md)
-8. [Specificaties van internetserviceproviders](/help/internet-service-provider-specifics/overview.md)
-9. [Doorlopende bewaking](/help/ongoing-monitoring.md)
-10. [In de praktijk brengen](/help/putting-it-in-practice.md)
+1. [Strategie en definitie van leverbaarheid](/help/deliverability-strategy-and-definition.md)
+2. [Metrics voor leverbaarheid](/help/metrics/metrics-overview.md)
+3. [Engagement](/help/engagement.md)
+4. [Overgangsproces - Overstappen naar een ander e-mailplatform](/help/transition-process/switching-email-platforms.md)
+5. [Eerste indrukken - E-mailadressen verzamelen en welkomstmails versturen](/help/first-impressions/address-collection-and-list-growth.md)
+6. [Best practices wat betreft content voor optimale leverbaarheid](/help/content-best-practices-for-optimal-delivery.md)
+7. [Consistentie in de verzending](/help/sender-permanence.md)
+8. [Specifieke aspecten van internetserviceproviders](/help/internet-service-provider-specifics/overview.md)
+9. [Doorlopende controle](/help/ongoing-monitoring.md)
+10. [De kennis in de praktijk brengen](/help/putting-it-in-practice.md)
 
 >[!NOTE]
 >
->Download [adobe-delivery-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
+>Download [adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
 
 ## Bronnen
 
-[!DNL Heinz Tschabitscher],  [&quot;Hoeveel mensen gebruiken E-mail wereldwijd?&quot;](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 juni 2019.
+[!DNL Heinz Tschabitscher], [“How Many People Use Email Worldwide?”](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 juni 2019.
 
-[!DNL Lori Lewis],  [&quot;2019: Dit gebeurt in een internetminuut&quot;](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, 5 maart 2019.
+[!DNL Lori Lewis], [“2019: This Is What Happens in an Internet Minute”](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, 5 maart 2019.
 
 ## Aanvullende bronnen
 
