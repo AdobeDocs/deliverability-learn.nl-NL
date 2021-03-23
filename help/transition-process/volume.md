@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 0%
@@ -47,9 +47,9 @@ In veel gevallen volgt transactionele post niet de traditionele opwarmingsmethod
 
 **Campaign**
 
-* Meer informatie over het beheren van de leverbaarbaarheid bij het starten van een nieuw platform met Adobe Campaign vindt u in [deze sectie](/help/putting-it-in-practice/ac-starting-new-platform.md).
+* Meer informatie over het beheren van de leverbaarbaarheid bij het starten van een nieuw platform met Adobe Campaign vindt u in [deze sectie](/help/additional-resources/ac-starting-new-platform.md).
 * Leer hoe te om het gebruiken van veelvoudige golven met Adobe Campaign Classic in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves) te verzenden.
-* Leer hoe te om een subdomain aan Adobe Campaign Classic of Norm in [deze sectie](/help/putting-it-in-practice/ac-domain-name-setup.md) volledig te delegeren.
+* Leer hoe te om een subdomain aan Adobe Campaign Classic of Norm in [deze sectie](/help/additional-resources/ac-domain-name-setup.md) volledig te delegeren.
 * [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
 * [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
 
