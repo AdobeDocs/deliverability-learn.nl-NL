@@ -1,6 +1,6 @@
 ---
-title: E-mailberichten opsommen en blokkeren
-description: Leer waarom ISPs e-mailberichten in bulkomslagen plaatst of hen blokkeert.
+title: Berichten in map met ongewenste e-mail plaatsen of blokkeren
+description: Leer waarom ISP’s berichten in een map met ongewenste e-mail plaatsen of e-mails blokkeren.
 feature: Metrics
 topics: Deliverability
 kt: 7051
@@ -12,24 +12,24 @@ translation-type: tm+mt
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 93%
 
 ---
 
 
-# Opsomming en blokkering
+# Berichten in map voor ongewenste e-mail plaatsen en e-mails blokkeren
 
-## Opsomming
+## Berichten in map voor ongewenste e-mail plaatsen
 
-Opsommend is de levering van post in spam of junk omslag van ISP. Het is identificeerbaar wanneer een lager-dan-normale open tarief (en soms kliktarief) met een hoge geleverde tarief wordt geparseerd. De oorzaken waarom e-mails worden gepeld variëren per ISP. In het algemeen geldt echter dat als berichten in de bulkmap worden geplaatst, een vlag die van invloed is op het verzenden van reputatie (bijvoorbeeld hygiëne van lijsten) opnieuw moet worden geëvalueerd. Het is een signaal dat de reputatie afneemt. Dit is een probleem dat onmiddellijk moet worden verholpen voordat het verdere campagnes beïnvloedt. Werk samen met uw consultant voor Adobe-leverantie om eventuele problemen met bulking op te lossen, afhankelijk van uw situatie.
+Het afleveren van berichten in een map met ongewenste e-mail (map voor spam of junkmail) door een ISP wordt ook wel &#39;bulking&#39; genoemd. Dit gebeurt wanneer een lager dan normaal openingspercentage (en soms klikpercentage) wordt gekoppeld aan een hoog afleveringspercentage. De reden waarom berichten in een map met ongewenste e-mail terechtkomen, varieert per ISP. In het algemeen geldt echter dat als berichten in de map met ongewenste e-mail terechtkomen, het tijd is voor een herbeoordeling van de markering die van invloed is op de verzendreputatie (bijvoorbeeld opschoning van de maillinglijst). Het is een signaal dat de verzendreputatie verslechtert. Dit is een probleem dat onmiddellijk moet worden verholpen voordat het verdere campagnes beïnvloedt. Werk samen met uw Adobe-leverbaarheidsconsultant om eventuele problemen met &#39;bulking&#39; op te lossen, afhankelijk van uw situatie.
 
 ## Blokkeren
 
-Een blok komt voor wanneer de spamindicatoren merkgebonden ISP drempels bereiken en ISP begint post (merkbaar door het bellen pogingen) van een afzender te blokkeren. Er zijn verschillende typen blokken. Over het algemeen, komen de blokken specifiek voor een IP adres voor, maar zij kunnen ook op het verzendende domein of entiteitniveau voorkomen. Voor het oplossen van een blok is specifieke expertise vereist. Neem daarom contact op met uw consultant voor Adobe-producten.
+Er is sprake van een blokkering wanneer de spam-indicatoren de door een ISP ingestelde drempelwaarde bereiken en de ISP de e-mailberichten van een afzender gaat blokkeren (te zien aan de gebouncete verzendpogingen). Er zijn verschillende typen blokkeringen. Over het algemeen vinden blokkeringen op grond van een IP-adres plaats, maar ze kunnen ook bij het verzenddomein of op entiteitsniveau voorkomen. Voor het oplossen van een blokkering is specifieke expertise vereist. Neem daarom contact op met uw Adobe-leverbaarheidsconsultant.
 
-## Voegend op lijst van gewenste personen
+## Op de lijst met geblokkeerde afzenders belanden
 
-Een voegende op lijst van gewenste personen treedt op wanneer een manager van de lijst van gewezen personen van de derde spammer-als gedrag verbonden aan een afzender registreert. De oorzaak van een lijst van gewezen personen wordt soms door de voegende op lijst van gewenste personen partij gepubliceerd. Een lijst is over het algemeen gebaseerd op IP adres, maar in ernstigere gevallen kan het door IP waaier of zelfs een verzendend domein zijn. Als u een voegende op lijst van gewenste personen  wilt oplossen, moet u hiervoor ondersteuning vragen van uw consultant voor Adobe-leverbaarbaarheid om verdere aanbiedingen volledig op te lossen en te voorkomen. Sommige aanbiedingen zijn extreem ernstig en kunnen langdurige problemen met de reputatie veroorzaken die moeilijk te verhelpen zijn. Het resultaat van een voegende op lijst van gewenste personen bewerking varieert per lijst van gewezen personen, maar kan de levering van alle e-mailberichten beïnvloeden.
+Afzenders komen op de blokkeerlijst terecht wanneer een beheerder van een dergelijke lijst spammer-achtig gedrag registreert dat met een afzender wordt geassocieerd. De reden waarom een afzender op een blokkeerlijst belandt, wordt soms door de beheerder van die lijst bekendgemaakt. Het blokkeren van afzenders gebeurt meestal op basis van het IP-adres, maar in ernstigere gevallen kan het ook via een IP-bereik of zelfs een verzenddomein worden gedaan. Voor het opheffen van een blokkering moet u de hulp inroepen van uw Adobe-leverbaarheidsconsultant om dit probleem volledig te kunnen oplossen en een herhaling ervan te voorkomen. Sommige gevallen zijn bijzonder ernstig en kunnen resulteren in langdurige reputatieschade die erg moeilijk te herstellen is. De gevolgen van geblokkeerd zijn als afzender variëren per blokkeerlijst, maar in principe kan het van invloed zijn op de levering van alle e-mail.
 
 ## Aanvullende bronnen
 
