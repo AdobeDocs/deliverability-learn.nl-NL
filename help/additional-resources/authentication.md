@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Voor het gebruik van DKIM zijn enkele voorwaarden vereist:
 * **Beveiliging**: Versleuteling is een belangrijk element van de DKIM. Om het veiligheidsniveau van DKIM te verzekeren, is 1024b de beste praktijken geadviseerde encryptiegrootte. De lagere sleutels DKIM worden niet beschouwd als geldig door de meerderheid van toegangsleveranciers.
 * **Reputatie**: Reputatie is gebaseerd op IP en/of het domein, maar de minder transparante DKIM selecteur is ook een zeer belangrijk element dat in overweging moet worden genomen. Het is belangrijk dat u de kiezer kiest: vermijden dat de &quot; wanbetaling &quot; , die door iedereen kan worden gebruikt en dus een zwakke reputatie heeft , behouden blijft . U moet een verschillende selecteur voor **behoud versus verwervingsmededelingen** en voor authentificatie uitvoeren.
 
-Meer informatie over de DKIM-voorwaarde bij het gebruik van Campaign Classic in [deze sectie](/help/putting-it-in-practice/acc-technical-recommendations.md#dkim-acc).
+Meer informatie over de DKIM-voorwaarde bij het gebruik van Campaign Classic in [deze sectie](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 
