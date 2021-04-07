@@ -8,11 +8,11 @@ thumbnail: kt7051.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Afzenders komen op de blokkeerlijst terecht wanneer een beheerder van een dergel
 
 ## Aanvullende bronnen
 
-* Leer meer op [Real-time zwarte lijsten](/help/additional-resources/blocklist-databases.md) die gegevensbestanden van IP adressen en domeinen handhaven waarschijnlijk om door spammers worden gebruikt.
+* Bekijk meer informatie over [realtimelijsten van zwarte gaten](/help/additional-resources/blocklist-databases.md) met databases van IP-adressen en domeinen die waarschijnlijk door spammers worden gebruikt.
