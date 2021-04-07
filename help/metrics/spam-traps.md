@@ -8,11 +8,11 @@ thumbnail: kt7050.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Spamvallen (spam traps) zijn bedoeld om e-mail te identificeren die afkomstig is
 
 Gerecyclede spamvallen zijn adressen die ooit geldig waren maar niet meer worden gebruikt. Een goede manier om mailinglijsten zo schoon mogelijk te houden, is om regelmatig e-mail naar uw volledige lijst te sturen en de gebouncete e-mailadressen op de juiste manier te onderdrukken. E-mailadressen die niet meer in gebruik zijn, worden dan in quarantaine geplaatst en er worden geen berichten meer naartoe verzonden.
 
-In sommige gevallen kan een adres binnen 30 dagen worden gerecycled. Regelmatig e-mails verzenden en regelmatig inactieve gebruikers onderdrukken zijn essentieel voor een schone mailinglijst. **Herbetrokkenheid-** campagnes maken doorgaans deel uit van geavanceerde e-mailmarketingprogramma&#39;s. Met deze campagnestijl kan de afzender proberen gebruikers terug te winnen die anders geen e-mail zouden ontvangen.
+In sommige gevallen kan een adres binnen 30 dagen worden gerecycled. Regelmatig e-mails verzenden en regelmatig inactieve gebruikers onderdrukken zijn essentieel voor een schone mailinglijst. **Re-engagementcampagnes** maken doorgaans deel uit van geavanceerde e-mailmarketingprogramma’s. Met deze campagnestijl kan de afzender proberen gebruikers terug te winnen die anders geen e-mail zouden ontvangen.
 
 ## Typefout
 
@@ -37,18 +37,18 @@ Een ongerepte (pristine) spamval is een adres dat geen eindgebruiker heeft en oo
 
 ## Aanvullende bronnen
 
-* Meer informatie over het identificeren en vermijden van spamvallen in [deze sectie](/help/additional-resources/all-about-spam-traps.md).
-* Leer meer over hoe te om leverbaarheid door re-engagement strategieën in [deze sectie](/help/additional-resources/re-engagement.md) te verbeteren.
+* In [dit gedeelte](/help/additional-resources/all-about-spam-traps.md) vindt u meer informatie over het identificeren en vermijden van spamvallen.
+* In [dit gedeelte](/help/additional-resources/re-engagement.md) vindt u meer informatie over hoe u re-engagementstrategieën gebruikt om de aflevering te verbeteren.
 
 ## Productspecifieke bronnen
 
 **Adobe Campaign Classic**
 
 * [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=nl#using-spamassassin)
-* [Abonnementsformulieren met dubbele aanmelding maken](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+* [Een lidmaatschapsformulier met dubbele opt-in maken](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases—web-forms.html?lang=nl#create-a-subscription—form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Analyse van e-mail en anti-spam bekijken](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=nl#designing-content)
+* [Een voorvertoning van uw e-mail- en antispamanalyse bekijken](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=nl#designing-content)
 * [Dubbele opt-in-procedure](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=nl#communication-channels)
 
