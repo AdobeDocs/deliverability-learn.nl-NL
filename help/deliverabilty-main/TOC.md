@@ -2,11 +2,11 @@
 user-guide-title: Gids met best practices voor leverbaarheid
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Leer de belangrijkste termen, concepten en benaderingen van leverbaarheid zodat u over de juiste kennis beschikt om van uw marketingprogramma een succes te maken.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -41,19 +41,19 @@ ht-degree: 80%
    + [Verizon Media Group (Yahoo, AOL, Verizon, enz.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Doorlopende controle](/help/ongoing-monitoring.md)
 + [De kennis in de praktijk brengen](/help/putting-it-in-practice.md)
-+ Aanhangsel: Aanvullende bronnen {#additional-resources}
++ Bijlage: aanvullende bronnen {#additional-resources}
    + [Overzicht](/help/additional-resources/general-resources.md)
    + Algemene bronnen {#generic-resources}
-      + [Alles over spamovervullingen](/help/additional-resources/all-about-spam-traps.md)
-      + [Verhoog uw e-mailreputatie met opwarming van IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
+      + [Alles over spamvallen](/help/additional-resources/all-about-spam-traps.md)
+      + [Uw e-mailreputatie verbeteren met opwarming van IP-adressen](/help/additional-resources/increase-reputation-with-ip-warming.md)
       + [Verificatie](/help/additional-resources/authentication.md)
       + [Duplicaten](/help/additional-resources/duplicates.md)
-      + [Best practices voor hernieuwde betrokkenheid](/help/additional-resources/re-engagement.md)
-      + [Real-time zwarte-outlijsten](/help/additional-resources/blocklist-databases.md)
+      + [Best practices voor re-engagement](/help/additional-resources/re-engagement.md)
+      + [Realtimelijsten van zwarte gaten](/help/additional-resources/blocklist-databases.md)
       + [Problemen oplossen](/help/additional-resources/troubleshooting.md)
    + Productspecifieke bronnen {#product-specific-resources}
       + Campaign {#campaign}
-         + [Instellen van domeinnaam](/help/additional-resources/ac-domain-name-setup.md)
-         + [SSL-certificaataanvraagproces](/help/additional-resources/ac-ssl-certificate-request.md)
+         + [Domeinnaam instellen](/help/additional-resources/ac-domain-name-setup.md)
+         + [Proces voor het aanvragen van een SSL-certificaat](/help/additional-resources/ac-ssl-certificate-request.md)
          + [Een nieuw platform starten](/help/additional-resources/ac-starting-new-platform.md)
          + [Campaign Classic - Technische aanbevelingen](/help/additional-resources/acc-technical-recommendations.md)
