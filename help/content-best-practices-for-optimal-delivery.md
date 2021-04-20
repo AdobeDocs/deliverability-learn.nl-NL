@@ -1,7 +1,7 @@
 ---
 title: Beste werkwijzen voor inhoud voor optimale leverbaarheid
 description: Inhoud is toets. U hebt ons perspectief al gelezen over relevantie, maar u hebt enkele extra tips voor het optimaliseren van de leverbaarheid als het om inhoud gaat.
-feature: Inhoud
+feature: Content
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg

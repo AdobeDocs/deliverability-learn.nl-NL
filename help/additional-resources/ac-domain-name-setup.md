@@ -1,7 +1,7 @@
 ---
 title: Instellen van domeinnaam
 description: Leer hoe u een subdomein kunt delegeren naar Adobe Campaign.
-feature: In de praktijk brengen
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

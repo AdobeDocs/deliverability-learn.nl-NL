@@ -1,7 +1,7 @@
 ---
 title: Doelcriteria
 description: Leer hoe u een positieve reputatie van de get-go kunt opbouwen om vertrouwen op te bouwen voordat u gaat rollen in uw minder betrokken publiek.
-feature: Overgangsproces
+feature: Transition Process
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg

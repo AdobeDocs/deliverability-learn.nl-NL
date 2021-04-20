@@ -1,7 +1,7 @@
 ---
 title: Permanent verzender
 description: Verzendend permanent is het proces om een verenigbaar verzendend volume en strategie te vestigen om ISP reputatie te handhaven.
-feature: Permanent afzender
+feature: Sender Permanence
 topics: Deliverability
 kt: 5261
 thumbnail: kt5261.jpg

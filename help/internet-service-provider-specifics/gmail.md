@@ -1,7 +1,7 @@
 ---
 title: Gmail
 description: Gmail is het grootste deel van de e-maillijsten van de meeste afzenders. Ze hebben ook de neiging e-mail een beetje anders te behandelen dan alle anderen.
-feature: ISP's
+feature: ISPs
 topics: Deliverability
 kt: 5262
 doc-type: article

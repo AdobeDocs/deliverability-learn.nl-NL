@@ -1,7 +1,7 @@
 ---
 title: Probleemoplossing voor levering
 description: Leer hoe u leveringsproblemen kunt identificeren en oplossen.
-feature: Aanvullende bronnen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

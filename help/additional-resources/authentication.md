@@ -1,7 +1,7 @@
 ---
 title: Verificatie
 description: Leer meer op SPF, DKIM, en de authentificatiemethodes DMARC.
-feature: Aanvullende bronnen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

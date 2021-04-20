@@ -1,7 +1,7 @@
 ---
 title: Hoe te overgang regelmatig wanneer het schakelen van e-mailplatforms.
 description: 'Bij het verplaatsen van e-mailserviceproviders (ESP''s) is het niet mogelijk om ook een overgang te maken naar uw bestaande, gevestigde IP-adressen. Het is belangrijk dat u de beste praktijken volgt om een positieve reputatie te ontwikkelen wanneer u opnieuw begint. '
-feature: Bezorging
+feature: Deliverability
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg

@@ -1,7 +1,7 @@
 ---
 title: Aanvullende bronnen
 description: Deze sectie maakt een lijst van een aantal extra middelen op leverbaarheid.
-feature: Aanvullende bronnen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

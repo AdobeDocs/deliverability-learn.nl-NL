@@ -1,7 +1,7 @@
 ---
 title: Verhoog uw e-mailreputatie met opwarming van IP
 description: Leer waarom het belangrijk is om uw e-mailreputatie met IP te verbeteren opwarmen, en hoe te te te werk te gaan voor optimale leverbaarheid.
-feature: Aanvullende bronnen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

@@ -1,7 +1,7 @@
 ---
 title: Doorlopende bewaking
 description: Op welke problemen moet u letten.
-feature: Bewaking
+feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg

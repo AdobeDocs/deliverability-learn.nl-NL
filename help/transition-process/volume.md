@@ -1,7 +1,7 @@
 ---
 title: Volume - Tips voor vloeiende overgang
 description: Het volume van de post u verzendt is kritiek om een positieve reputatie te vestigen. Leer wat u kunt doen aan overgang vloeiend.
-feature: Overgangsproces
+feature: Transition Process
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg

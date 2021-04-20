@@ -1,7 +1,7 @@
 ---
 title: Best practices voor hernieuwde betrokkenheid
 description: Leer hoe u de leverbaarheid kunt verbeteren via strategieën voor opnieuw opstarten.
-feature: Aanvullende bronnen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

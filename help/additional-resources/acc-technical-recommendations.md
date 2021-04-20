@@ -1,7 +1,7 @@
 ---
 title: Campaign Classic - Technische aanbevelingen
 description: Ontdek de technieken, configuraties en gereedschappen die u kunt gebruiken om de prestaties met Adobe Campaign Classic te verbeteren.
-feature: In de praktijk brengen
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

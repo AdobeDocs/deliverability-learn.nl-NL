@@ -1,7 +1,7 @@
 ---
 title: SSL-certificaataanvraagproces
 description: Leer hoe u SSL-certificaten installeert op de subdomeinen die u aan Adobe hebt gedelegeerd.
-feature: In de praktijk brengen
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

@@ -1,7 +1,7 @@
 ---
 title: Microsoft (Hotmail, Outlook, Windows Live enz.)
 description: Microsoft is over het algemeen de tweede of derde grootste leverancier afhankelijk van de samenstelling van uw lijst, en zij behandelen verkeer lichtjes verschillend van andere ISPs.
-feature: ISP's
+feature: ISPs
 topics: Deliverability
 kt: 5319
 doc-type: article

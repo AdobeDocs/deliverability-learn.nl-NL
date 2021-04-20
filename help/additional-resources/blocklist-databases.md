@@ -1,7 +1,7 @@
 ---
 title: Real-time zwarte-outlijsten
 description: Leer over organisaties die lijsten van IP adressen en domeinen handhaven waarschijnlijk om door spammers worden gebruikt.
-feature: Aanvullende bronnen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

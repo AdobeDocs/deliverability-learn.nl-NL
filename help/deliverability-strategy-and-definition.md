@@ -1,7 +1,7 @@
 ---
 title: Wat is de leverbaarheidsstrategie en wat houdt leverbaarheid in?
 description: Begrijp hoe leverbaarheid wordt gedefinieerd, waarom leverbaarheid belangrijk is en wat de kernmetrics voor leverbaarheid zijn.
-feature: Leverbaarheid
+feature: Deliverability
 topics: Deliverability
 kt: 5255
 thumbnail: kt5255.jpg

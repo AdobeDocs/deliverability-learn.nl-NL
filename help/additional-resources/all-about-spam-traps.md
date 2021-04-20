@@ -1,7 +1,7 @@
 ---
 title: Alles over spamovervullingen
 description: Leer hoe u spamvallen begrijpt, identificeert en voorkomt bij het beheren van de leverbaarbaarheid.
-feature: Aanvullende bronnen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

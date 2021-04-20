@@ -1,7 +1,7 @@
 ---
 title: Betrokkenheid
 description: Betrokkenheid is de belangrijkste factor geworden die invloed heeft op beslissingen over plaatsing in postvakken.
-feature: Betrokkenheid
+feature: Engagement
 topics: Deliverability
 kt: 5257
 thumbnail: kt5257.jpg

@@ -1,7 +1,7 @@
 ---
 title: Inleiding tot best practices voor leverbaarheid
 description: Leer de belangrijkste termen, concepten en benaderingen van leverbaarheid zodat u over de juiste kennis beschikt om van uw marketingprogramma een succes te maken.
-feature: Leverbaarheid
+feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article

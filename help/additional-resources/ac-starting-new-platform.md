@@ -1,7 +1,7 @@
 ---
 title: Een nieuw platform starten
 description: Meer informatie over het beheren van de leverbaarbaarheid bij het starten van een nieuw platform met Adobe Campaign.
-feature: In de praktijk brengen
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

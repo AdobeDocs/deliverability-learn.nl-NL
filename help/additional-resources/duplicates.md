@@ -1,7 +1,7 @@
 ---
 title: Duplicaten
 description: Leer hoe u duplicaten kunt identificeren en beperken om de leesbaarheid te verbeteren.
-feature: Aanvullende bronnen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

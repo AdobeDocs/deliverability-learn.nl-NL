@@ -1,7 +1,7 @@
 ---
 title: Specificaties van internetserviceproviders
 description: ISP's zijn niet allemaal hetzelfde. Zij richten zich op verschillende dingen wanneer het bepalen van welke e-mail om tot hun gebruikers' inbox toe te staan en welke e-mail wordt gefiltreerd aan de spamomslag of helemaal niet door laat. Wij zullen een snelle rondleiding van de belangrijke verschillen tussen een handvol ISPs nemen. Het is niet bedoeld om een volledige lijst van alle ISPs te zijn of alle mogelijke verschillen te behandelen.
-feature: ISP's
+feature: ISPs
 topics: Deliverability
 kt: null
 doc-type: article

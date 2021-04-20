@@ -1,7 +1,7 @@
 ---
 title: Adresverzameling en lijstgroei
 description: 'Leer wat de beste bronnen voor nieuwe e-mailadressen zijn, hoe te om hoge gegevenskwaliteit te verzekeren, en aanpassing aan wettelijke richtlijnen te verzekeren. '
-feature: Doelgroepen
+feature: Audiences
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg

@@ -1,7 +1,7 @@
 ---
 title: In de praktijk brengen
 description: Verzendend permanent is het proces om een verenigbaar verzendend volume en strategie te vestigen om ISP reputatie te handhaven.
-feature: Bezorging
+feature: Deliverability
 topics: Deliverability
 kt: 5264
 thumbnail: kt5264.jpg

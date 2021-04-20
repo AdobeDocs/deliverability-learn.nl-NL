@@ -1,7 +1,7 @@
 ---
 title: Infrastructuur
 description: 'Leer wat nodig is om een e-mailinfrastructuur correct te bouwen. '
-feature: Overgangsproces
+feature: Transition Process
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg
