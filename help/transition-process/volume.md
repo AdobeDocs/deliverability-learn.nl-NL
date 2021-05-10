@@ -1,21 +1,21 @@
 ---
 title: Volume - Tips voor vloeiende overgang
 description: Het volume van de post u verzendt is kritiek om een positieve reputatie te vestigen. Leer wat u kunt doen aan overgang vloeiend.
-feature: Transition Process
+feature: Overgangsproces
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
 translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # Volume
 
@@ -50,8 +50,8 @@ In veel gevallen volgt transactionele post niet de traditionele opwarmingsmethod
 * Meer informatie over het beheren van de leverbaarbaarheid bij het starten van een nieuw platform met Adobe Campaign vindt u in [deze sectie](/help/additional-resources/ac-starting-new-platform.md).
 * Leer hoe te om het gebruiken van veelvoudige golven met Adobe Campaign Classic in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves) te verzenden.
 * Leer hoe te om een subdomain aan Adobe Campaign Classic of Norm in [deze sectie](/help/additional-resources/ac-domain-name-setup.md) volledig te delegeren.
-* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
-* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
+* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
+* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
 
 ## Aanvullende bronnen
 
