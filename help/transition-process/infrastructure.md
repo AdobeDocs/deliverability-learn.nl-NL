@@ -1,21 +1,21 @@
 ---
 title: Infrastructuur
 description: 'Leer wat nodig is om een e-mailinfrastructuur correct te bouwen. '
-feature: Transition Process
+feature: Overgangsproces
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
 
 ---
-
 
 # Infrastructuur
 
@@ -66,8 +66,8 @@ De authentificatie is het proces dat ISPs gebruikt om de identiteit van een afze
 **Campaign**
 
 * Leer hoe te om een subdomain aan Adobe Campaign Classic of Norm in [deze sectie](/help/additional-resources/ac-domain-name-setup.md) volledig te delegeren.
-* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
-* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
+* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
+* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
 * Leer meer bij het uitvoeren van een terugkoppel lijn voor een instantie van Campaign Classic in [dit sectie](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Aanvullende bronnen
