@@ -1,18 +1,18 @@
 ---
-title: Veelgestelde vragen over de privacybescherming van Apple Mail Juni 2021
-description: Veelgestelde vragen over de privacybescherming van Apple Mail Juni 2021
+title: Veelgestelde vragen over de privacybescherming van Apple
+description: Veelgestelde vragen over de privacybescherming van Apple
 feature: Leverbaarheid
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: fe42e3a1edfb48192fd1bb3b811247fcd528ab05
+source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
 
-# Veelgestelde vragen over de privacybescherming van Apple Mail Juni 2021
+# Veelgestelde vragen over de privacybescherming van Apple
 
 Deze veelgestelde vragen bieden een eerste leidraad naar aanleiding van de aankondiging van Apple met betrekking tot de iOS 15-release, waaronder [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Deze wijzigingen komen in september en we zullen dit document blijven bijwerken en onze klanten advies geven.
 
