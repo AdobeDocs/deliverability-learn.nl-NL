@@ -5,7 +5,7 @@ feature: Leverbaarheid
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
+source-git-commit: 7b0f59aed1e4074cb93fdd762bab0b7302a6cbdd
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -30,8 +30,7 @@ Pixels bijhouden in Apple Mail wordt uitgeschakeld. Dit betekent dat marketeers 
 
 ## Zijn er andere gevolgen?
 
-Apple verbergt standaard de IP-adresgegevens in de native Mail-app, de Safari-browser en de iCloud-services. Het meten van open tarieven is niet het enige aspect van e-mailmarketing dat wordt beïnvloed door de e-mailprivacybescherming van Apple. Met e-mail worden strategieën voor het optimaliseren van de verzendtijd van stations, realtime personalisatie, campagnes voor nieuwe betrokkenheid en geautomatiseerde multiwave-campagnes geopend. Deze veranderingen betekenen dat marketeers
-moet beginnen met plannen om te bepalen hoe deze strategieën eruit zullen zien voor Apple-gebruikers wanneer iOS 15 wordt uitgebracht en de mogelijkheden voor privacybescherming deze val aanhouden. Adobe zal onze klanten helpen door deze veranderingen met updates, begeleiding en gedachte leiderschap navigeren.
+Apple verbergt standaard de IP-adresgegevens in de native Mail-app, de Safari-browser en de iCloud-services. Het meten van open tarieven is niet het enige aspect van e-mailmarketing dat wordt beïnvloed door de e-mailprivacybescherming van Apple. Met e-mail worden strategieën voor het optimaliseren van de verzendtijd van stations, realtime personalisatie, campagnes voor nieuwe betrokkenheid en geautomatiseerde multiwave-campagnes geopend. Deze wijzigingen betekenen dat marketers moeten beginnen met het plannen om te bepalen hoe deze strategieën eruit zullen zien voor Apple-gebruikers zodra iOS 15 wordt uitgebracht en de mogelijkheden voor privacybescherming deze val aanhouden. Adobe zal onze klanten helpen door deze veranderingen met updates, begeleiding en gedachte leiderschap navigeren.
 
 ## Heeft deze aankondiging betrekking op alle e-mails die op een Apple-apparaat worden geopend?
 
