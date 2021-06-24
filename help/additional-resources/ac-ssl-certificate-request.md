@@ -1,23 +1,22 @@
 ---
 title: SSL-certificaataanvraagproces
 description: Leer hoe u SSL-certificaten installeert op de subdomeinen die u aan Adobe hebt gedelegeerd.
-feature: Putting it in practice
+feature: De kennis in de praktijk brengen
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
+source-git-commit: e3caa0e9fae0df983c05c7027406f9874174a8ba
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 0%
+source-wordcount: '2270'
+ht-degree: 1%
 
 ---
 
-
-# SSL-certificaataanvraagproces
+# Proces voor het aanvragen van een SSL-certificaat
 
 Zodra u een domein aan Adobe voor het verzenden van e-mail (zie [de naamopstelling van het Domein](/help/additional-resources/ac-domain-name-setup.md)) hebt gedelegeerd, zal Adobe bepaalde subdomeinen voor specifieke functies tot stand brengen en gebruiken.
 
@@ -80,14 +79,14 @@ U moet de domeinnamen en de functies identificeren (bijhouden, pagina&#39;s spie
 
 Voer de onderstaande stappen uit om een CSR-bestand (Certificate Signing Request) te verkrijgen.
 
-* Als u toegang hebt tot [Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html), volgt u de instructies op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) om een CSR-bestand te genereren en te downloaden van het Configuratiescherm.
+* Als u toegang hebt tot [Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl), volgt u de instructies op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) om een CSR-bestand te genereren en te downloaden van het Configuratiescherm.
 
 * Als dat niet het geval is, maakt u een ondersteuningsticket via https://adminconsole.adobe.com/ om een CSR-bestand op te halen van de Adobe Customer Care voor de vereiste subdomein(s).
 
 Hier volgen enkele aanbevolen procedures:
 
 * Eén aanvraag per gedelegeerd subdomein opheffen.
-* Het is mogelijk om veelvoudige subdomeinen in één enkel CSR- verzoek te combineren, maar slechts binnen het zelfde milieu. In Campaign Classic bijvoorbeeld zijn de marketingserver, de [mid-sourcing server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/mid-sourcing-server.html) en de [uitvoeringsinstantie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/creating-a-shared-connection.html) drie aparte omgevingen.
+* Het is mogelijk om veelvoudige subdomeinen in één enkel CSR- verzoek te combineren, maar slechts binnen het zelfde milieu. In Campaign Classic bijvoorbeeld zijn de marketingserver, de [mid-sourcing server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html) en de [uitvoeringsinstantie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html#execution-instance) drie aparte omgevingen.
 * U moet een nieuwe CSR krijgen alvorens om het even welke SSL certificaatvernieuwing. Gebruik geen oud CSR-bestand van een jaar geleden of meer.
 
 U moet de volgende informatie opgeven.
@@ -205,7 +204,7 @@ Het is uw verantwoordelijkheid om de geldigheidsperiode te controleren. Adobe ra
 
 * Als u toegang tot [Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) hebt, en als uw milieu door Adobe in een milieu van AWS wordt ontvangen, kunt u het Controlebord gebruiken om het certificaat te vernieuwen alvorens het verloopt. Meer informatie vindt u in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
 
-### Stap 8 - werk om het even welke specifieke configuratie {#update-configuration} bij
+### Stap 8 - werk om het even welke specifieke configuratie bij {#update-configuration}
 
 Als u zeker weet dat de aangevraagde SSL-certificaten correct zijn geïnstalleerd, kunt u alle referenties in Adobe Campaign bijwerken van HTTP naar HTTPS.
 
