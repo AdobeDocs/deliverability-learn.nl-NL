@@ -3,9 +3,9 @@ user-guide-title: Gids met best practices voor leverbaarheid
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Leer de belangrijkste termen, concepten en benaderingen van leverbaarheid zodat u over de juiste kennis beschikt om van uw marketingprogramma een succes te maken.
 source-git-commit: fb66dc0e4efc61b6303b7857b9c56b2c478642c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,6 +56,6 @@ ht-degree: 97%
          + [Proces voor het aanvragen van een SSL-certificaat](/help/additional-resources/ac-ssl-certificate-request.md)
          + [Een nieuw platform starten](/help/additional-resources/ac-starting-new-platform.md)
          + [Campaign Classic - Technische aanbevelingen](/help/additional-resources/acc-technical-recommendations.md)
-+ TechNotes (verborgen){#technotes}
++ TechNotes (hidden){#technotes}
    + [Apple Privacy](/help/technotes/apple-mail-privacy-faq.md)
 
