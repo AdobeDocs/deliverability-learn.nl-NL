@@ -1,23 +1,21 @@
 ---
-title: Instellen van domeinnaam
+title: Domeinnaam instellen
 description: Leer hoe u een subdomein kunt delegeren naar Adobe Campaign.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 1%
+source-wordcount: '2028'
+ht-degree: 2%
 
 ---
 
-
-# Instellen van domeinnaam
+# Domeinnaam instellen
 
 In dit document worden de zakelijke en technische vereisten beschreven voor het instellen en delegeren van domeinnamen. U moet een subdomein selecteren voor het verzenden van e-mail en eventueel een extern onderliggend subdomein voor het hosten van webcomponenten (bestemmingspagina&#39;s, opt-out-pagina) voor het Adobe-platform dat u gebruikt.
 
@@ -198,4 +196,4 @@ Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/do
 
 >[!NOTE]
 >
->[Besturingspanelen ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) zijn alleen beschikbaar voor klanten die Adobe Managed Services gebruiken.
+>[Besturingspanelen ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) zijn alleen beschikbaar voor klanten die Adobe Managed Services gebruiken.
