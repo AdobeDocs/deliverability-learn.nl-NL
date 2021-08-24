@@ -1,23 +1,21 @@
 ---
-title: Real-time zwarte-outlijsten
+title: Realtimelijsten van zwarte gaten
 description: Leer over organisaties die lijsten van IP adressen en domeinen handhaven waarschijnlijk om door spammers worden gebruikt.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 0%
+source-wordcount: '407'
+ht-degree: 6%
 
 ---
 
-
-# Real-time zwarte-outlijsten
+# Realtimelijsten van zwarte gaten
 
 Verscheidene organisaties handhaven gegevensbestanden van IP adressen en domeinen die worden genoemd om door spammers worden gebruikt. Het raadplegen van deze sites kan nuttig zijn om te begrijpen waarom bepaalde berichten zijn afgewezen als spam. Over het algemeen is het mogelijk te verzoeken dat een adres wordt verwijderd dat ten onrechte aan deze lijsten is toegevoegd.
 
@@ -33,7 +31,7 @@ Hieronder volgt een lijst van de meest gebruikte RBL&#39;s. Voor een uitgebreide
 
    Zie [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   De database is belangrijker. De indeling op deze lijst is over het algemeen een ernstige situatie. Als dit gebeurt, moet u ONMIDDELLIJK handelen en de commerciële diensten, de leverbaarheid, en [Adobe klantenZorg ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) waarschuwen.
+   De database is belangrijker. De indeling op deze lijst is over het algemeen een ernstige situatie. Als dit gebeurt, moet u ONMIDDELLIJK handelen en de commerciële diensten, de leverbaarheid, en [Adobe klantenZorg ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) waarschuwen.
 
 * **SpamCop**
 
