@@ -1,23 +1,21 @@
 ---
-title: Adresverzameling en lijstgroei
+title: Adressen verzamelen en mailinglijst uitbreiden
 description: 'Leer wat de beste bronnen voor nieuwe e-mailadressen zijn, hoe te om hoge gegevenskwaliteit te verzekeren, en aanpassing aan wettelijke richtlijnen te verzekeren. '
-feature: Audiences
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
+exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 0%
+source-wordcount: '1622'
+ht-degree: 3%
 
 ---
 
-
-# Adresverzameling en lijstgroei
+# Adressen verzamelen en mailinglijst uitbreiden
 
 De beste bronnen van nieuwe e-mailadressen zijn directe bronnen, zoals aanmeldingen op uw website of in fysieke winkels. In dergelijke situaties kunt u de ervaring beheren om ervoor te zorgen dat deze positief is en dat de abonnee geïnteresseerd is in het ontvangen van e-mail van uw merk.
 
@@ -96,9 +94,8 @@ Zweepstakes biedt snel een groot aantal e-mailadressen. Maar deze abonnees wille
 
 **Adobe Campaign Classic**
 
-* [Abonnementsformulieren met dubbele aanmelding maken](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+* [Een lidmaatschapsformulier met dubbele opt-in maken](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases—web-forms.html?lang=nl#create-a-subscription—form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Dubbele aanmeldingsprocedure](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
-
+* [Dubbele opt-in-procedure](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=nl#communication-channels)
