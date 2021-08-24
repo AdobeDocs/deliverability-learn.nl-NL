@@ -1,7 +1,6 @@
 ---
 title: SSL-certificaataanvraagproces
 description: Leer hoe u SSL-certificaten installeert op de subdomeinen die u aan Adobe hebt gedelegeerd.
-feature: De kennis in de praktijk brengen
 topics: Deliverability
 kt: null
 thumbnail: null
@@ -9,9 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: e3caa0e9fae0df983c05c7027406f9874174a8ba
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2266'
 ht-degree: 1%
 
 ---
@@ -35,7 +34,7 @@ Als u SSL-certificaten op deze subdomeinen wilt installeren, dient u een CSR-bes
 >
 >Adobe ondersteunt alleen tot 2048-bits certificaten. 4096-bits certificaten worden nog niet ondersteund.
 
-## Verklarende woordenlijst
+## Woordenlijst
 
 | Term | Beschrijving |
 |--- |--- |
