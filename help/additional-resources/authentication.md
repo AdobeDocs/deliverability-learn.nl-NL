@@ -1,21 +1,19 @@
 ---
 title: Verificatie
 description: Leer meer op SPF, DKIM, en de authentificatiemethodes DMARC.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 03609139-b39b-4051-bcde-9ac7c5358b87
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
-
 
 # Verificatie
 
