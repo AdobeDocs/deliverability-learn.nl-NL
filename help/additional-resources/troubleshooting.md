@@ -1,27 +1,25 @@
 ---
 title: Probleemoplossing voor levering
 description: Leer hoe u leveringsproblemen kunt identificeren en oplossen.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
-
 
 # Probleemoplossing voor levering {#troubleshooting}
 
 Hieronder vindt u een aantal tips en trucs die u kunnen helpen om problemen met betrekking tot de prestaties op te sporen en aan te pakken.
 
-## Identificeer een probleem van de leverbaarheid {#identify-deliverability-issue}
+## Identificeer een leveringsprobleem {#identify-deliverability-issue}
 
 Om een mogelijk probleem te identificeren, kunnen de elementen op [die pagina](/help/ongoing-monitoring.md) worden vermeld uw aandacht vestigen.
 
@@ -31,7 +29,7 @@ Subscriber activity: opens, clicks and/or transactions are lower than usual.
 Seed accounts show filtered or non-delivered mailings.
 -->
 
-## Mogelijke oorzaken voor hypothetisch formaat{#potential-causes}
+## Mogelijke hypothetische oorzaken {#potential-causes}
 
 Stel uzelf de volgende vragen om de mogelijke oorzaken van het probleem van de leverbaarheid te achterhalen:
 
@@ -44,7 +42,7 @@ Stel uzelf de volgende vragen om de mogelijke oorzaken van het probleem van de l
 * Wat is het &#39;veilige&#39; segment in mijn bestand wat betreft recentie?
 * Beschikt ik over strategieën voor reactivering en herbevestiging voor segmenten die niet als veilig worden gedefinieerd?
 
-## Het probleem {#address-issue} aanpakken
+## Het probleem verhelpen {#address-issue}
 
 ### Klachten
 
@@ -70,7 +68,7 @@ De klachten zijn ook afkomstig van abonnees die gewoon geen e-mail meer willen o
 * Onjuiste lijst of gegevensbron. Als het uit een nieuwe bron komt, herzie hoe de adressen werden verzameld en zorg ervoor dat er toestemming was.
 * Verzenden naar een adres dat op een bepaald moment actief was, maar na een periode van inactiviteit is gesloten of beëindigd.
 
-### Betrokkenheid
+### Engagement
 
 Naast klachten en gegevensgeldigheid concentreren ISPs zich meer dan ooit op **positieve overeenkomst** om leveringsbesluiten te nemen. Ze kijken of je abonnees je e-mails openen of ze verwijderen zonder ze te lezen. Omdat deze gegevens niet worden gedeeld met afzenders, moeten we de beschikbare informatie gebruiken en de taken voor het openen, klikken en uitvoeren als betrokkenheid vertalen.
 
