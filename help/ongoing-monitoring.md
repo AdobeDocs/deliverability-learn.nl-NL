@@ -1,23 +1,21 @@
 ---
-title: Doorlopende bewaking
+title: Doorlopende controle
 description: Op welke problemen moet u letten.
-feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 9%
+source-wordcount: '202'
+ht-degree: 35%
 
 ---
 
-
-# Doorlopende bewaking
+# Doorlopende controle
 
 Hier zijn sommige manieren helpen een mogelijke kwestie identificeren waar u deskundige steun zou kunnen nodig hebben:
 
@@ -30,15 +28,15 @@ Hier zijn sommige manieren helpen een mogelijke kwestie identificeren waar u des
 
 **Adobe Campaign Classic**
 
-* [Aflevering](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html)
-* [Leveringsrapporten](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html)
-* [Leverbaarheid controleren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html)
+* [Verzendingscontrole](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=nl)
+* [Leveringsrapporten](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=nl)
+* [Afleverbaarheid controleren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=nl)
 
 **Adobe Campaign Standard**
 
-* [Een levering controleren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
+* [Een verzending controleren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=nl)
 * [Leveringsoverzicht](https://docs-author-stg.corp.adobe.com/content/help/en/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
-* [Leverbaarheid controleren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=en#testing-and-sending)
+* [Afleverbaarheid controleren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=nl#testing-and-sending)
 
 ## Aanvullende bronnen
 
