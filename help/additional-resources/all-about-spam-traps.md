@@ -1,23 +1,21 @@
 ---
-title: Alles over spamovervullingen
+title: Alles over spamvallen
 description: Leer hoe u spamvallen begrijpt, identificeert en voorkomt bij het beheren van de leverbaarbaarheid.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 3696ec013014ea41c634ac4829ec40977d224ff1
+exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '440'
+ht-degree: 2%
 
 ---
 
-
-# Alles over spamovervullingen
+# Alles over spamvallen
 
 Een [spamval](/help/metrics/spam-traps.md) is een geldig adres, zonder foutbericht wanneer e-mails worden verzonden naar. Een spamtrap heeft een hoofdmissie: spammers of afzenders te identificeren zonder gegevenshygiënisch proces.
 
