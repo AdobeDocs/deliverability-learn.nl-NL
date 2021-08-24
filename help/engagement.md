@@ -1,21 +1,19 @@
 ---
-title: Betrokkenheid
+title: Engagement
 description: Betrokkenheid is de belangrijkste factor geworden die invloed heeft op beslissingen over plaatsing in postvakken.
-feature: Engagement
 topics: Deliverability
 kt: 5257
 thumbnail: kt5257.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '923'
 ht-degree: 2%
 
 ---
-
 
 # Betrokkenheid
 
@@ -31,7 +29,7 @@ Terwijl u als afzender niet alle zelfde betrokkenheidsmetriek kunt volgen, opent
 
 **De organische lijst** groeit de hoeksteen van een gezonde lijst. Veel marketers hebben zich enorm geconcentreerd op de groei van lijsten, maar vanuit het oogpunt van de leveringszekerheid is het belangrijk om een lijst van hoge kwaliteit van sterk betrokken abonnees op te stellen. Door voortdurend e-mails te verzenden naar een publiek dat grotendeels onbetrokken is, kan uw verzendende reputatie afnemen en neemt de kans sterk toe dat uw e-mail in de map spam of junk landt.
 
-**Bij het maken en onderhouden van een e-mailmarketingprogramma is het belangrijk rekening te houden met de** mailfrequentie. Het bepalen van de verwachtingen van de ontvangers tijdens uw welkomstbericht is een zeer nuttige strategie mensen willen weten wat te verwachten is. Aan deze verwachtingen moet echter worden voldaan: het te vaak verzenden van e-mail kan de klant vermoeidheid veroorzaken en in sommige gevallen kunnen leiden tot meer klachten en afmelden.
+**Bij het maken en onderhouden van een marketingprogramma voor e-mail is het belangrijk rekening te houden met de** mailfrequentie. Het bepalen van de verwachtingen van de ontvangers tijdens uw welkomstbericht is een zeer nuttige strategie mensen willen weten wat te verwachten is. Aan deze verwachtingen moet echter worden voldaan: het te vaak verzenden van e-mail kan de klant vermoeidheid veroorzaken en in sommige gevallen kunnen leiden tot meer klachten en afmelden.
 
 De juiste frequentie is iets dat elke markator moet vinden voor zijn specifieke marketingprogramma. Wij stellen voor verschillende frequenties te testen om de juiste balans te vinden voor elk specifiek marketingprogramma. Het actief houden van ontvangers is een van de belangrijkste dingen die een marketeers kan doen om het succes van een e-mailmarketingprogramma te verzekeren.
 
