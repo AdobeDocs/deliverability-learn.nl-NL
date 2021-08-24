@@ -1,23 +1,21 @@
 ---
-title: Doelcriteria
+title: Criteria voor targeting
 description: Leer hoe u een positieve reputatie van de get-go kunt opbouwen om vertrouwen op te bouwen voordat u gaat rollen in uw minder betrokken publiek.
-feature: Transition Process
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: e6a855ba-a929-477f-a339-6861a755a529
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 1%
+source-wordcount: '206'
+ht-degree: 4%
 
 ---
 
-
-# Doelcriteria
+# Criteria voor targeting
 
 Wanneer het verzenden van nieuw verkeer, slechts richt uw hoogst betrokken gebruikers tijdens de vroege fasen van IP opwarming. Dit helpt een positieve reputatie van get-go te vestigen om vertrouwen effectief te bouwen alvorens in uw minder betrokken publiek te rollen. Hier volgt een basisformule voor betrokkenheid:
 
@@ -34,4 +32,3 @@ Doorgaans is een betrokkenheidspercentage gebaseerd op een specifieke periode. D
 **Campaign Standard**
 
 * [E-mails met een AI-processor: Predictieve betrokkenheidsscoring](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
-
