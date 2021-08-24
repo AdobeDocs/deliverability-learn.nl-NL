@@ -1,17 +1,15 @@
 ---
 title: Inleiding tot best practices voor leverbaarheid
 description: Leer de belangrijkste termen, concepten en benaderingen van leverbaarheid zodat u over de juiste kennis beschikt om van uw marketingprogramma een succes te maken.
-feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
-translation-type: ht
-source-git-commit: e433002423bd1ab2f4a89425198c16160dae0719
-workflow-type: ht
-source-wordcount: '431'
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+workflow-type: tm+mt
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
