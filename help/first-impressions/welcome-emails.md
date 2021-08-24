@@ -1,23 +1,21 @@
 ---
-title: Welkom-e-mails
+title: Welkomstmails versturen
 description: Begrijp welke belangrijke elementen in overweging moeten worden genomen wanneer het bouwen van uw welkome e-mails.
-feature: Email
 topics: Deliverability
 kt: 7064
 thumbnail: kt7064.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+exl-id: 1007b0ea-7a62-4b46-ba32-191df64a15be
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
 
-
-# Welkom-e-mails
+# Welkomstmails versturen
 
 ## Ontwikkeling van een welkome strategie
 
