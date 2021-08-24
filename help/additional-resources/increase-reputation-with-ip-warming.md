@@ -1,23 +1,21 @@
 ---
-title: Verhoog uw e-mailreputatie met opwarming van IP
+title: Uw e-mailreputatie verbeteren met opwarming van IP-adressen
 description: Leer waarom het belangrijk is om uw e-mailreputatie met IP te verbeteren opwarmen, en hoe te te te werk te gaan voor optimale leverbaarheid.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: b553a13e-2055-4abc-b784-fd52792380d0
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 0%
+source-wordcount: '1600'
+ht-degree: 2%
 
 ---
 
-
-# Verhoog uw e-mailreputatie met opwarming van IP
+# Uw e-mailreputatie verbeteren met opwarming van IP-adressen
 
 <!--Increase your email reputation with IP warming
 
@@ -32,9 +30,9 @@ Adobe vereist klanten om hun configuratie te delen om het team van de Leverbaarh
 Aan het begin zult u uw eigen toegewijde IP-adressen (Internet Protocol) krijgen. In de context van het verzenden van e-mail, is een IP adres de route die wordt gebruikt om uw e-mailberichten aan uw klanten te leveren. IP de adressen en de domeinen worden gebruikt om afzenders op een netwerk aan ontvangende ISPs te identificeren. Adobe wijst het juiste aantal speciale IP-adressen toe voor het verzenden van e-mails op basis van uw verzendvolume, e-mailprogramma&#39;s, praktijken voor gegevenssegmentatie en uw contract.
 
 **Verwante onderwerpen:**
-* [Hoe kan ik vloeiend overschakelen bij het schakelen tussen e-mailplatforms](../../help/transition-process/switching-email-platforms.md)
+* [Zorgen voor een soepele overgang bij de overstap naar een ander e-mailplatform](../../help/transition-process/switching-email-platforms.md)
 * [IP-strategie](../../help/transition-process/infrastructure.md#ip-strategy)
-* [ISP-specifieke overwegingen tijdens IP-opwarming](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
+* [ISP-specifieke overwegingen tijdens &#39;IP warming&#39;](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
 
 ## IP Warm: Waarom is het gedaan? {#why-ip-warming}
 
@@ -99,7 +97,7 @@ De harde stuitingen komen voor wanneer u naar een niet te leveren adres bij ISP 
 
 Als u een aanzienlijk aantal harde grenzen tegenkomt, is het belangrijk om te begrijpen waarom. Controleer hoe de adressen zijn verzameld en bevestig dat u hiervoor toestemming hebt gegeven. Soms sluiten mensen hun e-mailaccount en geven ze geen melding aan diegenen die dat adres op hun marketinglijst hebben.
 
-### Betrokkenheid
+### Engagement
 
 ISPs zoekt verenigbaar volume en goede gegevenskwaliteit. U zult langzaam en gestaag het verkeer in de komende vier tot acht weken verhogen. Soms is er meer of minder tijd nodig op basis van uw volume en doelen, maar meestal is het minstens 8 weken bezig.
 
