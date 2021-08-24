@@ -1,23 +1,21 @@
 ---
-title: Hoe te overgang regelmatig wanneer het schakelen van e-mailplatforms.
+title: Zorgen voor een soepele overgang bij de overstap naar een ander e-mailplatform.
 description: 'Bij het verplaatsen van e-mailserviceproviders (ESP''s) is het niet mogelijk om ook een overgang te maken naar uw bestaande, gevestigde IP-adressen. Het is belangrijk dat u de beste praktijken volgt om een positieve reputatie te ontwikkelen wanneer u opnieuw begint. '
-feature: Deliverability
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 9e4c4c56a09fb505a431d3799104c2684aed4a70
+exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 11%
 
 ---
 
-
-# Hoe kan ik vloeiend overschakelen bij het schakelen tussen e-mailplatforms
+# Zorgen voor een soepele overgang bij de overstap naar een ander e-mailplatform
 
 Wanneer het bewegen van e-maildienstverleners (ESPs), is het niet mogelijk om uw bestaande, gevestigde IP adressen ook over te brengen. Het is belangrijk dat u de beste praktijken volgt om een positieve reputatie te ontwikkelen wanneer u opnieuw begint. Omdat de nieuwe IP adressen u nog zal gebruiken geen reputatie hebben, kan ISPs niet volledig de post vertrouwen die uit hen komt en moet voorzichtig zijn in wat zij toestaan om aan hun klanten worden geleverd.
 
@@ -30,6 +28,6 @@ De hoeveelheid tijd om uw IP adressen en domeinen op te warmen kan variëren, ma
 In de volgende secties zullen we een aantal belangrijke gebieden onderzoeken waarop we ons op de juiste wijze aan boord kunnen richten:
 
 1. [Infrastructuur](/help/transition-process/infrastructure.md)
-2. [Doelcriteria](/help/transition-process/targeting-criteria.md)
-3. [ISP-specifieke overwegingen tijdens IP-opwarming](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
+2. [Criteria voor targeting](/help/transition-process/targeting-criteria.md)
+3. [ISP-specifieke overwegingen tijdens &#39;IP warming&#39;](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
 4. [Volume](/help/transition-process/volume.md)
