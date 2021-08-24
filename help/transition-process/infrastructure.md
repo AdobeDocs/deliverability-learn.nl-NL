@@ -1,7 +1,6 @@
 ---
 title: Infrastructuur
 description: 'Leer wat nodig is om een e-mailinfrastructuur correct te bouwen. '
-feature: Overgangsproces
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg
@@ -9,10 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-translation-type: tm+mt
-source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 0%
 
 Succesvolle prestaties zijn afhankelijk van een sterke basis. E-mailinfrastructuur is een kernelement. Een goed geconstrueerde e-mailinfrastructuur omvat meerdere componenten, namelijk domein(en) en IP-adres(sen). Deze onderdelen zijn als de machine achter de e-mails die je verzendt en zijn vaak het anker van het versturen van reputatie. Leveringsconsultants zorgen ervoor dat deze elementen tijdens de implementatie op de juiste wijze worden ingesteld, maar vanwege het faam-element is het belangrijk dat u over deze basiskennis beschikt.
 
-## Domeininstelling en -strategie {#domain-setup-and-strategy}
+## Instellen en strategie van domeinen {#domain-setup-and-strategy}
 
 De tijden zijn veranderd, en sommige ISPs (zoals Gmail en Yahoo) neemt nu domeinreputatie als extra punt op wanneer het komt om e-mailreputatie aan een afzender vast te maken. Uw domeinreputatie is gebaseerd op uw verzendend domein in plaats van uw IP adres. Dit betekent dat uw merk belangrijkheid neemt wanneer het over ISP het filtreren besluiten komt.
 
@@ -41,7 +39,7 @@ Het is belangrijk om een goed gestructureerde IP strategie te vormen helpen een 
 * Het scheiden van verkeer voor overseinentypen is zeer belangrijk. Het is belangrijk om, op een absoluut minimum, afzonderlijke marketing en transactionele post op afzonderlijke IP pools te behandelen.
 * Afhankelijk van uw poststrategie, kan het ook raadzaam zijn om verschillende producten of marketing stromen op verschillende IP pools te scheiden als uw reputatie drastisch verschillend is. Sommige markten segmenteren ook per regio. Het scheiden van IP voor verkeer met een lagere reputatie zal niet de reputatie kwestie oplossen, maar het zal kwesties met uw &quot;goede&quot;reputatie e-mailleveringen verhinderen. U wilt uw goede publiek immers niet opofferen voor een riskantere doelgroep.
 
-## Feedbacklussen {#feedback-loops}
+## Feedbackloops {#feedback-loops}
 
 Achter de schermen verwerken Adobe-platforms gegevens over stormen, klachten, afmeldingsmeldingen en nog veel meer. De opstelling van deze terugkoppelt lijnen is een belangrijk aspect aan leverbaarheid. Klachten kunnen een reputatie beschadigen, dus u moet e-mailadressen versturen die uw klachten van het doelpubliek registreren. Het is belangrijk om op te merken dat Gmail deze gegevens niet teruggeeft. De lijst unsubscribe kopballen en overeenkomst het filtreren zijn vooral belangrijk voor abonnees Gmail, die nu de meerderheid van abonneegegevensbestanden bestaan.
 
