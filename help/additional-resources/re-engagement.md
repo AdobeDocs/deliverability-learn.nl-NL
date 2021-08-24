@@ -1,23 +1,21 @@
 ---
-title: Best practices voor hernieuwde betrokkenheid
+title: Best practices voor re-engagement
 description: Leer hoe u de leverbaarheid kunt verbeteren via strategieën voor opnieuw opstarten.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '926'
 ht-degree: 1%
 
 ---
 
-
-# Best practices voor hernieuwde betrokkenheid {#re-engagement}
+# Best practices voor re-engagement {#re-engagement}
 
 Bij het implementeren van de leverbaarheid bestaat een aantal van de beste praktijken uit het proberen om een gezonde abonneebasis te behouden en de leveringsbaarheid te verbeteren via strategieën voor opnieuw engagement (of win-back).
 
@@ -84,4 +82,4 @@ Abonnees die zich met de campagne bezighouden door de open- of klikactiviteiten 
 
 **Adobe Klantenbeheer**
 
-* [Berichten bijhouden](https://experienceleague.adobe.com/docs/customer-journey-management/using/reporting/message-tracking.html)
+* [Tracking van berichten](https://experienceleague.adobe.com/docs/customer-journey-management/using/reporting/message-tracking.html)
