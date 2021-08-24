@@ -1,21 +1,19 @@
 ---
 title: Campaign Classic - Technische aanbevelingen
 description: Ontdek de technieken, configuraties en gereedschappen die u kunt gebruiken om de prestaties met Adobe Campaign Classic te verbeteren.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1575'
 ht-degree: 1%
 
 ---
-
 
 # Campaign Classic - Technische aanbevelingen {#technical-recommendations}
 
@@ -212,6 +210,6 @@ De SMTP fouten die niet door een regel worden gecontroleerd zijn vermeld in **[!
 
 De meest voorkomende fouten moeten worden geïdentificeerd en er moet een corresponderende regel worden toegevoegd in **[!UICONTROL Administration]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** als u de feedback van de SMTP-servers correct wilt kwalificeren. **[!UICONTROL Campaign Management]** Zonder deze methode zal het platform onnodige herhalingen (bij onbekende gebruikers) uitvoeren of ten onrechte bepaalde ontvangers in quarantaine plaatsen na een bepaald aantal tests.
 
-### Specifieke IP&#39;s {#dedicated-ips}
+### Specifieke IPs {#dedicated-ips}
 
 Adobe verstrekt een specifieke IP strategie voor elke klant van een oprijplaat-omhoog IP om een reputatie te bouwen en leveringsprestaties te optimaliseren.
