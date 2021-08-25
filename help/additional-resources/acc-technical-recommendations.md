@@ -2,13 +2,11 @@
 title: Campaign Classic - Technische aanbevelingen
 description: Ontdek de technieken, configuraties en gereedschappen die u kunt gebruiken om de prestaties met Adobe Campaign Classic te verbeteren.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 1%
