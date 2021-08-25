@@ -2,13 +2,11 @@
 title: Duplicaten
 description: Leer hoe u duplicaten kunt identificeren en beperken om de leesbaarheid te verbeteren.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: f89dbb38-a8d4-4294-b017-6fed72591593
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 4%
