@@ -2,15 +2,13 @@
 title: Best practices voor re-engagement
 description: Leer hoe u de leverbaarheid kunt verbeteren via strategieën voor opnieuw opstarten.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -30,7 +28,7 @@ Bij het implementeren van de leverbaarheid bestaat een aantal van de beste prakt
 
 Jarenlang, hebben ISPs overeenkomst terugkoppelt metriek van hun gebruikers gebruikt om te beslissen waar te om berichten te plaatsen, of of zij hen bij allen zouden moeten leveren. Gebruiker [engagement](/help/engagement.md) bestaat uit zowel positieve als negatieve terugkoppelen en ISPs monitor beide op een constante basis. Geen betrokkenheid hebben is misschien een van de belangrijkste bijdragers van negatieve betrokkenheid. Vanuit een leverbaarheidsperspectief, kan het constant verzenden van campagnes naar gebruikers die geen overeenkomst tonen de algemene reputatie van uw IP adres en domeinen ook verminderen.
 
-ISP&#39;s zoals Gmail, Microsoft en OATH zien niet-betrokkenheid als ongewenste e-mail en beginnen berichten om te leiden naar de spammap. Deze abonnees zijn mogelijk niet langer eigenaar van het e-mailaccount en kunnen dit gebruiken als een &#39;gerecycleerde&#39; spamval. Dit betekent dat het adres een tijdje ongeldig was en alle berichten worden verworpen. Als uw systeem van het abonneebeheer geen &quot;hard gefactureerde&quot;adressen verwijdert, is het zeer waarschijnlijk post aan spamvallen die tot significante leveringskwesties kunnen leiden.
+ISP&#39;s zoals Gmail, Microsoft® en OATH zien niet-betrokkenheid als ongewenste e-mail en leiden berichten om naar de spammap. Deze abonnees zijn mogelijk niet langer eigenaar van het e-mailaccount en kunnen dit gebruiken als een &#39;gerecycleerde&#39; spamval. Dit betekent dat het adres een tijdje ongeldig was en alle berichten worden verworpen. Als uw systeem van het abonneebeheer geen &quot;hard gefactureerde&quot;adressen verwijdert, het waarschijnlijk post aan spamvallen die tot significante leveringskwesties kunnen leiden.
 
 ## Hoe moet u inactiviteit aanpakken? {#how-should-you-approach-inactivity-}
 
@@ -46,7 +44,7 @@ Volgens een studie over het retourpad werden er herplaatsingscampagnes uitgevoer
 
 ### Fase 1 {#phase-1}
 
-* De eerste stap is abonnees te identificeren die zeer weinig aan geen open of klikactiviteit hebben, en dienovereenkomstig deze groep te segmenteren die op een vastgestelde tijdkader wordt gebaseerd. De regel van duim is abonnees te herzien die geen e-mail binnen de afgelopen 90 dagen hebben geopend of geklikt. Dit varieert echter afhankelijk van de aard van de activiteit (bijvoorbeeld seizoensgebonden verzending).
+* De eerste stap is abonnees te identificeren die weinig tot geen open of klikactiviteit hebben, en dienovereenkomstig deze groep te segmenteren die op een vastgestelde tijdkader wordt gebaseerd. De regel van duim is abonnees te herzien die geen e-mail binnen de afgelopen 90 dagen hebben geopend of geklikt. Dit varieert echter afhankelijk van de aard van de activiteit (bijvoorbeeld seizoensgebonden verzending).
 * Een ander punt om in mening te houden terwijl het bepalen van timeframes is dat ISPs en de bedrijven van de lijst van gewezen personen de betrokkenheid om tussen 1.5 en 1.8 jaar overwegen overal te zijn. Ook gedragsactiviteiten zoals aankopen en website-activiteit, of andere aanraakpunten, zoals voorkeuren tijdens de aanmeldfase of het eerste contactpunt.
 
 ### Fase 2 {#phase-2}
@@ -64,8 +62,8 @@ Abonnees die zich met de campagne bezighouden door de open- of klikactiviteiten 
 
 ### Fase 4 {#phase-4}
 
-* De volgende fase is om abonnees te identificeren die voortdurend geen activiteit tonen en geleidelijk het verzenden van e-mails naar hen over een periode te verminderen. Als er het afgelopen jaar geen activiteit is, is het goed om het e-mailabonnement van de abonnees in de wacht te zetten. Hoewel ze geen interesse hebben getoond in de e-mailinhoud, is het altijd de laatste kans om hun abonnement opnieuw te activeren door een eenmalige herbevestigingscampagne te verzenden.
-* Herbevestigingscampagnes zijn een goede manier om abonnees die lange tijd inactief zijn te vragen of zij op de abonnementenlijst willen blijven. Wanneer u de campagne maakt, is het raadzaam een koppeling &quot;Klik hier&quot; toe te voegen, zodat zij de actie kunnen bevestigen en hun adres kunnen verifiëren. Op deze manier kan de handeling in de database worden opgenomen. Hieronder ziet u een voorbeeld van een e-mailbericht voor bevestiging:
+* De volgende fase is om abonnees te identificeren die voortdurend geen activiteit tonen en geleidelijk het verzenden van e-mails naar hen over een periode te verminderen. Als er het afgelopen jaar geen activiteit is, is het goed om het e-mailabonnement van de abonnees in de wacht te zetten. Hoewel ze geen interesse hebben getoond in de e-mailinhoud, is het altijd de laatste kans dat ze hun abonnement opnieuw activeren door een eenmalige bevestigingscampagne te verzenden.
+* Herbevingscampagnes zijn een goede manier om abonnees die lange tijd inactief zijn te vragen of ze op de abonnementenlijst willen blijven. Wanneer u de campagne maakt, is het raadzaam een koppeling &quot;Klik hier&quot; toe te voegen, zodat zij de actie kunnen bevestigen en hun adres kunnen verifiëren. Op deze manier kan de handeling in de database worden opgenomen. Hieronder ziet u een voorbeeld van een e-mailbericht voor bevestiging:
 
    ![](../../help/assets/deliverability_implementation_3.png)
 
@@ -82,4 +80,4 @@ Abonnees die zich met de campagne bezighouden door de open- of klikactiviteiten 
 
 **Adobe Klantenbeheer**
 
-* [Tracking van berichten](https://experienceleague.adobe.com/docs/customer-journey-management/using/reporting/message-tracking.html)
+* [Tracking van berichten](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=nl)
