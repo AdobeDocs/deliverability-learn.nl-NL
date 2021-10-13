@@ -161,7 +161,7 @@ De volgende bevellijn kan worden gebruikt om tot een dynamisch **List-Unsubscrib
 List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%
 ```
 
-Gmail, Outlook.com, en Microsoft Outlook steunen deze methode en een unsubscribe knoop is beschikbaar direct in hun interface. Deze techniek verlaagt de klachtenpercentages.
+Gmail, Outlook.com, en de Vooruitzichten van Microsoft steunen deze methode en een unsubscribe knoop is beschikbaar direct in hun interface. Deze techniek verlaagt de klachtenpercentages.
 
 U kunt **List-Unsubscribe** uitvoeren door of:
 

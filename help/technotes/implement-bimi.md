@@ -2,21 +2,19 @@
 title: Gmail-merkindicatoren voor berichtidentificatie (BIMI) implementeren
 description: Leer hoe u BIMI kunt implementeren
 topics: Deliverability
-hide: true
-hidefromtoc: true
-source-git-commit: ab1595bac7ef136eb001609b9017950a2d01cbb4
+exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
+source-git-commit: a4d2a75e85f37f48aa3246707b98e473682e13f6
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
-
-# Gmail-merkindicatoren voor berichtidentificatie (BIMI) implementeren
+# Gmail [!DNL Brand Indicators for Message Identification] (BIMI) implementeren
 
 Gmail kondigde onlangs aan dat zij [algemene ondersteuning van BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace) zouden krijgen. Er zijn een aantal punten u zult moeten behandelen alvorens u uit dit kunt voordeel halen hoewel het omvatten: Gecontroleerde Mark Certificates, Trademarked Logos, correct opgemaakte Logo&#39;s, DMARC-instelling en ten slotte het publiceren van een BIMI-record naar uw DNS. We zullen al deze stappen in dit artikel bekijken.
 
-Merk Indicators for Message Identification (BIMI) is een industrienorm die het mogelijk maakt een goedgekeurd logo te gebruiken naast de e-mail van een afzender op deelnemende platforms. Niet alleen is deze opvallende betrokkenheid mogelijk versterkt, het helpt ook de authenticiteit van de verzender te bevestigen en het risico van phishing en andere spammtactiek te verminderen.
+[!DNL Brand Indicators for Message Identification] (BIMI) is een industriestandaard waarmee een goedgekeurd logo naast de e-mail van een afzender op deelnemende platforms kan worden weergegeven. Niet alleen is deze opvallende betrokkenheid mogelijk versterkt, het helpt ook de authenticiteit van de verzender te bevestigen en het risico van phishing en andere spammtactiek te verminderen.
 
 ## Certificaat van geverifieerde markering
 
@@ -26,7 +24,7 @@ VMCs zal aan SSL certificaten op sommige manieren gelijkaardig zijn. U zult éé
 
 ## Logohandelsmerk
 
-Voordat u uw VMC kunt ophalen, moet u een andere belangrijke stap uitvoeren: om een VMC te krijgen moet het logo dat u wilt hebben getoond bij één van 8 goedgekeurde mondiale handelsmerken en octrooibureaus worden geregistreerd.
+Voordat u uw VMC kunt ophalen, moet u een andere belangrijke stap uitvoeren. Als u een VMC wilt ophalen, moet het logo dat u wilt weergeven, zijn geregistreerd bij een van de acht goedgekeurde wereldwijde handelsmerken en octrooibureaus.
 
 * United States Patent and Trademark Office (USPTO)
 * Canadian Intellectual Property Office
@@ -41,7 +39,9 @@ Als het logo dat u wilt weergeven niet is geregistreerd of niet bij een van deze
 
 ## Afbeeldingsindeling logo
 
-Dit zou ook een goed moment zijn om ervoor te zorgen dat uw logo voldoet aan de vereisten voor het formaat van het BIMI-logo. Het bestand moet de SVG-indeling hebben en moet voldoen aan het SVG Portable/Secure-profiel (SVG-P/S). Zie de [BIMI-werkgroep](https://bimigroup.org/svg-conversion-tools-released) als leidraad voor de manier waarop dit moet gebeuren.
+Dit zou ook een goed moment zijn om ervoor te zorgen dat uw logo voldoet aan de vereisten voor het formaat van het BIMI-logo.
+
+De notatie moet de SVG-indeling hebben en moet voldoen aan het profiel SVG Portable/Secure (SVG-P/S). Zie de [BIMI-werkgroep](https://bimigroup.org/svg-conversion-tools-released) als leidraad voor de manier waarop dit moet gebeuren.
 
 ## DMARC
 
@@ -64,7 +64,7 @@ U kunt de details rond die ingang krijgen en zelfs een vrije controleur BIMI geb
 
 ## Key Takeaways
 
-Als u een Adobe Campaign- of Marketo-client bent, kunt u met behulp van Adobe de BIMI DNS-update maken: Neem contact op met de klantenservice van Adobe om een aanvraag in te dienen. Adobe kan ook helpen bij het oplossen van problemen als BIMI niet correct voor u werkt.
+Als u een [!DNL Adobe Campaign]- of Marketo-client bent, kunt u met Adobe de BIMI DNS-update maken: Neem contact op met de klantenservice van Adobe om een aanvraag in te dienen. Adobe kan ook helpen bij het oplossen van problemen als BIMI niet correct voor u werkt.
 
 Voor hulp met handelsmerken of Geverifieerde Certificaten van het Merk, werk met uw wettelijk team en een erkende verkoper VMC.
 

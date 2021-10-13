@@ -23,7 +23,7 @@ De volumedrempels variëren door ISP en kunnen ook afhankelijk van uw gemiddelde
 
 Hier volgt een lijst met tips en tips voor een vloeiende overgang:
 
-* **** Toestemming is de basis van om het even welk succesvol e-mailprogramma.
+* **** Toestemming is de basis van elk succesvol e-mailprogramma.
 * **Laag en langzaam** : begin met lage verzendende volumes en verhoog vervolgens naarmate u de reputatie van de afzender verkrijgt.
 * Met een **e-mailingstrategie** kunt u het volume tijdens de campagne opvoeren zonder uw e-mailkalender te verstoren.
 * **Betrokkenheid** : begin met de abonnees die uw e-mails regelmatig openen en erop klikken.

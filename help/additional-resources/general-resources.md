@@ -6,14 +6,21 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: f441fe45b5b7309082c8eea7423d40003b913b7b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 39%
+source-wordcount: '126'
+ht-degree: 31%
 
 ---
 
 # Aanvullende bronnen - Overzicht
+
+## Nieuwe functies
+
+Raadpleeg de volgende technotes voor meer informatie over recente updates over leverbaarbaarheid.
+
+* [Gmail-merkindicatoren voor berichtidentificatie (BIMI) implementeren](../technotes/implement-bimi.md)
+* [Veelgestelde vragen over de beveiliging van Apple Mail Privacy](../technotes/apple-mail-privacy-faq.md)
 
 ## Algemene bronnen
 
@@ -35,7 +42,7 @@ Deze sectie maakt een lijst van sommige extra middelen op leverbaarheid, zoals s
 
 Bovendien maakt deze sectie een lijst van een aantal product-specifieke middelen om u te helpen leverbaarheid uitvoeren en succes met uw oplossingen van de Adobe bereiken.
 
-**Campaign**
+**[!DNL Adobe Campaign]**
 
 * [Domeinnaam instellen](../../help/additional-resources/ac-domain-name-setup.md)
 * [CSR- en SSL-aanvraagproces](../../help/additional-resources/ac-ssl-certificate-request.md)

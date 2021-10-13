@@ -44,7 +44,7 @@ Stel uzelf de volgende vragen om de mogelijke oorzaken van het probleem van de l
 
 ### Klachten
 
-[De ](/help/metrics/complaints.md) Klachten worden bepaald door abonnees die e-mail als spam melden door de overeenkomstige knoop van hun inbox te raken.
+[](/help/metrics/complaints.md) Klachten worden gedefinieerd door abonnees die e-mail rapporteren als spam door de bijbehorende knop vanuit hun Postvak IN te drukken.
 
 Als uw bezorgingsprobleem is veroorzaakt door klachten:
 * U moet proberen te bepalen waarom de ontvangers klagen.

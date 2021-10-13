@@ -23,7 +23,7 @@ Het vestigen van een positieve reputatie is een proces. Maar als deze eenmaal is
 
 ![Overgangsproces](../assets/transition-process.png)
 
-De hoeveelheid tijd om uw IP adressen en domeinen op te warmen kan variëren, maar tot een 8 weken benchmark is gemeenschappelijk voor typische afzenders om een reputatie bij meeste Rij 1 ISPs (Gmail, Microsoft, Verizon/Yahoo/AOL, enz.) te vestigen.
+De hoeveelheid tijd om uw IP adressen en domeinen te warmen kan variëren, maar tot een 8 weken benchmark is gemeenschappelijk voor typische afzenders om een reputatie bij meeste Rij 1 ISPs (Gmail, Microsoft, Verizon/Yahoo/AOL, enz.) te vestigen.
 
 In de volgende secties zullen we een aantal belangrijke gebieden onderzoeken waarop we ons op de juiste wijze aan boord kunnen richten:
 

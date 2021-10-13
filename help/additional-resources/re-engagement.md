@@ -28,7 +28,7 @@ Bij het implementeren van de leverbaarheid bestaat een aantal van de beste prakt
 
 Jarenlang, hebben ISPs overeenkomst terugkoppelt metriek van hun gebruikers gebruikt om te beslissen waar te om berichten te plaatsen, of of zij hen bij allen zouden moeten leveren. Gebruiker [engagement](/help/engagement.md) bestaat uit zowel positieve als negatieve terugkoppelen en ISPs monitor beide op een constante basis. Geen betrokkenheid hebben is misschien een van de belangrijkste bijdragers van negatieve betrokkenheid. Vanuit een leverbaarheidsperspectief, kan het constant verzenden van campagnes naar gebruikers die geen overeenkomst tonen de algemene reputatie van uw IP adres en domeinen ook verminderen.
 
-ISP&#39;s zoals Gmail, Microsoft® en OATH zien niet-betrokkenheid als ongewenste e-mail en leiden berichten om naar de spammap. Deze abonnees zijn mogelijk niet langer eigenaar van het e-mailaccount en kunnen dit gebruiken als een &#39;gerecycleerde&#39; spamval. Dit betekent dat het adres een tijdje ongeldig was en alle berichten worden verworpen. Als uw systeem van het abonneebeheer geen &quot;hard gefactureerde&quot;adressen verwijdert, het waarschijnlijk post aan spamvallen die tot significante leveringskwesties kunnen leiden.
+ISP&#39;s zoals Gmail, Microsoft® en OATH zien niet-betrokkenheid als ongewenste e-mail en sturen berichten door naar de spammap. Deze abonnees zijn mogelijk niet langer eigenaar van het e-mailaccount en kunnen dit gebruiken als een &#39;gerecycleerde&#39; spamval. Dit betekent dat het adres een tijdje ongeldig was en alle berichten worden verworpen. Als uw systeem van het abonneebeheer geen &quot;hard gefactureerde&quot;adressen verwijdert, het waarschijnlijk post aan spamvallen die tot significante leveringskwesties kunnen leiden.
 
 ## Hoe moet u inactiviteit aanpakken? {#how-should-you-approach-inactivity-}
 
@@ -80,4 +80,4 @@ Abonnees die zich met de campagne bezighouden door de open- of klikactiviteiten 
 
 **Adobe Klantenbeheer**
 
-* [Tracking van berichten](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=nl)
+* [Berichten tracken](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=nl)

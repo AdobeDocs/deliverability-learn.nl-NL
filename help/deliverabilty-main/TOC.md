@@ -2,10 +2,10 @@
 user-guide-title: Gids met best practices voor leverbaarheid
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Leer de belangrijkste termen, concepten en benaderingen van leverbaarheid zodat u over de juiste kennis beschikt om van uw marketingprogramma een succes te maken.
-source-git-commit: ab1595bac7ef136eb001609b9017950a2d01cbb4
+source-git-commit: 3e933104107cd4f62eab99c66957ccd9acb51409
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 98%
+source-wordcount: '169'
+ht-degree: 95%
 
 ---
 
@@ -50,12 +50,11 @@ ht-degree: 98%
       + [Best practices voor re-engagement](/help/additional-resources/re-engagement.md)
       + [Realtimelijsten van zwarte gaten](/help/additional-resources/blocklist-databases.md)
       + [Problemen oplossen](/help/additional-resources/troubleshooting.md)
-   + Productspecifieke bronnen {#product-specific-resources}
-      + Campaign {#campaign}
-         + [Domeinnaam instellen](/help/additional-resources/ac-domain-name-setup.md)
-         + [Proces voor het aanvragen van een SSL-certificaat](/help/additional-resources/ac-ssl-certificate-request.md)
-         + [Een nieuw platform starten](/help/additional-resources/ac-starting-new-platform.md)
-         + [Campaign Classic - Technische aanbevelingen](/help/additional-resources/acc-technical-recommendations.md)
-+ TechNotes (hidden){#technotes}
-   + [Apple Privacy Veelgestelde vragen](/help/technotes/apple-mail-privacy-faq.md)
-   + [BIMI implementeren](/help/technotes/implement-bimi.md)
+   + Bronnen voor [!DNL Adobe Campaign] {#campaign}
+      + [Domeinnaam instellen](/help/additional-resources/ac-domain-name-setup.md)
+      + [Proces voor het aanvragen van een SSL-certificaat](/help/additional-resources/ac-ssl-certificate-request.md)
+      + [Een nieuw platform starten](/help/additional-resources/ac-starting-new-platform.md)
+      + [Campaign Classic - Technische aanbevelingen](/help/additional-resources/acc-technical-recommendations.md)
+   + Technische opmerkingen{#technotes}
+      + [Veelgestelde vragen over Apple Privacy](/help/technotes/apple-mail-privacy-faq.md)
+      + [BIMI implementeren](/help/technotes/implement-bimi.md)

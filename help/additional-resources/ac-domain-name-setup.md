@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2061'
 ht-degree: 2%
 
 ---
@@ -54,10 +54,22 @@ Om een cloudgebaseerde beheerde service te bieden, raadt Adobe klanten sterk aan
 | MX | E-mailservers opgeven voor binnenkomende berichten | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Beleidskader voor afzender | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campagne.adobe.com&quot; |
 | DKIM (TXT) | DomainKeys Identified Mail | <i>client._domain.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
-| DMARC (TXT) | Berichtverificatie op basis van domein | Rapportage en conformiteit | _dmarc.email.example.com</br>&quot;v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com&quot; |
 | Gegevens van hosts (A) | Pagina&#39;s spiegelen, afbeeldingen hosten en koppelingen bijhouden, alle verzendende domeinen | m.email.example.com IN A 123.111.100.99</br>t.email.example.com IN A 123.111.100.98</br>email.example.com IN A 123.111.100.97 |
 | DNS omkeren (PTR) | Wijst de cliëntIP adressen aan een cliënt brandde hostname toe | 18.101.100.192.in-addr.arpa domeinnaamaanwijzer r18.email.example.com |
-| CNAME | Biedt een alias voor een andere domeinnaam | t1.email.example.com is een alias voor | t1.email.example.campaign.adobe.com |
+| CNAME | Biedt een alias voor een andere domeinnaam | t1.email.example.com is een alias voor t1.email.example.campagne.adobe.com |
+
+
+De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Conformiteit (DMARC) wordt geadviseerd om e-mailafzenders voor authentiek te verklaren en ervoor te zorgen dat de bestemmings-e-mailsystemen berichten vertrouwen die van uw domein worden verzonden.
+
+Voorbeeld van DMARC TXT-record:
+
+```
+_dmarc.email.example.com
+
+“v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” 
+```
+
+U kunt DMARC handmatig implementeren of contact opnemen met Adobe om u te helpen bij het instellen van DMARC voor uw merk.
 
 ## Installatievereisten
 
