@@ -8,7 +8,7 @@ activity: understand
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -30,12 +30,12 @@ In deze gids met best practices op het gebied van leverbaarheid komen de volgend
 
 1. [Strategie en definitie van leverbaarheid](/help/deliverability-strategy-and-definition.md)
 2. [Metrics voor leverbaarheid](/help/metrics/metrics-overview.md)
-3. [Engagement](/help/engagement.md)
+3. [Betrokkenheid](/help/engagement.md)
 4. [Overgangsproces - Overstappen naar een ander e-mailplatform](/help/transition-process/switching-email-platforms.md)
 5. [Eerste indrukken - E-mailadressen verzamelen en welkomstmails versturen](/help/first-impressions/address-collection-and-list-growth.md)
 6. [Best practices wat betreft content voor optimale leverbaarheid](/help/content-best-practices-for-optimal-delivery.md)
 7. [Consistentie in de verzending](/help/sender-permanence.md)
-8. [Specifieke aspecten van internetserviceproviders](/help/internet-service-provider-specifics/overview.md)
+8. [Specifieke kenmerken van internetserviceproviders](/help/internet-service-provider-specifics/overview.md)
 9. [Doorlopende controle](/help/ongoing-monitoring.md)
 10. [De kennis in de praktijk brengen](/help/putting-it-in-practice.md)
 
