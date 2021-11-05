@@ -3,20 +3,20 @@ title: Veelgestelde vragen over de beveiliging van Apple Mail Privacy
 description: Veelgestelde vragen over de beveiliging van Apple Mail Privacy
 topics: Deliverability
 exl-id: c4b9839d-db1a-4bbc-a1d5-385dddca95a8
-source-git-commit: c66a1d519ab844d103de5b6dd64c5f7f40c3d8d9
+source-git-commit: 994e31f8038f2a6d9ec986f93dc2640e6a8796d7
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1106'
+ht-degree: 1%
 
 ---
 
 # Veelgestelde vragen over de beveiliging van Apple Mail Privacy
 
-Deze veelgestelde vragen bieden een eerste leidraad in reactie op de aankondiging van Apple met betrekking tot de iOS 15-release, waaronder [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Deze wijzigingen komen in september en we zullen dit document blijven bijwerken en onze klanten advies geven.
+Deze veelgestelde vragen bieden een eerste leidraad naar aanleiding van de aankondiging van Apple met betrekking tot de iOS 15-release, waaronder [Privacy-beveiliging e-mail](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Deze wijzigingen komen in september en we zullen dit document blijven bijwerken en onze klanten advies geven.
 
 ## Wat heeft Apple aangekondigd?
 
-Op 7 juni, tijdens de Apple Annual Worldwide Developers Conference (WWDC 2021), kondigden ze in hun iOS 15-release aan dat [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) zou worden ingeschakeld in de native Mail-app op alle Apple-apparaten - iPhone, iPad en Mac. Volgens Apple voorkomt &quot;Mail Privacy Protection dat afzenders onzichtbare pixels gebruiken om informatie over de gebruiker te verzamelen, zodat afzenders niet weten wanneer ze een e-mail openen en hun IP-adres maskeren zodat het niet kan worden gekoppeld aan andere online activiteiten of kan worden gebruikt om hun locatie te bepalen.&quot; Een implicatie voor marketers is dat ze niet weten wanneer of of een gebruiker zijn e-mailadres heeft geopend in de e-mailtoepassing van Apple. De beperking, waarvoor de gebruiker toestemming moet geven, geldt voor alle e-mails die worden geopend in de e-mailtoepassing van Apple (Gmail, Yahoo, Outlook, enz.).
+Op 7 juni, tijdens de jaarlijkse Wereldwijde Ontwikkelingsconferentie van Apple (WWDC 2021), kondigden ze in hun iOS 15-release aan dat [Privacy-beveiliging e-mail](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) wordt ingeschakeld in de native Mail-app op alle Apple-apparaten - iPhone, iPad en Mac. Volgens Apple voorkomt &quot;Mail Privacy Protection dat afzenders onzichtbare pixels gebruiken om informatie over de gebruiker te verzamelen, zodat afzenders niet weten wanneer ze een e-mail openen en hun IP-adres maskeren zodat het niet kan worden gekoppeld aan andere online activiteiten of kan worden gebruikt om hun locatie te bepalen.&quot; Een implicatie voor marketers is dat ze niet weten wanneer of of een gebruiker zijn e-mailadres heeft geopend in de e-mailtoepassing van Apple. De beperking, waarvoor de gebruiker toestemming moet geven, geldt voor alle e-mails die worden geopend in de e-mailtoepassing van Apple (Gmail, Yahoo, Outlook, enz.).
 
 ## Wanneer gaat dit van kracht worden?
 
@@ -24,7 +24,9 @@ De iOS 15-release zal deze herfst beschikbaar zijn, mogelijk al in september. Te
 
 ## Welke gevolgen zal dit hebben voor het volgen en meten van de resultaten van e-mailcampagnes?
 
-Pixels bijhouden in Apple Mail wordt uitgeschakeld. Dit betekent dat marketeers niet langer betrouwbaar weten wanneer een e-mail wordt geopend. Hoewel het uitschakelen van het bijhouden van pixels niet nieuw is, hebben verschillende providers in het verleden soortgelijke maatregelen genomen. De e-mailtoepassing van Apple heeft een brede acceptatie bij veel providers. Daarom kan het effect groter zijn dan eerder ervaren wanneer andere leveranciers standaard het bijhouden van pixels hebben uitgeschakeld. De privacybescherming, waarvoor de toestemming van de gebruiker nodig is, geldt voor alle e-mailberichten die worden geopend in de e-mailtoepassing van Apple (Gmail, Yahoo, Outlook, enz.). Als de gebruiker de Gmail-app of een andere e-mailtoepassing gebruikt, worden de privacyopties niet gewijzigd. Voor de context was het marktaandeel [Apple voor mobiele apparaten ](https://www.counterpointresearch.com/global-smartphone-share/) voor Q1 wereldwijd 17% en 55% VS.
+Gegevens uit het bijhouden van pixels in Apple Mail zijn niet langer correct, wat betekent dat marketers niet langer betrouwbaar kunnen zien wanneer een e-mail wordt geopend. Hoewel het vooraf laden van afbeeldingen en pixels en het gebruik van proxy&#39;s voor het anonimiseren van gegevens niet nieuw is, hebben verschillende providers in het verleden soortgelijke maatregelen genomen, zijn de omvang, de methode en het toepassingsgebied van de implementatie nieuw.
+
+De e-mailtoepassing van Apple heeft een brede acceptatie bij veel providers. Daarom kan het effect groter zijn dan eerder ervaren wanneer andere leveranciers standaard het bijhouden van pixels hebben uitgeschakeld. De privacybescherming, waarvoor de toestemming van de gebruiker nodig is, geldt voor alle e-mailberichten die worden geopend in de e-mailtoepassing van Apple (Gmail, Yahoo, Outlook, enz.). Als de gebruiker de Gmail-app of een andere e-mailtoepassing gebruikt, worden de privacyopties niet gewijzigd. Voor de context [Marktaandeel Apple mobiel apparaat](https://www.counterpointresearch.com/global-smartphone-share/) voor het eerste kwartaal was dat 17% in de wereld en 55% in de VS.
 
 ## Zijn er andere gevolgen?
 
@@ -52,4 +54,4 @@ Momenteel geloven we dat deze privacyfunctie geen invloed heeft op het bijhouden
 
 ## Hoe ondersteunt Adobe onze klanten?
 
-Wij zullen extra inhoud publiceren die onze POV en voorgestelde strategieën (op korte en lange termijn) schetst. Daarnaast kunnen klanten een [Deliverability Guide](../introduction.md) downloaden, een [cursus over de leverbaar](http://bit.ly/Deliverability-Course) volgen en een [recent webinar](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a) over de leverbaarbaarheid bekijken om de nieuwste trends en best practices bij te houden. Klanten kunnen uiteraard de aandacht vestigen op toekomstige blogberichten, webinars en updates met betrekking tot de leverbaarbaarheid en andere ontwikkelingen op het gebied van privacy.
+Wij zullen extra inhoud publiceren die onze POV en voorgestelde strategieën (op korte en lange termijn) schetst. Bovendien kunnen klanten een [Leverbaarheidsgids](../introduction.md), neemt u een [verloop van de aflevering](http://bit.ly/Deliverability-Course)en bekijk een [recent webinar](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a) met betrekking tot de leverbare toestand om de nieuwste trends en beste praktijken bij te houden. Klanten kunnen uiteraard de aandacht vestigen op toekomstige blogberichten, webinars en updates met betrekking tot de leverbaarbaarheid en andere ontwikkelingen op het gebied van privacy.
