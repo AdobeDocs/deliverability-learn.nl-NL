@@ -23,13 +23,13 @@ Deze databases worden RBL&#39;s (Real-Time Blackgat Lists) genoemd en ze worden 
 * Op senderdomein: maakt een lijst van afzenderdomeinen (volledig domein van het stuiterende postadres) die spam verzenden of verkeerd gevormd.
 * Op webdomein: geeft een lijst weer van de domeinen (domeinen op hoog niveau zoals geregistreerd met de registrars) die in URLs van de verbindingen en beelden worden gevonden bevat in spaminhoud. In de oplossingen van Adobe, is het te overwegen domein over het algemeen het adres dat voor het volgen wordt gebruikt.
 
-Hieronder volgt een lijst van de meest gebruikte RBL&#39;s. Voor een uitgebreidere lijst kunt u [https://www.dnsstuff.com/](https://tools.dnsstuff.com/) raadplegen.
+Hieronder volgt een lijst van de meest gebruikte RBL&#39;s. Voor een uitgebreidere lijst kunt u verwijzen naar [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
 * **Spamhaus**
 
    Zie [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   De database is belangrijker. De indeling op deze lijst is over het algemeen een ernstige situatie. Als dit gebeurt, moet u ONMIDDELLIJK handelen en de commerciële diensten, de leverbaarheid, en [Adobe klantenZorg ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) waarschuwen.
+   De database is belangrijker. De indeling op deze lijst is over het algemeen een ernstige situatie. Als dit gebeurt, moet u ONMIDDELLIJK handelen en commerciële diensten, leverbaarheid waarschuwen, en [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
@@ -41,13 +41,13 @@ Hieronder volgt een lijst van de meest gebruikte RBL&#39;s. Voor een uitgebreide
 
    Zie [https://www.uribl.com/](https://www.uribl.com/)
 
-   Deze lijst identificeert de domeinen die regelmatig in berichten verschijnen die als spam worden verklaard. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U moet de services voor de levering en [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk op de hoogte stellen.
+   Deze lijst identificeert de domeinen die regelmatig in berichten verschijnen die als spam worden verklaard. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U moet de services voor de aflevering op de hoogte stellen en [Adobe Klantenservice](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk.
 
 * **SURBL**
 
    Zie [http://www.surbl.org/](http://www.surbl.org/)
 
-   De SURBL identificeert de websites die regelmatig in spam verschijnen. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U moet de services voor de levering en [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk op de hoogte stellen.
+   De SURBL identificeert de websites die regelmatig in spam verschijnen. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U moet de services voor de aflevering op de hoogte stellen en [Adobe Klantenservice](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk.
 
 * **iX Manitu**
 

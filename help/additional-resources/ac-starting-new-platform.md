@@ -31,18 +31,18 @@ Hieronder staan de belangrijkste beginselen die moeten worden gevolgd bij het op
 
 * Vorm een specifiek subdomein dat voor e-mailcampagnes specifiek is die van Adobe worden verzonden.
 
-* Als u deze informatie hebt, **importeer ongeldige adressen in de quarantainetabel**.
+* Als u over deze informatie beschikt, **ongeldige adressen importeren in de quarantainetabel**.
 Het beginnen van een platform gebeurt vaak wanneer het gebruiken van een lijst van adressen voor het eerst en die niet volledig gekwalificeerd kunnen zijn. Als u naar ongeldige adressen of naar honingpotadressen verzendt, zal dit tot het verminderen van de reputatie van het platform bijdragen.
 
-   * Als u een lijst van ongeldige adressen hebt, is het in uw beste belang om het in de quarantainetabel in te voeren alvorens voor het eerst te verzenden. De quarantainetabel is beschikbaar via de menu&#39;s **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) en **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard).
+   * Als u een lijst van ongeldige adressen hebt, is het in uw beste belang om het in de quarantainetabel in te voeren alvorens voor het eerst te verzenden. De quarantainetabel is beschikbaar via de **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) en **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard) menu&#39;s.
 
    * Als, allen het zelfde, u wenst om de ongeldige adressen opnieuw te kwalificeren, is het verreweg verkieslijk om dit te doen zodra de reputatie van het platform en beetje door beetje wordt gevestigd om het gebruik van slechte adressen in tijd &quot;te &quot;verwateren&quot;.
 
-* **Beperk de doorvoer** door het aantal tapes te beperken. Neem contact op met de Adobe Campaign-beheerder voor meer informatie over het aanpassen van deze technische instelling.
+* **De doorvoersnelheid beperken** door het aantal tapijten te beperken. Neem contact op met de Adobe Campaign-beheerder voor meer informatie over het aanpassen van deze technische instelling.
 
-* **De** verkorte volumes geleidelijk verhogen om te voorkomen dat ze als spam worden gemarkeerd. Wijs niet de hele database vanaf het begin aan, maar voeg een extra fractie van de lijst toe telkens als u de gegevens verzendt. Dit zou u moeten toelaten om het volume bij elke stap te verhogen terwijl het verminderen van het algemene tarief van ongeldige adressen. U kunt golven gebruiken om een vloeiende ontwikkeling van de opstartfase te garanderen.
+* **De verzonden volumes progressief verhogen** om te voorkomen dat ze als spam worden gemarkeerd. Wijs niet de gehele database vanaf het begin aan, maar voeg een extra fractie van de lijst toe telkens als u de gegevens verzendt. Dit zou u moeten toelaten om het volume bij elke stap te verhogen terwijl het verminderen van het algemene tarief van ongeldige adressen. U kunt golven gebruiken om een vloeiende ontwikkeling van de opstartfase te garanderen.
 
-* **Verzend regelmatig**. Tot op zekere hoogte is het beter om regelmatig kleine opnamen te sturen in plaats van sporadisch grote campagnes.
+* **Regelmatig verzenden**. Tot op zekere hoogte is het beter om regelmatig kleine opnamen te sturen in plaats van sporadisch grote campagnes.
 * **Let goed op de leveringsrapporten**. De hoge foutenindicatoren kunnen betekenen een technisch plaatsen slecht gevormd is.
 
 ## Aanvullende bronnen

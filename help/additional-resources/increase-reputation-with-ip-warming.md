@@ -23,7 +23,7 @@ In the Adobe Deliverability Consulting and Deliverability Operations teams, we h
 
 ## Aan de slag
 
-Adobe vereist klanten om hun configuratie te delen om het team van de Leverbaarheid van de Adobe te helpen uw uniek programma begrijpen. De vragen die we stellen, zijn ontworpen om het Adobe-leverbaarheidsteam een idee te geven van uw reputatie en e-mailvolume. Zonder een concreet inzicht in uw bedrijfsmodel, e-mailmarketing doelstellingen en reputatie metriek, zullen wij geen strategie kunnen aanpassen en er is risico op leveringsproblemen.
+Adobe vereist klanten om hun configuratie te delen om het team van de Leverbaarheid van de Adobe te helpen uw uniek programma begrijpen. De vragen die we stellen zijn ontworpen om het Adobe-leverbaarheidsteam een idee te geven van uw reputatie en e-mailvolume. Zonder een concreet inzicht in uw bedrijfsmodel, e-mailmarketing doelstellingen en reputatie metriek, zullen wij geen strategie kunnen aanpassen en er is risico op leveringsproblemen.
 
 Aan het begin zult u uw eigen toegewijde IP-adressen (Internet Protocol) krijgen. In de context van het verzenden van e-mail, is een IP adres de route die wordt gebruikt om uw e-mailberichten aan uw klanten te leveren. IP de adressen en de domeinen worden gebruikt om afzenders op een netwerk aan ontvangende ISPs te identificeren. Adobe wijst het juiste aantal speciale IP-adressen toe voor het verzenden van e-mails op basis van uw verzendvolume, e-mailprogramma&#39;s, praktijken voor gegevenssegmentatie en uw contract.
 
@@ -40,7 +40,7 @@ ISPs onderzoekt zorgvuldig het verzendende volume, verzendt frequentie, klachten
 
 Het onderzoek van deze gegevenspunten vergt natuurlijk tijd en kan niet over een paar dagen worden afgerond. Reputatie wordt in de loop der tijd opgebouwd. Dit proces is alsof je een vreemdeling thuis laat. Zou u bedenkingen hebben bij het binnenkomen van iemand die u nog nooit hebt ontmoet?
 
-Het antwoord is zeer waarschijnlijk ja. Je zou deze persoon en hun motieven willen analyseren. Betekenen ze schade? Zijn ze een bedreiging? ISPs doet het zelfde om hun netwerk tegen kwaadwillig of ongewenst verkeer te beschermen. De positieve reputatie metriek helpt u een lange weg in een succesvol IP opwarend proces gaan. Daarom benadrukken wij het belang van het eerst verzenden van kleine e-mailvolumes en het eerst verzenden naar uw zeer betrokken klanten. Voor meer op dit, zie [Doelcriteria wanneer het verzenden van nieuw verkeer](/help/transition-process/targeting-criteria.md).
+Het antwoord is zeer waarschijnlijk ja. Je zou deze persoon en hun motieven willen analyseren. Betekenen ze schade? Zijn ze een bedreiging? ISPs doet het zelfde om hun netwerk tegen kwaadwillig of ongewenst verkeer te beschermen. De positieve reputatie metriek helpt u een lange weg in een succesvol IP opwarend proces gaan. Daarom benadrukken wij het belang van het eerst verzenden van kleine e-mailvolumes en het eerst verzenden naar uw zeer betrokken klanten. Zie voor meer informatie [Doelcriteria bij het verzenden van nieuw verkeer](/help/transition-process/targeting-criteria.md).
 
 Het verzenden van grote hoeveelheden e-mail van een gloednieuwe IP of IPs direct uit de poort is een slechte praktijk en zal u waarschijnlijk sommige leveringsproblemen veroorzaken. Het is belangrijk om op te merken dat zelfs als u kleine volumes gaat verzenden en deze geleidelijk wilt verhogen zoals aanbevolen, u de best practices voor e-mail nog steeds moet volgen.
 
@@ -50,7 +50,7 @@ Het verzenden van grote hoeveelheden e-mail van een gloednieuwe IP of IPs direct
 
 Dit is het belangrijkste onderdeel van het beheren en vergroten van een e-maillijst voor abonnees. Naarmate anti-spamwetten internationaal groeien en alomvattend worden, moet het primair de aandacht van een markteur zijn om ervoor te zorgen dat zij expliciete (of uitdrukkelijke) toestemming van elke abonnee op hun lijst hebben gekregen. Elke abonnee heeft er actief mee ingestemd e-mails van je merk te ontvangen. Dit verschilt van impliciete toestemming wanneer een persoon aan een e-maillijst wordt toegevoegd na het nemen van een actie die zich niet expliciet voor een e-mailprogramma had aangemeld.
 
-Meer informatie over het beleid [Acceptable Use Policy](https://www.adobe.com/legal/terms/aup.html) van Adobe.
+Meer informatie over [Beleid voor acceptabel gebruik van Adobe](https://www.adobe.com/legal/terms/aup.html).
 
 ## Reputatiemetriek: Wat zoekt ISPs?
 
@@ -63,11 +63,11 @@ Enkele onderzochte gegevenspunten zijn:
 * E-mailgrenzen
 * Abonnementsbetrokkenheid
 
-ISPs vereist specifieke technische configuraties die zich op hun beleid en beste praktijken richten. Adobe configureert uw IPs en gedelegeerde subdomeinen om u als verantwoordelijke en vertrouwde op afzender te identificeren. Dit wordt [e-mailverificatie](/help/transition-process/infrastructure.md#authentication) genoemd. De hulp van de authentificatie ontvangers bevestigen of een afzender de rechten heeft om van dat IP of domein te verzenden.
+ISPs vereist specifieke technische configuraties die zich op hun beleid en beste praktijken richten. Adobe configureert uw IPs en gedelegeerde subdomeinen om u als verantwoordelijke en vertrouwde op afzender te identificeren. Dit wordt [e-mailverificatie](/help/transition-process/infrastructure.md#authentication). De hulp van de authentificatie ontvangers bevestigen of een afzender de rechten heeft om van dat IP of domein te verzenden.
 
 De authentificatie staat ISPs toe om te bevestigen dat het bedrijf dat van een domein of IP verzendt het recht heeft om dit te doen. Het is in feite gedaan om uw identiteit te bewijzen en ervoor te zorgen dat u zich niet als iemand anders voordoet en dat iemand anders u niet pretendeert te zijn.
 
-Bij Adobe, zullen wij SPF en DKIM door gebrek vormen en wij zullen DMARC door verzoek vormen. ISPs verwijzing SPF en DKIM als primaire vormen van authentificatie. Vele ISPs neemt ook DMARC (op domein-gebaseerde Authentificatie van het Bericht, Rapportering &amp; Conformiteit) in hun het filtreren besluiten op. Niet-geverifieerde e-mailberichten worden niet noodzakelijkerwijs geblokkeerd, maar er worden wel extra filters op toegepast.
+Bij Adobe, zullen wij SPF en DKIM door gebrek vormen en wij zullen DMARC door verzoek vormen. ISPs verwijzing SPF en DKIM als primaire vormen van authentificatie. Vele ISPs neemt ook DMARC (op domein-gebaseerde Authentificatie van het Bericht, Rapportering &amp; Conformiteit) in hun het filtreren besluiten op. Niet-geverifieerde e-mailberichten worden niet noodzakelijkerwijs geblokkeerd, maar er worden wel extra filters toegepast.
 
 ## IP Warm: Wat te verwachten
 
@@ -85,7 +85,7 @@ Houd er rekening mee dat consistentie hier van essentieel belang is. Onregelmati
 
 ### Klachten
 
-[](/help/metrics/complaints.md) Klacht wanneer een abonnee een e-mail als spam door zijn e-mailprogramma etiketteert. Dit verzendt een bericht naar ISP over de klachtenactiviteit. Als er genoeg van deze klachten zijn die in ISP komen, dat ISP zal handelen om zijn klanten te beschermen - misschien blokkeert vele e-mails van het krijgen aan de abonnees of een deel van e-mails aan de bulkomslag in tegenstelling tot abonnees&#39; inboxes. Als uw bezorgingsprobleem wordt veroorzaakt door klachten, is het belangrijk om te bepalen waarom ontvangers een klacht indienen.
+[Klachten](/help/metrics/complaints.md) komen voor wanneer een abonnee een e-mail als spam door hun e-mailprogramma etiketteert. Dit verzendt een bericht naar ISP over de klachtenactiviteit. Als er genoeg van deze klachten zijn die in ISP komen, dat ISP zal handelen om zijn klanten te beschermen - misschien blokkeert vele e-mails van het krijgen aan de abonnees of een deel van e-mails aan de bulkomslag in tegenstelling tot abonnees&#39; inboxes. Als uw bezorgingsprobleem wordt veroorzaakt door klachten, is het belangrijk om te bepalen waarom ontvangers een klacht indienen.
 
 Abonnees klagen om verschillende redenen. Soms wil een abonnee geen e-mail meer van u ontvangen, bijvoorbeeld omdat hij of zij het gevoel heeft dat hij of zij teveel berichten over hetzelfde onderwerp ontvangt, het bericht niet verwacht of zich niet meer aanmeldt voor het ontvangen van uw e-mails.
 
@@ -95,7 +95,7 @@ De harde stuitingen komen voor wanneer u naar een niet te leveren adres bij ISP 
 
 Als u een aanzienlijk aantal harde grenzen tegenkomt, is het belangrijk om te begrijpen waarom. Controleer hoe de adressen zijn verzameld en bevestig dat u hiervoor toestemming hebt gegeven. Soms sluiten mensen hun e-mailaccount en geven ze geen melding aan diegenen die dat adres op hun marketinglijst hebben.
 
-### Engagement
+### Betrokkenheid
 
 ISPs zoekt verenigbaar volume en goede gegevenskwaliteit. U zult langzaam en gestaag het verkeer in de komende vier tot acht weken verhogen. Soms is er meer of minder tijd nodig op basis van uw volume en doelen, maar meestal is het minstens 8 weken bezig.
 

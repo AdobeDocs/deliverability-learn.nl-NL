@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Veelgestelde vragen over de beveiliging van Apple Mail Privacy
 
-Deze veelgestelde vragen bieden een eerste leidraad naar aanleiding van de aankondiging van Apple met betrekking tot de iOS 15-release, waaronder [Privacy-beveiliging e-mail](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Deze wijzigingen komen in september en we zullen dit document blijven bijwerken en onze klanten advies geven.
+Deze veelgestelde vragen bieden een eerste leidraad naar aanleiding van de aankondiging van Apple met betrekking tot de iOS 15-release, waaronder [Privacy-beveiliging e-mail](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Deze wijzigingen komen in september en we zullen dit document blijven bijwerken en onze klanten advies blijven geven.
 
 ## Wat heeft Apple aangekondigd?
 

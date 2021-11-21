@@ -26,7 +26,7 @@ Hier volgen enkele hooglichten:
 
 ## Welke gegevens beschikbaar zijn
 
-[!DNL Gmail] biedt weinig inzicht in hoe zij uw verzendende praktijken via hun  [!DNL Gmail Postmaster] Hulpmiddelen bekijken. Dit hulpmiddel staat u toe een mening op hoog niveau van uw verzendende IP en domeinreputatie, authentificatieresultaten, en klachtenkwesties.
+[!DNL Gmail] biedt een beperkt inzicht in hoe zij uw verzendingspraktijken via hun [!DNL Gmail Postmaster] Gereedschappen. Dit hulpmiddel staat u toe een mening op hoog niveau van uw verzendende IP en domeinreputatie, authentificatieresultaten, en klachtenkwesties.
 
 >[!NOTE]
 >
@@ -40,6 +40,6 @@ Hier volgen enkele hooglichten:
 
 [!DNL Gmail] de meningen betrokken abonnees verschillend dan de meeste afzenders traditioneel doen. Een afzender kan een actieve of betrokken lijst definiëren als iemand die een e-mail binnen 30, 90 of 180 dagen heeft geopend (afhankelijk van het bedrijfsmodel). [!DNL Gmail]Aan de andere kant kijkt u hoe vaak de gebruikers met uw berichten communiceren.
 
-Als u bijvoorbeeld 3 e-mails per week verzendt over 90 dagen, zijn dat ongeveer 39 e-mails. Als de abonnee op de traditionele methode een van deze 39 e-mails heeft geopend, worden deze geactiveerd. Voor [!DNL Gmail] betekent dit dat ze 38 e-mails hebben genegeerd en niet zijn ingeschakeld. U kunt een benadering van uw eigen betrokkenheidsniveaus van gebruikers krijgen op [!DNL Gmail] door hen op open telling over de laatste 10 e-mails te beoordelen. Dus een abonnee die aan 7 opent van je laatste 10 e-mails is meer betrokken dan iemand die 2 van de 10 opende. Het verzenden van e-mail minder vaak naar gebruikers die minder betrokken zijn, zal u helpen uw verzendende reputatie op [!DNL Gmail] verbeteren.
+Als u bijvoorbeeld 3 e-mails per week verzendt over 90 dagen, zijn dat ongeveer 39 e-mails. Als de abonnee op de traditionele methode een van deze 39 e-mails heeft geopend, worden deze geactiveerd. Naar [!DNL Gmail]Dit betekent dat ze 38 e-mails negeren en niet betrokken zijn. U krijgt een gemiddeld gevoel voor de betrokkenheidsniveaus van uw eigen gebruikers op [!DNL Gmail] door ze in de laatste tien e-mails op te waarderen op het open aantal. Dus een abonnee die aan 7 opent van je laatste 10 e-mails is meer betrokken dan iemand die 2 van de 10 opende. U kunt minder vaak e-mailberichten verzenden naar gebruikers die minder betrokken zijn, zodat u uw reputatie van verzending kunt verbeteren op [!DNL Gmail].
 
-[!DNL Gmail] gebruikt verschillende tabbladen voor gebruikers om verschillende typen e-mail te onderscheiden. Dit zijn *Inbox*, *Social*, en *Promotional*. Zelfs als de post in het Promotionele lusje wordt geleverd, wordt het nog beschouwd inbox levering. Gebruikers hebben de controle om hun weergave en tabbladen te wijzigen.
+[!DNL Gmail] gebruikt verschillende tabbladen voor gebruikers om verschillende typen e-mail te onderscheiden. Dit zijn *Inbox*, *Sociaal*, en *Promotie*. Zelfs als de post in het Promotionele lusje wordt geleverd, wordt het nog beschouwd inbox levering. Gebruikers hebben de controle om hun weergave en tabbladen te wijzigen.

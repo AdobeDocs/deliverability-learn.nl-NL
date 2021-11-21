@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Alles over spamvallen
 
-Een [spamval](/help/metrics/spam-traps.md) is een geldig adres, zonder foutbericht wanneer e-mails worden verzonden naar. Een spamtrap heeft een hoofdmissie: spammers of afzenders te identificeren zonder gegevenshygiënisch proces.
+A [spamingval](/help/metrics/spam-traps.md) is een geldig adres, zonder foutbericht wanneer e-mails worden verzonden naar. Een spamtrap heeft een hoofdmissie: spammers of afzenders te identificeren zonder gegevenshygiënisch proces.
 
 ## Wie beheert deze spamovervaladressen?
 
@@ -27,7 +27,7 @@ Het tweede type van spamval is gebaseerd oude actieve ISP adressen. Deze ISPs he
 
 **Een e-mailadres zonder eindgebruiker**: Deze adressen hebben en zullen nooit een eindgebruiker hebben die aan nieuwsbrieven of een ander type van mededelingen kon registreren.
 
-**Een e-mailadres dat door een gebruiker** wordt verlaten: Na een periode van inactiviteit, worden de adressen gedeactiveerd door ISPs. Bounces-berichten worden naar afzenders verzonden om hen over deze nieuwe status te informeren. De afzenders moeten in quarantaine deze adressen duwen of hen uit toekomstige mededelingen verwijderen. ISPs gebruikt deze adressen die in &quot;spamval&quot;worden getransformeerd om afzenders met slechte praktijken te controleren.
+**Een e-mailadres dat door een gebruiker wordt verlaten**: Na een periode van inactiviteit, worden de adressen gedeactiveerd door ISPs. Bounces-berichten worden naar afzenders verzonden om hen over deze nieuwe status te informeren. De afzenders moeten in quarantaine deze adressen duwen of hen uit toekomstige mededelingen verwijderen. ISPs gebruikt deze adressen die in &quot;spamval&quot;worden getransformeerd om afzenders met slechte praktijken te controleren.
 
 ## Hoe te om een spamval te erkennen of te identificeren?
 
@@ -41,7 +41,7 @@ Deze paar punten helpen u om uw processen te controleren:
 
 * Verzamel disfunctie:
    * Waar komen uw e-mailadressen vandaan? Hoeveel bronnen worden gebruikt om deze adressen te verzamelen? Kunt u ze identificeren? Interne/coregistratie?
-   * Werkt uw opt-in-systeem goed?
+   * Werkt uw opt-in systeem correct?
    * Hebt u domeinen en alias van uw adressen gecontroleerd? Doe het met de onderstaande tabel!
 * Databasehygiëneproces:
    * Wat is uw proces betreffende inactief adres op de laatste 12 maanden?

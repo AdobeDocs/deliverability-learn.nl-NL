@@ -19,13 +19,13 @@ In dit document worden de zakelijke en technische vereisten beschreven voor het 
 
 >[!NOTE]
 >
->U kunt ook nieuwe subdomeinen instellen met het Configuratiescherm (beschikbaar als bèta). Meer informatie vindt u in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
+>U kunt ook nieuwe subdomeinen instellen met het Configuratiescherm (beschikbaar als bèta). Meer informatie in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
 
 ## Subdomeinen
 
 Met Adobe, kan de digitale marketing echt de contextafhankelijke motor worden die het de marketingprogramma van de klantenovereenkomst van uw merk drijft.  E-mail blijft de basis van digitale marketingprogramma&#39;s. Het is echter moeilijker geworden om de inbox te bereiken dan ooit.
 
-Door een subdomein voor e-mailcampagnes te maken, kunnen merken verschillende typen verkeer (marketing versus bedrijf bijvoorbeeld) isoleren in specifieke IP-pools en met specifieke domeinen. Hierdoor wordt het opwarmen van [IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) versneld en is de leverbaarheid in het algemeen verbeterd. Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden.  Als u uw hoofddomein als afzender of het adres &#39;Van&#39; voor meerdere e-mailstreams gebruikt, kan de e-mailverificatie ook worden verbroken, waardoor uw berichten worden geblokkeerd of in de spammap worden geplaatst.
+Het creëren van subdomain voor e-mailcampagnes staat brands toe om verschillende types van verkeer (marketing versus collectief bijvoorbeeld) in specifieke IP pools en met specifieke domeinen te isoleren, die zullen versnellen [Opwarmingsproces in het OT](../../help/additional-resources/increase-reputation-with-ip-warming.md) en de algehele leverbaarheid verbeteren. Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden.  Als u uw hoofddomein als afzender of het adres &#39;Van&#39; voor meerdere e-mailstreams gebruikt, kan de e-mailverificatie ook worden verbroken, waardoor uw berichten worden geblokkeerd of in de spammap worden geplaatst.
 
 ### Delegatie
 
@@ -35,8 +35,7 @@ Dit betekent dat de DNS van Adobe Campaign servers volledige bevoegdheid op slec
 
 Door een subdomein voor gebruik met Adobe Campaign te delegeren, kunnen de cliënten op Adobe vertrouwen om de DNS infrastructuur te handhaven die wordt vereist om aan industrie-standaardleveringsvereisten voor hun e-mailmarketing verzendende domeinen te voldoen, terwijl het blijven DNS voor hun interne e-maildomeinen handhaven en controleren.  Bij subdomeindelegatie is het mogelijk:
 
-Clients kunnen hun merkafbeelding behouden door een DNS-alias met domeinnamen te gebruiken
-Adobe om autonoom alle technische beste praktijken uit te voeren om leverbaarheid tijdens het e-mailen volledig te optimaliseren
+Clients om hun merkimago te behouden door een DNS-alias met domeinnamen Adobe te gebruiken om autonoom alle technische aanbevolen procedures te implementeren om de leesbaarheid tijdens het e-mailen volledig te optimaliseren
 
 ## DNS-instellingsopties
 
@@ -112,7 +111,7 @@ Vul de onderstaande tabel in. De eerste regel is slechts een voorbeeld.
 >[!NOTE]
 >
 >* Het doel van het gebied &quot;Antwoord-aan Adres&quot;is wanneer u de ontvanger op een verschillend adres wilt antwoorden dan &quot;van Adres&quot;.  Terwijl niet een vereist gebied, adviseert Adobe sterk dat &quot;antwoord-aan Adres&quot;geldig is en met een gecontroleerd brievenbus verbonden.  Deze brievenbus moet door de klant worden ontvangen.  Dit kan bijvoorbeeld een ondersteuningsmailbox zijn, customercare@customer.com, waar e-mails worden gelezen en waarop wordt gereageerd.
->* Als de klant geen &quot;Antwoord-aan Adres&quot;kiest, dan is het standaardadres altijd `<tenant>-<type>-<env>@<subdomain>`.
+>* Als geen &quot;antwoord-aan Adres&quot;door de klant wordt gekozen, dan is het standaardadres altijd `<tenant>-<type>-<env>@<subdomain>`.
 >* Wanneer &quot;antwoord-aan Adres&quot;opstelling deze manier is, zullen de antwoorden naar een ongecontroleerde brievenbus worden verzonden.
 >* Wanneer het verzenden van e-mails van Adobe Campaign, wordt de brievenbus &quot;van Adres&quot;niet gecontroleerd en de marketing gebruikers kunnen tot deze brievenbus toegang hebben. Adobe Campaign biedt ook niet de mogelijkheid om e-mails die in dit postvak zijn ontvangen automatisch te beantwoorden of door te sturen.
 >* Het adres van de Campagne van/van de Afzender en het adres van de Fout kunnen niet &quot;misbruik&quot;of &quot;postmaster&quot;zijn.
@@ -124,7 +123,7 @@ De subdomein(s) die zijn gekozen voor gebruik voor het Adobe Campaign-platform, 
 
 | Gedelegeerde subdomein | DNS-instructies |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com.  </br> `<subdomain>` NS b.ns.campaign.adobe.com.  </br> `<subdomain>` NS c.ns.campaign.adobe.com.  </br> `<subdomain>` NS d.ns.campaign.adobe.com. |
+| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com. </br> `<subdomain>` NS b.ns.campaign.adobe.com. </br> `<subdomain>` NS c.ns.campaign.adobe.com. </br> `<subdomain>` NS d.ns.campaign.adobe.com. |
 
 ## Bijhouden, pagina&#39;s spiegelen, bronnen
 
@@ -167,7 +166,7 @@ Als formulieren moeten worden gehost op beveiligde pagina&#39;s (HTTPS), is aanv
 
 | Gedelegeerde subdomein | DNS-instructies |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` CNAME  `<internal customer server>` |
+| `<subdomain>` | `<subdomain>` CNAME `<internal customer server>` |
 
 ## Gerenderde services
 
@@ -206,4 +205,4 @@ Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/do
 
 >[!NOTE]
 >
->[Besturingspanelen ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) zijn alleen beschikbaar voor klanten die Adobe Managed Services gebruiken.
+>[Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) is alleen beschikbaar voor klanten die Adobe Managed Services gebruiken.

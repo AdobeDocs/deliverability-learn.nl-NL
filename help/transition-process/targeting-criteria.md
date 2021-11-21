@@ -27,7 +27,7 @@ Doorgaans is een betrokkenheidspercentage gebaseerd op een specifieke periode. D
 
 **Analytics**
 
-* [Hoe verhoog u de betrokkenheid en retentiepercentages (zelfstudie)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics):  *Identificeer betrokken publiek door zijn gedrag gebruikend Cohorts en weet de onderliggende oorzaken drijvende kleverigheid in uw mobiele apps. Gebruik algoritmen voor gegevenswetenschappen in segment-IQ om de verschillen en overeenkomsten tussen segmenten te kennen.*
+* [Hoe kan ik de betrokkenheid en het vasthoudpercentage verhogen (zelfstudie)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identificeer betrokken publiek door zijn gedrag gebruikend Cohorts en weet de onderliggende oorzaken drijvende kleverigheid in uw mobiele apps. Gebruik algoritmen voor gegevenswetenschap in Segment-IQ om de verschillen en overeenkomsten tussen segmenten te kennen.*
 
 **Campaign Standard**
 

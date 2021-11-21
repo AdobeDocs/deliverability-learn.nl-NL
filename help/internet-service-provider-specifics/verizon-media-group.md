@@ -30,7 +30,7 @@ VMG heeft een FBL die wordt gebruikt om klachteninformatie terug naar afzenders 
 
 ## Afzender
 
-De reputatie van een afzender wordt samengesteld uit een combinatie IP adres, domein, en van adres. Reputatie wordt berekend met behulp van de traditionele componenten, waaronder klachten, spamvallen, inactieve of onjuist gevormde adressen en betrokkenheid. VMG gebruikt tarief dat (ook als throttling wordt bekend) samen met bulkfoldering beperkt om tegen spam te verdedigen. Zij vullen hun interne het filtreren systemen met sommige [!DNL Spamhaus] zwarte lijsten, met inbegrip van PBL, SBL, en XBL aan om hun gebruikers te beschermen.
+De reputatie van een afzender wordt samengesteld uit een combinatie IP adres, domein, en van adres. Reputatie wordt berekend met behulp van de traditionele componenten, waaronder klachten, spamvallen, inactieve of onjuist gevormde adressen en betrokkenheid. VMG gebruikt tarief dat (ook als throttling wordt bekend) samen met bulkfoldering beperkt om tegen spam te verdedigen. Zij vullen hun interne filtersystemen aan met sommige [!DNL Spamhaus] zwarte lijsten, met inbegrip van PBL, SBL, en XBL om hun gebruikers te beschermen.
 
 ## Inzichten
 

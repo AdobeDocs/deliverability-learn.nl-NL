@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Microsoft] ([!DNL Hotmail],  [!DNL Outlook],  [!DNL Windows Live], enz.)
+# [!DNL Microsoft] ([!DNL Hotmail], [!DNL Outlook], [!DNL Windows Live], enz.)
 
 [!DNL Microsoft] is over het algemeen de tweede of derde grootste leverancier afhankelijk van de samenstelling van uw lijst, en zij behandelen verkeer lichtjes verschillend van andere ISPs.
 
@@ -26,7 +26,7 @@ Hier volgen enkele hooglichten:
 
 ## Welke gegevens worden beschikbaar gesteld?
 
-[!DNL Microsoft]Met SNDS (bedrijfseigen zender reporting tool) kunt u meetgegevens zien over hoeveel e-mail u verzendt en hoeveel e-mail wordt geaccepteerd, en over klachten en spamvallen.  [!DNL Smart Network Data Services] Houd er rekening mee dat de gedeelde gegevens een voorbeeld zijn en niet de exacte getallen weerspiegelen, maar dat de gegevens het beste aangeven hoe [!DNL Microsoft] u als afzender weergeeft. [!DNL Microsoft] Deze gegevens worden niet in het openbaar aan de groep met vertrouwde gebruikers verstrekt, maar zijn voor extra kosten beschikbaar via het  [!DNL Return Path Certification] programma.
+[!DNL Microsoft]het rapporteringsinstrument van de eigenaar van de afzender; [!DNL Smart Network Data Services] (SNDS), laat u metriek zien rond hoeveel post u verzendt en hoeveel post, evenals klachten en spamvallen wordt goedgekeurd. Houd er rekening mee dat de gedeelde gegevens een voorbeeld zijn en niet de exacte getallen weerspiegelen, maar het geeft het beste aan hoe [!DNL Microsoft] geeft u weer als afzender. [!DNL Microsoft] geeft geen informatie over de vertrouwde gebruikersgroep in het openbaar, maar die gegevens zijn beschikbaar via de [!DNL Return Path Certification] voor een aanvullende vergoeding.
 
 ## Afzender
 
@@ -34,6 +34,6 @@ Hier volgen enkele hooglichten:
 
 ## Inzichten
 
-[!DNL Microsoft] combineert al hun ontvangende domeinen om het verzenden van reputatie te vestigen en te volgen. Dit omvat [!DNL Hotmail], [!DNL Outlook], MSN, [!DNL Windows Live], etc., evenals om het even welk collectief Bureau 365 ontvangen e-mails. [!DNL Microsoft] kan bijzonder gevoelig voor schommelingen in volume zijn, dus denk na het toepassen van specifieke strategieën om omhoog en omlaag van grote verzendt in plaats van op volume gebaseerde plotselinge veranderingen toe te staan.
+[!DNL Microsoft] combineert al hun ontvangende domeinen om het verzenden van reputatie te vestigen en te volgen. Dit omvat [!DNL Hotmail], [!DNL Outlook], MSN, [!DNL Windows Live], enzovoort, en alle door Office 365 gehoste e-mails. [!DNL Microsoft] kan bijzonder gevoelig voor schommelingen in volume zijn, dus denk na het toepassen van specifieke strategieën om omhoog en omlaag van grote verzendt in plaats van op volume gebaseerde plotselinge veranderingen toe te staan.
 
 [!DNL Microsoft] is ook bijzonder strikt tijdens de aanvankelijke dagen van IP opwarming, wat over het algemeen betekent de meeste post aanvankelijk wordt gefilterd. De meeste ISPs beschouwt afzenders onschuldig tot bewezen schuldig. [!DNL Microsoft] is het tegenovergestelde en beschouwt u als schuldig totdat u onschuldig bent.
