@@ -3,16 +3,16 @@ title: Gmail-merkindicatoren voor berichtidentificatie (BIMI) implementeren
 description: Leer hoe u BIMI kunt implementeren
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: a4d2a75e85f37f48aa3246707b98e473682e13f6
+source-git-commit: 683ffd3c87a4849aa9fa48fbf50db9ade97991af
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Gmail&#39;s implementeren [!DNL Brand Indicators for Message Identification] (BIMI)
 
-Gmail kondigde onlangs aan dat zij [algemene ondersteuning van BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace). Er zijn een aantal punten u zult moeten behandelen alvorens u uit dit kunt voordeel halen hoewel het omvatten: Gecontroleerde Mark Certificates, Trademarked Logos, correct opgemaakte Logo&#39;s, DMARC-instelling en ten slotte het publiceren van een BIMI-record naar uw DNS. We zullen al deze stappen in dit artikel bekijken.
+Gmail kondigde onlangs aan dat zij [algemene ondersteuning van BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace){target=&quot;_blank&quot;}. Er zijn een aantal punten u zult moeten behandelen alvorens u uit dit kunt voordeel halen hoewel het omvatten: Gecontroleerde Mark Certificates, Trademarked Logos, correct opgemaakte Logo&#39;s, DMARC-instelling en ten slotte het publiceren van een BIMI-record naar uw DNS. We zullen al deze stappen in dit artikel bekijken.
 
 [!DNL Brand Indicators for Message Identification] (BIMI) is een industriestandaard waarmee een goedgekeurd logo naast de e-mail van een afzender op deelnemende platforms kan worden weergegeven. Niet alleen is deze opvallende betrokkenheid mogelijk versterkt, het helpt ook de authenticiteit van de verzender te bevestigen en het risico van phishing en andere spammtactiek te verminderen.
 
@@ -41,7 +41,7 @@ Als het logo dat u wilt weergeven niet is geregistreerd of niet bij een van deze
 
 Dit zou ook een goed moment zijn om ervoor te zorgen dat uw logo voldoet aan de vereisten voor het formaat van het BIMI-logo.
 
-De notatie moet de SVG-indeling hebben en moet voldoen aan het profiel SVG Portable/Secure (SVG-P/S). Zie voor meer informatie over hoe u dit kunt doen de [BIMI-werkgroep](https://bimigroup.org/svg-conversion-tools-released).
+De notatie moet de SVG-indeling hebben en moet voldoen aan het profiel SVG Portable/Secure (SVG-P/S). Zie voor meer informatie over hoe u dit kunt doen de [BIMI-werkgroep](https://bimigroup.org/svg-conversion-tools-released){target=&quot;_blank&quot;}.
 
 ## DMARC
 
@@ -59,12 +59,14 @@ Dit is een eenvoudige vermelding die er ongeveer als volgt uitziet:
 default._bimi.[domain] IN TXT “v=BIMI1; l=[SVG URL] 
 ```
 
-U kunt de details rond die ingang krijgen en zelfs een vrije controle BIMI gebruiken bij [Website van de werkgroep IMI](https://bimigroup.org/implementation-guide).
+U kunt de details rond die ingang krijgen en zelfs een vrije controle BIMI gebruiken bij [Website van de werkgroep IMI](https://bimigroup.org/implementation-guide){target=&quot;_blank&quot;}.
 
 
 ## Key Takeaways
 
-Als u een [!DNL Adobe Campaign] Voor Marketo-client kan Adobe u helpen bij het maken van de BIMI DNS-update: Neem contact op met de klantenservice van Adobe om een aanvraag in te dienen. Adobe kan ook helpen bij het oplossen van problemen als BIMI niet correct voor u werkt.
+Als u een [!DNL Adobe Campaign], kan Adobe u helpen bij het maken van de BIMI DNS-update: Neem contact op met de klantenservice van Adobe om een aanvraag in te dienen. Adobe kan ook helpen bij het oplossen van problemen als BIMI niet correct voor u werkt.
+
+Als u een Marketo-client bent, raadpleegt u [dit blogbericht](https://nation.marketo.com/t5/support-blogs/how-to-bimi/ba-p/296966){target=&quot;_blank&quot;} voor aanwijzingen bij het maken van uw BIMI-record.
 
 Voor hulp met handelsmerken of Geverifieerde Certificaten van het Merk, werk met uw wettelijk team en een erkende verkoper VMC.
 
