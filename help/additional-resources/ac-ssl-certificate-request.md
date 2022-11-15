@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: b89bdd05d6b96af8c5520a4c500be76db46ea820
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 1%
+source-wordcount: '2253'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Als u SSL-certificaten op deze subdomeinen wilt installeren, dient u een CSR-bes
 
 >[!CAUTION]
 >
->Voordat u een SSL-certificaat installeert, moet u controleren of u zich bewust bent van de voorwaarden die worden vermeld op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate).
+>Voordat u een SSL-certificaat installeert, moet u controleren of u zich bewust bent van de voorwaarden die worden vermeld op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#installing-ssl-certificate).
 >
 >Adobe ondersteunt alleen tot 2048-bits certificaten. 4096-bits certificaten worden nog niet ondersteund.
 
@@ -126,7 +126,7 @@ De tekst in het resulterende CSR-bestand moet beginnen met **&quot;—BEGIN CERT
 Nadat u het CSR-bestand van Adobe hebt ontvangen, voert u de onderstaande stappen uit:
 
 1. Kopieer en plak de tekst van het CSR-bestand in een online decoder, zoals https://www.sslshopper.com/csr-decoder.html, <!--https://www.certlogik.com/decoder/,--> of https://www.entrust.net/ssl-technical/csr-viewer.cfm.
-U kunt ook de opdracht *OpenSSL* op een Linux-computer. Raadpleeg voor meer informatie hierover [deze externe pagina](https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate).
+U kunt ook de opdracht *OpenSSL* op een Linux-computer.
 1. Controleer of alle controles zijn gelukt.
 1. Controleer of de juiste parameters en domeinnamen zijn opgenomen.
 1. Controleer of alle andere gegevens overeenkomen met de gegevens die u hebt opgegeven bij het verzenden van uw verzoek.
@@ -222,4 +222,4 @@ Zodra configuraties zijn bijgewerkt, worden nieuwe e-mailberichten verzonden met
 
 **Campaign Standard**
 
-* [Regelpaneel: SSL-certificaten toevoegen (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - Leer hoe u SSL-certificaten toevoegt om uw subdomeinen te beveiligen.
+* [Regelpaneel: SSL-certificaten toevoegen (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=nl) - Leer hoe u SSL-certificaten toevoegt om uw subdomeinen te beveiligen.
