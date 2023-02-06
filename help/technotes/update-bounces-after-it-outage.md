@@ -2,7 +2,7 @@
 title: Bounce-kwalificatie bijwerken na Italia Online-uitgang
 description: Leer hoe u de stuiterkwalificatie bijwerkt na Italia Online-storing
 feature: Deliverability
-source-git-commit: 4494363c060b7e2e1efde46f7ab8260fa900ffd7
+source-git-commit: 489a153c72b364bd59b3bace5aa9206d4d888c38
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Adobe Campaign heeft deze ontvangers automatisch aan de quarantainelijst toegevo
 Om de ontvangers te vinden die door deze kwestie werden beïnvloed, of in het geval dit opnieuw met een andere ISP gebeurt, gelieve de instructies hieronder te zien:
 
 * Voor Campaign Classic v7 en Campagne v8 raadpleegt u [deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-* Voor Campaign Standard raadpleegt u [deze pagina](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* Voor Campaign Standard raadpleegt u [deze pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
 
 
