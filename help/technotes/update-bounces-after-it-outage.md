@@ -2,9 +2,10 @@
 title: Bounce-kwalificatie bijwerken na Italia Online-uitgang
 description: Leer hoe u de stuiterkwalificatie bijwerkt na Italia Online-storing
 feature: Deliverability
-source-git-commit: 489a153c72b364bd59b3bace5aa9206d4d888c38
+exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
+source-git-commit: e4efde4b7caac1bcf11d24632ec9982f98f958a2
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -34,6 +35,8 @@ Symptomen waren:
 
 ## Proces voor bijwerken{#outage-update}
 
+### Adobe Campaign{#ac-update}
+
 Adobe Campaign heeft deze ontvangers automatisch aan de quarantainelijst toegevoegd met een **[!UICONTROL Status]** instellen van **[!UICONTROL Quarantine]**. Om dit te verbeteren, moet u uw quarantainetabel in Campagne bijwerken door deze ontvangers te vinden en te verwijderen, of hun te veranderen **[!UICONTROL Status]** tot **[!UICONTROL Valid]** zodat de nachtelijke schoonmaakworkflow ze verwijdert.
 
 Om de ontvangers te vinden die door deze kwestie werden beïnvloed, of in het geval dit opnieuw met een andere ISP gebeurt, gelieve de instructies hieronder te zien:
@@ -41,5 +44,11 @@ Om de ontvangers te vinden die door deze kwestie werden beïnvloed, of in het ge
 * Voor Campaign Classic v7 en Campagne v8 raadpleegt u [deze pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 * Voor Campaign Standard raadpleegt u [deze pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
+### Adobe Journey Optimizer{#ajo-update}
 
+Adobe Journey Optimizer heeft deze e-mailadressen volgens de standaardlogica voor stuitverwerking automatisch aan de onderdrukkingslijst toegevoegd met een **[!UICONTROL Reason]** instellen van **[!UICONTROL Invalid Recipient]**. U kunt dit corrigeren door de onderdrukkingslijst bij te werken door deze e-mailadressen te zoeken en te verwijderen.
+
+Zodra geïdentificeerd, kunnen deze adressen manueel uit de onderdrukkingslijst worden verwijderd gebruikend **[!UICONTROL Delete]** knop. Deze adressen kunnen dan in toekomstige e-mailcampagnes worden omvat.
+
+Meer informatie in [deze sectie](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 
