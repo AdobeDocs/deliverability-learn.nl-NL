@@ -5,9 +5,9 @@ feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
 hidefromtoc: true
-source-git-commit: 016d7f9da67193d893e762fbe6e191cf87d5b030
+source-git-commit: aca77fb9326e34455a6fec7ffc9a7ad8e1750467
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Meer informatie in de officiële communicatie [hier](https://tecnologia.libero.i
 
 ## Gevolgen{#outage-impact}
 
-Net als in de meeste gevallen waarin een internetprovider buiten beeld is, zijn sommige e-mails die via campagne zijn verzonden, ten onrechte gemarkeerd als steunkleuren. Dit was niet alleen van invloed op Adobe, maar iedereen probeerde om via e-mail aan Italia Online te worden bezorgd tijdens de periode van de storing.
+Net als in de meeste gevallen waarin een internetprovider (ISP) buiten bedrijf is, zijn sommige e-mails die via Campagne of Journey Optimizer zijn verzonden, ten onrechte gemarkeerd als beloften. Dit was niet alleen van invloed op Adobe, maar iedereen probeerde om via e-mail aan Italia Online te worden bezorgd tijdens de periode van de storing.
 
 Symptomen waren:
 
-* **Uitstel** met het bericht `452 requested action aborted: try again later` - deze werden automatisch opnieuw beproefd en er zijn geen acties nodig.
+* **Zachte golven** met het bericht `452 requested action aborted: try again later` - deze werden automatisch opnieuw beproefd en er zijn geen acties nodig.
 
 * **Harde vlekken** met het bericht `550 <email address> recipient rejected` zijn teruggekeerd door ISP op 26 Januari, tussen 8h - 2 pm lokale tijd, om afzenders te verhinderen hun servers te blijven overbelasten. Zoals bevestigd door de Italia Online Postmaster, zijn dit geen echte harde bochten, dus raden we aan om alle e-mailadressen die op 26 januari 2023 zijn uitgesloten, uit de quarantaine te halen vanwege dat bericht.
 
