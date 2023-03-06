@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: b89bdd05d6b96af8c5520a4c500be76db46ea820
+source-git-commit: 57016f89df54d5c74755a6a108a92db45153ec18
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2252'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Als u SSL-certificaten op deze subdomeinen wilt installeren, dient u een CSR-bes
 U moet de domeinnamen en de functies identificeren (bijhouden, pagina&#39;s spiegelen, webapps enzovoort) om te beveiligen.
 >[!NOTE]
 >
->Adobe kan u helpen bij het definiëren van de domeinnamen en -functies die moeten worden gebruikt. Neem voor meer informatie contact op met de Adobe Customer Success Manager.
+>Adobe kan u helpen bij het definiëren van de domeinnamen en -functies die moeten worden gebruikt. Neem voor meer informatie contact op met uw Adobe-accountteam.
 
 ### Stap 1 - krijg een CSR- dossier
 
@@ -160,7 +160,7 @@ U kunt ook de opdracht *OpenSSL* op een Linux-computer. Raadpleeg voor meer info
 
 ### Stap 5 - Vraag de SSL certificaatinstallatie aan
 
-* Als u toegang hebt tot [Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)volgt u de instructies op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate) om het certificaat te uploaden naar het Configuratiescherm.
+* Als u toegang hebt tot [Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)volgt u de instructies op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#installing-ssl-certificate) om het certificaat te uploaden naar het Configuratiescherm.
 
 * Anders maakt u een ander ondersteuningsticket via https://adminconsole.adobe.com/ om Adobe te vragen het certificaat op de Adobe-server(s) te installeren.
 
@@ -199,7 +199,7 @@ Het is uw verantwoordelijkheid om de geldigheidsperiode te controleren. Adobe ra
 
 * Maak een ondersteuningsticket om een bijgewerkt certificaat aan te vragen ten minste twee weken voor de vervaldatum van het certificaat. U te hoeven om geen extra CSR aan te vragen, tenzij de details CSR zijn veranderd.
 
-* Als u toegang hebt tot [Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)en als uw omgeving wordt gehost door Adobe in een AWS-omgeving, kunt u het certificaat vernieuwen via het Configuratiescherm voordat het verloopt. Meer informatie in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
+* Als u toegang hebt tot [Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)en als uw omgeving wordt gehost door Adobe in een AWS-omgeving, kunt u het certificaat vernieuwen via het Configuratiescherm voordat het verloopt. Meer informatie in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
 
 ### Stap 8 - werk om het even welke specifieke configuratie bij {#update-configuration}
 
