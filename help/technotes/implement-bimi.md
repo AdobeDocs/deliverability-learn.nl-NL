@@ -3,71 +3,109 @@ title: Gmail-merkindicatoren voor berichtidentificatie (BIMI) implementeren
 description: Leer hoe u BIMI kunt implementeren
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 683ffd3c87a4849aa9fa48fbf50db9ade97991af
+source-git-commit: 05f6cd331f4e610e2442d43405333823644d349e
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
 
-# Gmail&#39;s implementeren [!DNL Brand Indicators for Message Identification] (BIMI)
+# Implementeren [!DNL Brand Indicators for Message Identification] (BIMI)
 
-Gmail kondigde onlangs aan dat zij [algemene ondersteuning van BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace){target=&quot;_blank&quot;}. Er zijn een aantal punten u zult moeten behandelen alvorens u uit dit kunt voordeel halen hoewel het omvatten: Gecontroleerde Mark Certificates, Trademarked Logos, correct opgemaakte Logo&#39;s, DMARC-instelling en ten slotte het publiceren van een BIMI-record naar uw DNS. We zullen al deze stappen in dit artikel bekijken.
+[!DNL Brand Indicators for Message Identification] (BIMI) is een industriestandaard waarmee een goedgekeurd logo naast de e-mail van een afzender op deelnemende platforms kan worden weergegeven.
 
-[!DNL Brand Indicators for Message Identification] (BIMI) is een industriestandaard waarmee een goedgekeurd logo naast de e-mail van een afzender op deelnemende platforms kan worden weergegeven. Niet alleen is deze opvallende betrokkenheid mogelijk versterkt, het helpt ook de authenticiteit van de verzender te bevestigen en het risico van phishing en andere spammtactiek te verminderen.
+Met deze norm, kan een merk een embleem bepalen dat in postvakjes van brievenbusleveranciers zou moeten worden getoond. Zodra gepubliceerd in een zogenaamd BIMI DNS (het Systeem van de Naam van het Domein) verslag, zou een brievenbusleverancier dit embleem omhoog kunnen halen en het tonen in inbox als bepaalde criteria worden vervuld.
 
-## Certificaat van geverifieerde markering
+Verschillende providers voeren verschillende implementaties uit, maar de voordelen zijn duidelijk: in de inbox staan , vertrouwen opbouwen en controleren wat er wordt getoond .
 
-Een van de belangrijkste onderdelen van het BIMI-programma van Gmail is de eis dat afzenders een VMC (Verified Mark Certificate) hebben dat is afgegeven door een geldige certificeringsinstantie. Momenteel zijn deze VMCs beschikbaar slechts bij Entrust en DigiCert, maar die lijst van leveranciers zal waarschijnlijk na de aankondiging van Gmail groeien.
+BIMI verbetert niet rechtstreeks de leverbaarheid of uw reputatie. Het kan helpen meer vertrouwen met uw ontvangers op te bouwen en daardoor ook meer betrokkenheid drijven.
 
-VMCs zal aan SSL certificaten op sommige manieren gelijkaardig zijn. U zult één VMC voor elk embleem nodig hebben u wilt getoond, zodat als u veel merken hebt u op het nodig hebben van veelvoudige VMCs zou moeten plannen. Elke VMC kan geldig zijn over meerdere domeinen hoewel als u een VMC van Multi-SAN krijgt. Dus als u één logo op meerdere verzendende domeinen wilt weergeven, hebt u slechts één VMC nodig.
+## Hoe ziet het eruit?
 
-## Logohandelsmerk
+U vindt enkele voorbeelden van implementaties van verschillende providers en meer informatie over welke providers het logo op het tabblad [Pagina van de BIMI-groep](https://bimigroup.org/where-is-my-bimi-logo-displayed/).
 
-Voordat u uw VMC kunt ophalen, moet u een andere belangrijke stap uitvoeren. Als u een VMC wilt ophalen, moet het logo dat u wilt weergeven, zijn geregistreerd bij een van de acht goedgekeurde wereldwijde handelsmerken en octrooibureaus.
+## Wie is de BIMI-groep?
 
-* United States Patent and Trademark Office (USPTO)
-* Canadian Intellectual Property Office
-* Bureau voor intellectuele eigendom van de Europese Unie
-* Britse dienst voor intellectuele eigendom
-* Deutsches Patent- und Markenamt
-* Japan Trademark Office
-* Spaans Octrooi- en Handelsmerk Office o.a.
-* IP Australia
+De BIMI-groep is een werkgroep die BIMI ontwikkelt, aangezien zij niet alleen het logo omvat, maar ook de technische, juridische en nalevingsvereisten.
 
-Als het logo dat u wilt weergeven niet is geregistreerd of niet bij een van deze 8 organisaties is geregistreerd, moet u met uw juridische team samenwerken om dat te verhelpen voordat u een aanvraag voor VMC indient.
+De BIMI-groep bestaat uit verschillende belanghebbenden uit verschillende sectoren van de sector: Google, Yahoo, Fastmail, Proofpoint, Mailchimp, Sendgrid, Valimail en Validity.
 
-## Afbeeldingsindeling logo
+## Wie steunt BIMI?
 
-Dit zou ook een goed moment zijn om ervoor te zorgen dat uw logo voldoet aan de vereisten voor het formaat van het BIMI-logo.
+De lijst van aanbieders van postvakken die BIMI ondersteunen, wordt gestaag uitgebreid. Een bijgewerkte lijst is te vinden [hier](https://bimigroup.org/bimi-infographic/) voor zowel ondersteunende aanbieders als aanbieders die BIMI overwegen.
 
-De notatie moet de SVG-indeling hebben en moet voldoen aan het profiel SVG Portable/Secure (SVG-P/S). Zie voor meer informatie over hoe u dit kunt doen de [BIMI-werkgroep](https://bimigroup.org/svg-conversion-tools-released){target=&quot;_blank&quot;}.
+Vanaf april 2023 omvat de lijst Gmail, Yahoo, La Poste, Fastmail, Onet.pl en Zone, Proofpoint als antispamtoestel en Apple Mail (vanaf iOS 16).
 
-## DMARC
+De meest prominente namen op die lijst zijn natuurlijk Yahoo, Gmail en een recente adopter: Apple met iOS 16. Apple speelt een speciale rol in de mix, omdat ze geen postvakaanbieder zijn, maar ze hebben wel BIMI-ondersteuning toegevoegd aan hun eigen postapp. Post die voldoet aan BIMI wordt weergegeven als &quot;digitaal gewaarmerkte e-mail&quot; die het vertrouwen in het merk versterkt.
 
-Zodra u hebt uw Vertaald Logo behoorlijk geformatteerd, en uw Geverifieerd Certificaat van het Merk, zult u ook moeten ervoor zorgen dat DMARC volledig op om het even welk verzendend domein wordt gevormd u BIMI wilt werken voor.
+## Implementatie
 
-Dit omvat het ervoor zorgen P= aan of Quarantine of Weigeren wordt geplaatst. Als uw DMARC P=None gebruikt, komt deze niet in aanmerking voor BIMI. P=None het plaatsen wordt hoogst geadviseerd om u te verzekeren welke post uit een domein gaat en dat niets per ongeluk zou worden geblokkeerd als u of &quot;Quarantine&quot;of &quot;Afwijzen&quot;veranderde, denk het als het testen en informatie verzamelen fase. U moet verder gaan dan dat, maar voordat BIMI voor u beschikbaar wordt.
+De implementatie van BIMI gebeurt in verschillende stappen:
 
-## DNS-vermelding
+1. DMARC (Domain based Message Authentication, Reporting and Conformance)-implementatie op handhavingsniveau voor zowel het verzendende domein als zijn organisatiedomein - [Meer informatie](#dmarc)
 
-Met al het andere eindelijk in orde en klaar om te gaan, is het tijd om de DNS ingang met uw BIMI bij te werken.
+1. Maak uw merklogo in de SVG TinyPS-indeling - [Meer informatie](#create-brand-logo)
 
-Dit is een eenvoudige vermelding die er ongeveer als volgt uitziet:
+1. Aanmelden voor een geverifieerd Mark Certificate (alleen nodig voor bepaalde providers) - [Meer informatie](#vmc)
+
+1. Publiceer een BIMI DNS-record met het logo en het certificaat - [Meer informatie](#publish-bimi-record)
+
+1. Een goede reputatie - [Meer informatie](#good-reputation)
+
+>[!NOTE]
+>
+>Alle stappen moeten worden uitgeschakeld.
+
+
+### DMARC {#dmarc}
+
+DMARC is een norm die het merk toestaat om te beslissen wat een brievenbusleverancier met een e-mail zou moeten doen die ontbreekt [verificatie](../additional-resources/authentication.md). Het zogenaamde beleid varieert van &quot;niets&quot;over &quot;quarantaine&quot; (de omslagplaatsing van Spam) aan &quot;verwerpen&quot; (direct blok de post). Alleen de laatste twee beleidsvormen worden &quot;handhaving&quot; genoemd en komen in aanmerking voor BIMI. De post die door Adobe wordt verzonden gaat authentificatie over, aangezien SPF (het Kader van het Beleid van de Afzender) en DKIM (de Sleutels van het Domein Identified Mail) opstelling per gebrek zijn. Adobe stelt DMARC op uw verzendend domein op verzoek in.
+
+Naast DMARC op het verzendende domein, moet DMARC ook op handhavingsniveau voor het organisatorische domein worden gebruikt (als het verzendende domein nieuws.example.com is, example.com is het organisatorische domein).
+
+### Het logo van uw merk maken {#create-brand-logo}
+
+Het maken van het logo moet aan de vereisten voldoen tot 100%. Raadpleeg altijd de [Richtsnoeren van de BIMI-groep](https://bimigroup.org/creating-bimi-svg-logo-files/).
+
+Naast de technische vereisten zijn er enkele praktische aanbevelingen, zoals een vierkant logo, een effen kleur als achtergrond en andere. Deze aanbevelingen zijn bedoeld voor een optimale visualisatie.
+Niet-naleving kan ertoe leiden dat het logo niet wordt weergegeven.
+
+### Verified Mark Certificate (VMC) {#vmc}
+
+Een gecontroleerd Certificaat van het Teken (VMC) is slechts nodig voor sommige brievenbusleveranciers zoals Gmail en Apple, en daarom is facultatief. We raden echter wel aan een VMC te krijgen om BIMI echt te benutten.
+
+Een geverifieerd markeringscertificaat is een geldige validering waarmee het merk het logo kan gebruiken. Een certificeringsinstantie zal dit controleren via het merkenbureau waar het merklogo is geregistreerd. Dit proces omvat verschillende wettelijke validaties en controles en kan enige tijd in beslag nemen. Momenteel geven twee CA&#39;s (certificeringsinstanties) VMC&#39;s uit: Digicert en Entrust. De eerste reeks merkenkantoren zijn VS, Canada, EU, Verenigd Koninkrijk, Duitsland, Japan, Australië en Spanje.
+
+Als vuistregel hebt u één VMC per logo nodig. Het hebben van VMC voor uw organisatorisch domein zal subdomeinen, en met een toegevoegde eigenschap zelfs verschillende domeinen behandelen. Als u verschillende logo&#39;s hebt, hebt u meer dan één VMC nodig. De certificeringsinstantie of -partner waarmee u wilt werken, helpt u dit instellen.
+
+>[!NOTE]
+>
+>VMC&#39;s hebben een jaarlijkse vergoeding.
+
+### Publicatie van het BIMI-bestand {#publish-bimi-record}
+
+Zodra de andere stappen zijn uitgevoerd, kan het BIMI DNS-record worden gepubliceerd. De record ziet er als volgt uit:
 
 ```
-default._bimi.[domain] IN TXT “v=BIMI1; l=[SVG URL] 
+default._bimi.[domain] IN TXT "v=BIMI1; l=[SVG URL]; a=[PEM URL]
 ```
 
-U kunt de details rond die ingang krijgen en zelfs een vrije controle BIMI gebruiken bij [Website van de werkgroep IMI](https://bimigroup.org/implementation-guide){target=&quot;_blank&quot;}.
+&quot;PEM URL&quot; is de bestandslocatie van het geverifieerde Mark Certificate.
 
+Voor uw verzendend domein, moet dit door Adobe worden gedaan.
 
-## Key Takeaways
+### Goede reputatie {#good-reputation}
 
-Als u een [!DNL Adobe Campaign], kan Adobe u helpen bij het maken van de BIMI DNS-update: Neem contact op met de klantenservice van Adobe om een aanvraag in te dienen. Adobe kan ook helpen bij het oplossen van problemen als BIMI niet correct voor u werkt.
+Vertrouwen is de sleutel voor BIMI. De gebruiker vertrouwt op hun brievenbusleverancier om het embleem voor wettige afzenders slechts te tonen, zodat moet de brievenbusleverancier het merk vertrouwen, en dit wordt gedaan door uw afzenderreputatie. Als je een goede reputatie hebt, is alles goed, maar als je dat niet bent, wordt het logo niet weergegeven. Jammer genoeg, is er geen informatie of metrisch wij kunnen bekijken om te weten te komen als de reputatie hoog genoeg is.
 
-Als u een Marketo-client bent, raadpleegt u [dit blogbericht](https://nation.marketo.com/t5/support-blogs/how-to-bimi/ba-p/296966){target=&quot;_blank&quot;} voor aanwijzingen bij het maken van uw BIMI-record.
+Zelfs als je de moeite en kosten voor VMC doorloopt, wordt dit onderdeel niet verwijderd. Als de brievenbusleverancier niet het merk vertrouwt, zal het embleem niet worden getoond.
 
-Voor hulp met handelsmerken of Geverifieerde Certificaten van het Merk, werk met uw wettelijk team en een erkende verkoper VMC.
+## Tips en trucs
 
-Het ophalen van de BIMI-instelling voor Gmail is wellicht geen snel proces, maar het is wel een proces dat aanzienlijke voordelen kan hebben vanuit het oogpunt van marketing en beveiliging.
+* De BIMI-groep biedt een handig valideringsinstrument voor BIMI. Als u wilt controleren of alles is ingesteld en klaar, of alleen wilt controleren of het logo voldoet, gaat u naar [deze koppeling](https://bimigroup.org/bimi-generator/). Voor de laatste klikt u op **[!UICONTROL Generate BIMI]** en voert u een plaatsaanduidingsdomein in, maar de juiste URL van het logo. De inspecteur zal u vertellen als het embleem volgzaam is.
+
+* U kunt veilig zonder VMC beginnen, is er geen schade op uw reputatie als uw BIMI-verslag geen VMC URL omvat, maar het embleem kan reeds in Yahoo worden getoond.
+
+* De organisatorische implementatie van DMARC is een grote onderneming. Sommige bedrijven zijn gespecialiseerd om merken te helpen een volledige goedkeuring DMARC bereiken.
+
+* Een uitgebreide lijst met veelgestelde vragen wordt gepubliceerd [hier](https://bimigroup.org/faqs-for-senders-esps/).
