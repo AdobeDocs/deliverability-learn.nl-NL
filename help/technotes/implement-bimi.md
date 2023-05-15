@@ -3,9 +3,9 @@ title: Gmail-merkindicatoren voor berichtidentificatie (BIMI) implementeren
 description: Leer hoe u BIMI kunt implementeren
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 7b8fbb09883b34b66c2729b6b5cfa1292ae1814e
+source-git-commit: aca2bfff9f0315b735cf0a97f2177083c58e0875
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Een gecontroleerd Certificaat van het Teken (VMC) is slechts nodig voor sommige 
 
 Een geverifieerd markeringscertificaat is een geldige validering waarmee het merk het logo kan gebruiken. Een certificeringsinstantie zal dit controleren via het merkenbureau waar het merklogo is geregistreerd. Dit proces omvat verschillende wettelijke validaties en controles en kan enige tijd in beslag nemen. Momenteel geven twee CA&#39;s (certificeringsinstanties) VMC&#39;s uit: Digicert en Entrust. De eerste reeks merkenkantoren zijn VS, Canada, EU, Verenigd Koninkrijk, Duitsland, Japan, Australië en Spanje.
 
-Als vuistregel hebt u één VMC per logo nodig. Het hebben van VMC voor uw organisatorisch domein zal subdomeinen, en met een toegevoegde eigenschap zelfs verschillende domeinen behandelen. Als u verschillende logo&#39;s hebt, hebt u meer dan één VMC nodig. De certificeringsinstantie of -partner waarmee u wilt werken, helpt u dit instellen.
+Als algemene regel hebt u één VMC per logo nodig. Het hebben van VMC voor uw organisatorisch domein zal subdomeinen, en met een toegevoegde eigenschap zelfs verschillende domeinen behandelen. Als u verschillende logo&#39;s hebt, hebt u meer dan één VMC nodig. De certificeringsinstantie of -partner waarmee u wilt werken, helpt u dit instellen.
 
 >[!NOTE]
 >
