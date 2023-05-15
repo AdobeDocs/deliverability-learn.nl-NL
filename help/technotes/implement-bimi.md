@@ -3,7 +3,7 @@ title: Gmail-merkindicatoren voor berichtidentificatie (BIMI) implementeren
 description: Leer hoe u BIMI kunt implementeren
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 05f6cd331f4e610e2442d43405333823644d349e
+source-git-commit: 7b8fbb09883b34b66c2729b6b5cfa1292ae1814e
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -22,7 +22,7 @@ BIMI verbetert niet rechtstreeks de leverbaarheid of uw reputatie. Het kan helpe
 
 ## Hoe ziet het eruit?
 
-U vindt enkele voorbeelden van implementaties van verschillende providers en meer informatie over welke providers het logo op het tabblad [Pagina van de BIMI-groep](https://bimigroup.org/where-is-my-bimi-logo-displayed/).
+U vindt enkele voorbeelden van implementaties van verschillende providers en meer informatie over welke providers het logo op het tabblad [Pagina van de BIMI-groep](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
 
 ## Wie is de BIMI-groep?
 
@@ -32,7 +32,7 @@ De BIMI-groep bestaat uit verschillende belanghebbenden uit verschillende sector
 
 ## Wie steunt BIMI?
 
-De lijst van aanbieders van postvakken die BIMI ondersteunen, wordt gestaag uitgebreid. Een bijgewerkte lijst is te vinden [hier](https://bimigroup.org/bimi-infographic/) voor zowel ondersteunende aanbieders als aanbieders die BIMI overwegen.
+De lijst van aanbieders van postvakken die BIMI ondersteunen, wordt gestaag uitgebreid. Een bijgewerkte lijst is te vinden [hier](https://bimigroup.org/bimi-infographic/){target="_blank"} voor zowel ondersteunende aanbieders als aanbieders die BIMI overwegen.
 
 Vanaf april 2023 omvat de lijst Gmail, Yahoo, La Poste, Fastmail, Onet.pl en Zone, Proofpoint als antispamtoestel en Apple Mail (vanaf iOS 16).
 
@@ -65,7 +65,7 @@ Naast DMARC op het verzendende domein, moet DMARC ook op handhavingsniveau voor 
 
 ### Het logo van uw merk maken {#create-brand-logo}
 
-Het maken van het logo moet aan de vereisten voldoen tot 100%. Raadpleeg altijd de [Richtsnoeren van de BIMI-groep](https://bimigroup.org/creating-bimi-svg-logo-files/).
+Het maken van het logo moet aan de vereisten voldoen tot 100%. Raadpleeg altijd de [Richtsnoeren van de BIMI-groep](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
 
 Naast de technische vereisten zijn er enkele praktische aanbevelingen, zoals een vierkant logo, een effen kleur als achtergrond en andere. Deze aanbevelingen zijn bedoeld voor een optimale visualisatie.
 Niet-naleving kan ertoe leiden dat het logo niet wordt weergegeven.
@@ -102,10 +102,10 @@ Zelfs als je de moeite en kosten voor VMC doorloopt, wordt dit onderdeel niet ve
 
 ## Tips en trucs
 
-* De BIMI-groep biedt een handig valideringsinstrument voor BIMI. Als u wilt controleren of alles is ingesteld en klaar, of alleen wilt controleren of het logo voldoet, gaat u naar [deze koppeling](https://bimigroup.org/bimi-generator/). Voor de laatste klikt u op **[!UICONTROL Generate BIMI]** en voert u een plaatsaanduidingsdomein in, maar de juiste URL van het logo. De inspecteur zal u vertellen als het embleem volgzaam is.
+* De BIMI-groep biedt een handig valideringsinstrument voor BIMI. Als u wilt controleren of alles is ingesteld en klaar, of alleen wilt controleren of het logo voldoet, gaat u naar [deze koppeling](https://bimigroup.org/bimi-generator/){target="_blank"}. Voor de laatste klikt u op **[!UICONTROL Generate BIMI]** en voert u een plaatsaanduidingsdomein in, maar de juiste URL van het logo. De inspecteur zal u vertellen als het embleem volgzaam is.
 
 * U kunt veilig zonder VMC beginnen, is er geen schade op uw reputatie als uw BIMI-verslag geen VMC URL omvat, maar het embleem kan reeds in Yahoo worden getoond.
 
 * De organisatorische implementatie van DMARC is een grote onderneming. Sommige bedrijven zijn gespecialiseerd om merken te helpen een volledige goedkeuring DMARC bereiken.
 
-* Een uitgebreide lijst met veelgestelde vragen wordt gepubliceerd [hier](https://bimigroup.org/faqs-for-senders-esps/).
+* Een uitgebreide lijst met veelgestelde vragen wordt gepubliceerd [hier](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"}.
