@@ -3,9 +3,9 @@ user-guide-title: Gids met best practices voor leverbaarheid
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Leer de belangrijkste termen, concepten en benaderingen van leverbaarheid zodat u over de juiste kennis beschikt om van uw marketingprogramma een succes te maken.
 source-git-commit: 05604fff57bbe64a02e97a27369c4aff6c999216
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,5 +57,5 @@ ht-degree: 96%
       + [Campaign Classic - Technische aanbevelingen](/help/additional-resources/acc-technical-recommendations.md)
    + Technische opmerkingen {#technotes}
       + [BIMI implementeren](/help/technotes/implement-bimi.md)
-      + [Bounges bijwerken na Italia Online-storing](/help/technotes/update-bounces-after-it-outage.md)
+      + [Bounces updaten na Italia Online-storing](/help/technotes/update-bounces-after-it-outage.md)
 
