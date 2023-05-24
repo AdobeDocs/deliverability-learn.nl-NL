@@ -8,11 +8,11 @@ hidefromtoc: true
 source-git-commit: aca77fb9326e34455a6fec7ffc9a7ad8e1750467
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Onjuiste vaste bedragen bijwerken na Italia Online-storing {#update-bounce-italia}
+# Onjuiste hard bounces bijwerken na Italia Online-storing {#update-bounce-italia}
 
 ## Context{#outage-context}
 

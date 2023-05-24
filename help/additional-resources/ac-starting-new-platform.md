@@ -63,4 +63,4 @@ Raadpleeg de volgende secties voor meer informatie over de bovenstaande beginsel
 
 * [De levering optimaliseren via quarantines](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
 * [Identificeer quarantined adressen voor het volledige platform](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)
-* [Een verzending controleren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
+* [Een verzending controleren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=nl)

@@ -1,6 +1,6 @@
 ---
 title: Adressen verzamelen en mailinglijst uitbreiden
-description: 'Leer wat de beste bronnen voor nieuwe e-mailadressen zijn, hoe te om hoge gegevenskwaliteit te verzekeren, en aanpassing aan wettelijke richtlijnen te verzekeren. '
+description: Leer wat de beste bronnen voor nieuwe e-mailadressen zijn, hoe te om hoge gegevenskwaliteit te verzekeren, en aanpassing aan wettelijke richtlijnen te verzekeren.
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg

@@ -1,6 +1,6 @@
 ---
 title: Infrastructuur
-description: 'Leer wat nodig is om een e-mailinfrastructuur correct te bouwen. '
+description: Leer wat nodig is om een e-mailinfrastructuur correct te bouwen.
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg

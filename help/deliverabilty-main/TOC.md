@@ -3,7 +3,7 @@ user-guide-title: Gids met best practices voor leverbaarheid
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Leer de belangrijkste termen, concepten en benaderingen van leverbaarheid zodat u over de juiste kennis beschikt om van uw marketingprogramma een succes te maken.
 source-git-commit: 05604fff57bbe64a02e97a27369c4aff6c999216
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 

@@ -1,6 +1,6 @@
 ---
 title: Eerste impressies—verzameling lijsten en welkomste-mails
-description: 'Ontdek hoe u een succesvol e-mailprogramma kunt opzetten door een goede eerste indruk te maken. '
+description: Ontdek hoe u een succesvol e-mailprogramma kunt opzetten door een goede eerste indruk te maken.
 topics: Deliverability
 kt: 5258
 thumbnail: kt5258.jpg

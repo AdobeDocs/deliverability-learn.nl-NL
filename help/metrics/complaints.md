@@ -1,6 +1,6 @@
 ---
 title: Klachten
-description: 'Lees meer over klachten die worden geregistreerd wanneer een gebruiker aangeeft dat een e-mail ongewenst of onverwacht is. '
+description: Lees meer over klachten die worden geregistreerd wanneer een gebruiker aangeeft dat een e-mail ongewenst of onverwacht is.
 topics: Deliverability
 kt: 7048
 thumbnail: kt7048.jpg
