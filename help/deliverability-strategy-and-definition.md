@@ -2,15 +2,15 @@
 title: Wat is de leverbaarheidsstrategie en wat houdt leverbaarheid in?
 description: Begrijp hoe leverbaarheid wordt gedefinieerd, waarom leverbaarheid belangrijk is en wat de kernmetrics voor leverbaarheid zijn.
 topics: Deliverability
-kt: 5255
+jira: KT-5255
 thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
-source-wordcount: '843'
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -101,7 +101,7 @@ Conversie is cruciaal, maar wat is het alternatief? Het e-mailmarketingprogramma
 
 | Verzonden | Percentage | Afgeleverd | Percentage | Inbox | Aantal niet in inbox | Conversiepercentage | Aantal verloren | Gemiddelde | Verloren |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|
-|  | afgeleverd |  | inbox |  |  |  | conversies | aankoop | omzet |
+|      | afgeleverd |           | inbox |       |                     |                 | conversies | aankoop | omzet |
 | 100K | 99% | 99K | 100% | 99K | - | 2% | 0 | $100 | $ - |
 | 100K | 99% | 99K | 90% | 89.1K | 9,900 | 2% | 198 | $100 | $19,800 |
 | 100K | 99% | 99K | 80% | 79.2K | 19,800 | 2% | 396 | $100 | $39,600 |
