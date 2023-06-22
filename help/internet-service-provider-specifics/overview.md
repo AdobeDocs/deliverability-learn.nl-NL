@@ -2,12 +2,12 @@
 title: Specifieke kenmerken van internetserviceproviders
 description: ISP's zijn niet allemaal hetzelfde. Zij richten zich op verschillende dingen wanneer het bepalen van welke e-mail om tot hun gebruikers' inbox toe te staan en welke e-mail wordt gefiltreerd aan de spamomslag of helemaal niet door laat. Wij zullen een snelle rondleiding van de belangrijke verschillen tussen een handvol ISPs nemen. Het is niet bedoeld om een volledige lijst van alle ISPs te zijn of alle mogelijke verschillen te behandelen.
 topics: Deliverability
-kt: null
+jira: KT-
 doc-type: article
 activity: understand
 team: TM
 exl-id: cf0c9ccf-ae67-4f95-a8cf-1e23b657aa16
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 14%

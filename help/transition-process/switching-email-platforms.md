@@ -2,13 +2,13 @@
 title: Zorgen voor een soepele overgang bij de overstap naar een ander e-mailplatform.
 description: Bij het verplaatsen van e-mailserviceproviders (ESP's) is het niet mogelijk om ook een overgang te maken naar uw bestaande, gevestigde IP-adressen. Het is belangrijk dat u de beste praktijken volgt om een positieve reputatie te ontwikkelen wanneer u opnieuw begint.
 topics: Deliverability
-kt: 5259
+jira: KT-5259
 thumbnail: kt5259.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 11%

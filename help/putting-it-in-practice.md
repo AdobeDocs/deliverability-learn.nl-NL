@@ -2,13 +2,13 @@
 title: De kennis in de praktijk brengen
 description: Verzendend permanent is het proces om een verenigbaar verzendend volume en strategie te vestigen om ISP reputatie te handhaven.
 topics: Deliverability
-kt: 5264
+jira: KT-5264
 thumbnail: kt5264.jpg
 doc-type: article
 activity: understand
 team: TM
 exl-id: 49988fd7-6e1d-4f00-abc2-77d16662543a
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 7%

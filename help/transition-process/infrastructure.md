@@ -2,13 +2,13 @@
 title: Infrastructuur
 description: Leer wat nodig is om een e-mailinfrastructuur correct te bouwen.
 topics: Deliverability
-kt: 7052
+jira: KT-7052
 thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 0%

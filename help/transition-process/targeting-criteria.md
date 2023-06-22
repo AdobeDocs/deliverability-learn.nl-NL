@@ -2,13 +2,13 @@
 title: Criteria voor targeting
 description: Leer hoe u een positieve reputatie van de get-go kunt opbouwen om vertrouwen op te bouwen voordat u gaat rollen in uw minder betrokken publiek.
 topics: Deliverability
-kt: 7053
+jira: KT-7053
 thumbnail: kt7053.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: e6a855ba-a929-477f-a339-6861a755a529
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 4%
