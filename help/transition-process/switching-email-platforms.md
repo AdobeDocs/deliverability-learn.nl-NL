@@ -1,14 +1,16 @@
 ---
 title: Zorgen voor een soepele overgang bij de overstap naar een ander e-mailplatform.
-description: Bij het verplaatsen van e-mailserviceproviders (ESP's) is het niet mogelijk om ook een overgang te maken naar uw bestaande, gevestigde IP-adressen. Het is belangrijk dat u de beste praktijken volgt om een positieve reputatie te ontwikkelen wanneer u opnieuw begint.
+description: Wanneer het bewegen van e-maildienstverleners (ESPs), is het niet mogelijk om uw bestaande, gevestigde IP adressen ook over te brengen. Het is belangrijk dat u de beste praktijken volgt om een positieve reputatie te ontwikkelen wanneer u opnieuw begint.
 topics: Deliverability
 jira: KT-5259
 thumbnail: kt5259.jpg
 doc-type: article
 activity: understand
+role: Admin
+level: Beginner
 team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 11%
@@ -19,7 +21,7 @@ ht-degree: 11%
 
 Wanneer het bewegen van e-maildienstverleners (ESPs), is het niet mogelijk om uw bestaande, gevestigde IP adressen ook over te brengen. Het is belangrijk dat u de beste praktijken volgt om een positieve reputatie te ontwikkelen wanneer u opnieuw begint. Omdat de nieuwe IP adressen u nog zal gebruiken geen reputatie hebben, kan ISPs niet volledig de post vertrouwen die uit hen komt en moet voorzichtig zijn in wat zij toestaan om aan hun klanten worden geleverd.
 
-Het vestigen van een positieve reputatie is een proces. Maar als deze eenmaal is vastgesteld, zullen kleine negatieve indicatoren minder effect hebben op u en uw postbestelling.
+Het vestigen van een positieve reputatie is een proces. Maar zodra het is gevestigd, zullen de kleine negatieve indicatoren minder effect op u en uw postlevering hebben.
 
 ![Overgangsproces](../assets/transition-process.png)
 

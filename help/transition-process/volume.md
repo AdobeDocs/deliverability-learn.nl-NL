@@ -1,14 +1,16 @@
 ---
 title: Volume - Tips voor vloeiende overgang
-description: Het volume van de post u verzendt is kritiek om een positieve reputatie te vestigen. Leer wat u kunt doen aan overgang vloeiend.
+description: Het volume van post u verzendt is kritiek aan het vestigen van een positieve reputatie. Leer wat u kunt doen aan overgang vloeiend.
 topics: Deliverability
 jira: KT-7055
 thumbnail: kt7055.jpg
 doc-type: article
 activity: understand
+role: Admin,User
+level: Beginner
 team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 1%
@@ -17,7 +19,7 @@ ht-degree: 1%
 
 # Volume
 
-Het volume van de post u verzendt is kritiek om een positieve reputatie te vestigen. Zet jezelf in de schoenen van een internetprovider — als je een ton verkeer ziet van iemand die je niet kent, zou dat alarmerend zijn. Het direct verzenden van grote hoeveelheden post is riskant en zeker om reputatie kwesties te veroorzaken die vaak moeilijk zijn op te lossen. Het kan frustrerend, tijdrovend en kostbaar zijn om uzelf uit slechte reputatie te halen en problemen op te lossen die het gevolg zijn van te veel te vroeg verzenden.
+Het volume van post u verzendt is kritiek aan het vestigen van een positieve reputatie. Zet jezelf in de schoenen van een ISP — als je een ton verkeer ziet van iemand die je niet kent, zou dat alarmerend zijn. Het direct verzenden van grote hoeveelheden post is riskant en zeker om reputatie kwesties te veroorzaken die vaak moeilijk zijn op te lossen. Het kan frustrerend, tijdrovend en kostbaar zijn om uzelf uit slechte reputatie te halen en problemen op te lossen die het gevolg zijn van te veel te vroeg verzenden.
 
 De volumedrempels variëren door ISP en kunnen ook afhankelijk van uw gemiddelde betrokkenheidsmetriek variëren. Sommige afzenders hebben een zeer lage en langzame oprijsnelheid nodig, terwijl andere een steile oprijplaat mogelijk maken. We raden u aan samen te werken met een expert, zoals een consultant voor Adobe-producten, om een aangepast volumeplan te ontwikkelen.
 
@@ -30,11 +32,11 @@ Hier volgt een lijst met tips en tips voor een vloeiende overgang:
 * **Volg het abonnement** — Onze aanbevelingen hebben honderden campagneklanten geholpen hun e-mailprogramma&#39;s met succes op te zetten.
 * **Uw e-mailaccount voor antwoorden controleren**. Het is een slechte ervaring voor uw klant om noreply@xyz.com te gebruiken of niet te antwoorden.
 * Inactieve adressen kunnen een negatief effect op de leesbaarheid hebben. **Opnieuw activeren en opnieuw inschakelen op uw huidige platform**, niet uw nieuwe IPs.
-* **Domeinen** — gebruik een verzendend domein dat een subdomein van het daadwerkelijke domein van uw bedrijf is
+* **Domeinen** — gebruik een verzendend domein dat subdomein van het daadwerkelijke domein van uw bedrijf is
    * Bijvoorbeeld, als uw bedrijfsdomein xyz.com is, biedt email.xyz.com meer geloofwaardigheid aan ISPs dan xyzemail.com
 * **Transparantie** — De registratiegegevens voor uw e-maildomein moeten openbaar zijn en mogen niet privé zijn.
 
-In veel gevallen volgt transactionele post niet de traditionele opwarmingsmethode. Het is duidelijk moeilijk om het volume in transactie-mail te beheren vanwege de aard ervan, aangezien hiervoor doorgaans een gebruikersinteractie nodig is om de e-mailaanraking te activeren. In sommige gevallen, kan de transactionele post eenvoudig zonder een formeel plan worden overgebracht. In andere gevallen, zou het beter kunnen zijn om elk berichttype over tijd over te gaan om het volume langzaam te groeien. U kunt bijvoorbeeld als volgt een overgang maken:
+In veel omstandigheden volgt transactionele post niet de traditionele opwarmingsmethode. Het is duidelijk moeilijk om volume in transactie-post wegens zijn aard te controleren, aangezien het over het algemeen een gebruikersinteractie vereist om de e-mailaanraking teweeg te brengen. In sommige gevallen, kan de transactionele post eenvoudig zonder een formeel plan worden overgebracht. In andere gevallen, zou het beter kunnen zijn om elk berichttype over tijd over te gaan om het volume langzaam te groeien. U kunt bijvoorbeeld als volgt een overgang maken:
 
 1. Bevestigingen aanschaffen — hoge betrokkenheid over het algemeen
 2. Afmelden van winkelwagentje—gemiddeld - hoge betrokkenheid over het algemeen

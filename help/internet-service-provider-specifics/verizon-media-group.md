@@ -1,13 +1,15 @@
 ---
 title: Verizon Media Group (Yahoo, AOL, Verizon, enz.)
-description: "[!DNL Verizon Media Group] is over het algemeen één van de hoogste drie domeinen voor de meeste lijsten B2C. Ze gedragen zich enigszins uniek, aangezien ze doorgaans de post vertragen of bulksgewijs verzenden als zich problemen met de reputatie voordoen."
+description: "[!DNL Verizon Media Group] is over het algemeen één van de hoogste drie domeinen voor de meeste lijsten B2C. Ze gedragen zich iets uniek, omdat ze doorgaans hun post vertragen of bulksgewijs versturen als er problemen met de reputatie ontstaan."
 topics: Deliverability
 jira: KT-5320
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 2%
@@ -16,7 +18,7 @@ ht-degree: 2%
 
 # [!DNL Verizon Media Group] (Yahoo, AOL, Verizon, enz.)
 
-[!DNL Verizon Media Group] is over het algemeen één van de hoogste drie domeinen voor de meeste lijsten B2C. Ze gedragen zich enigszins uniek, aangezien ze doorgaans de post vertragen of bulkmail als zich problemen met de reputatie voordoen.
+[!DNL Verizon Media Group] is over het algemeen één van de hoogste drie domeinen voor de meeste lijsten B2C. Ze gedragen zich iets uniek, omdat ze doorgaans de post vertragen of bulkmail als er problemen met de reputatie ontstaan.
 
 Hier volgen enkele hooglichten:
 

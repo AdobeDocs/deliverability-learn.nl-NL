@@ -5,9 +5,11 @@ topics: Deliverability
 jira: KT-5319
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 1%
@@ -26,7 +28,7 @@ Hier volgen enkele hooglichten:
 
 ## Welke gegevens worden beschikbaar gesteld?
 
-[!DNL Microsoft]het rapporteringsinstrument van de eigenaar van de afzender; [!DNL Smart Network Data Services] (SNDS), laat u metriek zien rond hoeveel post u verzendt en hoeveel post, evenals klachten en spamvallen wordt goedgekeurd. Houd er rekening mee dat de gedeelde gegevens een voorbeeld zijn en niet de exacte getallen weerspiegelen, maar het geeft het beste aan hoe [!DNL Microsoft] geeft u weer als afzender. [!DNL Microsoft] geeft geen informatie over de vertrouwde gebruikersgroep in het openbaar, maar die gegevens zijn beschikbaar via de [!DNL Return Path Certification] voor een aanvullende vergoeding.
+[!DNL Microsoft]het rapporteringsinstrument van de eigenaar van de afzender, [!DNL Smart Network Data Services] (SNDS), laat u metriek zien rond hoeveel post u verzendt en hoeveel post, evenals klachten en spamvallen wordt goedgekeurd. Houd er rekening mee dat de gedeelde gegevens een voorbeeld zijn en geen exacte getallen weerspiegelen, maar het geeft het beste aan hoe [!DNL Microsoft] geeft u weer als afzender. [!DNL Microsoft] verstrekt geen informatie over hun vertrouwde op gebruikersgroep openbaar, maar die gegevens zijn beschikbaar door [!DNL Return Path Certification] voor een aanvullende vergoeding.
 
 ## Afzender
 
