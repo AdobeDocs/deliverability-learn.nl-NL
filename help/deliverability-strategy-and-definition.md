@@ -11,15 +11,15 @@ level: Beginner
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Leverbaarheid strategie en definitie
+# Strategie en definitie van leverbaarheid
 
-Het ontwerpen van succesvolle e-mailmarketing campagnes hangt van het hebben van een duidelijk inzicht in marketing doelstellingen af, of zij voor prospecting of de initiatieven van het het relatiebeheer van de klant (CRM) zijn. Dit inzicht helpt u te bepalen wat de doelgroep is, wat u onder de aandacht wilt brengen en wat het ideale outreachmoment is.
+Het ontwerpen van succesvolle e-mailmarketingcampagnes begint bij een duidelijk inzicht in marketingdoelstellingen, of het nu gaat om prospecting of om initiatieven op het gebied van CRM (Customer Relationship Management). Dit inzicht helpt u te bepalen wat de doelgroep is, wat u onder de aandacht wilt brengen en wat het ideale outreachmoment is.
 
 Hier volgen enkele voorbeelden van doelstellingen voor een e-mailmarketingstrategie:
 
@@ -32,17 +32,17 @@ Hier volgen enkele voorbeelden van doelstellingen voor een e-mailmarketingstrate
 
 ## Wat houdt leverbaarheid in?
 
-Er zijn twee kernmetrics die een rol spelen bij de definitie van leverbaarheid. De *geleverde prijs* is het percentage e-mails dat niet stuitert en door ISP wordt goedgekeurd. De tweede metric is de *inboxplaatsing*. Dit wordt toegepast op de berichten die worden geaccepteerd door de ISP en bepaalt of de e-mail in de inbox terechtkomt of in de spambox belandt.
+Er zijn twee kernmetrics die een rol spelen bij de definitie van leverbaarheid. Het *percentage afgeleverde e-mails* is het percentage e-mailberichten dat niet is afgewezen en door de ISP is geaccepteerd. De tweede metric is de *inboxplaatsing*. Dit wordt toegepast op de berichten die worden geaccepteerd door de ISP en bepaalt of de e-mail in de inbox terechtkomt of in de spambox belandt.
 
-Het is belangrijk om zowel het afleverpercentage als het percentage inboxplaatsing in samenhang met elkaar te begrijpen bij het meten van de resultaten van de e-mailcampagne. Een hoog percentage afgeleverde e-mails is niet het enige aspect van leverbaarheid. Enkel omdat een bericht via het aanvankelijke controlepunt van ISP wordt ontvangen betekent niet noodzakelijk dat uw abonnee echt met uw mededeling zag en interactie aanging.
+Het is belangrijk om zowel het afleverpercentage als het percentage inboxplaatsing in samenhang met elkaar te begrijpen bij het meten van de resultaten van de e-mailcampagne. Een hoog percentage afgeleverde e-mails is niet het enige aspect van leverbaarheid. Als een bericht door het eerste checkpoint van een ISP is gekomen, wil dat niet meteen zeggen dat de abonnee uw bericht heeft gezien en er iets mee heeft gedaan.
 
 ## Waarom leverbaarheid belangrijk is
 
-Als u niet weet of uw e-mails worden bezorgd of of zij in inbox tegenover de spamomslag landen, zou u moeten. Dit is waarom.
+Als u niet weet of uw e-mails worden afgeleverd of niet weet of ze in de inbox of in de spambox terechtkomen, dan wordt het tijd dat u daar achter komt. Dit is waarom.
 
-U stopt enorm veel uren in de planning en productie van uw e-mailcampagnes. Als de e-mails stuiteren of uiteindelijk in de spamomslag van uw abonnees landen, zullen uw klanten waarschijnlijk niet hen lezen, zal uw vraag aan actie (CTA) niet worden erkend, en u zult onder uw inkomstendoelstellingen wegens verloren omzettingen vallen. Eenvoudig gezegd, je kunt je niet veroorloven om de leveringszekerheid te negeren. Het is van cruciaal belang voor het succes van uw e-mailmarketingcampagne en voor uw winstgevendheid.
+U stopt enorm veel uren in de planning en productie van uw e-mailcampagnes. Als de e-mails bouncen of uiteindelijk in de spambox van uw abonnees belanden, zullen uw klanten uw berichten waarschijnlijk niet lezen, wordt er niets gedaan met uw call-to-action (CTA) en haalt u uw omzetdoelen niet als gevolg van verloren conversies. Eenvoudig gezegd, u kunt het zich niet veroorloven om leverbaarheid te negeren. Het is van cruciaal belang voor het succes van uw e-mailmarketingcampagne en voor uw winstgevendheid.
 
-De volgende best practices op het gebied van leverbaarheid zorgen ervoor dat uw e-mail de meeste kans heeft op opening, kliks en op het uiteindelijke doel: conversie. U kunt een briljante onderwerpregel schrijven, prachtig beeldmateriaal gebruiken en zorgen voor een boeiende tekst. Maar als die e-mail niet wordt geleverd, heeft de klant geen mogelijkheid om te converteren. In feite komt het erop neer dat bij leverbaarheid elke stap in het proces van e-mailacceptatie afhankelijk is van de stap ervoor om de campagne vruchten te laten afwerpen.
+De volgende best practices op het gebied van leverbaarheid zorgen ervoor dat uw e-mail de meeste kans heeft op opening, kliks en op het uiteindelijke doel: conversie. U kunt een briljante onderwerpregel schrijven, prachtig beeldmateriaal gebruiken en zorgen voor een boeiende tekst. Maar als het e-mailbericht niet wordt afgeleverd, heeft de klant geen kans om tot conversie over te gaan. In feite komt het erop neer dat bij leverbaarheid elke stap in het proces van e-mailacceptatie afhankelijk is van de stap ervoor om de campagne vruchten te laten afwerpen.
 
 ### Stap 1: Succesvolle aflevering van de e-mail
 
@@ -85,7 +85,7 @@ Hier volgen enkele belangrijke factoren voor het klikpercentage:
 
 * E-mail is afgeleverd, in de inbox geplaatst en is geopend
 * Sterke CTA
-   * Dit is de primaire actie die u uw doelgroep wilt laten uitvoeren. Normaal, is het een klik op een URL. Zorg ervoor dat het voor de gebruiker duidelijk en gemakkelijk is te vinden.
+   * Dit is de primaire actie die u uw doelgroep wilt laten uitvoeren. Normaal gesproken is het een klik op een URL. Zorg ervoor dat de gebruiker deze snel en gemakkelijk kan vinden.
 * Relevantie of waarde van de content
 
 ### Stap 5: Conversie
@@ -99,7 +99,7 @@ Hier volgen enkele belangrijke factoren voor conversie:
 
 ### Mogelijke gevolgen voor de omzet
 
-Conversie is sleutel, maar wat is het alternatief? Het e-mailmarketingprogramma valt of staat met uw leverbaarheidsstrategie. De volgende tabel laat het potentiële omzetverlies zien wanneer uw marketingprogramma wordt uitgevoerd met een zwak leverbaarheidsbeleid. Zoals uit de tabel blijkt, verliest een bedrijf met een conversiepercentage van 2% en een gemiddelde aankoop van USD 100, bijna USD 20.000 aan omzet bij elke 10% van het totaal aantal e-mails dat niet in de inbox terechtkomt. Deze getallen zijn voor elke afzender vanzelfsprekend uniek.
+Conversie is cruciaal, maar wat is het alternatief? Het e-mailmarketingprogramma valt of staat met uw leverbaarheidsstrategie. De volgende tabel laat het potentiële omzetverlies zien wanneer uw marketingprogramma wordt uitgevoerd met een zwak leverbaarheidsbeleid. Zoals uit de tabel blijkt, verliest een bedrijf met een conversiepercentage van 2% en een gemiddelde aankoop van USD 100, bijna USD 20.000 aan omzet bij elke 10% van het totaal aantal e-mails dat niet in de inbox terechtkomt. Deze getallen zijn voor elke afzender vanzelfsprekend uniek.
 
 | Verzonden | Percentage | Afgeleverd | Percentage | Inbox | Aantal niet in inbox | Conversiepercentage | Aantal verloren | Gemiddelde | Verloren |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|
