@@ -33,7 +33,7 @@ Deze sectie maakt een lijst van sommige extra middelen op leverbaarheid, zoals s
 * [Realtimelijsten van zwarte gaten](../../help/additional-resources/blocklist-databases.md)
 * [Problemen oplossen](../../help/additional-resources/troubleshooting.md)
 
-   <!--
+  <!--
     [IP Certification](../../help/additional-resources/ip-certification.md)
     [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
 

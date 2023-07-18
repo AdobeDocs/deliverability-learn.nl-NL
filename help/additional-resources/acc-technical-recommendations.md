@@ -127,11 +127,11 @@ Als u gedwongen bent om één enkel te gebruiken terugkoppelt lijnadres voor vee
 * Heb elke brievenbus die door één enkele instantie wordt opgepakt,
 * Vorm de instanties zodat zij slechts de berichten verwerken die hen aangaan: De instance-informatie is opgenomen in de Message-ID-header van berichten die door Adobe Campaign worden verzonden en bevindt zich daarom ook in de feedbacklusberichten. Geef de opdracht **checkInstanceName** parameter in het dossier van de instantieconfiguratie (door gebrek, wordt de instantie niet geverifieerd en dit kan bepaald adres ertoe leiden om verkeerd in quarantined te zijn):
 
-   ```
-   <serverConf>
-     <inMail checkInstanceName="true"/>
-   </serverConf>
-   ```
+  ```
+  <serverConf>
+    <inMail checkInstanceName="true"/>
+  </serverConf>
+  ```
 
 Met de Adobe Campaign Deliverability-service wordt uw abonnement op feedbacklusservices voor de volgende ISP&#39;s beheerd: AOL, BlueTime, Comcast, Cox, EarthLink, FastMail, Gmail, Hotmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, Terra, UnitedOnline, USA, XS4ALL, Yahoo, Yandex, Zoho.
 

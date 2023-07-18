@@ -65,11 +65,11 @@ Abonnees die zich met de campagne bezighouden door de open- of klikactiviteiten 
 * De volgende fase is om abonnees te identificeren die voortdurend geen activiteit tonen en geleidelijk het verzenden van e-mails naar hen over een periode te verminderen. Als er het afgelopen jaar geen activiteit is, is het goed om het e-mailabonnement van de abonnees in de wacht te zetten. Hoewel ze geen interesse hebben getoond in de e-mailinhoud, is het altijd de laatste kans dat ze hun abonnement opnieuw activeren door een eenmalige bevestigingscampagne te verzenden.
 * Herbevingscampagnes zijn een goede manier om abonnees die lange tijd inactief zijn te vragen of ze op de abonnementenlijst willen blijven. Wanneer u de campagne maakt, is het raadzaam een koppeling &quot;Klik hier&quot; toe te voegen, zodat zij de actie kunnen bevestigen en hun adres kunnen verifiëren. Op deze manier kan de handeling in de database worden opgenomen. Hieronder ziet u een voorbeeld van een e-mailbericht voor bevestiging:
 
-   ![](../../help/assets/deliverability_implementation_3.png)
+  ![](../../help/assets/deliverability_implementation_3.png)
 
-   Zodra de abonnee een actie heeft ondernomen, kan een landingspagina met de bevestiging van hun herabonnement worden aangeboden. Hieronder ziet u een voorbeeld van de landingspagina:
+  Zodra de abonnee een actie heeft ondernomen, kan een landingspagina met de bevestiging van hun herabonnement worden aangeboden. Hieronder ziet u een voorbeeld van de landingspagina:
 
-   ![](../../help/assets/deliverability_implementation_4.png)
+  ![](../../help/assets/deliverability_implementation_4.png)
 
 ## Productspecifieke bronnen
 

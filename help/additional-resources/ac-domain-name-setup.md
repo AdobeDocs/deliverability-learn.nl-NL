@@ -116,7 +116,6 @@ Vul de onderstaande tabel in. De eerste regel is slechts een voorbeeld.
 >* Wanneer het verzenden van e-mails van Adobe Campaign, wordt de brievenbus &quot;van Adres&quot;niet gecontroleerd en de marketing gebruikers kunnen tot deze brievenbus toegang hebben. Adobe Campaign biedt ook niet de mogelijkheid om e-mails die in dit postvak zijn ontvangen automatisch te beantwoorden of door te sturen.
 >* Het adres van de Campagne van/van de Afzender en het adres van de Fout kunnen niet &quot;misbruik&quot;of &quot;postmaster&quot;zijn.
 
-
 ## Subdomeinen delegeren
 
 De subdomein(s) die zijn gekozen voor gebruik voor het Adobe Campaign-platform, moeten worden gedelegeerd door het maken van NS-records (four Name Server).  Hierdoor kan het subdomein correct worden gedelegeerd aan Adobe.  Hieronder ziet u een voorbeeld van een subdomeindelegatie en de respectievelijke DNS-instructies.  Vervang &quot;e-mails.customer.com&quot; door het subdomein dat u wilt delegeren.  Houd er rekening mee dat het subdomein uniek moet zijn en niet al door een andere partij kan worden gebruikt (bijvoorbeeld een bestaande ESP of MSP).

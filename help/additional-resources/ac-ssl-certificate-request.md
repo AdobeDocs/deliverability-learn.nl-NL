@@ -9,7 +9,7 @@ exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
 source-git-commit: 57016f89df54d5c74755a6a108a92db45153ec18
 workflow-type: tm+mt
 source-wordcount: '2252'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -76,7 +76,7 @@ U moet de domeinnamen en de functies identificeren (bijhouden, pagina&#39;s spie
 
 Voer de onderstaande stappen uit om een CSR-bestand (Certificate Signing Request) te verkrijgen.
 
-* Als u toegang hebt tot [Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)volgt u de instructies op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) om een CSR-bestand te genereren en te downloaden vanuit het Configuratiescherm.
+* Als u toegang hebt tot [Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)volgt u de instructies op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#subdomains-and-certificates) om een CSR-bestand te genereren en te downloaden vanuit het Configuratiescherm.
 
 * Als dat niet het geval is, maakt u een ondersteuningsticket via https://adminconsole.adobe.com/ om een CSR-bestand op te halen van de Adobe Customer Care voor de vereiste subdomein(s).
 

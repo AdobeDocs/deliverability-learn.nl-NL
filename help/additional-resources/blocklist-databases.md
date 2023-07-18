@@ -27,31 +27,31 @@ Hieronder volgt een lijst van de meest gebruikte RBL&#39;s. Voor een uitgebreide
 
 * **Spamhaus**
 
-   Zie [https://www.spamhaus.org/](https://www.spamhaus.org/)
+  Zie [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   De database is belangrijker. De indeling op deze lijst is over het algemeen een ernstige situatie. Als dit gebeurt, moet u ONMIDDELLIJK handelen en commerciële diensten, leverbaarheid waarschuwen, en [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+  De database is belangrijker. De indeling op deze lijst is over het algemeen een ernstige situatie. Als dit gebeurt, moet u ONMIDDELLIJK handelen en commerciële diensten, leverbaarheid waarschuwen, en [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
-   Zie [https://www.spamcop.net/](https://www.spamcop.net/)
+  Zie [https://www.spamcop.net/](https://www.spamcop.net/)
 
-   Het is een van de bekendste databases. Als één van uw IP adressen op deze lijst wordt geplaatst, betekent dit over het algemeen dat de gebruikers SpamCop uw berichten als spam hebben verklaard of dat u berichten naar een honeypot SpamCop hebt verzonden.
+  Het is een van de bekendste databases. Als één van uw IP adressen op deze lijst wordt geplaatst, betekent dit over het algemeen dat de gebruikers SpamCop uw berichten als spam hebben verklaard of dat u berichten naar een honeypot SpamCop hebt verzonden.
 
 * **URIBL**
 
-   Zie [https://www.uribl.com/](https://www.uribl.com/)
+  Zie [https://www.uribl.com/](https://www.uribl.com/)
 
-   Deze lijst identificeert de domeinen die regelmatig in berichten verschijnen die als spam worden verklaard. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U moet de services voor de aflevering op de hoogte stellen en [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk.
+  Deze lijst identificeert de domeinen die regelmatig in berichten verschijnen die als spam worden verklaard. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U moet de services voor de aflevering op de hoogte stellen en [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk.
 
 * **SURBL**
 
-   Zie [https://surbl.org/](https://surbl.org/)
+  Zie [https://surbl.org/](https://surbl.org/)
 
-   De SURBL identificeert de websites die regelmatig in spam verschijnen. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U moet de services voor de aflevering op de hoogte stellen en [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk.
+  De SURBL identificeert de websites die regelmatig in spam verschijnen. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U moet de services voor de aflevering op de hoogte stellen en [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk.
 
 * **iX Manitu**
 
-   Dit is een lijst van IP&#39;s en wordt in Duitsland op grote schaal gebruikt. Zie [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+  Dit is een lijst van IP&#39;s en wordt in Duitsland op grote schaal gebruikt. Zie [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 
