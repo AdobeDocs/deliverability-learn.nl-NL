@@ -17,8 +17,8 @@ ht-degree: 4%
 
 Het hebben van dubbele e-mailadressen kan veelvoudige gevolgen hebben:
 
-* Hetzelfde bericht wordt meerdere keren verzonden. Zelfs als Adobe standaard een deduplicatieprocedure uitvoert voordat ze wordt verzonden, is er niets om te voorkomen dat hetzelfde bericht wordt verzonden door verschillende handelingen met dezelfde inhoud wanneer een doel wordt gesplitst.
-* Abonnementsverzoeken worden niet geaccepteerd. Als een ontvanger zich afmeldt na het ontvangen van een bericht, zal zijn dubbel profiel nog verkiesbaar voor toekomstige berichten zijn.
+* Hetzelfde bericht wordt meerdere keren verzonden. Zelfs als de Adobe standaard een deduplicatieprocedure uitvoert voordat ze wordt verzonden, is er niets om te voorkomen dat hetzelfde bericht wordt verzonden door verschillende handelingen met dezelfde inhoud wanneer een doel wordt gesplitst.
+* Abonnementsverzoeken worden niet geaccepteerd. Als een ontvanger zich afmeldt na het ontvangen van een bericht, is zijn dubbele profiel nog steeds geschikt voor toekomstige berichten.
 
 Naast deze zijstap van opt-in procedures, zal deze situatie gebruikers waarschijnlijk leiden om de berichten als spam te beschouwen en een procedure van de lijst van gewezen personen bij ISP teweeg te brengen.
 

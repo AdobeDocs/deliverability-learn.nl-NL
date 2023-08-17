@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Hier volgen enkele hooglichten:
 
-## Belangrijke gegevens
+## Welke gegevens belangrijk zijn
 
 [!DNL Verizon Media Group] (VMG) heeft eigen merkgebonden spamfilters gebouwd en onderhouden, die een mengeling van inhoud en het filtreren URL en spamklachten gebruiken. Samen met Gmail, zijn zij één van vroege het goedkeuren ISPs die e-mail door domein evenals IP adres filtreren.
 

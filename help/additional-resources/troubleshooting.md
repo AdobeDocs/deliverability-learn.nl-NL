@@ -32,7 +32,7 @@ Seed accounts show filtered or non-delivered mailings.
 Stel uzelf de volgende vragen om de mogelijke oorzaken van het probleem van de leverbaarheid te achterhalen:
 
 * Was er een recente wijziging in de segmentatie van lijsten?
-* Heb ik nieuwe gegevensbronnen verkregen?
+* Heb ik nieuwe gegevensbronnen aangeschaft?
 * Heb ik per ongeluk een quarantainebestand gepost?
 * Kan het probleem worden veroorzaakt door mijn berichtinhoud?
 * Verzend ik vaak genoeg om warme IPs te handhaven?
@@ -64,13 +64,13 @@ De klachten zijn ook afkomstig van abonnees die gewoon geen e-mail meer willen o
 **Harde vlekken** komt voor wanneer u naar een **niet-leverbaar adres** bij een ISP. Een adres kan om vele redenen zoals:
 * Onjuist gespeld adres. Dit kan worden opgelost met een realtime service voor gegevensvalidatie, of door een bevestigde aanmeldingsprocedure te vereisen voordat marketinge-mails naar dat adres worden verzonden.
 * Onjuiste lijst of gegevensbron. Als het uit een nieuwe bron komt, herzie hoe de adressen werden verzameld en zorg ervoor dat er toestemming was.
-* Verzenden naar een adres dat op een bepaald moment actief was, maar na een periode van inactiviteit is gesloten of beëindigd.
+* Verzenden naar een adres dat op een bepaald moment actief was, maar dat na een periode van inactiviteit is gesloten of beëindigd.
 
 ### Betrokkenheid
 
 Naast klachten en gegevensgeldigheid, concentreren ISPs zich meer dan ooit op **positieve betrokkenheid** besluiten over de uitvoering te nemen. Ze kijken of je abonnees je e-mails openen of ze verwijderen zonder ze te lezen. Omdat deze gegevens niet worden gedeeld met afzenders, moeten we de beschikbare informatie gebruiken en de taken voor het openen, klikken en uitvoeren als betrokkenheid vertalen.
 
-In het kader van het voortdurende reputatie-onderhoud is het belangrijk te begrijpen hoe betrokken abonnees op uw lijst staan en een **hiërarchie van het recuperatierisico** voor de abonnees op elk dossier. Recentie wordt gedefinieerd als laatste open-/klikdatum, -datum of -datum. Dit tijdkader kan verticaal verschillen. Dit doet u als volgt:
+In het kader van het voortdurende reputatie-onderhoud is het belangrijk te begrijpen hoe betrokken abonnees op uw lijst staan en een **hiërarchie van het recuperatierisico** voor de abonnees op elk dossier. Recentie wordt gedefinieerd als laatste open-/klikdatum/transactiedatum of aanmelddatum. Dit tijdkader kan verticaal verschillen. Dit doet u als volgt:
 
 1. Bepaal actieve (&quot;veilige&quot;) segmenten voor elke verticaal. Dit zijn typisch abonnees die binnen de laatste 3-6 maanden actief zijn geweest.
 1. Verminder de frequentie tot inactieven.

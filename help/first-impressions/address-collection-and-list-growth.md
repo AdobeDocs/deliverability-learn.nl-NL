@@ -27,9 +27,9 @@ De meest voorkomende vorm van **website-aanmelding** is &quot;één enkele opt-i
 
 * Niet-bevestigde e-mailadressen kunnen typos hebben of onjuist zijn geformuleerd, onjuist zijn of slecht worden gebruikt. De typos en de misvormde adressen veroorzaken hoge stuittarieven, die en veroorzaken blokken die door ISPs of IP reputatieverlies worden uitgegeven.
 
-* De kwaadwillige voorlegging van bekende spamvallen (soms genoemd &quot;lijstvergiftiging&quot;) kan enorme problemen met levering en reputatie veroorzaken als de eigenaar van die val actie onderneemt. Het is onmogelijk te weten of de ontvanger zonder bevestiging echt aan een marketinglijst wil worden toegevoegd. Dit maakt het even onmogelijk om de verwachtingen van de ontvanger te bepalen en kan tot verhoogde spamklachten leiden — en soms voegend op lijst van gewenste personen als de verzamelde e-mail een spamval blijkt te zijn.
+* De kwaadwillige voorlegging van bekende spamvallen (soms genoemd &quot;lijstvergiftiging&quot;) kan enorme problemen met levering en reputatie veroorzaken als de eigenaar van die val actie onderneemt. Het is onmogelijk om te weten of de ontvanger zonder bevestiging echt aan een marketinglijst wil worden toegevoegd. Dit maakt het even onmogelijk om de verwachtingen van de ontvanger te bepalen en kan tot verhoogde spamklachten leiden — en soms voegend op lijst van gewenste personen als de verzamelde e-mail een spamval blijkt te zijn.
 
-Voor hulp bij het minimaliseren van de problemen die zowel in de fysieke winkel als in de Single-opt-in worden voorgesteld, gaat u naar [Kwaliteit en hygiëne van de gegevens](#data-quality-and-hygiene) in deze handleiding voor de details en voordelen van dubbele opt-in.
+Voor hulp bij het minimaliseren van de problemen die zowel in de fysieke winkel als in de Single-opt-in worden voorgesteld, gaat u naar de [Kwaliteit en hygiëne van de gegevens](#data-quality-and-hygiene) in deze handleiding voor de details en voordelen van dubbele opt-in.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Hier volgen enkele oplossingen voor veelvoorkomende problemen die u kunt oplosse
 **[!DNL Double opt-in (DOI)]**
 [!DNL Double opt-in (DOI)] wordt door de meeste e-mailexperts beschouwd als de beste manier om te leveren. Als u problemen hebt met spamtraps of klachten over uw welkome e-mails, is DOI een goede manier om ervoor te zorgen dat de abonnee die uw e-mailberichten ontvangt, zich daadwerkelijk heeft aangemeld voor uw e-mailprogramma en uw e-mails wil ontvangen.
 
-DOI bestaat uit het verzenden van een bevestigingsbericht naar het e-mailadres van de abonnee dat zich heeft aangemeld bij uw e-mailprogramma en dat een koppeling bevat waarop moet worden geklikt om de toestemming te bevestigen. Als de abonnee deze methode niet bevestigt, stuurt de afzender de abonnee geen e-mails meer. Laat nieuwe abonnees weten dat u dit doet op de website en moedig ze aan om de aanmelding te voltooien voordat u verdergaat. Deze methode leidt wel tot een vermindering van het aantal aanmeldingen, maar de mensen die zich wel aanmelden, zijn vaak zeer betrokken en blijven voor de lange termijn. Het resulteert gewoonlijk in een veel hoger ROI voor de afzender.
+DOI bestaat uit het verzenden van een bevestigingsbericht naar het e-mailadres van de abonnee dat zich heeft aangemeld bij uw e-mailprogramma en dat een koppeling bevat waarop moet worden geklikt om de toestemming te bevestigen. Als de abonnee deze methode niet bevestigt, stuurt de afzender de abonnee geen e-mails meer. Laat nieuwe abonnees weten dat u dit doet op de website en moedig ze aan om de aanmelding te voltooien voordat u verdergaat. Deze methode leidt weliswaar tot een vermindering van het aantal aanmeldingen, maar de mensen die zich wel aanmelden, zijn vaak zeer betrokken en blijven op de lange termijn. Het resulteert gewoonlijk in een veel hoger ROI voor de afzender.
 
 **Verborgen veld**
 Het toepassen van een verborgen veld op uw aanmeldingsformulier is een geweldige manier om automatische bot-aanmeldingen te onderscheiden van echte menselijke abonnees. Omdat het gegevensveld niet zichtbaar is en verborgen is in de HTML-code, voert een bot gegevens in waar een mens dat niet wil. Met deze methode kunt u regels maken om elke aanmelding te onderdrukken die gegevens bevat die in dat verborgen veld zijn ingevuld.
@@ -71,9 +71,9 @@ Raadpleeg uw advocaten om lokale en nationale wetten betreffende e-mail te inter
 * Eventuele relevante wetten worden bepaald door de locatie van de ontvanger, niet door de verzender. Dus je moet de wetten kennen en volgen voor elk land waar je een abonnee zou kunnen hebben.
 * Het is vaak moeilijk om met zekerheid het land van verblijf van de abonnee te kennen. De gegevens die door de klant worden verstrekt kunnen verouderd zijn, en de gegevens van de pixelplaats kunnen onnauwkeurig zijn toe te schrijven aan VPN of beeldopslag, zoals met Gmail en Yahoo. Bij twijfel is het het veiligst om de strengst mogelijke wetten en richtsnoeren toe te passen.
 
-## Andere niet-aanbevolen methoden voor het verzamelen van lijsten
+## Andere niet-aanbevolen verzamelmethoden voor lijsten
 
-Er zijn vele andere manieren om adressen te verzamelen, elk met zijn eigen kansen, uitdagingen, en nadelen. Adobe adviseert deze in het algemeen niet, aangezien het gebruik vaak door leverancier aanvaardbaar gebruiksbeleid beperkt is. We zullen naar een paar voorbeelden kijken, zodat u de gevaren leert om u te helpen de risico&#39;s te beperken of te vermijden:
+Er zijn vele andere manieren om adressen te verzamelen, elk met zijn eigen kansen, uitdagingen, en nadelen. De Adobe adviseert deze in het algemeen niet, aangezien het gebruik vaak door leverancier aanvaardbaar gebruiksbeleid beperkt is. We zullen naar een paar voorbeelden kijken, zodat u de gevaren leert om u te helpen de risico&#39;s te beperken of te vermijden:
 
 **Een lijst kopen of huren**
 Er zijn veel soorten e-mailadressen. Primaire e-mail, e-mails voor werk, e-mails voor scholen, secundaire e-mails en inactieve e-mails om er een paar te noemen. De typen adressen die via aangekochte of gehuurde lijsten worden verzameld en gedeeld, zijn zelden primaire e-mailaccounts, waar bijna alle betrokkenheid- en aankoopactiviteiten plaatsvinden.

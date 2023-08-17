@@ -25,14 +25,14 @@ SPF (het Kader van het Beleid van de Afzender) is een norm van de e-mailauthenti
 
 SPF is een techniek die, tot op zekere hoogte, u toelaat om ervoor te zorgen dat de domeinnaam die in een e-mail wordt gebruikt niet wordt vervalst. Wanneer een bericht van een domein wordt ontvangen, wordt de DNS server van het domein gevraagd. De reactie is een kort verslag (het SPF verslag) dat details welke servers worden gemachtigd om e-mail van dit domein te verzenden. Als wij veronderstellen dat slechts de eigenaar van het domein de middelen heeft om dit verslag te veranderen, kunnen wij in overweging nemen dat deze techniek niet het afzenderadres om toelaat te vervalsen, minstens niet het deel van het recht van &quot;@&quot;.
 
-In het laatste [RFC 4408 — Specification](https://www.rfc-editor.org/info/rfc4408), worden twee elementen van het bericht gebruikt om het domein te bepalen dat als afzender wordt beschouwd: het domein dat door het &quot;HELO&quot;bevel SMTP (of &quot;EHLO&quot;) wordt gespecificeerd en het domein dat door het adres van de &quot;terugkeer-Weg&quot;(of &quot;MAIL VAN&quot;) kopbal wordt gespecificeerd, die ook het stuiteradres is. Op grond van verschillende overwegingen kan slechts met een van deze waarden rekening worden gehouden; wij adviseren ervoor te zorgen dat beide bronnen het zelfde domein specificeren.
+In het laatste [RFC 4408 — Specification](https://www.rfc-editor.org/info/rfc4408), worden twee elementen van het bericht gebruikt om het domein te bepalen dat als afzender wordt beschouwd: het domein dat door het bevel van SMTP &quot;HELO&quot;wordt gespecificeerd (of &quot;EHLO&quot;) en het domein dat door het adres van &quot;terugkeer-Weg&quot;(of &quot;MAIL VAN&quot;) kopbal wordt gespecificeerd, die ook het stuiterende adres is. Met verschillende overwegingen kunt u alleen rekening houden met een van deze waarden. We raden u aan ervoor te zorgen dat beide bronnen hetzelfde domein opgeven.
 
 Het controleren van SPF verstrekt een evaluatie van de geldigheid van het domein van de afzender:
 
 * **Geen**: Er kan geen evaluatie worden uitgevoerd.
-* **Neutraal**: Het gevraagde domein laat geen evaluatie toe.
+* **Neutraal**: Het gevraagde domein laat evaluatie niet toe.
 * **Voldoende**: Het domein wordt als authentiek beschouwd.
-* **Mislukt**: Het domein wordt vervalst en het bericht zou moeten worden verworpen.
+* **Mislukt**: Het domein wordt vervalst en het bericht moet worden afgewezen.
 * **SoftFail**: Het domein is waarschijnlijk gesmeed, maar het bericht mag niet alleen op basis van dit resultaat worden afgewezen.
 * **TempError**: Een tijdelijke fout heeft de evaluatie gestopt. Het bericht kan worden verworpen.
 * **PermError**: De SPF-records van het domein zijn ongeldig.
@@ -49,8 +49,8 @@ DKIM vervangen **DomainKeys** verificatie.
 
 Voor het gebruik van DKIM zijn enkele voorwaarden vereist:
 
-* **Beveiliging**: Versleuteling is een belangrijk element van de DKIM. Om het veiligheidsniveau van DKIM te verzekeren, is 1024b de beste praktijken geadviseerde encryptiegrootte. De lagere sleutels DKIM worden niet beschouwd als geldig door de meerderheid van toegangsleveranciers.
-* **Reputatie**: Reputatie is gebaseerd op IP en/of het domein, maar de minder transparante DKIM selecteur is ook een zeer belangrijk element dat in overweging moet worden genomen. Het is belangrijk dat u de kiezer kiest: vermijden dat de &quot; wanbetaling &quot; , die door iedereen kan worden gebruikt en dus een zwakke reputatie heeft , behouden blijft . U moet een andere kiezer implementeren voor **retentie vs. acquisitiemededelingen** en voor verificatie.
+* **Beveiliging**: Codering is een belangrijk element van de DKIM. Om het veiligheidsniveau van DKIM te verzekeren, is 1024b de beste praktijken geadviseerde encryptie grootte. De lagere sleutels DKIM worden niet beschouwd als geldig door de meerderheid van toegangsleveranciers.
+* **Reputatie**: Reputatie is gebaseerd op IP en/of het domein, maar de minder transparante DKIM kiezer is ook een belangrijk element waarmee rekening moet worden gehouden. Het is belangrijk de kiezer te kiezen: zorg dat u de standaardkiezer, die door iedereen kan worden gebruikt, niet behoudt en dus een zwakke reputatie heeft. U moet een andere kiezer implementeren voor **retentie vs. acquisitiemededelingen** en voor verificatie.
 
 Meer informatie over de DKIM-voorwaarde bij het gebruik van Campaign Classic in [deze sectie](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
@@ -58,7 +58,7 @@ Meer informatie over de DKIM-voorwaarde bij het gebruik van Campaign Classic in 
 
 DMARC (Domain-based Message Authentication, Reporting and Conformance) is de meest recente vorm van e-mailverificatie en is afhankelijk van zowel SPF- als DKIM-verificatie om te bepalen of een e-mail wel of niet wordt verzonden. DMARC is uniek en krachtig op twee belangrijke manieren:
 
-* Conformiteit - het staat de afzender toe om ISPs op te dragen wat met om het even welk bericht te doen dat er niet in slaagt voor authentiek te verklaren (bijvoorbeeld: niet aanvaarden).
+* Conformiteit - het staat de afzender toe om ISPs op te dragen wat met om het even welk bericht te doen dat er niet in slaagt voor authentiek te verklaren (bijvoorbeeld: keur het niet goed).
 * Het melden - het verstrekt de afzender van een gedetailleerd rapport dat alle berichten toont die authentificatie DMARC, samen met het &quot;Van&quot;domein en IP adres ontbrak dat voor elk wordt gebruikt. Dit staat een bedrijf toe om wettige e-mail te identificeren die authentificatie ontbreekt en één of ander type van &quot;moeilijke situatie&quot;(bijvoorbeeld, toevoegend IP adressen aan hun SPF verslag), evenals de bronnen en de prevalentie van phishingpogingen op hun e-maildomeinen vereist.
 
 >[!NOTE]

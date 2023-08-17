@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Consistentie in de verzending
 
-Verzendend permanent is het proces om een verenigbaar verzendend volume en strategie te vestigen om ISP reputatie te handhaven. Hieronder volgen enkele redenen waarom een permanente sender belangrijk is:
+Verzendend permanent is het proces om een verenigbaar verzendend volume en strategie te vestigen om ISP reputatie te handhaven. Hieronder volgen enkele redenen waarom een vaste afzenders belangrijk is:
 
 * Spammers zullen typisch &quot;IP adreshop&quot;betekenen, betekenend dat zij constant verkeer over vele IP adressen zullen verschuiven om reputatiekwesties te vermijden.
 * De consistentie is zeer belangrijk om aan ISPs te bewijzen dat de afzender betrouwbaar is en niet probeert om het even welke reputatie kwesties over te gaan die het resultaat van slechte verzendende praktijken zijn.

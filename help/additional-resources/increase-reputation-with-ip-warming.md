@@ -23,9 +23,9 @@ In the Adobe Deliverability Consulting and Deliverability Operations teams, we h
 
 ## Aan de slag
 
-Adobe vereist klanten om hun configuratie te delen om het team van de Leverbaarheid van de Adobe te helpen uw uniek programma begrijpen. De vragen die we stellen zijn ontworpen om het Adobe-leverbaarheidsteam een idee te geven van uw reputatie en e-mailvolume. Zonder een concreet inzicht in uw bedrijfsmodel, e-mailmarketing doelstellingen en reputatie metriek, zullen wij geen strategie kunnen aanpassen en er is risico op leveringsproblemen.
+Adobe vereist dat klanten hun configuratie delen om het team van de Leverbaarheid van de Adobe te helpen uw uniek programma begrijpen. De vragen die we stellen, zijn ontworpen om het Adobe Deliverability team te helpen een gevoel van uw verzendende reputatie en uw e-mailvolume te krijgen. Zonder een concreet inzicht in uw bedrijfsmodel, e-mailmarketing doelstellingen en reputatie metriek, zullen wij geen strategie kunnen aanpassen en er is risico op leveringsproblemen.
 
-Aan het begin zult u uw eigen toegewijde IP-adressen (Internet Protocol) krijgen. In de context van het verzenden van e-mail, is een IP adres de route die wordt gebruikt om uw e-mailberichten aan uw klanten te leveren. IP de adressen en de domeinen worden gebruikt om afzenders op een netwerk aan ontvangende ISPs te identificeren. Adobe wijst het juiste aantal speciale IP-adressen toe voor het verzenden van e-mails op basis van uw verzendvolume, e-mailprogramma&#39;s, praktijken voor gegevenssegmentatie en uw contract.
+Aan het begin zult u uw eigen toegewijde IP-adressen (Internet Protocol) krijgen. In de context van het verzenden van e-mail, is een IP adres de route die wordt gebruikt om uw e-mailberichten aan uw klanten te leveren. IP de adressen en de domeinen worden gebruikt om afzenders op een netwerk aan ontvangende ISPs te identificeren. De Adobe wijst het aangewezen aantal specifieke IP adressen voor het verzenden van e-mail toe, die op uw verzendend volume, e-mailprogramma&#39;s, de praktijken van de gegevenssegmentatie, en uw contract wordt gebaseerd.
 
 **Verwante onderwerpen:**
 * [Zorgen voor een soepele overgang bij de overstap naar een ander e-mailplatform](../../help/transition-process/switching-email-platforms.md)
@@ -38,7 +38,7 @@ De Dienstverleners van Internet (ISPs) of de Leveranciers van de Brievenbus (MBP
 
 ISPs onderzoekt zorgvuldig het verzendende volume, verzendt frequentie, klachten, en stuitert tarieven die uit deze berichten worden geproduceerd. Deze worden allemaal nauwkeurig gecontroleerd, omdat het indicatoren zijn van de reputatie van de verzender - of het nu goed of slecht is.
 
-Het onderzoek van deze gegevenspunten vergt natuurlijk tijd en kan niet over een paar dagen worden afgerond. Reputatie wordt in de loop der tijd opgebouwd. Dit proces is alsof je een vreemdeling thuis laat. Zou u bedenkingen hebben bij het binnenkomen van iemand die u nog nooit hebt ontmoet?
+Het onderzoek van deze gegevenspunten vergt natuurlijk tijd en kan niet over een of twee dagen worden afgerond. Reputatie wordt in de loop der tijd opgebouwd. Dit proces is alsof je een vreemdeling thuis laat. Zou u bedenkingen hebben bij het binnenkomen van iemand die u nog nooit hebt ontmoet?
 
 Het antwoord is zeer waarschijnlijk ja. Je zou deze persoon en hun motieven willen analyseren. Betekenen ze schade? Zijn ze een bedreiging? ISPs doet het zelfde om hun netwerk tegen kwaadwillig of ongewenst verkeer te beschermen. De positieve reputatie metriek helpt u een lange weg in een succesvol IP opwarend proces gaan. Daarom benadrukken wij het belang van het eerst verzenden van kleine e-mailvolumes en het eerst verzenden naar uw zeer betrokken klanten. Zie voor meer informatie [Doelcriteria bij het verzenden van nieuw verkeer](/help/transition-process/targeting-criteria.md).
 
@@ -50,9 +50,9 @@ Het verzenden van grote hoeveelheden e-mail van een gloednieuwe IP of IPs direct
 
 Dit is het belangrijkste onderdeel van het beheren en vergroten van een e-maillijst voor abonnees. Naarmate anti-spamwetten internationaal groeien en alomvattend worden, moet het primair de aandacht van een markteur zijn om ervoor te zorgen dat zij expliciete (of uitdrukkelijke) toestemming van elke abonnee op hun lijst hebben gekregen. Elke abonnee heeft er actief mee ingestemd e-mails van je merk te ontvangen. Dit verschilt van impliciete toestemming wanneer een persoon aan een e-maillijst wordt toegevoegd na het nemen van een actie die zich niet expliciet voor een e-mailprogramma had aangemeld.
 
-Meer informatie over [Beleid voor acceptabel gebruik van Adobe](https://www.adobe.com/legal/terms/aup.html).
+Meer informatie over [Beleid voor een aanvaardbaar gebruik van de Adobe](https://www.adobe.com/legal/terms/aup.html).
 
-## Reputatiemetriek: Wat zoekt ISPs?
+## Reputation Metrics: Wat zijn ISP&#39;s op zoek?
 
 ISPs gebruikt verfijnde technologie om opgeleide besluiten over al dan niet te nemen om e-mail te leveren zij van externe netwerken ontvangen. Soms hebben ze ingewikkelde en merkgebonden algoritmen in hun gereedschapset om hen in dit proces te helpen.
 
@@ -63,13 +63,13 @@ Enkele onderzochte gegevenspunten zijn:
 * E-mailgrenzen
 * Abonnementsbetrokkenheid
 
-ISPs vereist specifieke technische configuraties die zich op hun beleid en beste praktijken richten. Adobe configureert uw IPs en gedelegeerde subdomeinen om u als verantwoordelijke en vertrouwde op afzender te identificeren. Dit wordt [e-mailverificatie](/help/transition-process/infrastructure.md#authentication). De hulp van de authentificatie ontvangers bevestigen of een afzender de rechten heeft om van dat IP of domein te verzenden.
+ISPs vereist specifieke technische configuraties die zich op hun beleid en beste praktijken richten. De Adobe vormt uw IPs en gedelegeerde subdomeinen om u als verantwoordelijke en vertrouwde op afzender te identificeren. Dit wordt [e-mailverificatie](/help/transition-process/infrastructure.md#authentication). De hulp van de authentificatie ontvangers bevestigen of een afzender de rechten heeft om van dat IP of domein te verzenden.
 
 De authentificatie staat ISPs toe om te bevestigen dat het bedrijf dat van een domein of IP verzendt het recht heeft om dit te doen. Het is in feite gedaan om uw identiteit te bewijzen en ervoor te zorgen dat u zich niet als iemand anders voordoet en dat iemand anders u niet pretendeert te zijn.
 
-Bij Adobe, zullen wij SPF en DKIM door gebrek vormen en wij zullen DMARC door verzoek vormen. ISPs verwijzing SPF en DKIM als primaire vormen van authentificatie. Vele ISPs neemt ook DMARC (op domein-gebaseerde Authentificatie van het Bericht, Rapportering &amp; Conformiteit) in hun het filtreren besluiten op. Niet-geverifieerde e-mailberichten worden niet noodzakelijkerwijs geblokkeerd, maar er worden wel extra filters toegepast.
+Bij Adobe, zullen wij SPF en DKIM door gebrek vormen en wij zullen DMARC door verzoek vormen. ISPs verwijzing SPF en DKIM als primaire vormen van authentificatie. Vele ISPs neemt ook DMARC (op domein-gebaseerde Authentificatie van het Bericht, Rapportering &amp; Conformiteit) in hun het filtreren besluiten op. Niet-geverifieerde e-mailberichten worden niet noodzakelijkerwijs geblokkeerd, maar er worden wel extra filters op toegepast.
 
-## IP Warm: Wat te verwachten
+## IP Warm: wat te verwachten
 
 ### Gedraaide of geblokkeerde post
 
@@ -97,7 +97,7 @@ Als u een aanzienlijk aantal harde grenzen tegenkomt, is het belangrijk om te be
 
 ### Betrokkenheid
 
-ISPs zoekt verenigbaar volume en goede gegevenskwaliteit. U zult langzaam en gestaag het verkeer in de komende vier tot acht weken verhogen. Soms is er meer of minder tijd nodig op basis van uw volume en doelen, maar meestal is het minstens 8 weken bezig.
+ISPs zoekt verenigbaar volume en goede gegevenskwaliteit. U zult langzaam en gestaag het verkeer in de komende vier tot acht weken verhogen. Soms is er meer of minder tijd nodig op basis van uw volume en doelen, maar meestal is het minstens een 8-weken proces.
 
 Het e-mailverkeer moet langzaam en gestaag worden geïmplementeerd, elke week groter tot de volledige lijst is verzonden. Bovendien zal elk segment het programma tot voltooiing volgen. Begin met de meest recente abonnees eerst, en eindig met de minst betrokken abonnees het laatst. Gelieve te merken ook op dat bepaalde ISPs een meer aangepaste benadering wegens kan vereisen hoe zij nieuw verkeer behandelen.
 
@@ -111,7 +111,7 @@ Het is heel belangrijk om uw hoogst betrokken (met e-mail te beginnen!) abonnees
 
 ## Conclusie
 
-Onthoud: IP Warm is een marathon - geen sprint!  Hoewel het proces omslachtig en tijdrovend kan lijken, zou het meer werk zijn om te proberen een reputatie te herstellen die wordt beschadigd door het niet volgen van beproefde en echte e-mailbeste praktijken.
+Herinner me: IP Warm is een marathon - niet een sprint.  Hoewel het proces omslachtig en tijdrovend kan lijken, zou het meer werk zijn om te proberen een reputatie te herstellen die wordt beschadigd door het niet volgen van beproefde en echte e-mailbeste praktijken.
 
 Hoe beter uw verzendpraktijken zijn en hoe hoger uw reputatie bij ISP&#39;s is, des te groter de kans dat uw e-mails worden bezorgd. De opwarming van IP en het op gang brengen, samen met het volgen van de beste praktijken voor het ontwerp van uw post, zullen helpen uw inbox levering optimaliseren.
 

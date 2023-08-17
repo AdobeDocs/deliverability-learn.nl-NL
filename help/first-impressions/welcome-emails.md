@@ -36,14 +36,14 @@ U moet ze niet alleen bedanken voor het aanmelden. U moet ook hun aandacht afvra
 **Verwachtingen instellen**
 Maak duidelijk dat u zich op een positieve ervaring voor hen richt. Geef aan wat ze van u mogen verwachten en hoe vaak ze dat mogen verwachten. Het is ook een goed idee om hen de mogelijkheid te bieden hun ervaring gemakkelijk te beheren (d.w.z. een link naar een voorkeurscentrum). Overweeg ook koppelingen naar eerdere inhoud toe te voegen, zodat gebruikers kunnen verwijzen naar de inhoud waarop ze zich abonneren.
 
-**Laat ze je merk voelen**
-Elk merk heeft een stem. Laat u duidelijk in uw welkomstmail worden getoond. Zo kunt u uw nieuwe abonnee beter aansluiten op het merk en voorkomen dat ze zich verrast voelen door een stijlwijziging met latere e-mails.
+**Laat ze een gevoel voor je merk krijgen**
+Elk merk heeft een stem. Laat u duidelijk in uw welkomstmail worden getoond. Zo kunt u uw nieuwe abonnee beter laten aansluiten op het merk en voorkomen dat ze zich verrast voelen door een stijlwijziging met latere e-mails.
 
 **Houd het beknopt**
 Je hebt veel te zeggen en een enthousiast oor in je nieuwe abonnee. Maar uw eerste boodschap moet kort, eenvoudig en niet overweldigend zijn.
 
 **Een reeks e-mailberichten verzenden**
-Zoals eerder opgemerkt, heb je veel te zeggen tegen een aandachtig publiek. Door een volledige welkomstreeks (3-5 e-mails) te maken, kunt u ze allemaal op hetzelfde punt houden en alle informatie die u wilt delen, toch behandelen. Het stimuleert ook aanhoudende belangstelling van de abonnee, wat leidt tot voortdurende positieve betrokkenheid, versterkte reputatie, en verbeterde leverbaarheid.
+Zoals eerder opgemerkt, heb je veel te zeggen tegen een aandachtig publiek. Door een volledige welkomstreeks (3-5 e-mails) te maken, kunt u ze allemaal op hetzelfde punt houden en alle informatie die u wilt delen, blijven verwerken. Het stimuleert ook aanhoudende belangstelling van de abonnee, wat leidt tot voortdurende positieve betrokkenheid, versterkte reputatie, en verbeterde leverbaarheid.
 
 **Persoonlijk ophalen**
-Als u een reeks welkomste-mails doet, kunt u er een gebruiken om uw persoonlijke aanraking te tonen. Gebruik alle informatie die u hebt verzameld bij aanmelding of bij aankoop om te laten zien hoe u hun ervaring uniek en waardevoller kunt maken voor hen. Als u nog geen gegevens hebt verzameld, kunt u dit gebruiken om te tonen wat u kunt doen als u de kans krijgt. Vraag ze vervolgens om de informatie die je nodig hebt om hun ervaring te verrijken.
+Als u een reeks welkomste-mails doet, kunt u er een gebruiken om uw persoonlijke aanraking te tonen. Gebruik alle informatie die u hebt verzameld bij aanmelding of bij aankoop om te laten zien hoe u hun ervaring uniek en waardevoller kunt maken voor hen. Als u nog geen gegevens hebt verzameld, kunt u dit gebruiken als een gelegenheid om te tonen wat u kunt doen als u de kans krijgt. Vraag ze vervolgens om de informatie die je nodig hebt om hun ervaring te verrijken.

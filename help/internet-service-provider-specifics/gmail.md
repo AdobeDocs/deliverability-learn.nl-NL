@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Hier volgen enkele hooglichten:
 
-## Belangrijke gegevens
+## Welke gegevens belangrijk zijn
 
-[!DNL Gmail] is gericht op de feedback van hun gebruikers voor een groot deel van hun filterbeslissingen. Hoewel we de geheime saus die bij deze beslissingen betrokken is, niet kunnen kennen, zijn er gemeenschappelijke normen die de meeste marketeers kunnen controleren. Open- en kliksnelheden bieden inzicht in de betrokkenheid van uw doelpubliek en kunnen worden gebruikt om een positieve reputatie en een hoge plaatsing in het postvak te bevorderen.
+[!DNL Gmail] is gericht op de terugkoppeling van hun gebruikers voor een groot deel van hun filterbeslissingen. Hoewel we de geheime saus die bij deze beslissingen betrokken is, niet kunnen kennen, zijn er gemeenschappelijke normen die de meeste marketeers kunnen controleren. Open- en kliksnelheden bieden inzicht in de betrokkenheid van uw doelpubliek en kunnen worden gebruikt om een positieve reputatie en een hoge plaatsing in het postvak te bevorderen.
 
 ## Welke gegevens beschikbaar zijn
 

@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Alles over spamvallen
 
-A [spamingval](/help/metrics/spam-traps.md) is een geldig adres, zonder foutbericht wanneer e-mails worden verzonden naar. Een spamtrap heeft een hoofdmissie: spammers of afzenders te identificeren zonder gegevenshygiënisch proces.
+A [spamingval](/help/metrics/spam-traps.md) is een geldig adres, zonder foutbericht wanneer e-mails worden verzonden naar. Een spamvanger heeft een hoofdtaak: spammers of afzenders identificeren zonder proces voor gegevenshygiëne.
 
 ## Wie beheert deze spamovervaladressen?
 
@@ -41,14 +41,14 @@ Deze paar punten helpen u om uw processen te controleren:
 
 * Verzamel disfunctie:
    * Waar komen uw e-mailadressen vandaan? Hoeveel bronnen worden gebruikt om deze adressen te verzamelen? Kunt u ze identificeren? Interne/coregistratie?
-   * Werkt uw opt-in systeem correct?
+   * Werkt uw opt-in-systeem goed?
    * Hebt u domeinen en alias van uw adressen gecontroleerd? Doe het met de onderstaande tabel!
-* Databasehygiëneproces:
+* Databasehygiëne:
    * Wat is uw proces betreffende inactief adres op de laatste 12 maanden?
    * Verwerkt u een quarantaine op zachte grenzen als &quot;inactieve gebruiker&quot;?
    * Wanneer is de laatste keer dat u uw database hebt verzorgd en u hebt geprobeerd deze op te schonen? Doe het regelmatig.
 
-## Aliassen en domeinen die moeten worden vermeden
+## Aliassen en domeinen om te vermijden
 
 **Aliassen**
 

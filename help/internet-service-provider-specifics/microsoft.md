@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Hier volgen enkele hooglichten:
 
-## Belangrijke gegevens
+## Welke gegevens belangrijk zijn
 
 [!DNL Microsoft] richt zich op de reputatie van de afzender, klachten, gebruikersbetrokkenheid, en hun eigen groep vertrouwde gebruikers (ook genoemd geworden Gegevens van de Reputatie van de Afzender of SRD) die zij voor terugkoppel opiniepeilen.
 

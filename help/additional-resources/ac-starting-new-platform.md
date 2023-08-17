@@ -40,7 +40,7 @@ Het beginnen van een platform gebeurt vaak wanneer het gebruiken van een lijst v
 
 * **De doorvoersnelheid beperken** door het aantal tapijten te beperken. Neem contact op met de Adobe Campaign-beheerder voor meer informatie over het aanpassen van deze technische instelling.
 
-* **De verzonden volumes progressief verhogen** om te voorkomen dat ze als spam worden gemarkeerd. Wijs niet de gehele database vanaf het begin aan, maar voeg een extra fractie van de lijst toe telkens als u de gegevens verzendt. Dit zou u moeten toelaten om het volume bij elke stap te verhogen terwijl het verminderen van het algemene tarief van ongeldige adressen. U kunt golven gebruiken om een vloeiende ontwikkeling van de opstartfase te garanderen.
+* **De verzonden volumes progressief verhogen** om te voorkomen dat ze als spam worden gemarkeerd. Wijs niet de hele database vanaf het begin aan, maar voeg een extra fractie van de lijst toe telkens als u de gegevens verzendt. Dit zou u moeten toelaten om het volume bij elke stap te verhogen terwijl het verminderen van het algemene tarief van ongeldige adressen. U kunt golven gebruiken om een vloeiende ontwikkeling van de opstartfase te garanderen.
 
 * **Regelmatig verzenden**. Tot op zekere hoogte is het beter om regelmatig kleine opnamen te sturen in plaats van sporadisch grote campagnes.
 * **Let goed op de leveringsrapporten**. De hoge foutenindicatoren kunnen betekenen een technisch plaatsen slecht gevormd is.

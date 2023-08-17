@@ -22,17 +22,17 @@ Bij het implementeren van de leverbaarheid bestaat een aantal van de beste prakt
 
 >[!NOTE]
 >
->Neem voor meer informatie over strategieën voor de terugplaatsingscampagne en de leveringsservices van Adobe contact op met uw Deliverability Consultant of neem contact op met uw Adobe Sales-agent.
+>Neem voor meer informatie over strategieën voor de terugplaatsingscampagne en de leveringsservices van de Adobe contact op met uw leveringsconsultant of neem contact op met uw Adobe-verkoper.
 
 ## Hoe bekijkt ISPs niet-betrokkenheidsactiviteit? {#how-do-isps-view-non-engagement-activity-}
 
 Jarenlang, hebben ISPs overeenkomst terugkoppelt metriek van hun gebruikers gebruikt om te beslissen waar te om berichten te plaatsen, of of zij hen bij allen zouden moeten leveren. Gebruiker [betrokkenheid](/help/engagement.md) bestaat uit zowel positieve als negatieve terugkoppelen en ISPs controleren beide op een constante basis. Geen betrokkenheid hebben is misschien een van de belangrijkste bijdragers van negatieve betrokkenheid. Vanuit een leverbaarheidsperspectief, kan het constant verzenden van campagnes naar gebruikers die geen overeenkomst tonen de algemene reputatie van uw IP adres en domeinen ook verminderen.
 
-ISP&#39;s zoals Gmail, Microsoft® en OATH zien niet-betrokkenheid als ongewenste e-mail en sturen berichten door naar de spammap. Deze abonnees zijn mogelijk niet langer eigenaar van het e-mailaccount en kunnen dit gebruiken als een &#39;gerecycleerde&#39; spamval. Dit betekent dat het adres een tijdje ongeldig was en alle berichten worden verworpen. Als uw systeem van het abonneebeheer geen &quot;hard gefactureerde&quot;adressen verwijdert, het waarschijnlijk post aan spamvallen die tot significante leveringskwesties kunnen leiden.
+ISP&#39;s zoals Gmail, Microsoft® en OATH zien niet-betrokkenheid als ongewenste e-mail en sturen berichten door naar de spammap. Deze abonnees zijn mogelijk niet langer eigenaar van het e-mailaccount en kunnen dit gebruiken als een &#39;gerecycleerde&#39; spamval. Dit betekent dat het adres een tijdje ongeldig was en alle berichten worden verworpen. Als uw systeem van het abonneebeheer geen &quot;hard gefactureerde&quot;adressen verwijdert, is het waarschijnlijk post aan spamvallen die tot significante leveringskwesties kunnen leiden.
 
 ## Hoe moet u inactiviteit aanpakken? {#how-should-you-approach-inactivity-}
 
-Klanten die het Adobe-platform gebruiken, kunnen inactiviteit in hun exemplaar bekijken door het geopende bestand te bekijken en op de gegevens te klikken volgens het segment. Aangezien niet-betrokkenheid levering kan belemmeren, kan de eerste gedachte zijn abonnees uit het gegevensbestand te verwijderen. Dit kan echter soms een verkeerde optie blijken. Daarom is een strategie van hernieuwde betrokkenheid (ook wel een win-back genoemd) de beste aanbeveling om abonnees te behouden die in het ontvangen van post geïnteresseerd zijn, en geleidelijk degenen te elimineren die niet meer activiteit tonen.
+Klanten die het platform van de Adobe gebruiken kunnen inactiviteit binnen hun instantie bekijken door open te herzien en gegevens volgens het segment te klikken. Aangezien niet-betrokkenheid levering kan belemmeren, kan de eerste gedachte zijn abonnees uit het gegevensbestand te verwijderen. Dit kan echter soms een verkeerde optie blijken. Daarom is een strategie van hernieuwde betrokkenheid (ook wel een win-back genoemd) de beste aanbeveling om abonnees te behouden die in het ontvangen van post geïnteresseerd zijn, en geleidelijk degenen te elimineren die niet meer activiteit tonen.
 
 ## Werken herbetrokkenheidscampagnes echt? {#do-re-engagement-campaigns-really-work-}
 
@@ -45,7 +45,7 @@ Volgens een studie over het retourpad werden er herplaatsingscampagnes uitgevoer
 ### Fase 1 {#phase-1}
 
 * De eerste stap is abonnees te identificeren die weinig tot geen open of klikactiviteit hebben, en dienovereenkomstig deze groep te segmenteren die op een vastgestelde tijdkader wordt gebaseerd. De regel van duim is abonnees te herzien die geen e-mail binnen de afgelopen 90 dagen hebben geopend of geklikt. Dit varieert echter afhankelijk van de aard van de activiteit (bijvoorbeeld seizoensgebonden verzending).
-* Een ander punt om in mening te houden terwijl het bepalen van timeframes is dat ISPs en de bedrijven van de lijst van gewezen personen de betrokkenheid om tussen 1.5 en 1.8 jaar overwegen overal te zijn. Ook gedragsactiviteiten zoals aankopen en website-activiteit, of andere aanraakpunten, zoals voorkeuren tijdens de aanmeldfase of het eerste contactpunt.
+* Een ander punt om in mening te houden terwijl het bepalen van timeframes is dat ISPs en de bedrijven van de lijst van gewezen personen de betrokkenheid om tussen 1.5 en 1.8 jaar overwegen overal te zijn. Ook gedragsactiviteiten zoals aankopen en website-activiteit, of andere aanraakpunten, zoals voorkeuren tijdens de aanmeldfase of het eerste aanraakpunt.
 
 ### Fase 2 {#phase-2}
 
@@ -78,6 +78,6 @@ Abonnees die zich met de campagne bezighouden door de open- of klikactiviteiten 
 * [Logbestanden bijhouden in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
 * [Logbestanden bijhouden in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
-**Adobe Klantenbeheer**
+**Adobe van klantreisbeheer**
 
 * [Berichten tracken](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=nl)

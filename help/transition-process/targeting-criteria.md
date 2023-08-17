@@ -23,7 +23,7 @@ Wanneer het verzenden van nieuw verkeer, slechts richt uw hoogst betrokken gebru
 
 ![Formule voor betrokkenheid](../assets/formula-for-enagement.png)
 
-Doorgaans is een betrokkenheidspercentage gebaseerd op een specifieke periode. Deze metrische waarde kan drastisch variëren afhankelijk van als de formule op algemeen niveau of voor specifieke postingstypes of campagnes wordt toegepast. De specifieke het richten criteria moeten worden verstrekt door met uw Adobe leverability consultant te werken, aangezien elke afzender en ISP varieert en gewoonlijk een aangepast plan vereist.
+Doorgaans is een betrokkenheidspercentage gebaseerd op een specifieke periode. Deze metrische waarde kan drastisch variëren afhankelijk van als de formule op algemeen niveau of voor specifieke postingstypes of campagnes wordt toegepast. De specifieke het richten criteria moeten worden verstrekt door met uw consultant van de Adobe te werken leverability, aangezien elke afzender en ISP varieert en gewoonlijk een aangepast plan vereist.
 
 ## Productspecifieke bronnen
 
@@ -33,4 +33,4 @@ Doorgaans is een betrokkenheidspercentage gebaseerd op een specifieke periode. D
 
 **Campaign Standard**
 
-* [E-mails met een AI-processor: Predictieve betrokkenheidsscoring](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
+* [E-mails met een AI-processor: voorspellende betrokkenheidsscoring](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)

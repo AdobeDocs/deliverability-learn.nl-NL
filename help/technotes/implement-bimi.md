@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Met deze norm, kan een merk een embleem bepalen dat in postvakjes van brievenbusleveranciers zou moeten worden getoond. Zodra gepubliceerd in een zogenaamd BIMI DNS (het Systeem van de Naam van het Domein) verslag, zou een brievenbusleverancier dit embleem omhoog kunnen halen en het tonen in inbox als bepaalde criteria worden vervuld.
 
-Verschillende providers voeren verschillende implementaties uit, maar de voordelen zijn duidelijk: in de inbox staan , vertrouwen opbouwen en controleren wat er wordt getoond .
+Verschillende aanbieders voeren verschillende implementaties uit, maar de voordelen zijn duidelijk: in de inbox staan, vertrouwen opbouwen en controle hebben over wat wordt getoond.
 
 BIMI verbetert niet rechtstreeks de leverbaarheid of uw reputatie. Het kan helpen meer vertrouwen met uw ontvangers op te bouwen en daardoor ook meer betrokkenheid drijven.
 
@@ -30,7 +30,7 @@ U vindt enkele voorbeelden van implementaties van verschillende providers en mee
 
 De BIMI-groep is een werkgroep die BIMI ontwikkelt, aangezien zij niet alleen het logo omvat, maar ook de technische, juridische en nalevingsvereisten.
 
-De BIMI-groep bestaat uit verschillende belanghebbenden uit verschillende sectoren van de sector: Google, Yahoo, Fastmail, Proofpoint, Mailchimp, Sendgrid, Valimail en Validity.
+De BIMI-groep bestaat uit verschillende belanghebbenden uit verschillende sectoren van de industrie: Google, Yahoo, Fastmail, Proofpoint, Mailchimp, Sendgrid, Valimail en Validity.
 
 ## Wie steunt BIMI?
 
@@ -63,7 +63,7 @@ De implementatie van BIMI gebeurt in verschillende stappen:
 
 DMARC is een norm die het merk toestaat om te beslissen wat een brievenbusleverancier met een e-mail zou moeten doen die ontbreekt [verificatie](../additional-resources/authentication.md). Het zogenaamde beleid varieert van &quot;niets&quot;over &quot;quarantaine&quot; (de omslagplaatsing van Spam) aan &quot;verwerpen&quot; (direct blok de post). Alleen de laatste twee beleidsvormen worden &quot;handhaving&quot; genoemd en komen in aanmerking voor BIMI. De post die door Adobe wordt verzonden gaat authentificatie over, aangezien SPF (het Kader van het Beleid van de Afzender) en DKIM (de Sleutels van het Domein Identified Mail) opstelling per gebrek zijn. Adobe stelt DMARC op uw verzendend domein op verzoek in.
 
-Naast DMARC op het verzendende domein, moet DMARC ook op handhavingsniveau voor het organisatorische domein worden gebruikt (als het verzendende domein nieuws.example.com is, example.com is het organisatorische domein).
+Naast DMARC op het verzendende domein, moet DMARC ook op handhavingsniveau voor het organisatorische domein worden gebruikt (als het verzendende domein news.example.com is, example.com is het organisatorische domein).
 
 ### Het logo van uw merk maken {#create-brand-logo}
 
@@ -78,7 +78,7 @@ Een gecontroleerd Certificaat van het Teken (VMC) is slechts nodig voor sommige 
 
 Een geverifieerd markeringscertificaat is een geldige validering waarmee het merk het logo kan gebruiken. Een certificeringsinstantie zal dit controleren via het merkenbureau waar het merklogo is geregistreerd. Dit proces omvat verschillende wettelijke validaties en controles en kan enige tijd in beslag nemen. Momenteel geven twee CA&#39;s (certificeringsinstanties) VMC&#39;s uit: Digicert en Entrust. De eerste reeks merkenkantoren zijn VS, Canada, EU, Verenigd Koninkrijk, Duitsland, Japan, Australië en Spanje.
 
-Als algemene regel hebt u één VMC per logo nodig. Het hebben van VMC voor uw organisatorisch domein zal subdomeinen, en met een toegevoegde eigenschap zelfs verschillende domeinen behandelen. Als u verschillende logo&#39;s hebt, hebt u meer dan één VMC nodig. De certificeringsinstantie of -partner waarmee u wilt werken, helpt u dit instellen.
+Als algemene regel hebt u één VMC per logo nodig. Het hebben van VMC voor uw organisatorisch domein zal subdomeinen, en met een toegevoegde eigenschap zelfs verschillende domeinen behandelen. Als u verschillende logo&#39;s hebt, hebt u meer dan één VMC nodig. De certificeringsinstantie of -partner waarmee u wilt werken, helpt u bij het instellen van deze functie.
 
 >[!NOTE]
 >

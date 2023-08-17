@@ -26,4 +26,4 @@ Er zijn vier pijlers waarop succes kan worden geboekt:
 3. Handhaaf je lijsten door adressen te verwijderen die ongeldig worden.
 4. Bewaak, test en pas uw instellingen aan.
 
-Neem contact op met uw Adobe-consultant of leverancier als u ooit onduidelijk bent of hulp nodig hebt bij een probleem.
+Neem contact op met uw consultant voor leverantie van Adobe of een leverbaarheidsdeskundige als u ooit onduidelijk bent of hulp nodig hebt bij een probleem.

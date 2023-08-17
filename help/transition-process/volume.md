@@ -1,6 +1,6 @@
 ---
 title: Volume - Tips voor vloeiende overgang
-description: Het volume van post u verzendt is kritiek aan het vestigen van een positieve reputatie. Leer wat u kunt doen aan overgang vloeiend.
+description: Het volume van post u verzendt is kritiek aan het vestigen van een positieve reputatie. Leer wat u kunt doen om vloeiend over te gaan.
 topics: Deliverability
 jira: KT-7055
 thumbnail: kt7055.jpg
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Volume
 
-Het volume van post u verzendt is kritiek aan het vestigen van een positieve reputatie. Zet jezelf in de schoenen van een ISP — als je een ton verkeer ziet van iemand die je niet kent, zou dat alarmerend zijn. Het direct verzenden van grote hoeveelheden post is riskant en zeker om reputatie kwesties te veroorzaken die vaak moeilijk zijn op te lossen. Het kan frustrerend, tijdrovend en kostbaar zijn om uzelf uit slechte reputatie te halen en problemen op te lossen die het gevolg zijn van te veel te vroeg verzenden.
+Het volume van post u verzendt is kritiek aan het vestigen van een positieve reputatie. Zet jezelf in de schoenen van een ISP — als je een ton verkeer begint te zien van iemand die je niet kent, zou dat alarmerend zijn. Het direct verzenden van grote hoeveelheden post is riskant en zeker om reputatie kwesties te veroorzaken die vaak moeilijk zijn op te lossen. Het kan frustrerend, tijdrovend en kostbaar zijn om uzelf uit slechte reputatie te halen en problemen op te lossen die het gevolg zijn van te veel te vroeg verzenden.
 
 De volumedrempels variëren door ISP en kunnen ook afhankelijk van uw gemiddelde betrokkenheidsmetriek variëren. Sommige afzenders hebben een zeer lage en langzame oprijsnelheid nodig, terwijl andere een steile oprijplaat mogelijk maken. We raden u aan samen te werken met een expert, zoals een consultant voor Adobe-producten, om een aangepast volumeplan te ontwikkelen.
 
@@ -33,7 +33,7 @@ Hier volgt een lijst met tips en tips voor een vloeiende overgang:
 * **Uw e-mailaccount voor antwoorden controleren**. Het is een slechte ervaring voor uw klant om noreply@xyz.com te gebruiken of niet te antwoorden.
 * Inactieve adressen kunnen een negatief effect op de leesbaarheid hebben. **Opnieuw activeren en opnieuw inschakelen op uw huidige platform**, niet uw nieuwe IPs.
 * **Domeinen** — gebruik een verzendend domein dat subdomein van het daadwerkelijke domein van uw bedrijf is
-   * Bijvoorbeeld, als uw bedrijfsdomein xyz.com is, biedt email.xyz.com meer geloofwaardigheid aan ISPs dan xyzemail.com
+   * Bijvoorbeeld, als uw bedrijfdomein xyz.com is, verstrekt email.xyz.com meer geloofwaardigheid aan ISPs dan xyzemail.com
 * **Transparantie** — De registratiegegevens voor uw e-maildomein moeten openbaar zijn en mogen niet privé zijn.
 
 In veel omstandigheden volgt transactionele post niet de traditionele opwarmingsmethode. Het is duidelijk moeilijk om volume in transactie-post wegens zijn aard te controleren, aangezien het over het algemeen een gebruikersinteractie vereist om de e-mailaanraking teweeg te brengen. In sommige gevallen, kan de transactionele post eenvoudig zonder een formeel plan worden overgebracht. In andere gevallen, zou het beter kunnen zijn om elk berichttype over tijd over te gaan om het volume langzaam te groeien. U kunt bijvoorbeeld als volgt een overgang maken:
@@ -50,8 +50,8 @@ In veel omstandigheden volgt transactionele post niet de traditionele opwarmings
 * Meer informatie over het beheren van de leverbaarbaarheid bij het starten van een nieuw platform met Adobe Campaign in [deze sectie](/help/additional-resources/ac-starting-new-platform.md).
 * Meer informatie over het verzenden van meerdere golven met Adobe Campaign Classic in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
 * Leer hoe u een subdomein volledig kunt delegeren naar Adobe Campaign Classic of Standard in [deze sectie](/help/additional-resources/ac-domain-name-setup.md).
-* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
-* [Regelpaneel: Volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
+* [Configuratiescherm: volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
+* [Configuratiescherm: volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
 
 ## Aanvullende bronnen
 

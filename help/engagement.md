@@ -23,15 +23,15 @@ Betrokkenheid is de belangrijkste factor geworden die invloed heeft op beslissin
 
 Een goede open en klikfrequentie varieert afhankelijk van vele factoren voor verschillende afzenders. Vraag uw consultant voor de leveringsservice om specifieke doelstellingen en basislijnen voor uw e-mailprogramma vast te stellen.
 
-De e-mailovereenkomst is ook een termijn die wordt gebruikt om één type van metrisch te beschrijven dat helpt om IP reputatie te bepalen. ISP&#39;s die eigenaar zijn van hun eigen portals (Hotmail, AOL, Yahoo, Gmail, enz.) beschikken over een enorme hoeveelheid gegevens die beschikbaar zijn met betrekking tot de interactie van hun klanten met hun e-mail. Ze kunnen zien hoe ze de spammap openen, klikken en vele andere vormen van interactie zien, zelfs als de e-mail in of uit de spammap wordt verplaatst. Ze kunnen ook zien of het e-mailadres waarnaar ze zijn verzonden, in het adresboek van de klant staat of niet.
+De e-mailovereenkomst is ook een termijn die wordt gebruikt om één type van metrisch te beschrijven dat helpt om IP reputatie te bepalen. ISP&#39;s die eigenaar zijn van hun eigen portals (Hotmail, AOL, Yahoo, Gmail, enz.) beschikken over een enorme hoeveelheid beschikbare gegevens over de interactie van hun klanten met hun post. Ze kunnen zien hoe ze de spammap openen, klikken en vele andere vormen van interactie zien, zelfs als de e-mail in of uit de spammap wordt verplaatst. Ze kunnen ook zien of het e-mailadres waarnaar ze zijn verzonden, in het adresboek van de klant staat of niet.
 
 Terwijl u als afzender niet alle zelfde betrokkenheidsmetriek kunt volgen, opent en klikt een goed uitgangspunt. Het is belangrijk om op te merken dat ISPs slechts zicht aan e-mailbetrokkenheid heeft. Terwijl andere vormen van betrokkenheid aan als zaken als geheel belangrijk zijn, hebben ISPs slechts zicht en maken het filtreren uitspraken die op e-mailmetriek worden gebaseerd.
 
 ## Kwaliteit over hoeveelheid
 
-**Groei van organische lijsten** is de hoeksteen van een gezonde lijst. Veel marketers richten zich enorm op de groei van lijsten, maar vanuit het oogpunt van de leverbaarheid is het belangrijk om een lijst van kwaliteit van hoogst betrokken abonnees te bouwen. Door voortdurend e-mails te verzenden naar een publiek dat grotendeels onbetrokken is, kan uw verzendende reputatie afnemen en neemt de kans sterk toe dat uw e-mail in de map spam of junk zal landen.
+**Groei van organische lijsten** is de hoeksteen van een gezonde lijst. Veel marketers richten zich enorm op de groei van lijsten, maar vanuit het oogpunt van de leverbaarheid is het belangrijk om een lijst van kwaliteit van hoogst betrokken abonnees te bouwen. Door voortdurend e-mails te verzenden naar een publiek dat grotendeels onbetrokken is, kan uw verzendende reputatie afnemen en neemt de kans sterk toe dat uw e-mail in de map spam of junk landt.
 
-**Postfrequentie** Het is belangrijk dat u rekening houdt met het maken en onderhouden van een marketingprogramma voor e-mail. Het bepalen van de verwachtingen van de ontvangers tijdens uw welkomstbericht is een zeer nuttige strategie mensen willen weten wat te verwachten is. Aan deze verwachtingen moet echter worden voldaan: het te vaak verzenden van e-mail kan de klant vermoeidheid veroorzaken en in sommige gevallen kunnen leiden tot meer klachten en afmelden.
+**Postfrequentie** Het is belangrijk dat u rekening houdt met het maken en onderhouden van een marketingprogramma voor e-mail. Het bepalen van de verwachtingen van de ontvangers tijdens uw welkomstbericht is een zeer nuttige strategie mensen willen weten wat te verwachten is. Toch moet aan deze verwachtingen worden voldaan: het te vaak verzenden van e-mail kan de klant moedig maken en in sommige gevallen tot meer klachten en afmelden leiden.
 
 De juiste frequentie is iets dat elke markator moet vinden voor zijn specifieke marketingprogramma. Wij stellen voor verschillende frequenties te testen om de juiste balans te vinden voor elk specifiek marketingprogramma. Het actief houden van ontvangers is een van de belangrijkste dingen die een marketeers kan doen om het succes van een e-mailmarketingprogramma te verzekeren.
 
@@ -49,7 +49,7 @@ De beste manier om een win-back of reactiecampagne uit te voeren zal uniek aan u
 
 Het is eenvoudig om uw antwoord op e-mail in te stellen als een &quot;niet-antwoordadres&quot;, maar dit zou een vergissing zijn die het grotere plaatje over het hoofd ziet.
 
-Wanneer ontvangers reageren op marketingberichten, wordt een reactie verwacht. Door een **antwoordsysteem**, helpt u de reputatie van uw afzender te versterken. Dit zal de waarschijnlijkheid van positieve leverbaarheid en plaatsingspercentages in postvakken verhogen.
+Wanneer de ontvangers op marketing e-mail antwoorden, wordt een reactie verwacht. Door een **antwoordsysteem**, helpt u de reputatie van uw afzender te versterken. Dit zal de waarschijnlijkheid van positieve leverbaarheid en plaatsingspercentages in postvakken verhogen.
 
 Het is ook een veel betere klantenervaring en zal helpen om positieve perceptie van uw merk te verhogen. Er staat immers niets: &quot;Doe alsjeblieft zaken met ons&quot; zoals &quot;we willen van je horen.&quot;
 

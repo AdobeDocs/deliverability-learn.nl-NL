@@ -29,7 +29,7 @@ Meer informatie in de officiële communicatie [hier](https://tecnologia.libero.i
 
 ## Gevolgen{#outage-impact}
 
-Net als in de meeste gevallen waarin een internetprovider (ISP) buiten bedrijf is, zijn sommige e-mails die via Campagne of Journey Optimizer zijn verzonden, ten onrechte gemarkeerd als beloften. Dit was niet alleen van invloed op Adobe, maar iedereen probeerde om via e-mail aan Italia Online te worden bezorgd tijdens de periode van de storing.
+Net als in de meeste gevallen waarin een internetprovider (ISP) buiten bedrijf is, zijn sommige e-mails die via Campagne of Journey Optimizer zijn verzonden, ten onrechte gemarkeerd als beloften. Dit was niet alleen van invloed op de Adobe, maar iedereen probeerde om via e-mail aan Italia Online te worden bezorgd tijdens de periode van de storing.
 
 Symptomen waren:
 
@@ -41,7 +41,7 @@ Symptomen waren:
 
 ### Adobe Campaign{#ac-update}
 
-Adobe Campaign heeft deze ontvangers automatisch aan de quarantainelijst toegevoegd met een **[!UICONTROL Status]** instellen van **[!UICONTROL Quarantine]**. Om dit te verbeteren, moet u uw quarantainetabel in Campagne bijwerken door deze ontvangers te vinden en te verwijderen, of hun te veranderen **[!UICONTROL Status]** tot **[!UICONTROL Valid]** zodat de nachtelijke schoonmaakworkflow ze verwijdert.
+Volgens de standaardlogica voor stuitverwerking heeft Adobe Campaign deze ontvangers automatisch aan de quarantainelijst toegevoegd met een **[!UICONTROL Status]** instellen van **[!UICONTROL Quarantine]**. Om dit te verbeteren, moet u uw quarantainetabel in Campagne bijwerken door deze ontvangers te vinden en te verwijderen, of hun te veranderen **[!UICONTROL Status]** tot **[!UICONTROL Valid]** zodat de nachtelijke schoonmaakworkflow ze verwijdert.
 
 Om de ontvangers te vinden die door deze kwestie werden beïnvloed, of in het geval dit opnieuw met een andere ISP gebeurt, gelieve de instructies hieronder te zien:
 

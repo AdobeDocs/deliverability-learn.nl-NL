@@ -72,7 +72,7 @@ bepaalt de twee IP adressen, 12.34.56.78 en 12.34.56.79, zoals gemachtigd om e-m
 Recommendations voor het definiëren van een SPF-record:
 
 * Toevoegen **~all** (SoftFail) of **-all** (Mislukt) aan het einde om alle andere servers dan de gedefinieerde te weigeren. Zonder dit, zullen de servers dit domein (met een Neutrale evaluatie) kunnen vervalsen.
-* Niet toevoegen **ptr** (openspf.org beveelt aan om dit als kostbaar en onbetrouwbaar aan te pakken).
+* Niet toevoegen **ptr** (openspf.org beveelt aan dit als kostbaar en onbetrouwbaar te verhelpen).
 
 >[!NOTE]
 >
@@ -82,13 +82,13 @@ Recommendations voor het definiëren van een SPF-record:
 
 >[!NOTE]
 >
->Meer informatie over de verschillende vormen van e-mailverificatie in [deze sectie](/help/additional-resources/authentication.md).
+>Meer informatie over de verschillende vormen van e-mailverificatie vindt u in [deze sectie](/help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 
 >[!NOTE]
 >
->Voor gehoste of hybride installaties, als u hebt geüpgraded naar de [Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), DKIM ondertekenen van e-mailverificatie wordt uitgevoerd door de Enhanced MTA voor alle berichten met alle domeinen.
+>Voor gehoste of hybride installaties, als u een upgrade hebt uitgevoerd naar de [Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), DKIM ondertekenen van e-mailverificatie wordt uitgevoerd door de Enhanced MTA voor alle berichten met alle domeinen.
 
 Gebruiken [DKIM](/help/additional-resources/authentication.md#dkim) met Adobe Campaign Classic is de volgende voorwaarde vereist:
 
@@ -111,7 +111,7 @@ Het implementeren van een feedbacklus voor een instantie vereist:
 
 Bij het implementeren van een eenvoudige feedbacklus in Adobe Campaign wordt de functionaliteit voor het stuiterende bericht gebruikt. De terugkoppelt lijnbrievenbus wordt gebruikt als stuiterende brievenbus en een regel wordt bepaald om deze berichten te ontdekken. De e-mailadressen van de ontvangers die het bericht als spam hebben gemeld, worden toegevoegd aan de quarantainelijst.
 
-* Een regel voor stuiterende e-mail maken of wijzigen **Feedback_loop**, in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** om welke reden **Geweigerd** en het type **Hard**.
+* Een stuiterende mailregel maken of wijzigen **Feedback_loop**, in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** om welke reden **Geweigerd** en het type **Hard**.
 * Als een brievenbus speciaal voor de terugkoppel lijn is bepaald, bepaal de parameters om tot het toegang te hebben door een nieuwe externe rekening van de Steekproef te creëren Mails in **[!UICONTROL Administration > Platform > External accounts]**.
 
 Het mechanisme is onmiddellijk operationeel voor het verwerken van kennisgevingen van klachten. Om ervoor te zorgen deze regel correct werkt, kunt u de rekeningen tijdelijk deactiveren zodat zij deze berichten niet verzamelen, dan controleren de inhoud van terugkoppelt lijnbrievenbus manueel. Voer op de server de volgende opdrachten uit:
@@ -125,7 +125,7 @@ Als u gedwongen bent om één enkel te gebruiken terugkoppelt lijnadres voor vee
 
 * Herhaal de ontvangen berichten op zo veel brievenbussen aangezien er instanties zijn,
 * Heb elke brievenbus die door één enkele instantie wordt opgepakt,
-* Vorm de instanties zodat zij slechts de berichten verwerken die hen aangaan: De instance-informatie is opgenomen in de Message-ID-header van berichten die door Adobe Campaign worden verzonden en bevindt zich daarom ook in de feedbacklusberichten. Geef de opdracht **checkInstanceName** parameter in het dossier van de instantieconfiguratie (door gebrek, wordt de instantie niet geverifieerd en dit kan bepaald adres ertoe leiden om verkeerd in quarantined te zijn):
+* Vorm de instanties zodat zij slechts de berichten verwerken die hen aangaan: de instantieinformatie is inbegrepen in de bericht-identiteitskaart- kopbal van berichten die door Adobe Campaign worden verzonden en daarom ook in de terugkoppel lusberichten wordt gevestigd. Geef de opdracht **checkInstanceName** parameter in het dossier van de instantieconfiguratie (door gebrek, wordt de instantie niet geverifieerd en dit kan bepaald adres ertoe leiden om verkeerd in quarantined te zijn):
 
   ```
   <serverConf>
@@ -133,7 +133,7 @@ Als u gedwongen bent om één enkel te gebruiken terugkoppelt lijnadres voor vee
   </serverConf>
   ```
 
-Met de Adobe Campaign Deliverability-service wordt uw abonnement op feedbacklusservices voor de volgende ISP&#39;s beheerd: AOL, BlueTime, Comcast, Cox, EarthLink, FastMail, Gmail, Hotmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, Terra, UnitedOnline, USA, XS4ALL, Yahoo, Yandex, Zoho.
+Met de Adobe Campaign-service voor leveringszekerheid wordt uw abonnement op feedbacklusservices beheerd voor de volgende ISP&#39;s: AOL, BlueTime, Comcast, Cox, EarthLink, FastMail, Gmail, Hotmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, Terra, UnitedOnline, USA, XS4ALL Yahoo, Yandex, Zoho.
 
 ## List-Unsubscribe {#list-unsubscribe}
 
@@ -161,7 +161,7 @@ De volgende opdrachtregel kan worden gebruikt om een dynamisch object te maken *
 List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%
 ```
 
-Gmail, Outlook.com, en de Vooruitzichten van Microsoft steunen deze methode en een unsubscribe knoop is beschikbaar direct in hun interface. Deze techniek verlaagt de klachtenpercentages.
+Gmail, Outlook.com, en Microsoft Outlook steunen deze methode en een unsubscribe knoop is beschikbaar direct in hun interface. Deze techniek verlaagt de klachtenpercentages.
 
 U kunt de **List-Unsubscribe** door:
 
@@ -180,7 +180,7 @@ De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in
 
 >[!NOTE]
 >
->We raden u aan een typologieregel te maken: De List-Unsubscribe-functionaliteit wordt automatisch toegevoegd aan elke e-mail.
+>We raden u aan een typologieregel te maken: de functionaliteit List-Unsubscribe wordt automatisch toegevoegd aan elke e-mail.
 
 1. List-Unsubscribe: &lt;mailto:unsubscribe domain.com=&quot;&quot;>
 
@@ -196,7 +196,7 @@ De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in
 
 >[!NOTE]
 >
->Meer informatie over het maken van typologische regels in Adobe Campaign Classic in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>Leer hoe u in Adobe Campaign Classic typologische regels maakt [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ## E-mailoptimalisatie {#email-optimization}
 
@@ -210,4 +210,4 @@ De meest voorkomende fouten moeten worden geïdentificeerd en er moet een corres
 
 ### Specifieke IPs {#dedicated-ips}
 
-Adobe verstrekt een specifieke IP strategie voor elke klant van een oprijplaat-omhoog IP om een reputatie te bouwen en leveringsprestaties te optimaliseren.
+De Adobe verstrekt een specifieke IP strategie voor elke klant van een oprijplaat-omhoog IP om een reputatie te bouwen en leveringsprestaties te optimaliseren.
