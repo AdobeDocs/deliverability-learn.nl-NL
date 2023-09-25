@@ -5,8 +5,9 @@ user-guide-description: Leer de belangrijkste termen, concepten en benaderingen 
 feature: Deliverability
 role: Leader, User
 level: Beginner
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
-workflow-type: tm+mt
+auto-video-transcripts: true
+source-git-commit: be28ecdbcd064e2bcca739db492064869ddbb59a
+workflow-type: ht
 source-wordcount: '172'
 ht-degree: 100%
 
