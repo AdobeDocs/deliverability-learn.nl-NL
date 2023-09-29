@@ -4,10 +4,11 @@ description: Leer hoe u BIMI kunt implementeren
 topics: Deliverability
 role: Admin
 level: Beginner
+jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+source-git-commit: d23a0477b908427c4e9d889d5d9ed896a6ac8322
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -68,6 +69,8 @@ Naast DMARC op het verzendende domein, moet DMARC ook op handhavingsniveau voor 
 ### Het logo van uw merk maken {#create-brand-logo}
 
 Het maken van het logo moet aan de vereisten voldoen tot 100%. Raadpleeg altijd de [Richtsnoeren van de BIMI-groep](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
+
+Het logo moet op een beveiligde locatie (HTTPS) worden opgeslagen, voor het geval dat een CDN (content delivery network) wordt gebruikt om het even welke bescherming te voorkomen die postbusproviders ervan weerhoudt het logo te verkrijgen (bv. Bot Protection), moet worden uitgeschakeld.
 
 Naast de technische vereisten zijn er enkele praktische aanbevelingen, zoals een vierkant logo, een effen kleur als achtergrond en andere. Deze aanbevelingen zijn bedoeld voor een optimale visualisatie.
 Niet-naleving kan ertoe leiden dat het logo niet wordt weergegeven.
