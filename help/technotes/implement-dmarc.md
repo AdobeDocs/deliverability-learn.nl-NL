@@ -4,10 +4,11 @@ description: Leer hoe u BIMI kunt implementeren
 topics: Deliverability
 role: Admin
 level: Beginner
-source-git-commit: 5ac5bc90b5a9bf3ce9b390821476c7222983b818
+exl-id: f1c14b10-6191-4202-9825-23f948714f1e
+source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 0%
+source-wordcount: '1258'
+ht-degree: 8%
 
 ---
 
@@ -43,11 +44,11 @@ DMARC is optioneel, en hoewel dit niet verplicht is, is het gratis en biedt e-ma
 
 ## Beste praktijken voor het Uitvoeren DMARC {#best-practice}
 
-Aangezien DMARC facultatief is, zal het niet door gebrek op om het even welk platform van ESP worden gevormd. Een DMARC- verslag moet in DNS voor uw domein worden gecreeerd opdat het werkt. Bovendien is een e-mailadres van uw keuze vereist om aan te geven waar DMARC-rapporten binnen uw organisatie moeten worden geplaatst. Als beste praktijken, wordt het geadviseerd om implementatie DMARC langzaam uit te voeren door uw beleid DMARC van p=none, aan p=quarantaine, aan p=weiger te escaleren aangezien u DMARC inzicht in de potentiële invloed van DMARC krijgt.
+Aangezien DMARC facultatief is, zal het niet door gebrek op om het even welk platform van ESP worden gevormd. Een DMARC- verslag moet in DNS voor uw domein worden gecreeerd opdat het werkt. Bovendien is een e-mailadres van uw keuze vereist om aan te geven waar DMARC-rapporten binnen uw organisatie moeten worden geplaatst. Als best practice wordt aanbevolen om de DMARC-implementatie langzaam uit te rollen door uw DMARC-beleid te escaleren van p=none naar p=quarantaine en dan naar p=reject, naarmate u DMARC-inzicht krijgt in de potentiële impact van DMARC.
 
-1. Analyseer terugkoppelen u ontvangt en gebruikt (p=none), die de ontvanger vertelt om geen acties tegen berichten uit te voeren die authentificatie ontbreken, maar nog e-mailrapporten naar de afzender verzenden. Ook, herzie en los kwesties met SPF/DKIM op als de wettige berichten authentificatie ontbreken.
+1. Analyseer terugkoppelen u ontvangt en gebruikt (p=none), die de ontvanger vertelt om geen acties tegen berichten uit te voeren die authentificatie ontbreken, maar nog e-mailrapporten naar de afzender verzenden. Bekijk en los ook problemen met SPF/DKIM op als legitieme berichten niet kunnen worden geverifieerd.
 1. Bepaal als SPF en DKIM worden gericht en authentificatie voor al wettige e-mail overgaan, en dan het beleid verplaatsen naar (p=quarantaine), dat de ontvangende e-mailserver aan quarantainemail vertelt die authentificatie ontbreekt (dit betekent over het algemeen het plaatsen van die berichten in de spamomslag).
-1. Pas het beleid aan (p=afwijzen). Het p= afwijzingsbeleid vertelt de ontvanger om het even welke e-mail voor het domein volledig te ontkennen (stuiteren) dat authentificatie ontbreekt. Als dit beleid is ingeschakeld, heeft alleen e-mail die is geverifieerd als 100% en die is geverifieerd door uw domein, een kans bij plaatsing in Postvak IN.
+1. Pas het beleid aan (p=afwijzen). Het beleid p=reject laat de ontvanger weten dat elke e-mail voor het domein dat niet door de verificatie komt, moet worden geweigerd (teruggestuurd). Als dit beleid is ingeschakeld, heeft alleen e-mail voor 100% is geverifieerd door uw domein, een kans op plaatsing in het postvak IN.
 
    >[!NOTE]
    >
@@ -90,6 +91,10 @@ DMARC-records hebben meerdere componenten, DMARC-tags genoemd. Elke tag heeft ee
 | aspf | Optioneel | Kan strikt (s) of Ontspannen (r) zijn. De opnieuw geconcentreerde groepering betekent dat het Domein ReturnPath een subdomein van Van Adres kan zijn. Strikte uitlijning houdt in dat het domein van het Return-Path een exacte overeenkomst moet zijn met het Van-adres. | aspf=r | r |
 
 ## DMARC en Adobe Campaign {#campaign}
+
+>[!NOTE]
+>
+>Als uw instantie Campagne op AWS wordt ontvangen, kunt u DMARC voor uw subdomeinen met het Controlebord uitvoeren. [Leer hoe te om Verslagen DMARC uit te voeren gebruikend Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 Een algemene reden voor DMARC-fouten is een onjuiste afstemming tussen het adres &#39;Van&#39; en &#39;Fouten naar&#39; of &#39;Return-Path&#39;. Om dit te voorkomen, wordt het aanbevolen om bij het instellen van DMARC de instellingen voor het adres &#39;Van&#39; en &#39;Fouten-naar&#39; in uw leveringssjablonen tweemaal te controleren.
 
