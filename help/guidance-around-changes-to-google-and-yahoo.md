@@ -7,7 +7,7 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: ce0ecaa7f62e8ba0bbf44dc180908b81475a225e
+source-git-commit: d237d0dd921d84461a4edd47d8da501c23576d58
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Het is belangrijk op te merken dat [!DNL Google] en [!DNL Yahoo] verwijzen beide
 Voor Marketo Engage heeft Adobe de optie &quot;mailto&quot; al ingeschakeld en biedt momenteel geen ondersteuning voor de optie &quot;http/URL&quot;. Verdere actualiseringen hierover.
 Voor Adobe Campaign en Adobe Journey Optimizer wordt aangeraden zowel de optie &quot;mailto&quot; als de optie &quot;1-klik&quot; te gebruiken.
 
-Als u meer informatie over hoe te om lijst-uit te voeren wenst, gelieve te controleren [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for **[!DNL Adobe Campaign Classic]**, [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}, or **[!DNL Adobe Campaign Standard]**, and [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} for **[!DNL Adobe Journey Optimizer]** of u kunt op elk gewenst moment contact opnemen met het klantenondersteuningsteam van de Adobe.
+Als u meer informatie over hoe te om lijst-uit te voeren wenst, gelieve te controleren [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for **[!DNL Adobe Campaign Classic]**, [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} for **[!DNL Adobe Campaign Standard]**, and [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} for **[!DNL Adobe Journey Optimizer]** of u kunt op elk gewenst moment contact opnemen met het klantenondersteuningsteam van de Adobe.
 
 De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toepassing. Gelieve te merken op dat de teweeggebrachte berichten zoals Verlaten Kar en de gelijkaardige die mededelingen niet door de abonnee worden geproduceerd als marketing door brievenbusleveranciers zoals worden beschouwd [!DNL Google] en [!DNL Yahoo] en die zouden lijst-onderbreking nodig hebben.
 
