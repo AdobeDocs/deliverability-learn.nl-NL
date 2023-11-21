@@ -7,9 +7,9 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: 0aeff034f6ca2a3dce065240384d1b0e7922fa31
+source-git-commit: 304c09426f9fd149f8fd0e89a50030819a772e71
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,17 @@ Geen paniek. [!DNL Google] en [!DNL Yahoo] hebben het niet over de afmeldingskop
 Het is belangrijk op te merken dat [!DNL Google] en [!DNL Yahoo] verwijzen beide naar de optie &quot;http/URL&quot; met de naam &quot;1-Click&quot; en dit is opzettelijk. Technisch gezien kunt u met de oorspronkelijke optie &quot;http/URL&quot; ontvangers omleiden naar een website. Dat is niet de focus van [!DNL Yahoo] en [!DNL Google], die beide verwijzen naar de bijgewerkte RFC8058, die zich richt op het verwerken van het afmelden via een HTTPS-verzoek voor POSTEN in plaats van een website, en die het &quot;1-Klik&quot; maakt.
 Voor Marketo Engage heeft Adobe de optie &quot;mailto&quot; al ingeschakeld en biedt momenteel geen ondersteuning voor de optie &quot;http/URL&quot;. Verdere actualiseringen hierover.
 Voor Adobe Campaign en Adobe Journey Optimizer wordt aangeraden zowel de optie &quot;mailto&quot; als de optie &quot;1-klik&quot; te gebruiken.
-Als u meer informatie over hoe te om lijst-uit te voeren wenst, gelieve te controleren [hier] https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for Adobe Campaign Classic, [here] (https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} for Adobe Campaign Standard, and [here] (https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} voor Adobe Journey Optimizer of u kunt op elk gewenst moment contact opnemen met het klantenondersteuningsteam van de Adobe.
+
+Als u meer informatie over hoe te om lijst-uit te voeren wenst, gelieve te controleren [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
+
+voor Adobe Campaign Classic, [hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
+
+voor Adobe Campaign Standard, en [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+
+voor Adobe Journey Optimizer of u kunt op elk gewenst moment contact opnemen met het klantenondersteuningsteam van de Adobe.
+
 De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toepassing. Gelieve te merken op dat de teweeggebrachte berichten zoals Verlaten Kar en de gelijkaardige die mededelingen niet door de abonnee worden geproduceerd als marketing door brievenbusleveranciers zoals worden beschouwd [!DNL Google] en [!DNL Yahoo] en die zouden lijst-onderbreking nodig hebben.
+
 ![afbeelding](https://git.corp.adobe.com/storage/user/38257/files/a2da6bdb-524d-46a7-b765-718c1fe407b0)
 
 ## Abonnement binnen 2 dagen verwerken:
