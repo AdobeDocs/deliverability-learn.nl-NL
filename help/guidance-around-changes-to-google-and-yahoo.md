@@ -8,16 +8,16 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: be133b442284b39daa8e2dd276c2942402b4936d
+source-git-commit: 0ad2e59948aa94008ae5c3f6eec7914223bdb02a
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
 
 # Richtsnoeren voor de aangekondigde wijzigingen [!DNL Google] en [!DNL Yahoo]
 
-Op 3 oktober beide [!DNL Google] en [!DNL Yahoo] gezamenlijk via hun blogs aangekondigde wijzigingen . Deze wijzigingen zijn bedoeld om hun gebruikers veiliger te houden en een betere e-mailervaring te bieden door een aantal gangbare best practices uit de branche te handhaven als nieuwe vereisten vanaf februari 2024.
+Op 3 oktober beide [!DNL Google] en [!DNL Yahoo] gezamenlijk via hun blogs aangekondigde wijzigingen . Deze wijzigingen zijn bedoeld om hun gebruikers veiliger te houden en een betere e-mailervaring te bieden door een aantal gangbare best practices uit de branche te handhaven als nieuwe vereisten vanaf 1 februari 2024.
 
 [https://blog.google/products/gmail/gmail-security-authentication-spam-protection/](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 
@@ -40,6 +40,9 @@ Als u een klant van de Adobe bent is het grootste deel van wat zij vereisen reed
 ## DMARC:
 
 [!DNL Google] en [!DNL Yahoo] vereisen beide dat u een DMARC-record hebt voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Op dit moment hebben ze GEEN p=weiger- of p=quarantaine-instelling nodig. Een instelling van p=none, doorgaans de instelling &quot;Bewaking&quot; genoemd, is dus volkomen acceptabel. Dit zal niet veranderen hoe uw e-mails worden verwerkt, zij zullen doen wat zij normaal zonder DMARC zouden doen. Het instellen van deze instelling is de eerste stap om uzelf te beschermen met DMARC en het nieuwe voordeel om u te helpen e-mail te sturen naar [!DNL Google] en [!DNL Yahoo] het kan u ook helpen zien of zijn er authentificatiekwesties overal binnen uw e-mailecosysteem.
+
+De regels voor DMARC veranderen niet, zo betekent het dat tenzij gevormd om het te verhinderen, een DMARC- verslag op het ouderdomein (adobe.com als voorbeeld) zal worden geërft en om het even welk subdomein (zoals email.adobe.com) zal behandelen. U hebt geen verschillende DMARC- verslagen voor uw subdomeinen nodig, tenzij u of hen om een verscheidenheid van bedrijfsredenen wilt toevoegen.
+
 DMARC wordt momenteel volledig ondersteund in de Adobe, maar is niet vereist. Gebruik om het even welke vrije DMARC controleur om te zien of hebt u opstelling DMARC voor uw subdomeinen, en als u niet, praat aan uw team van de steun van de Adobe om te zien hoe het best om over het krijgen van die opstelling te gaan.
 
 U kunt ook meer informatie vinden over DMARC en hoe u het kunt implementeren [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} voor Marketo Engage.
@@ -48,10 +51,19 @@ U kunt ook meer informatie vinden over DMARC en hoe u het kunt implementeren [hi
 
 Geen paniek. [!DNL Google] en [!DNL Yahoo] hebben het niet over de afmeldingskoppelingen in uw e-mailtekst of voettekst waarop kan worden geklikt door een beveiliger die gewoon zijn werk doet of per ongeluk. Wat zij betekenen is de lijst-Unsubscribe kopbalfunctionaliteit voor of de &quot;mailto&quot;of &quot;http/URL&quot;versies. Dit is de functie binnen de [!DNL Yahoo] en Gmail UIs waar de gebruikers kunnen klikken unsubscribe. Gmail vraagt zelfs gebruikers die op &quot;Rapport Spam&quot;klikken om te zien of zij bedoeld in plaats daarvan zijn om af te melden, wat het aantal klachten kan verminderen u krijgt (klachten beschadigen uw reputatie) door hen in plaats daarvan in te zetten afmeldt (beschadigt uw reputatie niet).
 Het is belangrijk op te merken dat [!DNL Google] en [!DNL Yahoo] verwijzen beide naar de optie &quot;http/URL&quot; met de naam &quot;1-Click&quot; en dit is opzettelijk. Technisch gezien kunt u met de oorspronkelijke optie &quot;http/URL&quot; ontvangers omleiden naar een website. Dat is niet de focus van [!DNL Yahoo] en [!DNL Google], die beide verwijzen naar de bijgewerkte RFC8058, die zich richt op het verwerken van het afmelden via een HTTPS-verzoek voor POSTEN in plaats van een website, en die het &quot;1-Klik&quot; maakt.
+
+Vandaag, [!DNL Gmail] accepteert de optie &quot;mailto&quot; list-unsubscribe. [!DNL Gmail] heeft gezegd dat &quot;mailto&quot; niet voldoet aan de verwachtingen en dat afzenders die in februari beginnen, de optie &quot;post&quot; list-unsubscribe ingeschakeld moeten hebben.
+
+[!DNL Yahoo] zij hebben gezegd dat zij de &quot; mailto &quot; - optie voorlopig zullen blijven respecteren , maar dat ook zij in de toekomst &quot; post &quot; zullen eisen .
+
+Adobe raadt aan om zowel de lijstopties &quot;mailto&quot; als &quot;post/1-klik&quot; te gebruiken. Adobe werkt eraan om ondersteuning voor &quot;post&quot; mogelijk te maken op al onze platforms voor het verzenden van e-mail, zodat onze gebruikers aan deze vereisten kunnen voldoen en er verdere updates beschikbaar zijn om dit probleem op te lossen.
+
 Voor Marketo Engage heeft Adobe de optie &quot;mailto&quot; al ingeschakeld en biedt momenteel geen ondersteuning voor de optie &quot;http/URL&quot;. Verdere actualiseringen hierover.
 Voor Adobe Campaign en Adobe Journey Optimizer wordt aangeraden zowel de optie &quot;mailto&quot; als de optie &quot;1-klik&quot; te gebruiken.
 
 De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toepassing. Gelieve te merken op dat de teweeggebrachte berichten zoals Verlaten Kar en de gelijkaardige die mededelingen niet door de abonnee worden geproduceerd als marketing door brievenbusleveranciers zoals worden beschouwd [!DNL Google] en [!DNL Yahoo] en die zouden lijst-onderbreking nodig hebben.
+
+[!DNL Google] en [!DNL Yahoo] zij zijn zich er beide van bewust dat een ontvanger in sommige gevallen zijn abonnement zal opzeggen en dan op een latere datum opnieuw zal intekenen. Hoewel zij niet bereid zijn om de geheime saus te delen over hoe zij deze situaties identificeren, werken zij aan methoden om te voorkomen dat afzenders in deze gevallen verkeerd worden gestraft.
 
 >[!INFO]
 > Voor meer informatie over hoe te om lijst-unsubscribe voor uw oplossing uit te voeren gelieve te controleren:
@@ -77,6 +89,8 @@ Lage klachtenpercentages onder 0,2% houden is al lange tijd een goede praktijk. 
 * Op dezelfde manier zal het handhaven van een hoog spampercentage tot verhoogde spamclassificatie leiden. Het kan tijd vergen voor verbeteringen in de spamsnelheid om positief op de spamclassificatie te wijzen.
   [!DNL Yahoo] heeft verklaard dat hun klachtendrempel eveneens 0 , 30 % zal bedragen .
 
+[!DNL Google] en [!DNL Yahoo]Het is niet de bedoeling om afzenders te straffen voor één enkele slechte dag of voor een fout die een tijdelijke spike in klachten veroorzaakt. In plaats daarvan richten zij zich op afzenders die gedurende een langere periode hoge klachtentarieven hebben of een patroon van slecht verzendend gedrag.
+
 Als u hulp nodig hebt bij het controleren van uw klachtentarieven, of hulp bij het reduceren van klachten wilt, gelieve met uw Adobe te spreken Leverbaarheid Consultant, of met uw accountteam te spreken over het toevoegen van een Leverbaarheidsconsultant als u nog geen adviseur hebt.
 
 ## Hoe zal dit me als markteur beïnvloeden?
@@ -88,3 +102,8 @@ We zijn hier om u te helpen, dus als u vragen hebt of ondersteuning nodig hebt, 
 ## Zijn er manieren om dit te omzeilen?
 
 Hoewel dit altijd een kwestie is die aan de orde komt, is de realiteit dat deze veranderingen zinvol zijn voor de eindgebruikers van [!DNL Google] en [!DNL Yahoo]-platforms. Zij worden gemotiveerd door de verwachtingen van die gebruikers om deze regels af te dwingen. We raden u niet aan deze wijzigingen te omzeilen, maar een stap terug te zetten en na te denken over de manier waarop deze wijzigingen kunnen worden aangebracht.
+
+## Slotopmerking:
+
+Dit geldt momenteel niet voor e-mailberichten die worden verzonden naar [!DNL Yahoo].JP of [!DNL Gmail] Werkruimterekeningen, is het echter op e-mails die van die plaatsen komen.
+
