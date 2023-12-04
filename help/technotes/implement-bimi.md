@@ -6,7 +6,7 @@ role: Admin
 level: Beginner
 jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: ad0646da88f2b1474e74b6c741d0dd5701e88978
+source-git-commit: b96539608acd51ce76ef5bdaf5afd07b5a4208b7
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Het maken van het logo moet aan de vereisten voldoen tot 100%. Raadpleeg altijd 
 
 Het logo moet op een beveiligde locatie (HTTPS) worden opgeslagen, voor het geval dat een CDN (content delivery network) wordt gebruikt om het even welke bescherming te voorkomen die postbusproviders ervan weerhoudt het logo te verkrijgen (bv. Bot Protection), moet worden uitgeschakeld.
 
-Naast de technische vereisten zijn er enkele praktische aanbevelingen, zoals een vierkant logo, een effen kleur als achtergrond en andere. Deze aanbevelingen zijn bedoeld voor een optimale visualisatie. Sommige aanbieders hebben hun eigen vereisten die een aanvulling vormen op die van de BIMI-werkgroep. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}. het logo moet bijvoorbeeld ten minste 96 x 96 pixels zijn.
+Naast de technische vereisten zijn er enkele praktische aanbevelingen, zoals een vierkant logo, een effen kleur als achtergrond en andere. Deze aanbevelingen zijn bedoeld voor een optimale visualisatie. Sommige aanbieders hebben hun eigen vereisten die een aanvulling vormen op die van de BIMI-werkgroep. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"} het logo moet bijvoorbeeld ten minste 96 x 96 pixels zijn.
 Niet-naleving kan ertoe leiden dat het logo niet wordt weergegeven.
 
 ### Verified Mark Certificate (VMC) {#vmc}
