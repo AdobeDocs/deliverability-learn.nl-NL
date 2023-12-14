@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 0ad2e59948aa94008ae5c3f6eec7914223bdb02a
+source-git-commit: e7c3164acb1eb2ee46938cea333f416e0376f5b6
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,9 @@ De experts op het gebied van e-maillevering bij Adobe hebben deze blogberichten 
 
 ## Dus wat precies zijn [!DNL Google] en [!DNL Yahoo] doen?
 
-In de wereld van e-mail zijn er wettelijke vereisten, praktische vereisten, en algemene beste praktijken. De wettelijke vereisten variëren sterk van plaats aan plaats en zijn geen deel van dit onderwerp. In plaats daarvan, [!DNL Google] en [!DNL Yahoo] best practices gebruiken en omzetten in praktische vereisten. Geen items [!DNL Google] en [!DNL Yahoo] In februari zullen nieuwe eisen worden gesteld, die al jaren vaak aanbevelingen voor beste praktijken zijn, maar in de sector is de adoptie traag en ongelijk verlopen. Dit is [!DNL Google] en [!DNL Yahoo]We helpen dit adoptieproces verder te brengen door te zeggen: &quot;Als u e-mail naar onze gebruikers wilt implementeren (dit kan een belangrijk deel van uw e-maillijst uitmaken, in sommige gevallen zelfs tot 70%, afhankelijk van regio en industrie), moet u dit doen.&quot;
+In de wereld van e-mail zijn er wettelijke vereisten, praktische vereisten, en algemene beste praktijken. De wettelijke vereisten variëren sterk van plaats aan plaats en zijn geen deel van dit onderwerp. In plaats daarvan, [!DNL Google] en [!DNL Yahoo] best practices gebruiken en omzetten in praktische vereisten.
+
+Geen items [!DNL Google] en [!DNL Yahoo] In februari zullen nieuwe eisen worden gesteld, die al jaren vaak aanbevelingen voor beste praktijken zijn, maar in de sector is de adoptie traag en ongelijk verlopen. Dit is [!DNL Google] en [!DNL Yahoo]We helpen dit adoptieproces verder te brengen door te zeggen: &quot;Als u e-mail naar onze gebruikers wilt implementeren (dit kan een belangrijk deel van uw e-maillijst uitmaken, in sommige gevallen zelfs tot 70%, afhankelijk van regio en industrie), moet u dit doen.&quot;
 
 ## Wat zijn de details?
 
@@ -50,9 +52,10 @@ U kunt ook meer informatie vinden over DMARC en hoe u het kunt implementeren [hi
 ## 1-Klik (Lijst) op Abonnement opzeggen:
 
 Geen paniek. [!DNL Google] en [!DNL Yahoo] hebben het niet over de afmeldingskoppelingen in uw e-mailtekst of voettekst waarop kan worden geklikt door een beveiliger die gewoon zijn werk doet of per ongeluk. Wat zij betekenen is de lijst-Unsubscribe kopbalfunctionaliteit voor of de &quot;mailto&quot;of &quot;http/URL&quot;versies. Dit is de functie binnen de [!DNL Yahoo] en Gmail UIs waar de gebruikers kunnen klikken unsubscribe. Gmail vraagt zelfs gebruikers die op &quot;Rapport Spam&quot;klikken om te zien of zij bedoeld in plaats daarvan zijn om af te melden, wat het aantal klachten kan verminderen u krijgt (klachten beschadigen uw reputatie) door hen in plaats daarvan in te zetten afmeldt (beschadigt uw reputatie niet).
-Het is belangrijk op te merken dat [!DNL Google] en [!DNL Yahoo] verwijzen beide naar de optie &quot;http/URL&quot; met de naam &quot;1-Click&quot; en dit is opzettelijk. Technisch gezien kunt u met de oorspronkelijke optie &quot;http/URL&quot; ontvangers omleiden naar een website. Dat is niet de focus van [!DNL Yahoo] en [!DNL Google], die beide verwijzen naar de bijgewerkte RFC8058, die zich richt op het verwerken van het afmelden via een HTTPS-verzoek voor POSTEN in plaats van een website, en die het &quot;1-Klik&quot; maakt.
 
-Vandaag, [!DNL Gmail] accepteert de optie &quot;mailto&quot; list-unsubscribe. [!DNL Gmail] heeft gezegd dat &quot;mailto&quot; niet voldoet aan de verwachtingen en dat afzenders die in februari beginnen, de optie &quot;post&quot; list-unsubscribe ingeschakeld moeten hebben.
+Het is belangrijk op te merken dat [!DNL Google] en [!DNL Yahoo] verwijzen beide naar de optie &quot;http/URL&quot; met de naam &quot;1-Click&quot; en dit is opzettelijk. Technisch gezien kunt u met de oorspronkelijke optie &quot;http/URL&quot; ontvangers omleiden naar een website. Dat is niet de focus van [!DNL Yahoo] en [!DNL Google], die beide verwijzen naar de bijgewerkte [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} die zich richt op het verwerken van het afmelden via een HTTPS-verzoek om een POST in plaats van op een website, waardoor het &quot;1-klik&quot; wordt.
+
+Gmail accepteert vandaag de optie &quot;mailto&quot; list-unsubscribe. Gmail heeft gezegd dat &quot;mailto&quot;niet aan hun verwachtingen voldoet die door:gaan, en afzenders zullen moeten hebben de &quot;post&quot;lijst-unsubscribe optie toegelaten hebben. De afzenders die al een soort abonnement hebben op een lijst, hebben tot 1 juni 2024 de tijd om een lijst met één klik op te zeggen.
 
 [!DNL Yahoo] zij hebben gezegd dat zij de &quot; mailto &quot; - optie voorlopig zullen blijven respecteren , maar dat ook zij in de toekomst &quot; post &quot; zullen eisen .
 
@@ -96,7 +99,9 @@ Als u hulp nodig hebt bij het controleren van uw klachtentarieven, of hulp bij h
 ## Hoe zal dit me als markteur beïnvloeden?
 
 Niet voldoen aan deze nieuwe vereisten van Gmail en [!DNL Yahoo] wordt verwacht dat e-mailberichten in de spammap zullen landen of geblokkeerd zullen raken (zodat een stuitbericht van de MBP wordt ontvangen dat aangeeft dat het e-mailbericht niet is bezorgd).
+
 Daarom beveelt de Adobe u ten zeerste aan de hierboven beschreven wijzigingen door te voeren en ervoor te zorgen dat u er zo snel mogelijk aan begint te voldoen. Nu is ook een groot moment om uw prestaties te vergelijken met [!DNL Yahoo] en [!DNL Google] om u toe te staan om te zien of zijn er om het even welke wezenlijke verandering in uw metriek komt Februari.
+
 We zijn hier om u te helpen, dus als u vragen hebt of ondersteuning nodig hebt, kunt u contact opnemen met uw Adobe-leveringsconsultant of met uw accountteam om een leveringsconsultant toe te voegen als u nog geen consultant hebt.
 
 ## Zijn er manieren om dit te omzeilen?
@@ -107,3 +112,12 @@ Hoewel dit altijd een kwestie is die aan de orde komt, is de realiteit dat deze 
 
 Dit geldt momenteel niet voor e-mailberichten die worden verzonden naar [!DNL Yahoo].JP of [!DNL Gmail] Werkruimterekeningen, is het echter op e-mails die van die plaatsen komen.
 
+## Aanvullende bronnen (niet specifiek voor deze wijzigingen):
+
+[!DNL Google Sender Guidelines](https://support.google.com/mail/answer/81126){target="_blank"}
+
+[!DNL Google FAQ](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC){target="_blank"}
+
+[!DNL Yahoo Sender Guidelines](https://senders.yahooinc.com/best-practices/){target="_blank"}
+
+[!DNL Yahoo FAQ](https://senders.yahooinc.com/faqs/){target="_blank"}
