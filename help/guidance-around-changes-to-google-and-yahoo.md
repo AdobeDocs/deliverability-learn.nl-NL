@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2bda5d5369d239fac849e57286450a853dd94953
+source-git-commit: 16ff60cdcb1ca1558b8021d27b235b6977c2f40a
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,6 @@ Gmail accepteert vandaag de optie &quot;mailto&quot; list-unsubscribe. Gmail hee
 
 Adobe raadt aan om zowel de lijstopties &quot;mailto&quot; als &quot;post/1-klik&quot; te gebruiken. Adobe werkt eraan om ondersteuning voor &quot;post&quot; mogelijk te maken op al onze platforms voor het verzenden van e-mail, zodat onze gebruikers aan deze vereisten kunnen voldoen en er verdere updates beschikbaar zijn om dit probleem op te lossen.
 
-Voor Marketo Engage heeft Adobe de optie &quot;mailto&quot; al ingeschakeld en biedt momenteel geen ondersteuning voor de optie &quot;http/URL&quot;. Verdere actualiseringen hierover.
-Voor Adobe Campaign en Adobe Journey Optimizer wordt aangeraden zowel de optie &quot;mailto&quot; als de optie &quot;1-klik&quot; te gebruiken.
-
 De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toepassing. Gelieve te merken op dat de teweeggebrachte berichten zoals Verlaten Kar en de gelijkaardige die mededelingen niet door de abonnee worden geproduceerd als marketing door brievenbusleveranciers zoals worden beschouwd [!DNL Google] en [!DNL Yahoo] en die zouden lijst-onderbreking nodig hebben.
 
 [!DNL Google] en [!DNL Yahoo] zij zijn zich er beide van bewust dat een ontvanger in sommige gevallen zijn abonnement zal opzeggen en dan op een latere datum opnieuw zal intekenen. Hoewel zij niet bereid zijn om de geheime saus te delen over hoe zij deze situaties identificeren, werken zij aan methoden om te voorkomen dat afzenders in deze gevallen verkeerd worden gestraft.
@@ -80,6 +77,7 @@ De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toe
 ## Abonnement binnen 2 dagen verwerken:
 
 Dit is een aanbevolen werkwijze voor een tijdje, aangezien elke e-mail die u implementeert naar iemand die zich niet heeft geabonneerd, meestal leidt tot een spamklacht, dus hoe eerder u stopt met het verzenden van e-mail, hoe beter. Nogmaals, de wettelijke vereisten kunnen in sommige gevallen veel langer zijn, maar [!DNL Google] en [!DNL Yahoo] weet dat hun gebruiker zich heeft afgemeld via List-Unsubscribe en dat u hen nog steeds per e-mail verzendt op dag 3, en zij hebben verklaard dat afzenders die dat doen, niet zullen toestaan om e-mail naar om het even welk van hun gebruikers te blijven verzenden.
+
 Deze eis van twee dagen is voor om het even welk afmelden door de diverse lijst-unsubscribe methodes. In sommige gevallen (zoals &quot;mailto&quot;) betekent dit dat Adobe ze zal verwerken. De Adobe verwerkt alle verzoeken tot opzeggen onmiddellijk na ontvangst van het verzoek, ruim binnen de termijn van twee dagen. In andere gevallen kunt u ze verwerken. Als u deze verzoeken verwerkt, moet u mogelijk wijzigingen aanbrengen om aan deze tijdlijn van twee dagen te voldoen.
 
 ## Klachttarieven:
@@ -90,7 +88,8 @@ Lage klachtenpercentages onder 0,2% houden is al lange tijd een goede praktijk. 
 * Vermijd een spamsnelheid van 0,30% of hoger, vooral gedurende een langere periode.
 * Door een lage spamfrequentie te handhaven, kunnen afzenders beter bestand zijn tegen incidentele spikes in feedback van gebruikers.
 * Op dezelfde manier zal het handhaven van een hoog spampercentage tot verhoogde spamclassificatie leiden. Het kan tijd vergen voor verbeteringen in de spamsnelheid om positief op de spamclassificatie te wijzen.
-  [!DNL Yahoo] heeft verklaard dat hun klachtendrempel eveneens 0 , 30 % zal bedragen .
+
+[!DNL Yahoo] heeft verklaard dat hun klachtendrempel eveneens 0 , 30 % zal bedragen .
 
 [!DNL Google] en [!DNL Yahoo]Het is niet de bedoeling om afzenders te straffen voor één enkele slechte dag of voor een fout die een tijdelijke spike in klachten veroorzaakt. In plaats daarvan richten zij zich op afzenders die gedurende een langere periode hoge klachtentarieven hebben of een patroon van slecht verzendend gedrag.
 
