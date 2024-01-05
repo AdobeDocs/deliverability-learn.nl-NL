@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: c1aebdc34c3cc38325e9160360f7847f276bd53e
+source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Gmail accepteert vandaag de optie &quot;mailto&quot; list-unsubscribe. Gmail hee
 
 [!DNL Yahoo] zij hebben gezegd dat zij de &quot; mailto &quot; - optie voorlopig zullen blijven respecteren , maar dat ook zij in de toekomst &quot; post &quot; zullen eisen .
 
-Adobe raadt aan om zowel de lijstopties &quot;mailto&quot; als &quot;post/1-klik&quot; te gebruiken. Adobe werkt eraan om ondersteuning voor &quot;post&quot; mogelijk te maken op al onze platforms voor het verzenden van e-mail, zodat onze gebruikers aan deze vereisten kunnen voldoen en er verdere updates beschikbaar zijn om dit probleem op te lossen.
+Adobe raadt aan om zowel de lijstopties &quot;mailto&quot; als &quot;post/1-klik&quot; te gebruiken. Adobe werkt aan het mogelijk maken van ondersteuning via &quot;post&quot; op al onze platforms voor het verzenden van e-mail om onze gebruikers te helpen aan deze vereisten te voldoen. Zie de onderstaande details.
 
 De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toepassing. Gelieve te merken op dat de teweeggebrachte berichten zoals Verlaten Kar en de gelijkaardige die mededelingen niet door de abonnee worden geproduceerd als marketing door brievenbusleveranciers zoals worden beschouwd [!DNL Google] en [!DNL Yahoo] en die zouden lijst-onderbreking nodig hebben.
 
