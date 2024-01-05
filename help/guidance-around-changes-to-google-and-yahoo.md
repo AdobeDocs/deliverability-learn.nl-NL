@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 1f2a6c7b53a5f5110250c8aecac349c5b72feb6b
+source-git-commit: 69c95855786408f32de2f72e7f1deb122fb369ea
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -67,11 +67,11 @@ De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toe
 
 >[!INFO]
 > Adobe werkt aan het mogelijk maken van ondersteuning via &quot;post&quot; op al onze platforms voor het verzenden van e-mail om onze gebruikers te ondersteunen bij het voldoen aan deze vereisten:
+> 
 > * [!DNL Adobe Campaign Classic V7/V8]: Biedt volledige ondersteuning voor POST 1-klik vandaag. Updates voor de stapsgewijze installatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} uiterlijk medio januari
 >* [!DNL Adobe Campaign Standard]: Wordt bijgewerkt ter ondersteuning van POST 1-klik. Kom binnenkort terug voor updates. Instructies voor installatie worden gegeven [hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
 >* [!DNL Adobe Journey Optimizer]: Biedt volledige ondersteuning voor POST 1-klik vandaag. Updates voor de stapsgewijze installatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} uiterlijk medio januari
->
-> Marketo: wordt bijgewerkt ter ondersteuning van POST 1-klik. Zodra het klaar is, wordt het waar nodig automatisch toegepast.
+> * [!DNL Marketo]: Wordt bijgewerkt ter ondersteuning van POST 1-klik. Zodra het klaar is, wordt het waar nodig automatisch toegepast.
 
 
 ## Abonnement binnen 2 dagen verwerken:
@@ -99,7 +99,7 @@ Als u hulp nodig hebt bij het controleren van uw klachtentarieven, of hulp bij h
 
 Sinds de oorspronkelijke aankondiging in oktober zijn er actualiseringen van de tijdlijnen aangebracht. De meest recente tijdlijnen zien er als volgt uit:
 
-[!DNL Gmail]:
+## [!DNL Gmail]:
 
 Februari 2024 - Tijdelijke steunbedragen om te waarschuwen voor niet-naleving zullen beginnen. E-mails worden nog steeds als normaal bezorgd na een korte vertraging als je nog niet aan de voorwaarden voldoet. Als u volledig aan de voorschriften voldoet, zijn er geen tijdelijke steunbedragen en zult u niets merken.
 
@@ -107,7 +107,7 @@ April 2024 - de Blokken zullen voor afzenders beginnen die niet in overeenstemmi
 
 1 juni 2024 - Elke afzender die niet aan de volledige vereisten voldoet, inclusief List-Unsubscribe 1-Click, krijgt te maken met blokkeren.
 
-[!DNL Yahoo]:
+## [!DNL Yahoo]:
 
 Heeft geen precieze data verstrekt, maar heeft gezegd: &quot;De tenuitvoerlegging begint in februari 2024. De tenuitvoerlegging zal geleidelijk worden uitgevoerd.&quot;
 
