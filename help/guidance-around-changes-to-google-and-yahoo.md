@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 60c3e42c480ec4d438c51753bc6c37a01b1550e7
+source-git-commit: 1f2a6c7b53a5f5110250c8aecac349c5b72feb6b
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1759'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Als u een klant van de Adobe bent is het grootste deel van wat zij vereisen reed
 
 ## DMARC:
 
-[!DNL Google] en [!DNL Yahoo] vereisen beide dat u een DMARC-record hebt voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Op dit moment hebben ze GEEN p=weiger- of p=quarantaine-instelling nodig. Een instelling van p=none, doorgaans de instelling &quot;Bewaking&quot; genoemd, is dus volkomen acceptabel. Dit zal niet veranderen hoe uw e-mails worden verwerkt, zij zullen doen wat zij normaal zonder DMARC zouden doen. Het instellen van deze instelling is de eerste stap om uzelf te beschermen met DMARC en het nieuwe voordeel om u te helpen e-mail te sturen naar [!DNL Google] en [!DNL Yahoo] het kan u ook helpen zien of zijn er authentificatiekwesties overal binnen uw e-mailecosysteem.
+[!DNL Google] en [!DNL Yahoo] vereisen beide dat u een DMARC-record hebt voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Op dit moment hebben ze GEEN p=weiger- of p=quarantaine-instelling nodig, dus een instelling van p=none, die doorgaans de instelling ‘bewaking’ wordt genoemd, is momenteel volkomen acceptabel. Dit zal niet veranderen hoe uw e-mails worden verwerkt, zij zullen doen wat zij normaal zonder DMARC zouden doen. Het instellen van deze instelling is de eerste stap om uzelf te beschermen met DMARC en het nieuwe voordeel om u te helpen e-mail te sturen naar [!DNL Google] en [!DNL Yahoo] het kan u ook helpen zien of zijn er authentificatiekwesties overal binnen uw e-mailecosysteem.
 
 De regels voor DMARC veranderen niet, zo betekent het dat tenzij gevormd om het te verhinderen, een DMARC- verslag op het ouderdomein (adobe.com als voorbeeld) zal worden geërft en om het even welk subdomein (zoals email.adobe.com) zal behandelen. U hebt geen verschillende DMARC- verslagen voor uw subdomeinen nodig, tenzij u of hen om een verscheidenheid van bedrijfsredenen wilt toevoegen.
 
@@ -66,12 +66,12 @@ De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toe
 [!DNL Google] en [!DNL Yahoo] zij zijn zich er beide van bewust dat een ontvanger in sommige gevallen zijn abonnement zal opzeggen en dan op een latere datum opnieuw zal intekenen. Hoewel zij niet bereid zijn om de geheime saus te delen over hoe zij deze situaties identificeren, werken zij aan methoden om te voorkomen dat afzenders in deze gevallen verkeerd worden gestraft.
 
 >[!INFO]
-> Voor meer informatie over hoe te om lijst-unsubscribe voor uw oplossing uit te voeren gelieve te controleren:
-> * [!DNL Adobe Campaign Classic]: [Technische aanbevelingen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
->* [!DNL Adobe Campaign Standard]: [Wat is de List-Unsubscribe kopbal? En hoe kan dit worden geïmplementeerd in ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
->* [!DNL Adobe Journey Optimizer]: [E-mailuitschakelbeheer](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+> Adobe werkt aan het mogelijk maken van ondersteuning via &quot;post&quot; op al onze platforms voor het verzenden van e-mail om onze gebruikers te ondersteunen bij het voldoen aan deze vereisten:
+> * [!DNL Adobe Campaign Classic V7/V8]: Biedt volledige ondersteuning voor POST 1-klik vandaag. Updates voor de stapsgewijze installatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} uiterlijk medio januari
+>* [!DNL Adobe Campaign Standard]: Wordt bijgewerkt ter ondersteuning van POST 1-klik. Kom binnenkort terug voor updates. Instructies voor installatie worden gegeven [hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
+>* [!DNL Adobe Journey Optimizer]: Biedt volledige ondersteuning voor POST 1-klik vandaag. Updates voor de stapsgewijze installatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} uiterlijk medio januari
 >
-> Of u kunt op elk gewenst moment contact opnemen met het klantenondersteuningsteam van de Adobe.
+> Marketo: wordt bijgewerkt ter ondersteuning van POST 1-klik. Zodra het klaar is, wordt het waar nodig automatisch toegepast.
 
 
 ## Abonnement binnen 2 dagen verwerken:
@@ -94,6 +94,22 @@ Lage klachtenpercentages onder 0,2% houden is al lange tijd een goede praktijk. 
 [!DNL Google] en [!DNL Yahoo]Het is niet de bedoeling om afzenders te straffen voor één enkele slechte dag of voor een fout die een tijdelijke spike in klachten veroorzaakt. In plaats daarvan richten zij zich op afzenders die gedurende een langere periode hoge klachtentarieven hebben of een patroon van slecht verzendend gedrag.
 
 Als u hulp nodig hebt bij het controleren van uw klachtentarieven, of hulp bij het reduceren van klachten wilt, gelieve met uw Adobe te spreken Leverbaarheid Consultant, of met uw accountteam te spreken over het toevoegen van een Leverbaarheidsconsultant als u nog geen adviseur hebt.
+
+## Naar welke tijdlijnen kijken we?
+
+Sinds de oorspronkelijke aankondiging in oktober zijn er actualiseringen van de tijdlijnen aangebracht. De meest recente tijdlijnen zien er als volgt uit:
+
+[!DNL Gmail]:
+
+Februari 2024 - Tijdelijke steunbedragen om te waarschuwen voor niet-naleving zullen beginnen. E-mails worden nog steeds als normaal bezorgd na een korte vertraging als je nog niet aan de voorwaarden voldoet. Als u volledig aan de voorschriften voldoet, zijn er geen tijdelijke steunbedragen en zult u niets merken.
+
+April 2024 - de Blokken zullen voor afzenders beginnen die niet in overeenstemming met alles behalve lijst-Unsubscribe 1-Klik zijn. In eerste instantie wordt slechts een gedeelte van de niet-compatibele e-mail geblokkeerd, waarbij het percentage geblokkeerde e-mail na verloop van tijd toeneemt.
+
+1 juni 2024 - Elke afzender die niet aan de volledige vereisten voldoet, inclusief List-Unsubscribe 1-Click, krijgt te maken met blokkeren.
+
+[!DNL Yahoo]:
+
+Heeft geen precieze data verstrekt, maar heeft gezegd: &quot;De tenuitvoerlegging begint in februari 2024. De tenuitvoerlegging zal geleidelijk worden uitgevoerd.&quot;
 
 ## Hoe zal dit me als markteur beïnvloeden?
 
