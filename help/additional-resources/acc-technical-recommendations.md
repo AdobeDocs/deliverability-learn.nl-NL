@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: caff9c7d77aed62c9d055fbca370aa756e4bf28b
+source-git-commit: c99e860507df99fdd4e4fad567eb5e9433ab56ef
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 0%
@@ -175,12 +175,12 @@ De bevellijn moet in de extra sectie van de kopbal van SMTP van e-mail worden to
 
 Deze toevoeging kan in elke e-mail, of in bestaande leveringsmalplaatjes worden gedaan. U kunt ook een nieuwe leveringssjabloon maken die deze functionaliteit bevat.
 
-1. List-Unsubscribe: <mailto:unsubscribe@domain.com>
+* List-Unsubscribe: <mailto:unsubscribe@domain.com>
 Als u op de koppeling Abonnement opzeggen klikt, wordt de standaard e-mailclient van de gebruiker geopend. Deze typologieregel moet worden toegevoegd aan een typologie die wordt gebruikt voor het maken van e-mail.
 
-2. List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
+* List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
 Als u op de koppeling voor afmelden klikt, wordt de gebruiker omgeleid naar het afmeldingsformulier.
-   ![afbeelding](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+  ![afbeelding](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
 
 
 ### Een typologieregel maken {#creating-a-typology-rule}
@@ -199,18 +199,18 @@ De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in
 
 Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan List-Unsubscribe (Engelstalig) met één klik. Om aan het één-Klik lijst-ophef vereiste te voldoen moeten de afzenders:
 
-1. Toevoegen in een &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
-2. Een URI opnemen voor afmelden van koppeling
-3. De ontvangst van de reactie van de POST van HTTP van de ontvanger steunen, die Adobe Campaign steunt.
+* Toevoegen in een &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
+* Een URI opnemen voor afmelden van koppeling
+* De ontvangst van de reactie van de POST van HTTP van de ontvanger steunen, die Adobe Campaign steunt.
 
 Om één-Klik lijst-Unsubscribe direct te vormen:
 
 * Voeg toe in de volgende webtoepassing &quot;Niet-klikgerichte ontvangers afmelden&quot; 
-1. Ga naar Bronnen -> Online -> Webtoepassingen
-2. Upload de XML &quot;Unsubscribe ontvangers no-click&quot;
+* Ga naar Bronnen -> Online -> Webtoepassingen
+* Upload de XML &quot;Unsubscribe ontvangers no-click&quot;
 * Configureer List-Unsubscribe en List-Unsubscribe-Post
-1. Ga naar de sectie SMTP van de Eigenschappen van de Levering.
-2. Onder Extra Kopballen SMTP, ga in de bevellijnen (Elke kopbal zou op een afzonderlijke lijn moeten zijn) in:
+* Ga naar de sectie SMTP van de Eigenschappen van de Levering.
+* Onder Extra Kopballen SMTP, ga in de bevellijnen (Elke kopbal zou op een afzonderlijke lijn moeten zijn) in:
 
 List-Unsubscribe-Post: List-Unsubscribe=One-Click lijst-Unsubscribe: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
 
