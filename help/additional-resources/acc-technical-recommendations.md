@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: c99e860507df99fdd4e4fad567eb5e9433ab56ef
+source-git-commit: 1f3391430fa5a86973b8a1bd811b856dea23402e
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 0%
@@ -212,7 +212,8 @@ Om één-Klik lijst-Unsubscribe direct te vormen:
 * Ga naar de sectie SMTP van de Eigenschappen van de Levering.
 * Onder Extra Kopballen SMTP, ga in de bevellijnen (Elke kopbal zou op een afzonderlijke lijn moeten zijn) in:
 
-List-Unsubscribe-Post: List-Unsubscribe=One-Click lijst-Unsubscribe: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+,,, List-Unsubscribe-Post: List-Unsubscribe=One-Click lijst-Unsubscribe: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+,,
 
 In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één klik ingeschakeld voor ISP&#39;s die One-Click ondersteunen, terwijl ontvangers die geen ondersteuning bieden voor URL list-unsubscribe (URL-lijst afmelden) toch een aanvraag kunnen indienen om hun abonnement op te zeggen via e-mail.
 
