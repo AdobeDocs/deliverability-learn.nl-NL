@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 22e47edbef3f8388e4cd3a01524091458d27ed43
+source-git-commit: 6653260e6bb3fc379529ea4081eeae0a8f7f4eb9
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1726'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,12 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één klik ingeschakeld voor ISP&#39;s die One-Click ondersteunen, terwijl ontvangers die geen ondersteuning bieden voor URL list-unsubscribe (URL-lijst afmelden) toch een aanvraag kunnen indienen om hun abonnement op te zeggen via e-mail.
 
-Klik hier om te zien hoe u een-klik lijst-abonnement via Typologieregel kunt configureren.
+
+### Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
+
+1 * Maak een nieuwe typologieregel in de navigatiestructuur en klik op Nieuw om een nieuwe typologie te maken
+![image](https://git.corp.adobe.com/storage/user/38257/files/b8d48b7f-0f33-4118-b61d-e60351c68260)
+
 
 ## E-mailoptimalisatie {#email-optimization}
 
