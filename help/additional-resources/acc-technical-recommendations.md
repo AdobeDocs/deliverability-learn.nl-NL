@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 8cd825d24a77570ed54e3d4988100b25cd0a2eda
+source-git-commit: b192fc5a3287f4e20269f668ff71f328edf94482
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 1%
@@ -224,10 +224,12 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 ### Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
 
 De nieuwe typologieregel maken
+
 * Klik in de navigatiestructuur op Nieuw om een nieuwe typologie te maken
   ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 
 Ga door om de typologieregel te configureren
+
 * Type regel: besturingselement
 * Kanaal: e-mail
 * Fase: Aan het begin van personalisatie
@@ -349,19 +351,20 @@ return true;
 ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
 Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe.
+
 ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
 Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is).
+
 ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
 Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.
+
 ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
-Valideren dat List-Unsubscribe aanwezig is
-![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+Bevestig dat lijst-unsubscribe aanwezig is.
 
-
-
+![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 ## E-mailoptimalisatie {#email-optimization}
 
