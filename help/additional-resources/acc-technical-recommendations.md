@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
+source-git-commit: 2eceddf12ce2baea1113d2688f9f8e75f7d31923
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 1%
@@ -207,7 +207,7 @@ Om één-Klik lijst-Unsubscribe direct te vormen:
 
 * Voeg toe in de volgende webtoepassing &quot;Niet-klikgerichte ontvangers afmelden&quot; 
 * Ga naar Bronnen -> Online -> Webtoepassingen
-* Upload &quot;Ontvangers zonder klik afmelden&quot; [XML](/help/assets/WebAppUnsubNoClick.xml)
+* Upload &quot;Ontvangers zonder klik afmelden&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 
 * Configureer List-Unsubscribe en List-Unsubscribe-Post
 * Ga naar de sectie SMTP van de Eigenschappen van de Levering.
@@ -224,13 +224,13 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 ### Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
 
-De nieuwe typologieregel maken
+Maak de nieuwe typologieregel:
 
-Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
+* Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
 ![afbeelding](/help/assets/CreatingTypologyRules1.png)
 
-Ga door om de typologieregel te configureren
+Ga om de typologieregel te vormen te werk:
 
 * Type regel: besturingselement
 * Kanaal: e-mail
@@ -240,7 +240,7 @@ Ga door om de typologieregel te configureren
 
 ![afbeelding](/help/assets/CreatingTypologyRules2.png)
 
-Codeer de javascript van de Typologieregel.
+Code javascript of the Typology rule:
 
 >[!NOTE]
 >
@@ -356,7 +356,7 @@ Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok
 
 ![afbeelding](/help/assets/CreatingTypologyRules4.png)
 
-Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is).
+Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is)
 
 ![afbeelding](/help/assets/CreatingTypologyRules5.png)
 
