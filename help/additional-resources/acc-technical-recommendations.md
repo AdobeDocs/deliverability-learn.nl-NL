@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: d8cc8e3ee8b1a0fc6beaec1a7bc357f3a9f52e0f
+source-git-commit: acb2f0c5c983445b538381833f3596251938480a
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 0%
@@ -241,7 +241,7 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 >
 
 In dit voorbeeld wordt beschreven hoe u:
-* Configureer een URL List-Unsubscribe en voeg de kopteksten toe of voeg de bestaande mailto toe: parameters en vervang deze door: &lt;mailto..>, <http:…>
+* Configureer een URL List-Unsubscribe en voeg de kopteksten toe of voeg de bestaande mailto toe: parameters en vervang deze door: &lt;mailto..>, <http://…>
 * Toevoegen in de header List-Unsubscribe-Post
 
 In het post-URL-voorbeeld wordt var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= receited.cryptedId %>&quot; gebruikt.
