@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 2eceddf12ce2baea1113d2688f9f8e75f7d31923
+source-git-commit: b9c8beefe577c8c0943bab31323d5778f1930606
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 1%
@@ -245,15 +245,13 @@ Code javascript of the Typology rule:
 >[!NOTE]
 >
 >De hieronder beschreven code moet alleen als voorbeeld worden gebruikt.
+>In dit voorbeeld wordt beschreven hoe u:
+>* Configureer een URL List-Unsubscribe en voeg de kopteksten toe of voeg de bestaande mailto toe: parameters en vervang deze door: &lt;mailto..>, <http://…>
+>* Toevoegen in de header List-Unsubscribe-Post
+>In het post-URL-voorbeeld wordt var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= receited.cryptedId %>&quot; gebruikt.
+>* U kunt andere parameters toevoegen (zoals &amp;service = ...)
 >
 
-In dit voorbeeld wordt beschreven hoe u:
-* Configureer een URL List-Unsubscribe en voeg de kopteksten toe of voeg de bestaande mailto toe: parameters en vervang deze door: &lt;mailto..>, <http://…>
-* Toevoegen in de header List-Unsubscribe-Post
-
-In het post-URL-voorbeeld wordt var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= receited.cryptedId %>&quot; gebruikt.
-
-U kunt andere parameters toevoegen (zoals &amp;service = ...)
 
 ```
 // Function to add or replace a header in the provided headers 
