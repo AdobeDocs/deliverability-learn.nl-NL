@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 0f61e0c36f979372f05772ad5a37114dcb05e8e5
+source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 De nieuwe typologieregel maken
 
-Klik in de navigatiestructuur op Nieuw om een nieuwe typologie te maken
+Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
 ![afbeelding](/help/assets/CreatingTypologyRules1.png)
 
@@ -237,7 +237,7 @@ Ga door om de typologieregel te configureren
 * Niveau: uw keuze
 * Actief
 
-![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
+![afbeelding](/help/assets/CreatingTypologyRules2.png)
 
 Codeer de javascript van de Typologieregel.
 
@@ -349,23 +349,23 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
-![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
+![afbeelding](/help/assets/CreatingTypologyRules3.png)
 
 Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe.
 
-![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
+![afbeelding](/help/assets/CreatingTypologyRules4.png)
 
 Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is).
 
-![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
+![afbeelding](/help/assets/CreatingTypologyRules5.png)
 
 Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.
 
-![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+![afbeelding](/help/assets/CreatingTypologyRules6.png)
 
 Bevestig dat lijst-unsubscribe aanwezig is.
 
-![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+![afbeelding](/help/assets/CreatingTypologyRules7.png)
 
 ## E-mailoptimalisatie {#email-optimization}
 
