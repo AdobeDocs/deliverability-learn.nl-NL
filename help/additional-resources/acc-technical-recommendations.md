@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 9175a3ded10ce4ea06712855ae3d2119f945c389
+source-git-commit: 69655998dfaadd59daf0f65fe04f16f67ff955ee
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 1%
@@ -227,7 +227,7 @@ De nieuwe typologieregel maken
 
 Klik in de navigatiestructuur op Nieuw om een nieuwe typologie te maken
 
-![typologyrues1](/help/assets/CreatingTypologyRules1.png)
+![typologyrues1](help/assets/CreatingTypologyRules1.png)
 
 Ga door om de typologieregel te configureren
 
