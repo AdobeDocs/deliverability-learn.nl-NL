@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 4389ac3135223c0d363e67fe7403656a17ee3f6a
+source-git-commit: 8cd825d24a77570ed54e3d4988100b25cd0a2eda
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 1%
@@ -223,11 +223,11 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 ### Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
 
-# De nieuwe typologieregel maken
+De nieuwe typologieregel maken
 * Klik in de navigatiestructuur op Nieuw om een nieuwe typologie te maken
   ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 
-# Ga door om de typologieregel te configureren
+Ga door om de typologieregel te configureren
 * Type regel: besturingselement
 * Kanaal: e-mail
 * Fase: Aan het begin van personalisatie
@@ -236,7 +236,7 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
 
-# Codeer de javascript van de Typologieregel.
+Codeer de javascript van de Typologieregel.
 
 >[!NOTE]
 >
@@ -345,19 +345,20 @@ if ( headerUnsubPost === "" ) {
 // Return true to indicate success 
 return true; 
 ```
+
 ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
-# Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe.
+Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe.
 ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
-# Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is).
+Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is).
 ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
-# Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.
+Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.
 ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
-# Valideren dat List-Unsubscribe aanwezig is
-![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+Valideren dat List-Unsubscribe aanwezig is
+![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 
 
