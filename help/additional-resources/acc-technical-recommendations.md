@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b192fc5a3287f4e20269f668ff71f328edf94482
+source-git-commit: e310c94334dae232f6f31cc5e188906862f563bd
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
@@ -226,7 +226,7 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 De nieuwe typologieregel maken
 
 * Klik in de navigatiestructuur op Nieuw om een nieuwe typologie te maken
-  ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
+  ![typologyrues1](/help/assets/CreatingTypologyRules1.png)
 
 Ga door om de typologieregel te configureren
 
