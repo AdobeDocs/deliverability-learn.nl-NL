@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
+source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 1%
@@ -207,7 +207,8 @@ Om één-Klik lijst-Unsubscribe direct te vormen:
 
 * Voeg toe in de volgende webtoepassing &quot;Niet-klikgerichte ontvangers afmelden&quot; 
 * Ga naar Bronnen -> Online -> Webtoepassingen
-* Upload de XML &quot;Unsubscribe ontvangers no-click&quot;
+* Upload &quot;Ontvangers zonder klik afmelden&quot; [XML](/help/assets/WebAppUnsubNoClick.xml)
+
 * Configureer List-Unsubscribe en List-Unsubscribe-Post
 * Ga naar de sectie SMTP van de Eigenschappen van de Levering.
 * Onder Extra Kopballen SMTP, ga in de bevellijnen (Elke kopbal zou op een afzonderlijke lijn moeten zijn) in:
