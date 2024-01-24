@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: acb2f0c5c983445b538381833f3596251938480a
+source-git-commit: f7c2dcbf1bb86d7018c31b1ae2ef29903fb758aa
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 0%
+source-wordcount: '1871'
+ht-degree: 1%
 
 ---
 
@@ -225,13 +225,14 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 * De nieuwe typologieregel maken
 * Klik in de navigatiestructuur op Nieuw om een nieuwe typologie te maken
-
+  ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 * Ga door om de typologieregel te configureren
 * Type regel: besturingselement
 * Kanaal: e-mail
 * Fase: Aan het begin van personalisatie
 * Niveau: uw keuze
 * Actief
+  ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
 
 * Codeer de javascript van de Typologieregel.
 
@@ -342,14 +343,19 @@ if ( headerUnsubPost === "" ) {
 // Return true to indicate success 
 return true; 
 ```
+![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
 * Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe.
+  ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
 * Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is).
+  ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
 * Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.
+  ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 * Valideren dat List-Unsubscribe aanwezig is
+  ![afbeelding](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 
 
