@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b9c8beefe577c8c0943bab31323d5778f1930606
+source-git-commit: 097f41c29e189c2a8abf79e65ec322d39a2213db
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1860'
 ht-degree: 1%
 
 ---
@@ -180,7 +180,7 @@ Als u op de koppeling Abonnement opzeggen klikt, wordt de standaard e-mailclient
 
 * List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
 Als u op de koppeling voor afmelden klikt, wordt de gebruiker omgeleid naar het afmeldingsformulier.
-  ![afbeelding](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+  ![afbeelding](/help/assets/ListUnsubscribe1.png)
 
 
 ### Een typologieregel maken {#creating-a-typology-rule}
@@ -228,7 +228,7 @@ Maak de nieuwe typologieregel:
 
 * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
-![afbeelding](/help/assets/CreatingTypologyRules1.png)
+![afbeelding](/help/assets/CreatingTypologyRules1.png){width="50%"}{hight="50%"}
 
 Ga om de typologieregel te vormen te werk:
 
@@ -248,7 +248,7 @@ Code javascript of the Typology rule:
 >In dit voorbeeld wordt beschreven hoe u:
 >* Configureer een URL List-Unsubscribe en voeg de kopteksten toe of voeg de bestaande mailto toe: parameters en vervang deze door: &lt;mailto..>, <http://…>
 >* Toevoegen in de header List-Unsubscribe-Post
->In het post-URL-voorbeeld wordt var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= receited.cryptedId %>&quot; gebruikt.
+>In het voorbeeld met de post-URL wordt var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= receiving.cryptedId %>&quot; gebruikt:
 >* U kunt andere parameters toevoegen (zoals &amp;service = ...)
 >
 
