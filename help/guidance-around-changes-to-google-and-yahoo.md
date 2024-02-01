@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
+source-git-commit: 73d0722bb0b40ea9cad9d50a805396fdfac27c49
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De regels voor DMARC veranderen niet, zo betekent het dat tenzij gevormd om het 
 
 DMARC wordt momenteel volledig ondersteund in de Adobe, maar is niet vereist. Gebruik om het even welke vrije DMARC controleur om te zien of hebt u opstelling DMARC voor uw subdomeinen, en als u niet, praat aan uw team van de steun van de Adobe om te zien hoe het best om over het krijgen van die opstelling te gaan.
 
-U kunt ook meer informatie vinden over DMARC en hoe u het kunt implementeren [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} voor Marketo Engage.
+U kunt ook meer informatie vinden over DMARC en hoe u het kunt implementeren [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} voor Marketo Engage.
 
 ## 1-Klik (Lijst) op Abonnement opzeggen:
 
@@ -69,9 +69,9 @@ De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toe
 > Adobe werkt aan het mogelijk maken van ondersteuning via &quot;post&quot; op al onze platforms voor het verzenden van e-mail om onze gebruikers te ondersteunen bij het voldoen aan deze vereisten:
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]: Biedt volledige ondersteuning voor POST 1-klik vandaag. Updates voor de stapsgewijze installatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} uiterlijk medio januari.
->* [!DNL Adobe Campaign Standard]: Wordt bijgewerkt ter ondersteuning van POST 1-klik. Kom binnenkort terug voor updates. Instructies voor installatie worden gegeven [hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}.
->* [!DNL Adobe Journey Optimizer]: Biedt volledige ondersteuning voor POST 1-klik vandaag. Updates voor de stapsgewijze installatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} uiterlijk medio januari.
+> * [!DNL Adobe Campaign Classic V7/V8]: biedt volledige ondersteuning voor POST 1-klik vandaag, instructies zijn beschikbaar [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} uiterlijk medio januari.
+>* [!DNL Adobe Campaign Standard]: Wordt bijgewerkt ter ondersteuning van POST 1-klik eind februari. Instructies voor installatie worden gegeven [hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} eenmaal gereed.
+>* [!DNL Adobe Journey Optimizer]: Ondersteunt vandaag POST 1-Klik, maar er zijn enkele belangrijke verbeteringen gaande. Updates voor de stapsgewijze installatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} eenmaal gereed.
 > * [!DNL Marketo]: Wordt bijgewerkt ter ondersteuning van POST 1-klik. Zodra het klaar is, wordt het waar nodig automatisch toegepast.
 
 
@@ -110,7 +110,9 @@ April 2024 - de Blokken zullen voor afzenders beginnen die niet in overeenstemmi
 
 [!DNL Yahoo]:
 
-Heeft geen precieze data verstrekt, maar heeft gezegd: &quot;De tenuitvoerlegging begint in februari 2024. De tenuitvoerlegging zal geleidelijk worden uitgevoerd.&quot;
+Februari 2024 - De geleidelijke implementatie van handhaving voor alle vereisten behalve 1-Klik lijst-Unsubscribe zal in februari 2024 beginnen.
+
+Juni 2024 - 1-Klik lijst-Afmelden handhaving zal in juni 2024 beginnen.
 
 ## Hoe zal dit me als markteur beïnvloeden?
 
