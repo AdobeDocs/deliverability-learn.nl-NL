@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 238c67562ebbe179b326e4093b90b0ee05a070ae
+source-git-commit: 0c735dcf872728be6131b5a185f4b6973b26dcd3
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1867'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,9 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
     * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
+
 ![afbeelding](/help/assets/CreatingTypologyRules1.png)
+
 
 
 **2. **Ga om de typologieregel te vormen te werk:**
@@ -239,10 +241,12 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
     * Niveau: uw keuze
     * Actief
 
+
 ![afbeelding](/help/assets/CreatingTypologyRules2.png)
 
 
 **Code javascript of the Typology rule:**
+
 
 >[!NOTE]
 >
@@ -350,25 +354,30 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
+
 ![afbeelding](/help/assets/CreatingTypologyRules3.png)
 
 
-* **Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe:**
+
+**3. Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe:**
 
 ![afbeelding](/help/assets/CreatingTypologyRules4.png)
 
 
-* **Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is)**
+
+**4. Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is)**
 
 ![afbeelding](/help/assets/CreatingTypologyRules5.png)
 
 
-* **Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.**
+
+**5. Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.**
 
 ![afbeelding](/help/assets/CreatingTypologyRules6.png)
 
 
-* **Bevestig dat lijst-unsubscribe aanwezig is.**
+
+**6. Bevestig dat lijst-unsubscribe aanwezig is.**
 
 ![afbeelding](/help/assets/CreatingTypologyRules7.png)
 
