@@ -8,7 +8,7 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 8de2247f78f8c6e8467ffe51ffdf1b6107d30118
+source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 0%
@@ -51,7 +51,7 @@ U kunt ook meer informatie vinden over DMARC en hoe u het kunt implementeren [hi
 
 ## 1-Klik (Lijst) op Abonnement opzeggen:
 
-Geen paniek. [!DNL Google] en [!DNL Yahoo] hebben het niet over de afmeldingskoppelingen in uw e-mailtekst of voettekst waarop kan worden geklikt door een beveiliger die gewoon zijn werk doet of per ongeluk. Wat zij betekenen is de lijst-Unsubscribe kopbalfunctionaliteit voor of de &quot;mailto&quot;of &quot;http/URL&quot;versies. Dit is de functie binnen de [!DNL Yahoo] en Gmail UIs waar de gebruikers kunnen klikken unsubscribe. Gmail vraagt zelfs gebruikers die op &quot;Rapport Spam&quot;klikken om te zien of zij bedoeld in plaats daarvan zijn om af te melden, wat het aantal klachten kan verminderen u krijgt (klachten beschadigen uw reputatie) door hen in plaats daarvan in te zetten afmeldt (beschadigt uw reputatie niet).
+Geen paniek. [!DNL Google] en [!DNL Yahoo] hebben het niet over de afmeldingskoppelingen in uw e-mailtekst of voettekst waarop kan worden geklikt door een beveiliger die gewoon zijn werk doet of per ongeluk. Wat zij betekenen is de lijst-Unsubscribe kopbalfunctionaliteit voor of &quot;mailto&quot;of &quot;http/URI&quot;versies. Dit is de functie binnen de [!DNL Yahoo] en Gmail UIs waar de gebruikers kunnen klikken unsubscribe. Gmail vraagt zelfs gebruikers die op &quot;Rapport Spam&quot;klikken om te zien of zij bedoeld in plaats daarvan zijn om af te melden, wat het aantal klachten kan verminderen u krijgt (klachten beschadigen uw reputatie) door hen in plaats daarvan in te zetten afmeldt (beschadigt uw reputatie niet).
 
 Het is belangrijk op te merken dat [!DNL Google] en [!DNL Yahoo] verwijzen beide naar de optie &quot;http/URI&quot; met de naam &quot;1-Click&quot; en dit is opzettelijk. Technisch gezien kunt u met de oorspronkelijke optie &quot;http/URI&quot; ontvangers omleiden naar een website. Dat is niet de focus van [!DNL Yahoo] en [!DNL Google], die beide verwijzen naar de bijgewerkte [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} die zich richt op het verwerken van het afmelden via een HTTPS-verzoek om een POST in plaats van op een website, waardoor het &quot;1-klik&quot; wordt.
 
