@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 3dc1d2f352346fa2ef7b5c883da6a3e243cb32c0
+source-git-commit: f8aaa0c21daf93953fb0daa6a5d9262c8d1654a0
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 1%
@@ -149,7 +149,7 @@ Als u deze functie gebruikt, wordt uw reputatie beschermd en wordt feedback uitg
 Als u List-Unsubscribe wilt gebruiken, moet u een bevellijn gelijkend op ingaan:
 
 ```
-List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
+List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
 ```
 
 >[!CAUTION]
@@ -159,7 +159,7 @@ List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?bod
 De volgende opdrachtregel kan worden gebruikt om een dynamisch object te maken **List-Unsubscribe**:
 
 ```
-List-Unsubscribe: <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: <mailto:%=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com, en Microsoft Outlook steunen deze methode en een unsubscribe knoop is beschikbaar direct in hun interface. Deze techniek verlaagt de klachtenpercentages.
@@ -175,12 +175,13 @@ De bevellijn moet in de extra sectie van de kopbal van SMTP van e-mail worden to
 
 Deze toevoeging kan in elke e-mail, of in bestaande leveringsmalplaatjes worden gedaan. U kunt ook een nieuwe leveringssjabloon maken die deze functionaliteit bevat.
 
-* List-Unsubscribe: <mailto:unsubscribe@domain.com>
+1. List-Unsubscribe: <mailto:unsubscribe@domain.com>
 Als u op de koppeling Abonnement opzeggen klikt, wordt de standaard e-mailclient van de gebruiker geopend. Deze typologieregel moet worden toegevoegd aan een typologie die wordt gebruikt voor het maken van e-mail.
 
-* List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
+2. List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
 Als u op de koppeling voor afmelden klikt, wordt de gebruiker omgeleid naar het afmeldingsformulier.
-  ![afbeelding](/help/assets/UTF-8-1.png)
+
+![afbeelding](/help/assets/UTF-8-1.png)
 
 
 ### Een typologieregel maken {#creating-a-typology-rule}
@@ -199,9 +200,9 @@ De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in
 
 Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan List-Unsubscribe (Engelstalig) met één klik. Om aan het één-Klik lijst-ophef vereiste te voldoen moeten de afzenders:
 
-* Toevoegen in een &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
-* Een URI opnemen voor afmelden van koppeling
-* De ontvangst van de reactie van de POST van HTTP van de ontvanger steunen, die Adobe Campaign steunt.
+1. Toevoegen in een &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
+2. Een URI opnemen voor afmelden van koppeling
+3. De ontvangst van de reactie van de POST van HTTP van de ontvanger steunen, die Adobe Campaign steunt.
 
 Om één-Klik lijst-Unsubscribe direct te vormen:
 
