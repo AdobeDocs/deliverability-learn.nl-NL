@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 66526ebad0914ef9afa995f7d826e644c0350182
+source-git-commit: 3dc1d2f352346fa2ef7b5c883da6a3e243cb32c0
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,7 @@ Deze kopbal kan als alternatief aan het &quot;Rapport als SPAM&quot;pictogram wo
 
 Als u deze functie gebruikt, wordt uw reputatie beschermd en wordt feedback uitgevoerd als een abonnement opzeggen.
 
-Als u List-Unsubscribe wilt gebruiken, moet u een bevellijn gelijkend op als volgt ingaan:
+Als u List-Unsubscribe wilt gebruiken, moet u een bevellijn gelijkend op ingaan:
 
 ```
 List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
@@ -180,7 +180,7 @@ Als u op de koppeling Abonnement opzeggen klikt, wordt de standaard e-mailclient
 
 * List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
 Als u op de koppeling voor afmelden klikt, wordt de gebruiker omgeleid naar het afmeldingsformulier.
-  ![afbeelding](/help/assets/ListUnsubscribe1.png)
+  ![afbeelding](/help/assets/UTF-8-1.png)
 
 
 ### Een typologieregel maken {#creating-a-typology-rule}
@@ -206,12 +206,11 @@ Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan List-Unsubscribe (
 Om één-Klik lijst-Unsubscribe direct te vormen:
 
 * Voeg toe in de volgende webtoepassing &quot;Niet-klikgerichte ontvangers afmelden&quot; 
-* Ga naar Bronnen -> Online -> Webtoepassingen
-* Upload &quot;Ontvangers zonder klik afmelden&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
-
+   1. Ga naar Bronnen -> Online -> Webtoepassingen
+   2. Upload &quot;Ontvangers zonder klik afmelden&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 * Configureer List-Unsubscribe en List-Unsubscribe-Post
-* Ga naar de sectie SMTP van de Eigenschappen van de Levering.
-* Onder Extra Kopballen SMTP, ga in de bevellijnen (Elke kopbal zou op een afzonderlijke lijn moeten zijn) in:
+   1. Ga naar de sectie SMTP van de Eigenschappen van de Levering.
+   2. Onder Extra Kopballen SMTP, ga in de bevellijnen (Elke kopbal zou op een afzonderlijke lijn moeten zijn) in:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
