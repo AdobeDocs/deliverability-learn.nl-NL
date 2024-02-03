@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: d9b3505de11cc7c50db2a318274b73a758348578
+source-git-commit: 5cd9a1d2296041b11c966cafdfd6b75a71286c3f
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
@@ -224,31 +224,33 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 ### Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
 
-Maak de nieuwe typologieregel:
+1. **Maak de nieuwe typologieregel:**
 
-* Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
+   * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
 ![afbeelding](/help/assets/CreatingTypologyRules1.png)
 
-Ga om de typologieregel te vormen te werk:
 
-* Type regel: besturingselement
-* Kanaal: e-mail
-* Fase: Aan het begin van personalisatie
-* Niveau: uw keuze
-* Actief
+2. **Ga om de typologieregel te vormen te werk:**
+
+   * Type regel: besturingselement
+   * Kanaal: e-mail
+   * Fase: Aan het begin van de personalisatie
+   * Niveau: uw keuze
+   * Actief
 
 ![afbeelding](/help/assets/CreatingTypologyRules2.png)
 
-Code javascript of the Typology rule:
+
+**Code javascript of the Typology rule:**
 
 >[!NOTE]
 >
 >De hieronder beschreven code moet alleen als voorbeeld worden gebruikt.
 >In dit voorbeeld wordt beschreven hoe u:
->* Configureer een URL List-Unsubscribe en voeg de kopteksten toe of voeg de bestaande mailto toe: parameters en vervang deze door: &lt;mailto..>>, http://...
+>* Configureer een URL List-Unsubscribe en voeg de kopteksten toe of voeg de bestaande mailto toe: parameters en vervang deze door: &lt;mailto..>>, https://...
 >* Toevoegen in de header List-Unsubscribe-Post
->In het voorbeeld met de post-URL wordt var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= receiving.cryptedId %>&quot; gebruikt:
+>In het voorbeeld van de post-URL wordt var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= receited.cryptedId %>&quot; geselecteerd
 >* U kunt andere parameters toevoegen (zoals &amp;service = ...)
 >
 
@@ -319,7 +321,7 @@ function getHeader(headers, header) {
   
   
 // Define the unsubscribe URL 
-var headerUnsubUrl = "http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
+var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
   
 // Get the value of the List-Unsubscribe header 
 var headerUnsub = getHeader(delivery.mailParameters.headers, "List-Unsubscribe"); 
@@ -350,21 +352,26 @@ return true;
 
 ![afbeelding](/help/assets/CreatingTypologyRules3.png)
 
-Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe.
+
+3. **Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe:**
 
 ![afbeelding](/help/assets/CreatingTypologyRules4.png)
 
-Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is)
+
+4. **Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is)**
 
 ![afbeelding](/help/assets/CreatingTypologyRules5.png)
 
-Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.
+
+5. **Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.**
 
 ![afbeelding](/help/assets/CreatingTypologyRules6.png)
 
-Bevestig dat lijst-unsubscribe aanwezig is.
+
+6. **Bevestig dat lijst-unsubscribe aanwezig is.**
 
 ![afbeelding](/help/assets/CreatingTypologyRules7.png)
+
 
 ## E-mailoptimalisatie {#email-optimization}
 
