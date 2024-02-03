@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 0c735dcf872728be6131b5a185f4b6973b26dcd3
+source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 1%
@@ -226,20 +226,20 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 **1. Maak de nieuwe typologieregel:**
 
-    * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
+* Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
 
 ![afbeelding](/help/assets/CreatingTypologyRules1.png)
 
 
 
-**2. **Ga om de typologieregel te vormen te werk:**
+**2. Ga om de typologieregel te vormen te werk:**
 
-    * Type regel: besturingselement
-    * Kanaal: e-mail
-    * Fase: Aan het begin van personalisatie
-    * Niveau: uw keuze
-    * Actief
+* Type regel: besturingselement
+* Kanaal: e-mail
+* Fase: Aan het begin van de personalisatie
+* Niveau: uw keuze
+* Actief
 
 
 ![afbeelding](/help/assets/CreatingTypologyRules2.png)
