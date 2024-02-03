@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5f00c22382aff61c9aa218f60ecfeabc743a2742
+source-git-commit: 5ce1c499d897ccbec7713ef2ad03ef0a810971b4
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
@@ -224,20 +224,20 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 ### Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
 
-1. **Maak de nieuwe typologieregel:**
+* **Maak de nieuwe typologieregel:**
 
-* Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
+   * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
 ![afbeelding](/help/assets/CreatingTypologyRules1.png)
 
 
-2. **Ga om de typologieregel te vormen te werk:**
+* **Ga om de typologieregel te vormen te werk:**
 
-* Type regel: besturingselement
-* Kanaal: e-mail
-* Fase: Aan het begin van de personalisatie
-* Niveau: uw keuze
-* Actief
+   * Type regel: besturingselement
+   * Kanaal: e-mail
+   * Fase: Aan het begin van de personalisatie
+   * Niveau: uw keuze
+   * Actief
 
 ![afbeelding](/help/assets/CreatingTypologyRules2.png)
 
@@ -353,22 +353,22 @@ return true;
 ![afbeelding](/help/assets/CreatingTypologyRules3.png)
 
 
-3. **Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe:**
+* **Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe:**
 
 ![afbeelding](/help/assets/CreatingTypologyRules4.png)
 
 
-4. **Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is)**
+* **Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is)**
 
 ![afbeelding](/help/assets/CreatingTypologyRules5.png)
 
 
-5. **Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.**
+* **Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.**
 
 ![afbeelding](/help/assets/CreatingTypologyRules6.png)
 
 
-6. **Bevestig dat lijst-unsubscribe aanwezig is.**
+* **Bevestig dat lijst-unsubscribe aanwezig is.**
 
 ![afbeelding](/help/assets/CreatingTypologyRules7.png)
 
