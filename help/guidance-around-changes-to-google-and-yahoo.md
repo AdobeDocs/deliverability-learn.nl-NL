@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: ef6152550bf56395dd9e57e1286b1bebf141128c
+source-git-commit: 8de2247f78f8c6e8467ffe51ffdf1b6107d30118
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1775'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Als u een klant van de Adobe bent is het grootste deel van wat zij vereisen reed
 
 De regels voor DMARC veranderen niet, zo betekent het dat tenzij gevormd om het te verhinderen, een DMARC- verslag op het ouderdomein (adobe.com als voorbeeld) zal worden geërft en om het even welk subdomein (zoals email.adobe.com) zal behandelen. U hebt geen verschillende DMARC- verslagen voor uw subdomeinen nodig, tenzij u of hen om een verscheidenheid van bedrijfsredenen wilt toevoegen.
 
-DMARC wordt momenteel volledig ondersteund in de Adobe, maar is niet vereist. Gebruik om het even welke vrije DMARC controleur om te zien of hebt u opstelling DMARC voor uw subdomeinen, en als u niet, praat aan uw team van de steun van de Adobe om te zien hoe het best om over het krijgen van die opstelling te gaan.
+Configuratie van DMARC TXT-records wordt momenteel volledig ondersteund in Adobe voor Campagne en AJO, maar is niet vereist. Gebruik om het even welke vrije DMARC controleur om te zien of hebt u opstelling DMARC voor uw subdomeinen, en als u niet, praat aan uw team van de steun van de Adobe om te zien hoe het best om over het krijgen van die opstelling te gaan.
 
 U kunt ook meer informatie vinden over DMARC en hoe u het kunt implementeren [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} voor Marketo Engage.
 
@@ -53,7 +53,7 @@ U kunt ook meer informatie vinden over DMARC en hoe u het kunt implementeren [hi
 
 Geen paniek. [!DNL Google] en [!DNL Yahoo] hebben het niet over de afmeldingskoppelingen in uw e-mailtekst of voettekst waarop kan worden geklikt door een beveiliger die gewoon zijn werk doet of per ongeluk. Wat zij betekenen is de lijst-Unsubscribe kopbalfunctionaliteit voor of de &quot;mailto&quot;of &quot;http/URL&quot;versies. Dit is de functie binnen de [!DNL Yahoo] en Gmail UIs waar de gebruikers kunnen klikken unsubscribe. Gmail vraagt zelfs gebruikers die op &quot;Rapport Spam&quot;klikken om te zien of zij bedoeld in plaats daarvan zijn om af te melden, wat het aantal klachten kan verminderen u krijgt (klachten beschadigen uw reputatie) door hen in plaats daarvan in te zetten afmeldt (beschadigt uw reputatie niet).
 
-Het is belangrijk op te merken dat [!DNL Google] en [!DNL Yahoo] verwijzen beide naar de optie &quot;http/URL&quot; met de naam &quot;1-Click&quot; en dit is opzettelijk. Technisch gezien kunt u met de oorspronkelijke optie &quot;http/URL&quot; ontvangers omleiden naar een website. Dat is niet de focus van [!DNL Yahoo] en [!DNL Google], die beide verwijzen naar de bijgewerkte [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} die zich richt op het verwerken van het afmelden via een HTTPS-verzoek om een POST in plaats van op een website, waardoor het &quot;1-klik&quot; wordt.
+Het is belangrijk op te merken dat [!DNL Google] en [!DNL Yahoo] verwijzen beide naar de optie &quot;http/URI&quot; met de naam &quot;1-Click&quot; en dit is opzettelijk. Technisch gezien kunt u met de oorspronkelijke optie &quot;http/URI&quot; ontvangers omleiden naar een website. Dat is niet de focus van [!DNL Yahoo] en [!DNL Google], die beide verwijzen naar de bijgewerkte [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} die zich richt op het verwerken van het afmelden via een HTTPS-verzoek om een POST in plaats van op een website, waardoor het &quot;1-klik&quot; wordt.
 
 Gmail accepteert vandaag de optie &quot;mailto&quot; list-unsubscribe. Gmail heeft gezegd dat &quot;mailto&quot;niet aan hun verwachtingen voldoet die door:gaan, en afzenders zullen moeten hebben de &quot;post&quot;lijst-unsubscribe optie toegelaten hebben. De afzenders die al een soort abonnement hebben op een lijst, hebben tot 1 juni 2024 de tijd om een lijst met één klik op te zeggen.
 
@@ -71,8 +71,8 @@ De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toe
 > 
 > * [!DNL Adobe Campaign Classic V7/V8]: biedt volledige ondersteuning voor POST 1-klik vandaag, instructies zijn beschikbaar [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
 >* [!DNL Adobe Campaign Standard]: Wordt bijgewerkt ter ondersteuning van POST 1-klik eind februari. Instructies voor installatie worden gegeven [hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} eenmaal gereed.
->* [!DNL Adobe Journey Optimizer]: Ondersteunt vandaag POST 1-Klik, maar er zijn enkele belangrijke verbeteringen gaande. Updates voor de stapsgewijze installatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} eenmaal gereed.
-> * [!DNL Marketo]: Wordt bijgewerkt ter ondersteuning van POST 1-klik. Zodra het klaar is, wordt het waar nodig automatisch toegepast.
+>* [!DNL Adobe Journey Optimizer]: Ondersteunt vandaag de POST 1-Klik, maar er zijn enkele belangrijke verbeteringen gaande die naar verwachting in maart 2024 zullen plaatsvinden. Updates van de documentatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} eenmaal gereed.
+> * [!DNL Marketo]: Vanaf 31 januari 2024 wordt POST 1-klik-lijst-abonnement volledig ondersteund. Geen actie wordt vereist door de gebruiker.
 
 
 ## Abonnement binnen 2 dagen verwerken:
