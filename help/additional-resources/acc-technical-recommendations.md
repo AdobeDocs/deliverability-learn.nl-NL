@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 8fe2a9de16a7856c66a643ce7aaf22bae016246e
+source-git-commit: 5afc345e1cc8e47153db6b5f98e06d8ad0fb4d48
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
@@ -175,9 +175,9 @@ De bevellijn moet in de extra sectie van de kopbal van SMTP van e-mail worden to
 
 Deze toevoeging kan in elke e-mail, of in bestaande leveringsmalplaatjes worden gedaan. U kunt ook een nieuwe leveringssjabloon maken die deze functionaliteit bevat.
 
-1.List-Unsubscribe: mailto:unsubscribe@domain.com Als u op de koppeling voor het afmelden van abonnementen klikt, wordt de standaard e-mailclient van de gebruiker geopend. Deze typologieregel moet worden toegevoegd aan een typologie die wordt gebruikt voor het maken van e-mail.
+* List-Unsubscribe: mailto:unsubscribe@domain.com Het klikken van de unsubscribe verbinding opent de standaard e-mailcliënt van de gebruiker. Deze typologieregel moet worden toegevoegd aan een typologie die wordt gebruikt voor het maken van e-mail.
 
-2.Lijst-Afmelden: https://domain.com/unsubscribe.jsp Als u op de koppeling voor afmelden klikt, wordt de gebruiker omgeleid naar het afmeldingsformulier.
+* List-Unsubscribe: https://domain.com/unsubscribe.jsp Als u op de koppeling voor het afmelden klikt, wordt de gebruiker omgeleid naar het afmeldingsformulier.
 
 ![afbeelding](/help/assets/UTF-8-1.png)
 
