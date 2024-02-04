@@ -1,23 +1,19 @@
 ---
-source-git-commit: 5de602d6b75e524dac8688e40db0e96bdbafceba
+source-git-commit: 25a1d799589268ab3108267670a3212bc9c47f7d
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 4%
 
 ---
 ### Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
+###
 
 **1. Maak de nieuwe typologieregel:**
-
 * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
-
 
 ![afbeelding](/help/assets/CreatingTypologyRules1.png)
 
-
-
 **2. Ga om de typologieregel te vormen te werk:**
-
 * Type regel: Besturing
 * Fase: Bij het begin van de doelwitten
 * Kanaal: E-mail
@@ -140,19 +136,13 @@ return true;
 
 ![afbeelding](/help/assets/CreatingTypologyRules3.png)
 
-
-
 **3. Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe:**
 
 ![afbeelding](/help/assets/CreatingTypologyRules4.png)
 
-
-
 **4. Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is)**
 
 ![afbeelding](/help/assets/CreatingTypologyRules5.png)
-
-
 
 **5. Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.**
 
