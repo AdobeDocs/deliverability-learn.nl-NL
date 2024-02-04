@@ -1,12 +1,11 @@
 ---
-source-git-commit: 25a1d799589268ab3108267670a3212bc9c47f7d
+source-git-commit: 945a7ba5e3c3ac9544199e1bb62273933a82f04a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 4%
 
 ---
-### Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
-###
+# Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
 
 **1. Maak de nieuwe typologieregel:**
 * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
