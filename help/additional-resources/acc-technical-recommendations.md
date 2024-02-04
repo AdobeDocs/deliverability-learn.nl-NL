@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
+source-git-commit: b4be656998890f9c98b8417835ae7c5bda2bc499
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 1%
@@ -235,9 +235,9 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 **2. Ga om de typologieregel te vormen te werk:**
 
-* Type regel: besturingselement
-* Kanaal: e-mail
-* Fase: Aan het begin van de personalisatie
+* Type regel: Besturing
+* Fase: Bij het begin van de doelwitten
+* Kanaal: E-mail
 * Niveau: uw keuze
 * Actief
 
