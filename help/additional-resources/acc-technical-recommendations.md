@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b4be656998890f9c98b8417835ae7c5bda2bc499
+source-git-commit: 2e3cebdad1613c852e950c379ddba689a3d8110e
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 1%
@@ -159,7 +159,7 @@ List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body
 De volgende opdrachtregel kan worden gebruikt om een dynamisch object te maken **List-Unsubscribe**:
 
 ```
-List-Unsubscribe: <mailto:%=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com, en Microsoft Outlook steunen deze methode en een unsubscribe knoop is beschikbaar direct in hun interface. Deze techniek verlaagt de klachtenpercentages.
@@ -215,7 +215,7 @@ Om één-Klik lijst-Unsubscribe direct te vormen:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: <https//domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
 subject=unsubscribe%=message.mimeMessageId%>
 ```
 
