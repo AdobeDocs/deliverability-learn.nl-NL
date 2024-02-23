@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: bfdf87937d001791701884d29db2da1fd7a0e8ee
+source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1868'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Met de Adobe Campaign-service voor leveringszekerheid wordt uw abonnement op fee
 
 ### Info over List-Unsubscribe {#about-list-unsubscribe}
 
-Een SMTP-header toevoegen met de naam **List-Unsubscribe** is verplicht voor een optimaal beheer van de leverbaarheid. Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan de Single-Click List-Unsubscribe. Om te begrijpen hoe te om lijst-Unsubscribe te vormen één-Klik gelieve te zien hieronder.
+Een SMTP-header toevoegen met de naam **List-Unsubscribe** is verplicht om een optimaal beheer van de leverbaarbaarheid te waarborgen. Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan List-Unsubscribe (Engelstalig) met één klik. Om te begrijpen hoe te om één-Klik lijst-Unsubscribe te vormen, zie [deze sectie](#one-click-list-unsubscribe).
 
 
 Deze kopbal kan als alternatief aan het &quot;Rapport als SPAM&quot;pictogram worden gebruikt. De koppeling wordt weergegeven als een niet-geabonneerde koppeling in de e-mailinterface.
@@ -181,7 +181,7 @@ List-Unsubscribe: mailto:unsubscribe@domain.com
 List-Unsubscribe: https://domain.com/unsubscribe.jsp
 * Klik op de knop **afmelden** de koppeling leidt de gebruiker om naar uw afmeldingsformulier.
 
-![afbeelding](/help/assets/UTF-8-1.png)
+![afbeelding](../assets/UTF-8-1.png)
 
 
 ### Een typologieregel maken {#creating-a-typology-rule}
@@ -196,7 +196,7 @@ De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in
 >
 >Leer hoe u in Adobe Campaign Classic typologische regels maakt [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
-### Een-klik lijst opzeggen
+### Een-klik lijst opzeggen {#one-click-list-unsubscribe}
 
 Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan List-Unsubscribe (Engelstalig) met één klik. Om aan het één-Klik lijst-ophef vereiste te voldoen moeten de afzenders:
 
@@ -215,7 +215,7 @@ Om één-Klik lijst-Unsubscribe direct te vormen:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
 
 In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één klik ingeschakeld voor ISP&#39;s die One-Click ondersteunen, terwijl ontvangers die geen ondersteuning bieden voor URL list-unsubscribe (URL-lijst afmelden) toch een aanvraag kunnen indienen om hun abonnement op te zeggen via e-mail.
@@ -227,9 +227,7 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 
 * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
-
-![afbeelding](/help/assets/CreatingTypologyRules1.png)
-
+![afbeelding](../assets/CreatingTypologyRules1.png)
 
 
 **2. Ga om de typologieregel te vormen te werk:**
@@ -241,7 +239,7 @@ In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één
 * Actief
 
 
-![afbeelding](/help/assets/CreatingTypologyRules2.png)
+![afbeelding](../assets/CreatingTypologyRules2.png)
 
 
 **Code javascript of the Typology rule:**
@@ -354,31 +352,31 @@ return true;
 ```
 
 
-![afbeelding](/help/assets/CreatingTypologyRules3.png)
+![afbeelding](../assets/CreatingTypologyRules3.png)
 
 
 
 **3. Voeg uw nieuwe regel aan een Typologie aan een e-mail (Standaard typologie is ok) toe:**
 
-![afbeelding](/help/assets/CreatingTypologyRules4.png)
+![afbeelding](../assets/CreatingTypologyRules4.png)
 
 
 
 **4. Bereid een nieuwe levering voor (verifieer dat de Extra kopballen SMTP in leveringsbezit leeg is)**
 
-![afbeelding](/help/assets/CreatingTypologyRules5.png)
+![afbeelding](../assets/CreatingTypologyRules5.png)
 
 
 
 **5. Controleer tijdens de voorbereiding van de levering of de nieuwe typologieregel is toegepast.**
 
-![afbeelding](/help/assets/CreatingTypologyRules6.png)
+![afbeelding](../assets/CreatingTypologyRules6.png)
 
 
 
 **6. Bevestig dat lijst-unsubscribe aanwezig is.**
 
-![afbeelding](/help/assets/CreatingTypologyRules7.png)
+![afbeelding](../assets/CreatingTypologyRules7.png)
 
 
 ## E-mailoptimalisatie {#email-optimization}
