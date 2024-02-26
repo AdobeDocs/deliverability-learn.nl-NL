@@ -1,5 +1,5 @@
 ---
-source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
+source-git-commit: 5e7c7bf626b6277abf8d50181826deb2e21c868f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -48,7 +48,7 @@ DO: Sta uw abonnees toe om de verhouding te dicteren.
 
 DO: Gebruik een List Unsubscribe-koptekst in uw e-mailsjablonen zodat e-mailclients (bijvoorbeeld: gmail.com) die afmeldingskoppelingen boven aan de e-mail weergeven, gemakkelijk kunnen worden gevonden op plaatsen waar de gebruiker gewend is aan het zoeken naar afmeldingsgegevens.
 
-+ Klik hier (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) voor meer informatie over initiatieven van de branche met betrekking tot één muisklik.
++ Klikken [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) voor meer informatie over initiatieven van de industrie met betrekking tot één klik : afmelden .
 
 De opdrachten Niet uitvoeren
 
