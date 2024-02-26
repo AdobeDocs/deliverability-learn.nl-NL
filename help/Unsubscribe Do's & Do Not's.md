@@ -1,17 +1,16 @@
 ---
-source-git-commit: 73776a83c10a1c871ffaae38371fa2c48b5bf308
+source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
 
 ---
-### Abonnement van do&#39;s opzeggen en niet van
-###
-
+# Abonnement van do&#39;s opzeggen en niet van
 
 Het doel van dit document is om aanbevolen procedures voor het beheer van e-mailabonnementen te controleren.
 
 Abonnementen vormen een natuurlijk onderdeel van de e-maillevenscyclus. Maar het is moeilijk voor marketeers om soms afscheid te nemen. U werkt zo hard om de meest boeiende e-mails te verzorgen en de beste deals te bieden voor producten en services die uw merkaanbiedingen bieden. Het is echter volkomen normaal, en dat moet worden verwacht, dat sommige abonnees besluiten om verder te gaan. Dit kan om een aantal redenen zijn, maar het komt erop neer dat ze niet meer van u willen horen.
+
 We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden wanneer we afmeldingen van je e-maillijsten beheren. Lees verder voor meer informatie.
 
 De taken
@@ -29,7 +28,7 @@ DO: Maak het proces eenvoudig en transparant. Voorbeeld:
 
 + &quot;Klik hierop om uw abonnement op alle e-mails over marketingobjecten op te zeggen.&quot; Dit zou de eerste optie moeten zijn die aan de gebruiker wordt gegeven.
 
-+ &quot;Klik hierop om uw voorkeuren te wijzigen.&quot;
++ &quot;Klik op deze optie om uw voorkeuren te wijzigen.&quot;
 
 DO: neem het e-mailadres op de bestemmingspagina op.
 
@@ -51,8 +50,7 @@ DO: Gebruik een List Unsubscribe-koptekst in uw e-mailsjablonen zodat e-mailclie
 
 + Klik hier (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) voor meer informatie over initiatieven van de branche met betrekking tot één muisklik.
 
-# De opdrachten Niet uitvoeren
-#
+De opdrachten Niet uitvoeren
 
 
 NIET: Dek de link voor afmelden in de inhoud in de hoop dat abonnees uit frustratie zullen &quot;opgeven&quot;.
@@ -86,4 +84,3 @@ NIET: dwingt hen om u een reden te geven waarom zij afmelden alvorens u het verz
 + Een betere aanpak zou erin bestaan hen te informeren dat zij met succes zijn afgemeld en vervolgens ruimte te bieden om de reden(en) naar keuze aan te bieden.
 
 Houd er rekening mee dat afmelden beter is dan klachten. Personen die uw e-mailprogramma niet als positief ervaren, kunnen een negatief effect hebben op zowel de reputatie van uw leverancier als uw metriek. Nu is het tijd dat u zich richt op het kweken van diepere relaties met uw huidige abonnees door hen te behandelen aan betrokken, relevante overseinen die zij niet kunnen wachten om te openen, door te klikken en een aankoop te maken!
-
