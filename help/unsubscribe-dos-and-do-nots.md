@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: 77de42d30ce01ab66323da1731a4a0bf96a94f44
+source-git-commit: d4af9b039e2f8f140124cf21edec825e803c1308
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -30,7 +30,8 @@ We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden
 
 **DOEN:** Koppel de schijf voor afmelden aan een bestemmingspagina waarop de gebruiker kan bevestigen dat hij of zij uit de lijst wil verwijderen
 
-+ Het woordenboek op de landingspagina moet een link bevatten om te klikken die zegt: &quot;Bevestig mijn abonnement&quot; en misschien een andere link die zegt: &quot;Laat me afstappen en minder frequentie van de post die ik van u krijg&quot;. Hoewel dit geen methode is om uw abonnement met één muisklik op te zeggen, voorkomt u zo dat u niet op een verkeerde manier klikt om uw abonnement op te zeggen.
+Het woordenboek op de landingspagina moet een link bevatten om te klikken die zegt: &quot;Bevestig mijn abonnement&quot; en misschien een andere link die zegt: &quot;Laat me afstappen en minder frequentie van de post die ik van u krijg&quot;. Hoewel dit geen methode is om uw abonnement met één muisklik op te zeggen, voorkomt u zo dat u niet op een verkeerde manier klikt om uw abonnement op te zeggen.
+
 + Als uw abonnement een gebruiker naar een bestemmingspagina neemt, zorg ervoor dat de landingspagina een één klik aanbiedt unsubscribe zodra de gebruiker op de pagina land.
 
 **DOEN:** Maak het proces gemakkelijk en transparant. Voorbeeld:
@@ -57,7 +58,7 @@ We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden
 
 **DOEN:** Gebruik een List Unsubscribe-koptekst in uw e-mailsjablonen, zodat e-mailclients (bijvoorbeeld: gmail.com) die afmeldingskoppelingen boven aan de e-mail weergeven, gemakkelijk kunnen vinden waar de gebruiker gewend is aan het zoeken naar afmeldingsgegevens.
 
-+ Klikken [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) voor meer informatie over initiatieven van de industrie met betrekking tot één klik : afmelden .
+Klikken [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) voor meer informatie over initiatieven van de industrie met betrekking tot één klik : afmelden .
 
 ## De opdrachten Niet uitvoeren
 
@@ -90,6 +91,7 @@ We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden
 **NIET:** Dwing hen om u een reden te geven waarom zij afmelden alvorens u het verzoek verwerkt.
 
 + Toestaan dat de klant deze informatie kan toevoegen, kan voor u van nut zijn voor toekomstige inzichten - maar maakt van de klant een optioneel veld op de bestemmingspagina.
+
 + Een betere aanpak zou erin bestaan hen te informeren dat zij met succes zijn afgemeld en vervolgens ruimte te bieden om de reden(en) naar keuze aan te bieden.
 
 Houd er rekening mee dat afmelden beter is dan klachten. Personen die uw e-mailprogramma niet als positief ervaren, kunnen een negatief effect hebben op zowel de reputatie van uw leverancier als uw metriek. Nu is het tijd dat u zich richt op het kweken van diepere relaties met uw huidige abonnees door hen te behandelen aan betrokken, relevante overseinen die zij niet kunnen wachten om te openen, door te klikken en een aankoop te maken!
