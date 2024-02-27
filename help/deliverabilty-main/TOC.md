@@ -6,10 +6,10 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: 2c687a3f374c6467893967f8867850ae7f77aaf8
+source-git-commit: 3e5002e63f38ad8c7d6ed8fa0ec8f1644dc97504
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 91%
+source-wordcount: '182'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
 + Bijlage: aanvullende bronnen {#additional-resources}
    + [Overzicht](/help/additional-resources/general-resources.md)
    + [Yahoo- en Gmail-updates](/help/guidance-around-changes-to-google-and-yahoo.md)
-   + [Abonnement op Do&#39;s en Dont&#39;s opzeggen](/help/Unsubscribe Do&#39;s &amp; Do Not s.md)
+   + [Abonnement op Do&#39;s en Dont&#39;s opzeggen](/help/Unsubscribe-Do's-and-Do-Not's.md)
    + Algemene bronnen {#generic-resources}
       + [Alles over spamvallen](/help/additional-resources/all-about-spam-traps.md)
       + [Uw e-mailreputatie verbeteren met opwarming van IP-adressen](/help/additional-resources/increase-reputation-with-ip-warming.md)
