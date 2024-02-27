@@ -1,5 +1,5 @@
 ---
-source-git-commit: fcf836681561221bdf8b96593813c26b2d8bc399
+source-git-commit: 34a7b7c8d6a2bda2f5b131bbbd9570c0b577c02c
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -15,22 +15,22 @@ We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden
 
 ## De taken
 
-DO: Een duidelijk geplaatste koppeling voor het opzeggen van abonnementen hebben. Dit kan helpen voorkomen dat gebruikers op de klacht &quot;this is spam&quot; (ook wel een feedbacklus genoemd) klikken
+**DOEN:** Een opvallende afmeldingskoppeling hebben. Dit kan helpen voorkomen dat gebruikers op de klacht &quot;this is spam&quot; (ook wel een feedbacklus genoemd) klikken
 
 + Sommige ideeën over hoe u de link voor afmelden duidelijk kunt maken: Centreer de koppeling, onderstreep deze en vette tekst, plaats deze helemaal boven of helemaal onder aan de e-mail en maak er een andere lettertypekleur voor. Gebruik het ene woord - &quot;UNSUBSCRIBE&quot; - in de taalvoorkeur van de gebruiker. Gebruik geen bloemen of overmatige verbieding.
 
-DO: Heb uw unsubscribe verbindingsaandrijving aan een landende pagina waar de gebruiker kan bevestigen zij van de lijst willen worden geschrapt
+**DOEN:** Koppel de schijf voor afmelden aan een bestemmingspagina waarop de gebruiker kan bevestigen dat hij of zij uit de lijst wil verwijderen
 
 + Het woordenboek op de landingspagina moet een link bevatten om te klikken die zegt: &quot;Bevestig mijn abonnement&quot; en misschien een andere link die zegt: &quot;Laat me afstappen en minder frequentie van de post die ik van u krijg&quot;. Hoewel dit geen methode is om uw abonnement met één muisklik op te zeggen, voorkomt u zo dat u niet op een verkeerde manier klikt om uw abonnement op te zeggen.
 + Als uw abonnement een gebruiker naar een bestemmingspagina neemt, zorg ervoor dat de landingspagina een één klik aanbiedt unsubscribe zodra de gebruiker op de pagina land.
 
-DO: Maak het proces eenvoudig en transparant. Voorbeeld:
+**DOEN:** Maak het proces gemakkelijk en transparant. Voorbeeld:
 
 + &quot;Klik hierop om uw abonnement op alle e-mails over marketingobjecten op te zeggen.&quot; Dit zou de eerste optie moeten zijn die aan de gebruiker wordt gegeven.
 
 + &quot;Klik op deze optie om uw voorkeuren te wijzigen.&quot;
 
-DO: neem het e-mailadres op de bestemmingspagina op.
+**DOEN:** Neem het e-mailadres op de bestemmingspagina op.
 
 + Belangrijk: afhankelijk van de locatie/jurisdictie van uw gebruikers kunnen er privacyproblemen zijn bij het opnemen van het volledige e-mailadres. Mogelijk moet u een gehashte versie van het e-mailadres vooraf invullen. De reden hiervoor is dat de e-mail mogelijk is doorgestuurd vanaf het oorspronkelijk geabonneerde adres. Raadpleeg uw juridische groep voor meer informatie over uw specifieke vereisten.
 
