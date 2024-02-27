@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
+source-git-commit: e2c2fbfee5e404e1eef25dd0068a6bdd560ed977
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1770'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,11 @@ De behoefte aan lijst-unsubscribe kopballen is niet op transactie e-mail van toe
 
 >[!INFO]
 > Adobe werkt aan het mogelijk maken van ondersteuning via &quot;post&quot; op al onze platforms voor het verzenden van e-mail om onze gebruikers te ondersteunen bij het voldoen aan deze vereisten:
-> 
-> 
-> * [!DNL Adobe Campaign Classic V7/V8]: biedt volledige ondersteuning voor POST 1-klik vandaag, instructies zijn beschikbaar [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
->* [!DNL Adobe Campaign Standard]: Wordt bijgewerkt ter ondersteuning van POST 1-klik eind februari. Instructies voor installatie worden gegeven [hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} eenmaal gereed.
+>
+> * [!DNL Adobe Campaign v7/v8]: biedt volledige ondersteuning voor POST 1-klik vandaag, instructies zijn beschikbaar [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
+>* [!DNL Adobe Campaign Standard]: Vanaf 19 februari wordt POST 1-klik volledig ondersteund. Meer informatie is beschikbaar op [hier](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel.html#email-channel-parameters){target="_blank"}.
 >* [!DNL Adobe Journey Optimizer]: Ondersteunt vandaag de POST 1-Klik, maar er zijn enkele belangrijke verbeteringen gaande die naar verwachting in maart 2024 zullen plaatsvinden. Updates van de documentatie worden gepubliceerd [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} eenmaal gereed.
-> * [!DNL Marketo]: Vanaf 31 januari 2024 wordt POST 1-klik-lijst-abonnement volledig ondersteund. Geen actie wordt vereist door de gebruiker.
-
+> * [!DNL Marketo]: Vanaf 31 januari 2024 wordt POST 1-klik List-Unsubscribe ondersteund. Geen actie wordt vereist door de gebruiker.
 
 ## Abonnement binnen 2 dagen verwerken:
 
@@ -92,7 +90,7 @@ Lage klachtenpercentages onder 0,2% houden is al lange tijd een goede praktijk. 
 
 [!DNL Yahoo] heeft verklaard dat hun klachtendrempel eveneens 0 , 30 % zal bedragen .
 
-[!DNL Google] en [!DNL Yahoo]Het is niet de bedoeling om afzenders te straffen voor één enkele slechte dag of voor een fout die een tijdelijke spike in klachten veroorzaakt. In plaats daarvan richten zij zich op afzenders die gedurende een langere periode hoge klachtentarieven hebben of een patroon van slecht verzendend gedrag.
+[!DNL Google] en [!DNL Yahoo]Het is niet de bedoeling om afzenders te straffen voor één enkele slechte dag of een fout die een tijdelijke klap veroorzaakt. In plaats daarvan richten zij zich op afzenders die gedurende een langere periode hoge klachtentarieven hebben of een patroon van slecht verzendend gedrag.
 
 Als u hulp nodig hebt bij het controleren van uw klachtentarieven, of hulp bij het reduceren van klachten wilt, gelieve met uw Adobe te spreken Leverbaarheid Consultant, of met uw accountteam te spreken over het toevoegen van een Leverbaarheidsconsultant als u nog geen adviseur hebt.
 
@@ -102,7 +100,7 @@ Sinds de oorspronkelijke aankondiging in oktober zijn er actualiseringen van de 
 
 [!DNL Gmail]:
 
-Februari 2024 - Tijdelijke steunbedragen om te waarschuwen voor niet-naleving zullen beginnen. E-mails worden nog steeds als normaal bezorgd na een korte vertraging als je nog niet aan de voorwaarden voldoet. Als u volledig aan de voorschriften voldoet, zijn er geen tijdelijke steunbedragen en zult u niets merken.
+Februari 2024 - Tijdelijke steunbedragen om te waarschuwen voor niet-naleving zullen beginnen. E-mails worden nog steeds als normaal bezorgd na een korte vertraging als je nog niet aan de voorwaarden voldoet. Als je volledig aan de regels voldoet, zullen er geen tijdelijke grenzen zijn en zal je niets merken.
 
 April 2024 - de Blokken zullen voor afzenders beginnen die niet in overeenstemming met alles behalve lijst-Unsubscribe 1-Klik zijn. In eerste instantie wordt slechts een gedeelte van de niet-compatibele e-mail geblokkeerd, waarbij het percentage geblokkeerde e-mail na verloop van tijd toeneemt.
 

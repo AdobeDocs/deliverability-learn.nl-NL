@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
+source-git-commit: 466b775442964e2d8cad133280e6b9f8af148b25
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1871'
 ht-degree: 1%
 
 ---
@@ -139,8 +139,11 @@ Met de Adobe Campaign-service voor leveringszekerheid wordt uw abonnement op fee
 
 ### Info over List-Unsubscribe {#about-list-unsubscribe}
 
-Een SMTP-header toevoegen met de naam **List-Unsubscribe** is verplicht om een optimaal beheer van de leverbaarbaarheid te waarborgen. Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan List-Unsubscribe (Engelstalig) met één klik. Om te begrijpen hoe te om één-Klik lijst-Unsubscribe te vormen, zie [deze sectie](#one-click-list-unsubscribe).
+Een SMTP-header toevoegen met de naam **List-Unsubscribe** is verplicht om een optimaal beheer van de leverbaarbaarheid te waarborgen.
 
+>[!CAUTION]
+>
+>Vanaf 1 juni 2024, Yahoo! en Gmail zullen allebei van afzenders vereisen om te voldoen aan **Een-klik List-Unsubscribe**. Om te begrijpen hoe te om één-Klik lijst-Unsubscribe te vormen, zie [deze sectie](#one-click-list-unsubscribe).
 
 Deze kopbal kan als alternatief aan het &quot;Rapport als SPAM&quot;pictogram worden gebruikt. De koppeling wordt weergegeven als een niet-geabonneerde koppeling in de e-mailinterface.
 
@@ -191,20 +194,18 @@ De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in
 >[!NOTE]
 >
 >We raden u aan een typologieregel te maken: de functionaliteit List-Unsubscribe wordt automatisch toegevoegd aan elke e-mail.
-
->[!NOTE]
 >
->Leer hoe u in Adobe Campaign Classic typologische regels maakt [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>Leer hoe u typologische regels maakt in Adobe Campaign v7/v8 in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ### Een-klik lijst opzeggen {#one-click-list-unsubscribe}
 
-Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan List-Unsubscribe (Engelstalig) met één klik. Om aan het één-Klik lijst-ophef vereiste te voldoen moeten de afzenders:
+Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan List-Unsubscribe (Engelstalig) met één klik. Om aan deze eis te voldoen, moeten de afzenders:
 
-1. Toevoegen in een &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
-2. Een URI opnemen voor afmelden van koppeling
-3. De ontvangst van de reactie van de POST van HTTP van de ontvanger steunen, die Adobe Campaign steunt.
+1. Voeg de volgende opdrachtregel toe:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
+1. Voeg een URI-afmeldingskoppeling toe.
+1. De ontvangst van de reactie van de POST van HTTP van de ontvanger steunen, die Adobe Campaign steunt.
 
-Om één-Klik lijst-Unsubscribe direct te vormen:
+U configureert als volgt List-Unsubscribe (Engelstalig) met één klik rechtstreeks in Adobe Campaign v7/v8:
 
 * Voeg toe in de volgende webtoepassing &quot;Niet-klikgerichte ontvangers afmelden&quot; 
    1. Ga naar Bronnen -> Online -> Webtoepassingen
