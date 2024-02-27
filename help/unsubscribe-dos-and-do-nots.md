@@ -1,10 +1,21 @@
 ---
-source-git-commit: 68580661062e1e323ff728c09ebf3a5103544fff
+title: Abonnement op do's en do's opzeggen
+description: Gebruik een lijst met dingen die u moet doen en om te voorkomen wanneer u afmeldt.
+feature: Deliverability
+role: Admin
+level: Beginner
+doc-type: Feature Video
+duration: 0
+last-substantial-update: 2024-02-27T00:00:00Z
+jira: KT-15029
+source-git-commit: 77de42d30ce01ab66323da1731a4a0bf96a94f44
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
+
+
 # Abonnement van do&#39;s opzeggen en niet van
 
 Abonnementen vormen een natuurlijk onderdeel van de e-maillevenscyclus. Maar het is moeilijk voor marketeers om soms afscheid te nemen. U werkt zo hard om de meest boeiende e-mails te verzorgen en de beste deals te bieden voor producten en services die uw merkaanbiedingen bieden. Het is echter volkomen normaal, en dat moet worden verwacht, dat sommige abonnees besluiten om verder te gaan. Dit kan om een aantal redenen zijn, maar het komt erop neer dat ze niet meer van u willen horen.
