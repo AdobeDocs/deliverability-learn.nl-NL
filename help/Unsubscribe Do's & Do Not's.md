@@ -1,13 +1,11 @@
 ---
-source-git-commit: 34a7b7c8d6a2bda2f5b131bbbd9570c0b577c02c
+source-git-commit: 214036c89a3c0b3ebcdfc66bc8a4e4bd2ede5766
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 # Abonnement van do&#39;s opzeggen en niet van
-
-Het doel van dit document is om aanbevolen procedures voor het beheer van e-mailabonnementen te controleren.
 
 Abonnementen vormen een natuurlijk onderdeel van de e-maillevenscyclus. Maar het is moeilijk voor marketeers om soms afscheid te nemen. U werkt zo hard om de meest boeiende e-mails te verzorgen en de beste deals te bieden voor producten en services die uw merkaanbiedingen bieden. Het is echter volkomen normaal, en dat moet worden verwacht, dat sommige abonnees besluiten om verder te gaan. Dit kan om een aantal redenen zijn, maar het komt erop neer dat ze niet meer van u willen horen.
 
