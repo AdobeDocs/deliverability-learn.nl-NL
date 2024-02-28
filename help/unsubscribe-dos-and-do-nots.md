@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: d4af9b039e2f8f140124cf21edec825e803c1308
+source-git-commit: 7f1e756683bfc5c8587101fcbf86db010a5b6a7e
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ Het woordenboek op de landingspagina moet een link bevatten om te klikken die ze
 
 **DOEN:** Gebruik een List Unsubscribe-koptekst in uw e-mailsjablonen, zodat e-mailclients (bijvoorbeeld: gmail.com) die afmeldingskoppelingen boven aan de e-mail weergeven, gemakkelijk kunnen vinden waar de gebruiker gewend is aan het zoeken naar afmeldingsgegevens.
 
-Klikken [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) voor meer informatie over initiatieven van de industrie met betrekking tot één klik : afmelden .
 
 ## De opdrachten Niet uitvoeren
 
