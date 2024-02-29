@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 466b775442964e2d8cad133280e6b9f8af148b25
+source-git-commit: 570f64fee87db7df8be8dfdd0ae1c6e6101058f7
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1925'
 ht-degree: 1%
 
 ---
@@ -137,13 +137,13 @@ Met de Adobe Campaign-service voor leveringszekerheid wordt uw abonnement op fee
 
 ## List-Unsubscribe {#list-unsubscribe}
 
-### Info over List-Unsubscribe {#about-list-unsubscribe}
-
 Een SMTP-header toevoegen met de naam **List-Unsubscribe** is verplicht om een optimaal beheer van de leverbaarbaarheid te waarborgen.
 
 >[!CAUTION]
 >
 >Vanaf 1 juni 2024, Yahoo! en Gmail zullen allebei van afzenders vereisen om te voldoen aan **Een-klik List-Unsubscribe**. Om te begrijpen hoe te om één-Klik lijst-Unsubscribe te vormen, zie [deze sectie](#one-click-list-unsubscribe).
+
+### Info over List-Unsubscribe {#about-list-unsubscribe}
 
 Deze kopbal kan als alternatief aan het &quot;Rapport als SPAM&quot;pictogram worden gebruikt. De koppeling wordt weergegeven als een niet-geabonneerde koppeling in de e-mailinterface.
 
@@ -165,7 +165,17 @@ De volgende opdrachtregel kan worden gebruikt om een dynamisch object te maken *
 List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
+<!--This example uses the error address.-->
+
 Gmail, Outlook.com, en Microsoft Outlook steunen deze methode en een unsubscribe knoop is beschikbaar direct in hun interface. Deze techniek verlaagt de klachtenpercentages.
+
+>[!NOTE]
+>
+>De Unsubscribe knoop van ISPs wordt niet altijd getoond. Het kan zelfs van de specifieke criteria en het beleid van elke ISP afhangen. Daarom zorg ervoor uw berichten door IP/Afzender worden verzonden:
+>
+>* Met goede reputatie
+>* Onder de ISPs de drempel van de spamklacht
+>* Volledig geverifieerd
 
 U kunt de **List-Unsubscribe** door:
 
@@ -174,18 +184,26 @@ U kunt de **List-Unsubscribe** door:
 
 ### Een opdrachtregel toevoegen in een leveringssjabloon {#adding-a-command-line-in-a-delivery-template}
 
-De bevellijn moet in de extra sectie van de kopbal van SMTP van e-mail worden toegevoegd.
+De opdrachtregel moet worden toegevoegd aan het dialoogvenster **[!UICONTROL Additional SMTP headers]** van de SMTP-header van de e-mail.
 
 Deze toevoeging kan in elke e-mail, of in bestaande leveringsmalplaatjes worden gedaan. U kunt ook een nieuwe leveringssjabloon maken die deze functionaliteit bevat.
 
-List-Unsubscribe: mailto:unsubscribe@domain.com
-* Klik op de knop **afmelden** Hiermee opent u de standaard e-mailclient van de gebruiker. Deze typologieregel moet worden toegevoegd aan een typologie die wordt gebruikt voor het maken van e-mail.
+Typ bijvoorbeeld het volgende script in het dialoogvenster **[!UICONTROL Additional SMTP headers]**: `List-Unsubscribe: mailto:unsubscribe@domain.com`
 
-List-Unsubscribe: https://domain.com/unsubscribe.jsp
-* Klik op de knop **afmelden** de koppeling leidt de gebruiker om naar uw afmeldingsformulier.
+![afbeelding](../assets/List-Unsubscribe-template-SMTP.png)
 
-![afbeelding](../assets/UTF-8-1.png)
+Klik op de knop **afmelden** via de koppeling wordt een e-mail naar het adres unsubscribe@domain.com verzonden.
 
+<!--
+List-Unsubscribe: mailto:unsubscribe@domain.com 
+* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
+
+List-Unsubscribe: https://domain.com/unsubscribe.jsp 
+
+* Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
+
+  ![image](../assets/UTF-8-1.png)
+-->
 
 ### Een typologieregel maken {#creating-a-typology-rule}
 
@@ -197,34 +215,44 @@ De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in
 >
 >Leer hoe u typologische regels maakt in Adobe Campaign v7/v8 in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
+<!--Can you explain precisely how to create the tyology rule in the UI and what should be added to this typology rule?-->
+
 ### Een-klik lijst opzeggen {#one-click-list-unsubscribe}
 
 Vanaf 1 juni 2024 moeten Yahoo en Gmail afzenders voldoen aan List-Unsubscribe (Engelstalig) met één klik. Om aan deze eis te voldoen, moeten de afzenders:
 
 1. Voeg de volgende opdrachtregel toe:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
 1. Voeg een URI-afmeldingskoppeling toe.
-1. De ontvangst van de reactie van de POST van HTTP van de ontvanger steunen, die Adobe Campaign steunt.
+1. De ontvangst van de reactie van de POST van HTTP van de ontvanger steunen, die Adobe Campaign steunt. U kunt ook een externe service gebruiken.
 
 U configureert als volgt List-Unsubscribe (Engelstalig) met één klik rechtstreeks in Adobe Campaign v7/v8:
 
 * Voeg toe in de volgende webtoepassing &quot;Niet-klikgerichte ontvangers afmelden&quot; 
    1. Ga naar Bronnen -> Online -> Webtoepassingen
    2. Upload &quot;Ontvangers zonder klik afmelden&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
-* Configureer List-Unsubscribe en List-Unsubscribe-Post
-   1. Ga naar de sectie SMTP van de Eigenschappen van de Levering.
-   2. Onder Extra Kopballen SMTP, ga in de bevellijnen (Elke kopbal zou op een afzonderlijke lijn moeten zijn) in:
 
-```
-List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
-```
+Om één-Klik lijst-Unsubscribe te vormen, kunt u of:
 
-In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één klik ingeschakeld voor ISP&#39;s die One-Click ondersteunen, terwijl ontvangers die geen ondersteuning bieden voor URL list-unsubscribe (URL-lijst afmelden) toch een aanvraag kunnen indienen om hun abonnement op te zeggen via e-mail.
+* [Voeg een bevellijn in het leveringsmalplaatje toe](#one-click-delivery-template)
+* [Een typologieregel maken](#one-click-typology-rule)
 
+### Het vormen van één-Klik lijst-Unsubscribe in het leveringsmalplaatje {#one-click-delivery-template}
 
-### Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
+1. Ga naar de sectie SMTP van de Eigenschappen van de Levering.
+2. Onder de Extra Kopballen SMTP, ga in de bevellijnen hieronder in. Elke koptekst moet op een aparte regel staan.
+
+   ```
+   List-Unsubscribe-Post: List-Unsubscribe=One-Click
+   List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+   ```
+
+In het bovenstaande voorbeeld wordt een List-Unsubscribe met één klik ingeschakeld voor ISP&#39;s die One-Click ondersteunen, terwijl tegelijkertijd wordt gegarandeerd dat ontvangers die geen ondersteuning bieden voor URL List-Unsubscribe nog steeds een aanvraag kunnen indienen om hun abonnement op te zeggen via e-mail.
+
+### Het creëren van een typologieregel om lijst-Unsubscript met één klik te steunen {#one-click-typology-rule}
 
 **1. Maak de nieuwe typologieregel:**
+
+<!--Need to check screenshots?-->
 
 * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
