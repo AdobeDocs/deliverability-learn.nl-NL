@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 56a8bb69be854ede21385ef35179b90f95cb1f6e
+source-git-commit: dd2de465850181cf72085328352c38bcefd59458
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 1%
@@ -166,7 +166,7 @@ en
 
 >[!CAUTION]
 >
->Vanaf 1 juni 2024, Yahoo! en Gmail zullen allebei van afzenders vereisen om te voldoen aan **Een-klik List-Unsubscribe**. [Meer informatie over deze wijziging](guidance-around-changes-to-google-and-yahoo.md)
+>Vanaf 1 juni 2024, Yahoo! en Gmail zullen allebei van afzenders vereisen om te voldoen aan **Een-klik List-Unsubscribe**. [Meer informatie over deze wijziging](../guidance-around-changes-to-google-and-yahoo.md)
 >
 >Leer hoe te om één-Klik lijst-Unsubscript binnen te vormen [deze sectie](#one-click-list-unsubscribe).
 
@@ -231,7 +231,7 @@ Leer hoe u typologische regels maakt in Adobe Campaign v7/v8 in [deze sectie](ht
 
 ### Een-klik lijst opzeggen {#one-click-list-unsubscribe}
 
-Vanaf 1 juni 2024, Yahoo! en Gmail zullen afzenders vereisen om aan lijst-Unsubscribe met één klik te voldoen. [Meer informatie over deze wijziging](guidance-around-changes-to-google-and-yahoo.md)
+Vanaf 1 juni 2024, Yahoo! en Gmail zullen afzenders vereisen om aan lijst-Unsubscribe met één klik te voldoen. [Meer informatie over deze wijziging](../guidance-around-changes-to-google-and-yahoo.md)
 
 Om aan deze eis te voldoen, moeten de afzenders:
 
@@ -262,6 +262,7 @@ Bijvoorbeeld:
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
 List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
+
 ![afbeelding](../assets/List-Unsubscribe-1-click-template-SMTP.png)
 
 Het bovenstaande voorbeeld zal met één klik lijst-Unsubscribe voor ISPs toelaten die met één klik steunen, terwijl het ervoor zorgen dat de ontvangers die geen &quot;mailto&quot;lijst-Unsubscribe steunen nog kunnen verzoeken om zich af te melden via e-mail.
