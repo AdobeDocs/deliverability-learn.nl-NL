@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: ea91b7285814eca254590f2aff128fb6e5f77520
+source-git-commit: ffa2e9788326389ae2e4da6e272367cdc837b72e
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2086'
 ht-degree: 1%
 
 ---
@@ -141,6 +141,8 @@ Een SMTP-header toevoegen met de naam **List-Unsubscribe** is verplicht om een o
 
 Deze kopbal kan als alternatief aan het &quot;Rapport als SPAM&quot;pictogram worden gebruikt. Het toont als &quot;Unsubscribe&quot;verbinding in de ISPs e-mailinterfaces.
 
+Met deze functionaliteit verlaagt u de klachtenkosten en helpt u uw reputatie te beschermen. Feedback wordt uitgevoerd als een abonnement.
+
 Gmail, Outlook.com, Yahoo! en Microsoft Outlook ondersteunen deze methode. Een &quot;Unsubscribe&quot;verbinding is beschikbaar direct in hun interface. Bijvoorbeeld:
 
 ![afbeelding](../assets/List-Unsubscribe-example-Gmail.png)
@@ -153,8 +155,6 @@ Gmail, Outlook.com, Yahoo! en Microsoft Outlook ondersteunen deze methode. Een &
 >* Onder de drempel van de spamklacht van ISPs
 >* Volledig geverifieerd
 
-Met deze functionaliteit verlaagt u de klachtenkosten en helpt u uw reputatie te beschermen. Feedback wordt uitgevoerd als een abonnement.
-
 Twee versies van de List-Unsubscribe kopbalfunctionaliteit bestaan:
 
 * **&quot;mailto&quot; List-Unsubscribe** - Klik met deze methode op de knop **Abonnement opzeggen** Hiermee wordt een vooraf ingevulde e-mail verzonden naar het afmeldingsadres dat in de e-mailheader is opgegeven. [Meer informatie](#mailto-list-unsubscribe)
@@ -163,7 +163,7 @@ Twee versies van de List-Unsubscribe kopbalfunctionaliteit bestaan:
 
 * **List-Unsubscribe van &quot;One-Click&quot;** - Klik met deze methode op de knop **Abonnement opzeggen** de verbinding maakt direct ondertekent de gebruiker. [Meer informatie](#one-click-list-unsubscribe)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Vanaf 1 juni 2024, Yahoo! en Gmail zullen allebei van afzenders vereisen om te voldoen aan **Een-klik List-Unsubscribe**. [Meer informatie over deze wijziging](../guidance-around-changes-to-google-and-yahoo.md)
 >
@@ -193,9 +193,7 @@ De opdrachtregel moet worden toegevoegd aan de **[!UICONTROL Additional SMTP hea
 
 Deze toevoeging kan in elke e-mail, of in bestaande leveringsmalplaatjes worden gedaan. U kunt ook een nieuwe leveringssjabloon maken die deze functionaliteit bevat.
 
-Typ bijvoorbeeld het volgende script in het dialoogvenster **[!UICONTROL Additional SMTP headers]** veld: `List-Unsubscribe: mailto:unsubscribe@domain.com`
-
-Klik op de knop **afmelden** via de koppeling wordt een e-mail naar het adres unsubscribe@domain.com verzonden.
+Typ bijvoorbeeld het volgende script in het dialoogvenster **[!UICONTROL Additional SMTP headers]** veld: `List-Unsubscribe: mailto:unsubscribe@domain.com`. Klik op de knop **afmelden** via de koppeling wordt een e-mail naar het adres unsubscribe@domain.com verzonden.
 
 U kunt ook een dynamisch adres gebruiken. Als u bijvoorbeeld een e-mail wilt verzenden naar het opgegeven foutadres voor het platform, kunt u het volgende script gebruiken: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
@@ -247,6 +245,8 @@ Om te vormen **Een-klik List-Unsubscribe** in Campaign kunt u:
 
 #### Het vormen van lijst-Signaal van één-Klik in de levering of het malplaatje {#one-click-delivery-template}
 
+Volg onderstaande stappen om een-klik lijst-Unsubscribe in het levering of leveringsmalplaatje te vormen.
+
 1. Ga naar de **[!UICONTROL SMTP]** van de leveringseigenschappen.
 
 1. Onder **[!UICONTROL Additional SMTP Headers]** Voer de opdrachtregels in, zoals in het onderstaande voorbeeld. Elke koptekst moet op een aparte regel staan.
@@ -263,6 +263,8 @@ List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.crypt
 In het bovenstaande voorbeeld wordt een List-Unsubscribe (Engelstalig) met één klik ingeschakeld voor ISP&#39;s die One-Click ondersteunen, terwijl tegelijkertijd wordt gegarandeerd dat ontvangers die &quot;mailto&quot; niet ondersteunen, nog steeds kunnen vragen om hun abonnement op te zeggen via e-mail.
 
 #### Het creëren van een typologieregel om lijst-Unsubscript met één klik te steunen {#one-click-typology-rule}
+
+Volg onderstaande stappen om een-klik lijst-Unsubscribe te vormen gebruikend een typologieregel.
 
 1. Ga vanuit de navigatiestructuur naar **[!UICONTROL Typolgy rules]** en klik op **[!UICONTROL New]**.
 
