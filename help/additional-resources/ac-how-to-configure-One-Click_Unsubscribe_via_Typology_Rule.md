@@ -1,5 +1,5 @@
 ---
-source-git-commit: 0332be5688f9d0375d1dba97c39a87d0e8d28c52
+source-git-commit: d105a5b7d81aa14144b9d01f28a5e24c1110ae6c
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 4%
@@ -8,11 +8,13 @@ ht-degree: 4%
 # Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
 
 **1. Maak de nieuwe typologieregel:**
+
 * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
 ![afbeelding](/help/assets/CreatingTypologyRules1.png)
 
 **2. Ga om de typologieregel te vormen te werk:**
+
 * Type regel: Besturing
 * Fase: Bij het begin van de doelwitten
 * Kanaal: E-mail
