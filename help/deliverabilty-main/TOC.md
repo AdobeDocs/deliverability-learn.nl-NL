@@ -6,10 +6,10 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: 56d385754b768a65c44c3661646361080a087656
+source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 93%
+source-wordcount: '179'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,6 @@ ht-degree: 93%
 + [De kennis in de praktijk brengen](/help/putting-it-in-practice.md)
 + Bijlage: aanvullende bronnen {#additional-resources}
    + [Overzicht](/help/additional-resources/general-resources.md)
-   + [Yahoo- en Gmail-updates](/help/guidance-around-changes-to-google-and-yahoo.md)
    + [Abonnement op do&#39;s en do&#39;s opzeggen](/help/unsubscribe-dos-and-do-nots.md)
    + Algemene bronnen {#generic-resources}
       + [Alles over spamvallen](/help/additional-resources/all-about-spam-traps.md)

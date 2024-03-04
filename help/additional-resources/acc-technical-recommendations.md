@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 3ceca47634f946488115ccbef5cb9ffb5aba8b07
+source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2045'
 ht-degree: 1%
 
 ---
@@ -165,9 +165,7 @@ Twee versies van de List-Unsubscribe kopbalfunctionaliteit bestaan:
 
 >[!IMPORTANT]
 >
->Vanaf 1 juni 2024, Yahoo! en Gmail zullen allebei van afzenders vereisen om te voldoen aan **Een-klik List-Unsubscribe**. [Meer informatie over deze wijziging](../guidance-around-changes-to-google-and-yahoo.md)
->
->Leer hoe te om één-Klik lijst-Unsubscript binnen te vormen [deze sectie](#one-click-list-unsubscribe).
+>>Leer hoe te om één-Klik lijst-Unsubscript binnen te vormen [deze sectie](#one-click-list-unsubscribe).
 
 ### &quot;mailto&quot; List-Unsubscribe {#mailto-list-unsubscribe}
 
@@ -223,8 +221,6 @@ Leer hoe u typologische regels maakt in Adobe Campaign v7/v8 in [deze sectie](ht
 ### Een-klik List-Unsubscribe {#one-click-list-unsubscribe}
 
 Met deze methode klikt u op de knop **Abonnement opzeggen** de verbinding maakt direct de gebruiker af, die slechts één enkele actie vereist om zich af te melden.
-
-Vanaf 1 juni 2024, Yahoo! en Gmail zullen afzenders vereisen om aan lijst-Unsubscribe met één klik te voldoen. [Meer informatie over deze wijziging](../guidance-around-changes-to-google-and-yahoo.md)
 
 Om aan deze eis te voldoen, moeten de afzenders:
 
