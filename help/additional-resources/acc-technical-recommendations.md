@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: ffa2e9788326389ae2e4da6e272367cdc837b72e
+source-git-commit: 3ceca47634f946488115ccbef5cb9ffb5aba8b07
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 1%
@@ -232,7 +232,7 @@ Om aan deze eis te voldoen, moeten de afzenders:
 * Voeg een URI-afmeldingskoppeling toe.
 * De ontvangst van de reactie van de POST van HTTP van de ontvanger steunen, die Adobe Campaign steunt. U kunt ook een externe service gebruiken.
 
-Als u de One-Click List-Unsubscribe PSOT-reactie direct in Adobe Campaign v7/v8 wilt ondersteunen, moet u deze toevoegen in de webtoepassing ‘Unsubscribe receibe receiving no-click’. Dit doet u als volgt:
+Als u de reactie van de POST List-Unsubscribe met één klik rechtstreeks in Adobe Campaign v7/v8 wilt ondersteunen, moet u deze toevoegen in de webtoepassing &quot;Niet-actieve ontvangers opzeggen&quot;. Dit doet u als volgt:
 
 1. Ga naar **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]**.
 
