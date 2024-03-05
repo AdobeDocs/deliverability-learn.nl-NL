@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
+source-git-commit: b163628adde1e4d7225a1c2c54d29b24e2b2a352
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '2064'
 ht-degree: 1%
 
 ---
@@ -159,13 +159,11 @@ Twee versies van de List-Unsubscribe kopbalfunctionaliteit bestaan:
 
 * **&quot;mailto&quot; List-Unsubscribe** - Klik met deze methode op de knop **Abonnement opzeggen** Hiermee wordt een vooraf ingevulde e-mail verzonden naar het afmeldingsadres dat in de e-mailheader is opgegeven. [Meer informatie](#mailto-list-unsubscribe)
 
-<!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
-
 * **List-Unsubscribe van &quot;One-Click&quot;** - Klik met deze methode op de knop **Abonnement opzeggen** de verbinding maakt direct ondertekent de gebruiker. [Meer informatie](#one-click-list-unsubscribe)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->>Leer hoe te om één-Klik lijst-Unsubscript binnen te vormen [deze sectie](#one-click-list-unsubscribe).
+>Vanaf 1 juni 2024 zullen belangrijke ISP&#39;s van afzenders eisen dat ze voldoen aan **Een-klik List-Unsubscribe**.
 
 ### &quot;mailto&quot; List-Unsubscribe {#mailto-list-unsubscribe}
 
@@ -197,17 +195,6 @@ U kunt ook een dynamisch adres gebruiken. Als u bijvoorbeeld een e-mail wilt ver
 
 ![afbeelding](../assets/List-Unsubscribe-template-SMTP.png)
 
-<!--
-List-Unsubscribe: mailto:unsubscribe@domain.com 
-* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
-
-List-Unsubscribe: https://domain.com/unsubscribe.jsp 
-
-* Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
-
-  ![image](../assets/UTF-8-1.png)
--->
-
 #### Een typologieregel maken {#creating-a-typology-rule}
 
 De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in de e-mailkopbal worden omvat.
@@ -221,6 +208,8 @@ Leer hoe u typologische regels maakt in Adobe Campaign v7/v8 in [deze sectie](ht
 ### Een-klik List-Unsubscribe {#one-click-list-unsubscribe}
 
 Met deze methode klikt u op de knop **Abonnement opzeggen** de verbinding maakt direct de gebruiker af, die slechts één enkele actie vereist om zich af te melden.
+
+Vanaf 1 juni 2024 zullen belangrijke ISP&#39;s van afzenders eisen dat ze voldoen aan **Een-klik List-Unsubscribe**.
 
 Om aan deze eis te voldoen, moeten de afzenders:
 
