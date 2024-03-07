@@ -1,6 +1,6 @@
 ---
-title: Abonnement op do's en do's opzeggen
-description: Gebruik een lijst met dingen die u moet doen en om te voorkomen wanneer u afmeldt.
+title: Abonnement opzeggen en opmerkingen doen
+description: Leer de opdrachten en donaties bij het beheren van abonnementen.
 feature: Deliverability
 role: Admin
 level: Beginner
@@ -8,15 +8,15 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: 7f1e756683bfc5c8587101fcbf86db010a5b6a7e
+exl-id: d8ca4d48-c6c1-45a9-bf6a-3f58ee161a53
+source-git-commit: 964230b60e345ffc624860e978beb6b08ad4c0b2
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
 
-
-# Abonnement van do&#39;s opzeggen en niet van
+# Abonnement opzeggen en opmerkingen doen
 
 Abonnementen vormen een natuurlijk onderdeel van de e-maillevenscyclus. Maar het is moeilijk voor marketeers om soms afscheid te nemen. U werkt zo hard om de meest boeiende e-mails te verzorgen en de beste deals te bieden voor producten en services die uw merkaanbiedingen bieden. Het is echter volkomen normaal, en dat moet worden verwacht, dat sommige abonnees besluiten om verder te gaan. Dit kan om een aantal redenen zijn, maar het komt erop neer dat ze niet meer van u willen horen.
 
@@ -24,15 +24,15 @@ We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden
 
 ## De taken
 
-**DOEN:** Een opvallende afmeldingskoppeling hebben. Dit kan helpen voorkomen dat gebruikers op de klacht &quot;this is spam&quot; (ook wel een feedbacklus genoemd) klikken
+**DOEN:** Een opvallende afmeldingskoppeling hebben. Zo voorkomt u dat gebruikers op de klacht &quot;this is spam&quot; (ook wel een feedbacklus genoemd) klikken.
 
-+ Sommige ideeën over hoe u de link voor afmelden duidelijk kunt maken: Centreer de koppeling, onderstreep deze en vette tekst, plaats deze helemaal boven of helemaal onder aan de e-mail en maak er een andere lettertypekleur voor. Gebruik het ene woord - &quot;UNSUBSCRIBE&quot; - in de taalvoorkeur van de gebruiker. Gebruik geen bloemen of overmatige verbieding.
++ Sommige ideeën over hoe u de link voor afmelden kunt laten opvallen: Centreren, onderstrepen en vet maken. Plaats het helemaal boven of helemaal onder aan de e-mail. Maak er een andere lettertypekleur van. Gebruik één woord - &quot;UNSUBSCRIBE&quot; - in de taalvoorkeur van de gebruiker. Gebruik geen bloemen of overmatige verbieding.
 
-**DOEN:** Koppel de schijf voor afmelden aan een bestemmingspagina waarop de gebruiker kan bevestigen dat hij of zij uit de lijst wil verwijderen
+**DOEN:** Laat de koppelingsschijf voor afmelden naar een bestemmingspagina waar de gebruiker kan bevestigen dat hij of zij uit de lijst wil worden verwijderd.
 
-Het woordenboek op de landingspagina moet een link bevatten om te klikken die zegt: &quot;Bevestig mijn abonnement&quot; en misschien een andere link die zegt: &quot;Laat me afstappen en minder frequentie van de post die ik van u krijg&quot;. Hoewel dit geen methode is om uw abonnement met één muisklik op te zeggen, voorkomt u zo dat u niet op een verkeerde manier klikt om uw abonnement op te zeggen.
+Het woordenboek op de landingspagina moet een link bevatten om te klikken die zegt: &quot;Bevestig mijn abonnement&quot; en misschien een andere link die zegt: &quot;Laat me afstappen en minder frequentie van de post die ik van u krijg&quot;. Hoewel dit geen methode is om uw abonnement met één muisklik op te zeggen, kunt u beter niet klikken met een fout als gevolg.
 
-+ Als uw abonnement een gebruiker naar een bestemmingspagina neemt, zorg ervoor dat de landingspagina een één klik aanbiedt unsubscribe zodra de gebruiker op de pagina land.
++ Als uw abonnement een gebruiker naar een bestemmingspagina neemt, zorg ervoor dat de landingspagina een één-klik unsubscribe aanbiedt zodra de gebruiker op de pagina land.
 
 **DOEN:** Maak het proces gemakkelijk en transparant. Voorbeeld:
 
@@ -46,11 +46,11 @@ Het woordenboek op de landingspagina moet een link bevatten om te klikken die ze
 
 **DOEN:** Bevestig dat het abonnement is verzonden en bevestig wanneer ze mogen verwachten geen e-mailberichten meer te ontvangen.
 
-+ Als zij zich al hebben afgemeld en het opnieuw proberen, melden zij dat zij zich al hebben afgemeld en wanneer (datum/tijd)
++ Als zij zich al hebben afgemeld en het opnieuw proberen, geven zij dan aan dat zij zich al hebben afgemeld en wanneer (datum/tijd).
 
 **DOEN:** Houd u aan het abonnement en verwijder het adres tijdig.
 
-+ De tijdigheid hangt af van de lokale wetgeving en de jurisdictie, dus raadpleeg een juridisch adviseur over wat van toepassing is op uw zaken.
++ Tijdigheid hangt af van lokale wetten en rechtsmacht. Raadpleeg daarom de juridische adviseur over wat van toepassing is op uw bedrijf.
 
 **DOEN:** Laat uw abonnees de relatie dicteren.
 
@@ -59,7 +59,7 @@ Het woordenboek op de landingspagina moet een link bevatten om te klikken die ze
 **DOEN:** Gebruik een List Unsubscribe-koptekst in uw e-mailsjablonen, zodat e-mailclients (bijvoorbeeld: gmail.com) die afmeldingskoppelingen boven aan de e-mail weergeven, gemakkelijk kunnen vinden waar de gebruiker gewend is aan het zoeken naar afmeldingsgegevens.
 
 
-## De opdrachten Niet uitvoeren
+## De notenties do
 
 
 **NIET:** Verbrand de link voor afmelden in uw inhoud in de hoop dat abonnees uit frustratie zullen &quot;opgeven&quot;.
@@ -72,11 +72,11 @@ Het woordenboek op de landingspagina moet een link bevatten om te klikken die ze
 
 **NIET:** Voeg handmatig een e-mailadres toe aan het formulier voor opzeggen.
 
-+ Het ingetekende adres kan van het adres verschillend zijn de gebruiker voor post het programma sloot (voorbeeld, door:sturen).  Ze weten mogelijk niet welk e-mailadres is gebruikt voor het oorspronkelijke abonnement.
++ Het ingetekende adres kan van het adres verschillend zijn de gebruiker voor post het programma sloot (voorbeeld, door:sturen). Ze weten mogelijk niet welk e-mailadres is gebruikt voor het oorspronkelijke abonnement.
 
 **NIET:** Meld de gebruiker aan bij zijn account om zijn abonnement op te zeggen.
 
-+ Mogelijk verzendt u de e-mail naar het verkeerde adres en heeft de eigenaar van dat adres geen toegang tot de account.  Als zij de e-mail ontvangen, moeten zij van de verbinding in e-mail slechts worden toegestaan; geen andere actie of informatie zou moeten worden vereist.
++ Mogelijk verzendt u de e-mail naar het verkeerde adres en heeft de eigenaar van dat adres geen toegang tot de account. Als zij de e-mail ontvangen, moeten zij van de verbinding in e-mail slechts worden toegestaan; geen andere actie of informatie zou moeten worden vereist.
 + Hoe minder stappen een klant moet ondernemen, des te beter.
 
 **NIET:** Verzend een e-mail waarin wordt bevestigd dat de persoon zich heeft afgemeld.
