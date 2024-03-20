@@ -1,21 +1,21 @@
 ---
-source-git-commit: 758bc4144e09c53883d682a480f5f52a25c98111
+source-git-commit: e5b40a9f0a58f70066c5210053cfd88fc938bb65
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
-# Abonnement van do&#39;s opzeggen en niet van
+# Abonnement op do&#39;s en do&#39;s opzeggen
 
 Abonnementen vormen een natuurlijk onderdeel van de e-maillevenscyclus. Maar het is moeilijk voor marketeers om soms afscheid te nemen. U werkt zo hard om de meest boeiende e-mails te verzorgen en de beste deals te bieden voor producten en services die uw merkaanbiedingen bieden. Het is echter volkomen normaal, en dat moet worden verwacht, dat sommige abonnees besluiten om verder te gaan. Dit kan om een aantal redenen zijn, maar het komt erop neer dat ze niet meer van u willen horen.
 
 We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden wanneer we afmeldingen van je e-maillijsten beheren. Lees verder voor meer informatie.
 
-## De taken
+## De doe&#39;s
 
 **DOEN:** Een opvallende afmeldingskoppeling hebben. Dit kan helpen voorkomen dat gebruikers op de klacht &quot;this is spam&quot; (ook wel een feedbacklus genoemd) klikken
 
-+ Sommige ideeën over hoe u de link voor afmelden duidelijk kunt maken: Centreer de koppeling, onderstreep deze en vette tekst, plaats deze helemaal boven of helemaal onder aan de e-mail en maak er een andere lettertypekleur voor. Gebruik het ene woord - &quot;UNSUBSCRIBE&quot; - in de taalvoorkeur van de gebruiker. Gebruik geen bloemen of overmatige verbieding.
++ Sommige ideeën over hoe u de link voor afmelden duidelijk kunt maken: Centreer de koppeling, onderstreep deze en vette tekst, plaats deze helemaal boven of helemaal onder aan de e-mail en maak er een andere lettertypekleur voor. Gebruik het ene woord - &#39;UNSUBSCRIBE&#39; - in de taalvoorkeur van de gebruiker. Gebruik geen bloemen of overmatige verbiage.
 
 **DOEN:** Koppel de schijf voor afmelden aan een bestemmingspagina waarop de gebruiker kan bevestigen dat hij of zij uit de lijst wil verwijderen
 
@@ -42,16 +42,14 @@ We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden
 
 **DOEN:** Laat uw abonnees de relatie dicteren.
 
-+ Het is oké om uw abonneeopties te geven. U kunt deze beheren via een voorkeurscentrum/opt-down-initiatief.
++ Het is oké om je abonnees opties te geven - dit kan worden beheerd via een voorkeurscentrum/opt-down-initiatief.
 
 **DOEN:** Gebruik een List Unsubscribe-koptekst in uw e-mailsjablonen, zodat e-mailclients (bijvoorbeeld: gmail.com) die afmeldingskoppelingen boven aan de e-mail weergeven, gemakkelijk kunnen vinden waar de gebruiker gewend is aan het zoeken naar afmeldingsgegevens.
 
-+ Klikken [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) voor meer informatie over initiatieven van de industrie met betrekking tot één klik : afmelden .
-
-## De opdrachten Niet uitvoeren
+## Niet
 
 
-**NIET:** Verbrand de link voor afmelden in uw inhoud in de hoop dat abonnees uit frustratie zullen &quot;opgeven&quot;.
+**NIET:** Verbrand de link voor afmelden in je inhoud in de hoop dat abonnees uit frustratie zullen &#39;opgeven&#39;.
 
 + Dit is een slechte ervaring voor eindgebruikers en kan leiden tot meer klachten, die een negatief effect kunnen hebben op uw leverbaarheid en reputatie.
 
@@ -72,7 +70,7 @@ We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden
 
 + Als u dat wel doet, hebt u uw belofte om ze geen e-mail meer te sturen al geschonden.
 
-**NIET:** Wees slordig in je verbiage. &quot;Ik hoor niet graag over geweldige deals. Schrijf me alstublieft af!&quot;
+**NIET:** Wees slordig in je verbiage. &quot;Ik hoor niet graag over geweldige deals - abonneer me alstublieft!&quot;
 
 + Dit kan als onbeleefd overkomen. Vermijd een negatieve toon.
 
@@ -81,4 +79,4 @@ We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden
 + Toestaan dat de klant deze informatie kan toevoegen, kan voor u van nut zijn voor toekomstige inzichten - maar maakt van de klant een optioneel veld op de bestemmingspagina.
 + Een betere aanpak zou erin bestaan hen te informeren dat zij met succes zijn afgemeld en vervolgens ruimte te bieden om de reden(en) naar keuze aan te bieden.
 
-Houd er rekening mee dat afmelden beter is dan klachten. Personen die uw e-mailprogramma niet als positief ervaren, kunnen een negatief effect hebben op zowel de reputatie van uw leverancier als uw metriek. Nu is het tijd dat u zich richt op het kweken van diepere relaties met uw huidige abonnees door hen te behandelen aan betrokken, relevante overseinen die zij niet kunnen wachten om te openen, door te klikken en een aankoop te maken!
+Houd er rekening mee dat afmelden beter is dan klachten. Personen die uw e-mailprogramma niet als positief ervaren, kunnen een negatief effect hebben op zowel de reputatie van uw leverancier als uw metriek. Nu, is het tijd voor u om zich op het cultiveren van diepere verhoudingen met uw huidige abonnees te concentreren door hen te behandelen aan betrokken, relevante overseinen die zij niet kunnen wachten om te openen, te klikken door, en een aankoop te maken!
