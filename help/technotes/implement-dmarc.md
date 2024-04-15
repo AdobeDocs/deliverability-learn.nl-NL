@@ -5,10 +5,10 @@ topics: Deliverability
 role: Admin
 level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
-source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
+source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 8%
+source-wordcount: '1284'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ DMARC is optioneel, en hoewel dit niet verplicht is, is het gratis en biedt e-ma
 
 ## Beste praktijken voor het Uitvoeren DMARC {#best-practice}
 
-Aangezien DMARC facultatief is, zal het niet door gebrek op om het even welk platform van ESP worden gevormd. Een DMARC- verslag moet in DNS voor uw domein worden gecreeerd opdat het werkt. Bovendien is een e-mailadres van uw keuze vereist om aan te geven waar DMARC-rapporten binnen uw organisatie moeten worden geplaatst. Als best practice wordt aanbevolen om de DMARC-implementatie langzaam uit te rollen door uw DMARC-beleid te escaleren van p=none naar p=quarantaine en dan naar p=reject, naarmate u DMARC-inzicht krijgt in de potentiële impact van DMARC.
+Aangezien DMARC facultatief is, zal het niet door gebrek op om het even welk platform van ESP worden gevormd. Een DMARC- verslag moet in DNS voor uw domein worden gecreeerd opdat het werkt. Bovendien is een e-mailadres van uw keuze vereist om aan te geven waar DMARC-rapporten binnen uw organisatie moeten worden geplaatst. Als beste praktijken, wordt het geadviseerd om implementatie DMARC langzaam uit te voeren door uw beleid DMARC van p=none, aan p=quarantaine, aan p=weiger te escaleren aangezien u DMARC inzicht in de potentiële invloed van DMARC krijgt.
 
 1. Analyseer terugkoppelen u ontvangt en gebruikt (p=none), die de ontvanger vertelt om geen acties tegen berichten uit te voeren die authentificatie ontbreken, maar nog e-mailrapporten naar de afzender verzenden. Bekijk en los ook problemen met SPF/DKIM op als legitieme berichten niet kunnen worden geverifieerd.
 1. Bepaal als SPF en DKIM worden gericht en authentificatie voor al wettige e-mail overgaan, en dan het beleid verplaatsen naar (p=quarantaine), dat de ontvangende e-mailserver aan quarantainemail vertelt die authentificatie ontbreekt (dit betekent over het algemeen het plaatsen van die berichten in de spamomslag).
@@ -68,6 +68,10 @@ Deze rapporten worden vooral gebruikt om een overzicht te krijgen van e-mails di
 * [Dmarciaans](https://dmarcian.com/)
 * [Proofpoint](https://www.proofpoint.com/us)
 
+>[!CAUTION]
+>
+>Als de e-mailadressen u toevoegt om rapporten te ontvangen buiten het domein zijn waarvoor het DMARC- verslag wordt gecreeerd, moet u hun extern domein machtigen om aan DNS te specificeren dat u dit domein bezit. Hiervoor voert u de stappen uit die in het dialoogvenster [dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+
 ### Voorbeeld-DMARC-record {#example}
 
 ```
@@ -78,7 +82,7 @@ v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=m
 
 DMARC-records hebben meerdere componenten, DMARC-tags genoemd. Elke tag heeft een waarde die een bepaald aspect van DMARC opgeeft.
 
-| Tagnaam | Vereist/optioneel | -functie | Voorbeeld | Standaardwaarde |
+| Tagnaam | Vereist/optioneel | Functie | Voorbeeld | Standaardwaarde |
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | Vereist | Met deze DMARC-tag wordt de versie opgegeven. Er is momenteel slechts één versie, dus deze heeft een vaste waarde van v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | Vereist | Toont het geselecteerde beleid DMARC en geeft de ontvanger opdracht om post te melden, in quarantaine te plaatsen of te verwerpen die authentificatiecontroles ontbreekt. | p=none, quarantaine of afwijzen | - |
