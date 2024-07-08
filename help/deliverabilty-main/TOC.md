@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 + [De kennis in de praktijk brengen](/help/putting-it-in-practice.md)
 + Bijlage: aanvullende bronnen {#additional-resources}
    + [Overzicht](/help/additional-resources/general-resources.md)
-   + [Abonnement op do&#39;s en do&#39;s opzeggen](/help/unsubscribe-dos-and-do-nots.md)
+   + [Wat u wel en niet kunt doen bij afmelding](/help/unsubscribe-dos-and-do-nots.md)
    + Algemene bronnen {#generic-resources}
       + [Alles over spamvallen](/help/additional-resources/all-about-spam-traps.md)
       + [Uw e-mailreputatie verbeteren met opwarming van IP-adressen](/help/additional-resources/increase-reputation-with-ip-warming.md)
