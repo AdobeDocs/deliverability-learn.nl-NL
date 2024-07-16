@@ -8,7 +8,7 @@ team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2043'
 ht-degree: 2%
 
 ---
@@ -19,13 +19,13 @@ In dit document worden de zakelijke en technische vereisten beschreven voor het 
 
 >[!NOTE]
 >
->U kunt ook nieuwe subdomeinen instellen met het Configuratiescherm (beschikbaar als bèta). Meer informatie in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
+>U kunt ook nieuwe subdomeinen instellen met het Configuratiescherm (beschikbaar als bèta). Lees meer in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
 
 ## Subdomeinen
 
 Met Adobe, kan de digitale marketing echt de contextafhankelijke motor worden die het de marketingprogramma van de klantenovereenkomst van uw merk drijft.  E-mail blijft de basis van digitale marketingprogramma&#39;s. Het is echter moeilijker geworden om de inbox te bereiken dan ooit.
 
-Het creëren van subdomain voor e-mailcampagnes staat brands toe om verschillende types van verkeer (marketing versus collectief bijvoorbeeld) in specifieke IP pools en met specifieke domeinen te isoleren, die het [Opwarmingsproces in het OT](../../help/additional-resources/increase-reputation-with-ip-warming.md) en de algehele leverbaarheid verbeteren. Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden.  Als u uw hoofddomein als afzender of het adres &#39;Van&#39; voor meerdere e-mailstreams gebruikt, kan de e-mailverificatie ook worden verbroken, waardoor uw berichten worden geblokkeerd of in de spammap worden geplaatst.
+Creërend subdomain voor e-mailcampagnes staat brands toe om verschillende types van verkeer (marketing versus collectief bijvoorbeeld) in specifieke IP pools en met specifieke domeinen te isoleren, die het [ IP opwarmingsproces ](../../help/additional-resources/increase-reputation-with-ip-warming.md) zullen versnellen en over het algemeen leverbaarheid zullen verbeteren. Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden.  Als u uw hoofddomein als afzender of het adres &#39;Van&#39; voor meerdere e-mailstreams gebruikt, kan de e-mailverificatie ook worden verbroken, waardoor uw berichten worden geblokkeerd of in de spammap worden geplaatst.
 
 ### Delegatie
 
@@ -35,7 +35,8 @@ Dit betekent dat de DNS van Adobe Campaign servers volledige bevoegdheid op slec
 
 Door een subdomein voor gebruik met Adobe Campaign te delegeren, kunnen de cliënten op Adobe vertrouwen om de DNS infrastructuur te handhaven die wordt vereist om aan industrie-standaardleveringsvereisten voor hun e-mailmarketing verzendende domeinen te voldoen, terwijl het blijven DNS voor hun interne e-maildomeinen handhaven en controleren.  Bij subdomeindelegatie is het mogelijk:
 
-Clients om hun merkimago te behouden door een DNS-alias met de Adobe voor domeinnamen te gebruiken om autonoom alle technische aanbevolen werkwijzen te implementeren om de leesbaarheid tijdens het e-mailen volledig te optimaliseren
+Clients kunnen hun merkafbeelding behouden door een DNS-alias met domeinnamen te gebruiken
+Adobe om autonoom alle technische beste praktijken uit te voeren om de leverbaarheid tijdens het e-mailen volledig te optimaliseren
 
 ## DNS-instellingsopties
 
@@ -44,16 +45,16 @@ Om een op wolken-gebaseerde beheerde dienst te verlenen, moedigt de Adobe cliën
 | Optie | Beschrijving | Verantwoordelijkheden Adobe | Verantwoordelijkheden van klanten |
 |--- |------- |--- |--- |
 | Subdomeindelegatie naar Adobe Campaign | De cliënt delegeert subdomain (email.example.com) aan Adobe. In dit scenario, kan de Adobe de Campagne als beheerde dienst leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven, en het volgen van e-mailcampagnes worden vereist. | Volledig beheer van het subdomein en alle DNS-records die voor Adobe Campaign zijn vereist. | Correcte delegatie van het subdomein aan Adobe |
-| Gebruik van CNAME’s | De cliënt leidt tot subdomain en gebruikt CNAMEs om aan Adobe-specifieke verslagen te richten.  Met deze configuratie delen Adobe en de klant de verantwoordelijkheid voor het onderhoud van DNS. | Beheer van DNS-records vereist voor Adobe Campaign. | Creatie en controle van subdomain en creatie/beheer van de CNAME verslagen die voor Adobe Campaign worden vereist. |
+| Gebruik van CNAME&#39;s | De cliënt leidt tot subdomain en gebruikt CNAMEs om aan Adobe-specifieke verslagen te richten.  Met deze configuratie delen Adobe en de klant de verantwoordelijkheid voor het onderhoud van DNS. | Beheer van DNS-records vereist voor Adobe Campaign. | Creatie en controle van subdomain en creatie/beheer van de CNAME verslagen die voor Adobe Campaign worden vereist. |
 
 ## Vereiste DNS-records
 
 | Recordtype | Doel | Voorbeelden van record/inhoud |
 |--- |--- |--- |
-| MX | E-mailservers opgeven voor binnenkomende berichten | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
-| SPF (TXT) | Beleidskader voor afzender | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campagne.adobe.com&quot; |
-| DKIM (TXT) | DomainKeys Identified Mail | <i>client._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
-| Gegevens van hosts (A) | Pagina&#39;s spiegelen, afbeeldingen hosten en koppelingen bijhouden, alle verzendende domeinen | m.email.example.com IN A 123.11.100.99</br>t.email.example.com IN A 123.11.100.98</br>email.example.com IN A 123.11.100.97 |
+| MX | E-mailservers opgeven voor binnenkomende berichten | <i> email.example.com </i></br><i> 10 binnenkomend.email.example.com </i> |
+| SPF (TXT) | Beleidskader voor afzender | <i> email.example.com </i></br> &quot;v=spf1 redirect=__spf.campagne.adobe.com&quot; |
+| DKIM (TXT) | DomainKeys Identified Mail | <i> cliënt._domainkey.email.example.com </i></br> &quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
+| Gegevens van hosts (A) | Pagina&#39;s spiegelen, afbeeldingen hosten en koppelingen bijhouden, alle verzendende domeinen | m.email.example.com IN A 123.111.100.99 </br> t.email.example.com IN A 123.111.100.98 </br> email.example.com IN A 123.11.100.97 |
 | DNS omkeren (PTR) | Wijst de cliëntIP adressen aan een cliënt brandde hostname toe | 18.101.100.192.in-addr.arpa domeinnaamaanwijzer r18.email.example.com |
 | CNAME | Biedt een alias voor een andere domeinnaam | t1.email.example.com is een alias voor t1.email.example.campaign.adobe.com |
 
@@ -87,7 +88,7 @@ Het delegeren van een domeinnaam impliceert dat dit domein zal worden gewijd aan
 
 Tijdens het opstellingsproces, zal de Adobe ervoor zorgen het domein aan de Adobe inkomende e-mailinfrastructuur in bijlage is om de terugkomende e-mails te beheren en te verwerken die terug naar deze domeinen (MX type DNS verslagconfiguratie) komen.
 
-### Gebruik van CNAME’s
+### Gebruik van CNAME&#39;s
 
 Als de cliënt verkiest om CNAMEs eerder dan afgevaardigde te gebruiken subdomain aan Adobe, tijdens de opstellingsfase, zal de Adobe de verslagen verstrekken die in de cliëntDNS servers moeten worden geplaatst en zal de overeenkomstige waarden in Adobe Campaign DNS servers vormen.
 
@@ -111,7 +112,7 @@ Vul de onderstaande tabel in. De eerste regel is slechts een voorbeeld.
 >[!NOTE]
 >
 >* Het doel van het gebied &quot;Antwoord-aan Adres&quot;is wanneer u de ontvanger op een verschillend adres wilt antwoorden dan &quot;van Adres&quot;.  Terwijl niet een vereist gebied, adviseert de Adobe sterk dat &quot;antwoord-aan Adres&quot;geldig en met een gecontroleerd brievenbus verbonden zijn.  Deze brievenbus moet door de klant worden ontvangen.  Dit kan bijvoorbeeld een ondersteuningsmailbox zijn, customercare@customer.com, waar e-mails worden gelezen en waarop wordt gereageerd.
->* Als geen &quot;antwoord-aan Adres&quot;door de klant wordt gekozen, dan is het standaardadres altijd `<tenant>-<type>-<env>@<subdomain>`.
+>* Als de klant geen &quot;Antwoord-aan Adres&quot;kiest, dan is het standaardadres altijd `<tenant>-<type>-<env>@<subdomain>`.
 >* Wanneer &quot;antwoord-aan Adres&quot;opstelling deze manier is, zullen de antwoorden naar een ongecontroleerde brievenbus worden verzonden.
 >* Wanneer het verzenden van e-mails van Adobe Campaign, wordt de brievenbus &quot;van Adres&quot;niet gecontroleerd en de marketing gebruikers kunnen tot deze brievenbus toegang hebben. Adobe Campaign biedt ook niet de mogelijkheid om e-mails die in dit postvak zijn ontvangen automatisch te beantwoorden of door te sturen.
 >* Het adres van de Campagne van/van de Afzender en het adres van de Fout kunnen niet &quot;misbruik&quot;of &quot;postmaster&quot;zijn.
@@ -122,7 +123,7 @@ De subdomein(s) die zijn gekozen voor gebruik voor het Adobe Campaign-platform, 
 
 | Gedelegeerde subdomein | DNS-instructies |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com </br> `<subdomain>` NS b.ns.campaign.adobe.com </br> `<subdomain>` NS c.ns.campaign.adobe.com </br> `<subdomain>` NS d.ns.campaign.adobe.com |
+| `<subdomain>` | `<subdomain>` a.ns.campaign.adobe.com. </br> `<subdomain>` b.ns.campaign.adobe.com. </br> `<subdomain>` c.ns.campaign.adobe.com. </br> `<subdomain>` d.ns.campaign.adobe.com. |
 
 ## Bijhouden, pagina&#39;s spiegelen, bronnen
 
@@ -142,7 +143,7 @@ Alle enquêtes, webformulieren en bestemmingspagina&#39;s die moeten worden ontw
 
 | Gedelegeerde subdomein | DNS-instructies |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com</br>`<subdomain>` NS b.ns.campaign.adobe.com</br>`<subdomain>` NS c.ns.campaign.adobe.com</br>`<subdomain>` NS d.ns.campaign.adobe.com |
+| `<subdomain>` | `<subdomain>` a.ns.campaign.adobe.com.</br>`<subdomain>` b.ns.campaign.adobe.com.</br>`<subdomain>` c.ns.campaign.adobe.com.</br>`<subdomain>` d.ns.campaign.adobe.com. |
 
 >[!NOTE]
 >
@@ -158,7 +159,7 @@ De extra DNS configuratie van CNAME wordt vereist om extern gerichte Webcomponen
 
 Firewall(s) moeten ook worden geconfigureerd om toegang te verlenen tot de marketinginstantie van Adobe Campaign die deze webcomponenten host (op poort 80 of 443).
 
-**Best practices Recommendations:**
+**Beste praktijken Recommendations:**
 
 Het subdomein voor de host van webcomponenten is zichtbaar voor klanten. Zorg er dus voor dat het op de juiste wijze van branding is voorzien en eenvoudig te onthouden is, aangezien het mogelijk handmatig moet worden ingevoerd, bijvoorbeeld: https://web.customer.com.
 Als formulieren moeten worden gehost op beveiligde pagina&#39;s (HTTPS), is aanvullende technische configuratie vereist, zoals hieronder beschreven.
@@ -204,4 +205,4 @@ Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/do
 
 >[!NOTE]
 >
->[Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) is alleen beschikbaar voor klanten die Adobe Managed Services gebruiken.
+>[ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) is beschikbaar aan klanten die Adobe Managed Services slechts gebruiken.

@@ -7,13 +7,13 @@ ht-degree: 4%
 ---
 # Creërend Typologieregel om lijst-Unsubscribe met één klik te steunen:
 
-**1. Maak de nieuwe typologieregel:**
+**1. Creeer de nieuwe Regel van de Typologie:**
 
 * Klik in de navigatiestructuur op &quot;nieuw&quot; om een nieuwe typologie te maken
 
 ![afbeelding](/help/assets/CreatingTypologyRules1.png)
 
-**2. Ga om de typologieregel te vormen te werk:**
+**2. Ga te werk om de typologieregel te vormen:**
 
 * Type regel: Besturing
 * Fase: Bij het begin van de doelwitten
@@ -25,14 +25,14 @@ ht-degree: 4%
 ![afbeelding](/help/assets/CreatingTypologyRules2.png)
 
 
-**Code javascript of the Typology rule:**
+**Code javascript van de regel van de Typologie:**
 
 
 >[!NOTE]
 >
 >De hieronder beschreven code moet alleen als voorbeeld worden gebruikt.
 >In dit voorbeeld wordt beschreven hoe u:
->* Configureer een URL List-Unsubscribe en voeg de kopteksten toe of voeg de bestaande mailto toe: parameters en vervang deze door: &lt;mailto..>>, https://...
+>* Configureer een URL List-Unsubscribe en voeg de kopteksten toe of voeg de bestaande mailto:-parameters toe en vervang deze door: &lt;mailto..>, https://...
 >* Toevoegen in de header List-Unsubscribe-Post
 >In het voorbeeld van de post-URL wordt var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= receited.cryptedId %>&quot; geselecteerd
 >* U kunt andere parameters toevoegen (zoals &amp;service = ...)

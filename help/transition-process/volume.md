@@ -12,7 +12,7 @@ team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '553'
 ht-degree: 1%
 
 ---
@@ -25,16 +25,16 @@ De volumedrempels variëren door ISP en kunnen ook afhankelijk van uw gemiddelde
 
 Hier volgt een lijst met tips en tips voor een vloeiende overgang:
 
-* **Machtiging** is de basis van elk succesvol e-mailprogramma.
-* **Laag en langzaam** — begin met lage verzendende volumes en vergroot vervolgens uw reputatie van de afzender.
-* A **mailingstrategie van de tandem** Hiermee kunt u het volume opvoeren tijdens de campagne terwijl u afloopt bij uw huidige ESP zonder uw e-mailkalender te verstoren.
-* **Betrokkenheid** — begin met de abonnees die uw e-mails regelmatig openen en klikken.
-* **Volg het abonnement** — Onze aanbevelingen hebben honderden campagneklanten geholpen hun e-mailprogramma&#39;s met succes op te zetten.
-* **Uw e-mailaccount voor antwoorden controleren**. Het is een slechte ervaring voor uw klant om noreply@xyz.com te gebruiken of niet te antwoorden.
-* Inactieve adressen kunnen een negatief effect op de leesbaarheid hebben. **Opnieuw activeren en opnieuw inschakelen op uw huidige platform**, niet uw nieuwe IPs.
-* **Domeinen** — gebruik een verzendend domein dat subdomein van het daadwerkelijke domein van uw bedrijf is
+* **Toestemming** is de stichting van om het even welk succesvol e-mailprogramma.
+* **Laag en langzaam** — begin met lage verzendende volumes en verhoog dan aangezien u uw afzenderreputatie vestigt.
+* A **het samenvoegen van een modem strategie** staat u toe om volume op Campagne op te voeren terwijl het wentelen met uw huidige ESP, zonder uw e-mailkalender te onderbreken.
+* **de Betrokkenheid is van belang** — begin met de abonnees die regelmatig uw e-mails openen en klikken.
+* **volg het plan** - onze aanbevelingen hebben honderden cliënten van de Campagne met succes geholpen hun e-mailprogramma&#39;s opvoeren.
+* **monitor uw antwoord e-mailrekening**. Het is een slechte ervaring voor uw klant om noreply@xyz.com te gebruiken of niet te antwoorden.
+* Inactieve adressen kunnen een negatief effect op de leesbaarheid hebben. **reactiveer en hertoestemming op uw huidige platform**, niet uw nieuwe IPs.
+* **Domeinen** — gebruik een verzendend domein dat subdomain van het daadwerkelijke domein van uw bedrijf is
    * Bijvoorbeeld, als uw bedrijfdomein xyz.com is, verstrekt email.xyz.com meer geloofwaardigheid aan ISPs dan xyzemail.com
-* **Transparantie** — De registratiegegevens voor uw e-maildomein moeten openbaar zijn en mogen niet privé zijn.
+* **Transparantie** — de registratiedetails voor uw e-maildomein zouden openbaar moeten zijn en zouden niet privé moeten zijn.
 
 In veel omstandigheden volgt transactionele post niet de traditionele opwarmingsmethode. Het is duidelijk moeilijk om volume in transactie-post wegens zijn aard te controleren, aangezien het over het algemeen een gebruikersinteractie vereist om de e-mailaanraking teweeg te brengen. In sommige gevallen, kan de transactionele post eenvoudig zonder een formeel plan worden overgebracht. In andere gevallen, zou het beter kunnen zijn om elk berichttype over tijd over te gaan om het volume langzaam te groeien. U kunt bijvoorbeeld als volgt een overgang maken:
 
@@ -47,12 +47,12 @@ In veel omstandigheden volgt transactionele post niet de traditionele opwarmings
 
 **Campaign**
 
-* Meer informatie over het beheren van de leverbaarbaarheid bij het starten van een nieuw platform met Adobe Campaign in [deze sectie](/help/additional-resources/ac-starting-new-platform.md).
-* Meer informatie over het verzenden van meerdere golven met Adobe Campaign Classic in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
-* Leer hoe u een subdomein volledig kunt delegeren naar Adobe Campaign Classic of Standard in [deze sectie](/help/additional-resources/ac-domain-name-setup.md).
-* [Configuratiescherm: volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
-* [Configuratiescherm: volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
+* Leer meer over het beheren van leverbaarheid wanneer het beginnen van een nieuw platform met Adobe Campaign in [ deze sectie ](/help/additional-resources/ac-starting-new-platform.md).
+* Leer hoe te om het gebruiken van veelvoudige golven met Adobe Campaign Classic in [ te verzenden deze sectie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Leer hoe te om een subdomain volledig aan Adobe Campaign Classic of Norm in [ te delegeren deze sectie ](/help/additional-resources/ac-domain-name-setup.md).
+* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe te om een subdomain aan Adobe Campaign Classic volledig te delegeren.*
+* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe te om een subdomain aan Adobe Campaign Standard volledig te delegeren.*
 
 ## Aanvullende bronnen
 
-* Meer weten over het verbeteren van je e-mailreputatie dankzij de opwarming van de IP in [deze sectie](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* Leer meer bij het verhogen van uw e-mailreputatie met IP opwarmen in [ deze sectie ](/help/additional-resources/increase-reputation-with-ip-warming.md).

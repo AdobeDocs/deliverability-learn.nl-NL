@@ -8,7 +8,7 @@ team: ACS
 exl-id: f89dbb38-a8d4-4294-b017-6fed72591593
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '363'
 ht-degree: 4%
 
 ---
@@ -37,8 +37,8 @@ Deduplicating adressen beschermt uw verzendende reputatie en verzekert goed quar
 
 **Adobe Campaign Classic**
 
-* [Deduplicatieactiviteit](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
-* [De samenvoegfunctionaliteit van de deduplicatieactiviteit gebruiken](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
+* [ activiteit van de Deduplicatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
+* [ Gebruikend de functionaliteit van de Fusie van de Deduplicatie activiteit ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
 
 **Adobe Campaign Standard**
 

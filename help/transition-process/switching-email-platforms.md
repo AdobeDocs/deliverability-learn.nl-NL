@@ -1,5 +1,5 @@
 ---
-title: Zorgen voor een soepele overgang bij de overstap naar een ander e-mailplatform.
+title: Hoe te overgang regelmatig wanneer het schakelen van e-mailplatforms.
 description: Wanneer het bewegen van e-maildienstverleners (ESPs), is het niet mogelijk om uw bestaande, gevestigde IP adressen ook over te brengen. Het is belangrijk dat u de beste praktijken volgt om een positieve reputatie te ontwikkelen wanneer u opnieuw begint.
 topics: Deliverability
 jira: KT-5259
@@ -12,8 +12,8 @@ team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 11%
+source-wordcount: '213'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ Wanneer het bewegen van e-maildienstverleners (ESPs), is het niet mogelijk om uw
 
 Het vestigen van een positieve reputatie is een proces. Maar zodra het is gevestigd, zullen de kleine negatieve indicatoren minder effect op u en uw postlevering hebben.
 
-![Overgangsproces](../assets/transition-process.png)
+![ proces van de Overgang ](../assets/transition-process.png)
 
 De hoeveelheid tijd om uw IP adressen en domeinen te warmen kan variëren, maar tot een 8 weken benchmark is gemeenschappelijk voor typische afzenders om een reputatie bij meeste Rij 1 ISPs (Gmail, Microsoft, Verizon/Yahoo/AOL, enz.) te vestigen.
 

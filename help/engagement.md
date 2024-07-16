@@ -12,7 +12,7 @@ team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '895'
 ht-degree: 2%
 
 ---
@@ -29,19 +29,19 @@ Terwijl u als afzender niet alle zelfde betrokkenheidsmetriek kunt volgen, opent
 
 ## Kwaliteit over hoeveelheid
 
-**Groei van organische lijsten** is de hoeksteen van een gezonde lijst. Veel marketers richten zich enorm op de groei van lijsten, maar vanuit het oogpunt van de leverbaarheid is het belangrijk om een lijst van kwaliteit van hoogst betrokken abonnees te bouwen. Door voortdurend e-mails te verzenden naar een publiek dat grotendeels onbetrokken is, kan uw verzendende reputatie afnemen en neemt de kans sterk toe dat uw e-mail in de map spam of junk landt.
+**de biologische lijstgroei** is de hoeksteen van een gezonde lijst. Veel marketers richten zich enorm op de groei van lijsten, maar vanuit het oogpunt van de leverbaarheid is het belangrijk om een lijst van kwaliteit van hoogst betrokken abonnees te bouwen. Door voortdurend e-mails te verzenden naar een publiek dat grotendeels onbetrokken is, kan uw verzendende reputatie afnemen en neemt de kans sterk toe dat uw e-mail in de map spam of junk landt.
 
-**Postfrequentie** Het is belangrijk dat u rekening houdt met het maken en onderhouden van een marketingprogramma voor e-mail. Het bepalen van de verwachtingen van de ontvangers tijdens uw welkomstbericht is een zeer nuttige strategie mensen willen weten wat te verwachten is. Toch moet aan deze verwachtingen worden voldaan: het te vaak verzenden van e-mail kan de klant moedig maken en in sommige gevallen tot meer klachten en afmelden leiden.
+**het posteren frequentie** is belangrijk om te overwegen wanneer het creëren van en het handhaven van een e-mailmarketing programma. Het bepalen van de verwachtingen van de ontvangers tijdens uw welkomstbericht is een zeer nuttige strategie mensen willen weten wat te verwachten is. Toch moet aan deze verwachtingen worden voldaan: het te vaak verzenden van e-mail kan de klant moedig maken en in sommige gevallen tot meer klachten en afmelden leiden.
 
 De juiste frequentie is iets dat elke markator moet vinden voor zijn specifieke marketingprogramma. Wij stellen voor verschillende frequenties te testen om de juiste balans te vinden voor elk specifiek marketingprogramma. Het actief houden van ontvangers is een van de belangrijkste dingen die een marketeers kan doen om het succes van een e-mailmarketingprogramma te verzekeren.
 
 ## Belangen wijzigen
 
-De belangen van abonnees evolueren constant, en de verkopers moeten begrijpen dat engagement aan een merk tijdelijk kan zijn. Sommige abonnees kiezen ervoor te weigeren, maar velen zullen alleen ongewenste e-mails verwijderen of negeren. Vanuit het oogpunt van de consument wordt elke boodschap die ongevraagd of ongewenst is, gezien als spam. Marktdeelnemers moeten er daarom op vertrouwen **marketing op basis van toestemming** en **monitorbetrokkenheid** voor renteverlies. Om optimale plaatsing in de postbus te bereiken, adviseren wij dat de marketers strategisch abonnees herbetreden gebruikend reactiveringscampagnes en een win-backstrategie, die zeer nuttige hulpmiddelen aan een e-mailmarketeter kan zijn.
+De belangen van abonnees evolueren constant, en de verkopers moeten begrijpen dat engagement aan een merk tijdelijk kan zijn. Sommige abonnees kiezen ervoor te weigeren, maar velen zullen alleen ongewenste e-mails verwijderen of negeren. Vanuit het oogpunt van de consument wordt elke boodschap die ongevraagd of ongewenst is, gezien als spam. Daarom moeten de marketers zich op **op toestemming-gebaseerde marketing** baseren en **controleovereenkomst** voor verlies van rente. Om optimale plaatsing in de postbus te bereiken, adviseren wij dat de marketers strategisch abonnees herbetreden gebruikend reactiveringscampagnes en een win-backstrategie, die zeer nuttige hulpmiddelen aan een e-mailmarketeter kan zijn.
 
-A **terugwinningsstrategie** Dit is het geval wanneer regelmatig een speciale prikkel wordt gestuurd naar een specifiek gedeelte van een marketingdatabank om te proberen opnieuw een lijst op te stellen die weinig open was en klikactiviteit had. Positieve reacties blijven behouden en het gedeelte van de lijst dat niet reageert, wordt verplaatst naar een niet-actieve status en wordt niet langer verzonden naar.
+A **win-backstrategie** is wanneer een speciale stimulans regelmatig naar een specifiek gedeelte van een marketing gegevensbestand in een poging wordt verzonden om een lijst opnieuw in dienst te nemen die laag open en klikactiviteit heeft gehad. Positieve reacties blijven behouden en het gedeelte van de lijst dat niet reageert, wordt verplaatst naar een niet-actieve status en wordt niet langer verzonden naar.
 
-A **reactiveringscampagne** is gelijkaardig maar gebruikt om een lijst één keer te bevestigen, wat nuttig is wanneer het behandelen van oude, waliteitslijsten — degenen die niet aan meer dan 12 maanden, of zelfs jaren zijn verstuurd. Dit type campagne wordt typisch ook afgedwongen door lijsten van gewezen personen om een blok op te lossen. Abonnees die dit proces niet hebben doorlopen, moeten worden uitgesloten van toekomstige e-mailaanbiedingen.
+A **reactiveringscampagne** is gelijkaardig maar gebruikt om een lijst één keer te bevestigen, die wanneer het behandelen van oude, verouderde lijsten nuttig is — degenen die niet aan meer dan 12 maanden, of zelfs jaren zijn gemaild. Dit type campagne wordt typisch ook afgedwongen door lijsten van gewezen personen om een blok op te lossen. Abonnees die dit proces niet hebben doorlopen, moeten worden uitgesloten van toekomstige e-mailaanbiedingen.
 
 De beste manier om een win-back of reactiecampagne uit te voeren zal uniek aan uw e-mailprogramma zijn en zou volledig moeten worden aangepast aan uw bedrijfsbehoeften en situatie.
 
@@ -49,7 +49,7 @@ De beste manier om een win-back of reactiecampagne uit te voeren zal uniek aan u
 
 Het is eenvoudig om uw antwoord op e-mail in te stellen als een &quot;niet-antwoordadres&quot;, maar dit zou een vergissing zijn die het grotere plaatje over het hoofd ziet.
 
-Wanneer de ontvangers op marketing e-mail antwoorden, wordt een reactie verwacht. Door een **antwoordsysteem**, helpt u de reputatie van uw afzender te versterken. Dit zal de waarschijnlijkheid van positieve leverbaarheid en plaatsingspercentages in postvakken verhogen.
+Wanneer de ontvangers op marketing e-mail antwoorden, wordt een reactie verwacht. Door a **antwoord-en-antwoordsysteem** toe te laten, zult u uw afzenderreputatie helpen opvoeren. Dit zal de waarschijnlijkheid van positieve leverbaarheid en plaatsingspercentages in postvakken verhogen.
 
 Het is ook een veel betere klantenervaring en zal helpen om positieve perceptie van uw merk te verhogen. Er staat immers niets: &quot;Doe alsjeblieft zaken met ons&quot; zoals &quot;we willen van je horen.&quot;
 
@@ -69,4 +69,4 @@ Een laatste belangrijk onderdeel van de antwoordstrategie is dat als u een echt 
 
 ## Aanvullende bronnen
 
-* Meer informatie over strategieën voor opnieuw engagement (of win-back) in [deze sectie](/help/additional-resources/re-engagement.md).
+* Leer meer op re-engagement (of win-back) strategieën in [ deze sectie ](/help/additional-resources/re-engagement.md).

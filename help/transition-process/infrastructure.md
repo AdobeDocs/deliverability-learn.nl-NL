@@ -12,8 +12,8 @@ team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Een deel van het onboarding proces voor nieuwe afzenders op de platforms van de 
 
 Het is belangrijk om een goed gestructureerde IP strategie te vormen helpen een positieve reputatie vestigen. Het aantal IPs en de opstelling varieert afhankelijk van uw bedrijfsmodel en marketing doelstellingen. Werk samen met een deskundige om een duidelijke strategie te ontwikkelen om van rechts te beginnen. Houd rekening met het volgende:
 
-* **Te veel IP&#39;s** kan reputatiekwesties veroorzaken omdat het een gemeenschappelijke tactiek van spammers is **sneeuwschoen**, die een tactiek is die door spammers wordt gebruikt waar het verkeer over vele IPs wordt verspreid om de levering van spampost te maximaliseren. Alhoewel u geen spammer bent, zou u als één kunnen kijken als u teveel IPs gebruikt, vooral als die IPs geen vroeger verkeer heeft gehad.
+* **teveel IPs** kan reputatie kwesties teweegbrengen aangezien het een gemeenschappelijke tactiek van spammers aan **sneeuwschoen** is, die een tactiek is door spammers wordt gebruikt waar het verkeer over vele IPs wordt verspreid om de levering van spampost te maximaliseren. Alhoewel u geen spammer bent, zou u als één kunnen kijken als u teveel IPs gebruikt, vooral als die IPs geen vroeger verkeer heeft gehad.
 * **Te weinig IPs** kan productiekwesties veroorzaken en potentieel reputatiekwesties teweegbrengen. De productie varieert door ISP. Hoeveel en hoe snel ISP bereid is om te aanvaarden is typisch gebaseerd op hun infrastructuur en het verzenden van reputatiedrempels.
 * Het scheiden van verkeer voor overseinentypen is zeer belangrijk. Het is belangrijk om, op een absoluut minimum, afzonderlijke marketing en transactionele post op afzonderlijke IP pools te behandelen.
 * Afhankelijk van uw poststrategie, kan het ook raadzaam zijn om verschillende producten of marketing stromen op verschillende IP pools te scheiden als uw reputatie drastisch verschillend is. Sommige markten segmenteren ook per regio. Het scheiden van IP voor verkeer met een lagere reputatie zal niet de reputatie kwestie oplossen, maar het zal kwesties met uw &quot;goede&quot;reputatie e-mailleveringen verhinderen. Want je wilt je goede publiek niet opofferen voor een riskantere.
@@ -47,7 +47,7 @@ Achter de schermen verwerken Adobe platforms gegevens over stormen, klachten, af
 
 ## Verificatie {#authentication}
 
-De authentificatie is het proces dat ISPs gebruikt om de identiteit van een afzender te bevestigen. De twee meest algemene verificatieprotocollen zijn [!DNL Sender Policy Framework] (SPF) en [!DNL DomainKeys Identified Mail] (DKIM). Deze zijn niet zichtbaar aan het eind - gebruiker maar helpen ISPs filtere-mail van geverifieerde afzenders. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) krijgt populariteit, hoewel zijn beleid nog niet door alle ISPs in hun reputatie systemen wordt opgenomen.
+De authentificatie is het proces dat ISPs gebruikt om de identiteit van een afzender te bevestigen. De twee meest gebruikte verificatieprotocollen zijn [!DNL Sender Policy Framework] (SPF) en [!DNL DomainKeys Identified Mail] (DKIM). Deze zijn niet zichtbaar aan het eind - gebruiker maar helpen ISPs filtere-mail van geverifieerde afzenders. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) wint populariteit, hoewel zijn beleid nog niet door alle ISPs in hun reputatie wordt opgenomen.
 
 ### SPF
 
@@ -59,18 +59,18 @@ De authentificatie is het proces dat ISPs gebruikt om de identiteit van een afze
 
 ### DMARC
 
-[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) is een authentificatiemethode die domeineigenaars de capaciteit toestaat om hun domein tegen onbevoegd gebruik te beschermen. DMARC gebruikt SPF of DKIM of allebei om een domeineigenaar toe te staan om te controleren wat met post gebeurt die authentificatie ontbreekt: geleverd, quarantined, of verworpen.
+[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) is een verificatiemethode waarmee domeineigenaars hun domein kunnen beschermen tegen ongeoorloofd gebruik. DMARC gebruikt SPF of DKIM of allebei om een domeineigenaar toe te staan om te controleren wat met post gebeurt die authentificatie ontbreekt: geleverd, quarantined, of verworpen.
 
 ## Productspecifieke bronnen
 
 **Campaign**
 
-* Leer hoe u een subdomein volledig kunt delegeren naar Adobe Campaign Classic of Standard in [deze sectie](/help/additional-resources/ac-domain-name-setup.md).
-* [Configuratiescherm: volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Classic.*
-* [Configuratiescherm: volledige subdomeindelegatie (zelfstudie)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe u een subdomein volledig kunt delegeren aan Adobe Campaign Standard.*
-* Meer informatie over het implementeren van een feedbacklus voor een Campaign Classic-instantie in [deze sectie](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
+* Leer hoe te om een subdomain volledig aan Adobe Campaign Classic of Norm in [ te delegeren deze sectie ](/help/additional-resources/ac-domain-name-setup.md).
+* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe te om een subdomain aan Adobe Campaign Classic volledig te delegeren.*
+* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe te om een subdomain aan Adobe Campaign Standard volledig te delegeren.*
+* Leer meer bij het uitvoeren van een terugkoppel lijn voor een instantie van het Campaign Classic in [ deze sectie ](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Aanvullende bronnen
 
-* Meer informatie over SPF-, DKIM- en DMARC-verificatiemethoden vindt u in [deze sectie](/help/additional-resources/authentication.md).
-* Meer weten over het verbeteren van je e-mailreputatie dankzij de opwarming van de IP in [deze sectie](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* Leer meer op SPF, DKIM, en DMARC authentificatiemethodes in [ deze sectie ](/help/additional-resources/authentication.md).
+* Leer meer bij het verhogen van uw e-mailreputatie met IP opwarmen in [ deze sectie ](/help/additional-resources/increase-reputation-with-ip-warming.md).

@@ -8,8 +8,8 @@ team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 1%
+source-wordcount: '913'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Bij het implementeren van de leverbaarheid bestaat een aantal van de beste prakt
 
 ## Hoe bekijkt ISPs niet-betrokkenheidsactiviteit? {#how-do-isps-view-non-engagement-activity-}
 
-Jarenlang, hebben ISPs overeenkomst terugkoppelt metriek van hun gebruikers gebruikt om te beslissen waar te om berichten te plaatsen, of of zij hen bij allen zouden moeten leveren. Gebruiker [betrokkenheid](/help/engagement.md) bestaat uit zowel positieve als negatieve terugkoppelen en ISPs controleren beide op een constante basis. Geen betrokkenheid hebben is misschien een van de belangrijkste bijdragers van negatieve betrokkenheid. Vanuit een leverbaarheidsperspectief, kan het constant verzenden van campagnes naar gebruikers die geen overeenkomst tonen de algemene reputatie van uw IP adres en domeinen ook verminderen.
+Jarenlang, hebben ISPs overeenkomst terugkoppelt metriek van hun gebruikers gebruikt om te beslissen waar te om berichten te plaatsen, of of zij hen bij allen zouden moeten leveren. De betrokkenheid van de gebruiker [ ](/help/engagement.md) bestaat uit zowel positieve als negatieve terugkoppelt en ISPs zowel op een constante basis. Geen betrokkenheid hebben is misschien een van de belangrijkste bijdragers van negatieve betrokkenheid. Vanuit een leverbaarheidsperspectief, kan het constant verzenden van campagnes naar gebruikers die geen overeenkomst tonen de algemene reputatie van uw IP adres en domeinen ook verminderen.
 
 ISP&#39;s zoals Gmail, Microsoft® en OATH zien niet-betrokkenheid als ongewenste e-mail en sturen berichten door naar de spammap. Deze abonnees zijn mogelijk niet langer eigenaar van het e-mailaccount en kunnen dit gebruiken als een &#39;gerecycleerde&#39; spamval. Dit betekent dat het adres een tijdje ongeldig was en alle berichten worden verworpen. Als uw systeem van het abonneebeheer geen &quot;hard gefactureerde&quot;adressen verwijdert, is het waarschijnlijk post aan spamvallen die tot significante leveringskwesties kunnen leiden.
 
@@ -75,9 +75,9 @@ Abonnees die zich met de campagne bezighouden door de open- of klikactiviteiten 
 
 **Adobe Campaign**
 
-* [Logbestanden bijhouden in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
-* [Logbestanden bijhouden in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
+* [ het Volgen logboeken in Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
+* [ het Volgen logboeken in Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
-**Adobe van klantreisbeheer**
+**Beheer van de Reis van de Klant van de Adobe**
 
-* [Berichten tracken](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=nl)
+* [ het volgen van het Bericht ](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=nl)

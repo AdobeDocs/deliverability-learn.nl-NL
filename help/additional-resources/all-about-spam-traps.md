@@ -8,14 +8,14 @@ team: ACS
 exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 1%
 
 ---
 
 # Alles over spamvallen
 
-A [spamingval](/help/metrics/spam-traps.md) is een geldig adres, zonder foutbericht wanneer e-mails worden verzonden naar. Een spamvanger heeft een hoofdtaak: spammers of afzenders identificeren zonder proces voor gegevenshygiëne.
+A [ spamval ](/help/metrics/spam-traps.md) is een geldig adres, zonder foutenmelding wanneer de e-mails worden verzonden naar. Een spamvanger heeft een hoofdtaak: spammers of afzenders identificeren zonder proces voor gegevenshygiëne.
 
 ## Wie beheert deze spamovervaladressen?
 
@@ -25,9 +25,9 @@ Het tweede type van spamval is gebaseerd oude actieve ISP adressen. Deze ISPs he
 
 ## Hoe werkt het?
 
-**Een e-mailadres zonder eindgebruiker**: Deze adressen hebben en zullen nooit een eindgebruiker hebben die aan nieuwsbrieven of een ander type van mededelingen kon registreren.
+**een e-mailadres zonder eind - gebruiker**: Deze adressen hebben en zullen nooit een eindgebruiker hebben die aan nieuwsbrieven of een ander type van mededelingen kon registreren.
 
-**Een e-mailadres dat door een gebruiker wordt verlaten**: Na een periode van inactiviteit, worden de adressen gedeactiveerd door ISPs. Bounces-berichten worden naar afzenders verzonden om hen over deze nieuwe status te informeren. De afzenders moeten in quarantaine deze adressen duwen of hen uit toekomstige mededelingen verwijderen. ISPs gebruikt deze adressen die in &quot;spamval&quot;worden getransformeerd om afzenders met slechte praktijken te controleren.
+**een e-mailadres dat door een gebruiker** wordt verlaten: Na een periode van inactiviteit, worden de adressen gedeactiveerd door ISPs. Bounces-berichten worden naar afzenders verzonden om hen over deze nieuwe status te informeren. De afzenders moeten in quarantaine deze adressen duwen of hen uit toekomstige mededelingen verwijderen. ISPs gebruikt deze adressen die in &quot;spamval&quot;worden getransformeerd om afzenders met slechte praktijken te controleren.
 
 ## Hoe te om een spamval te erkennen of te identificeren?
 

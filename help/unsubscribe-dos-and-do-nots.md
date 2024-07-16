@@ -24,70 +24,70 @@ We hebben een lijst met handelingen en dingen gemaakt die moeten worden vermeden
 
 ## De taken
 
-**DOEN:** Een opvallende afmeldingskoppeling hebben. Zo voorkomt u dat gebruikers op de klacht &quot;this is spam&quot; (ook wel een feedbacklus genoemd) klikken.
+**DOEN:** hebben een duidelijk geplaatste unsubscribe verbinding. Zo voorkomt u dat gebruikers op de klacht &quot;this is spam&quot; (ook wel een feedbacklus genoemd) klikken.
 
 + Sommige ideeën over hoe u de link voor afmelden kunt laten opvallen: Centreren, onderstrepen en vet maken. Plaats het helemaal boven of helemaal onder aan de e-mail. Maak er een andere lettertypekleur van. Gebruik één woord - &quot;UNSUBSCRIBE&quot; - in de taalvoorkeur van de gebruiker. Gebruik geen bloemen of overmatige verbieding.
 
-**DOEN:** Laat de koppelingsschijf voor afmelden naar een bestemmingspagina waar de gebruiker kan bevestigen dat hij of zij uit de lijst wil worden verwijderd.
+**DOEN:** heb uw unsubscribe verbindingsaandrijving aan een het landen pagina waar de gebruiker kan bevestigen zij van de lijst willen worden verwijderd.
 
 Het woordenboek op de landingspagina moet een link bevatten om te klikken die zegt: &quot;Bevestig mijn abonnement&quot; en misschien een andere link die zegt: &quot;Laat me afstappen en minder frequentie van de post die ik van u krijg&quot;. Hoewel dit geen methode is om uw abonnement met één muisklik op te zeggen, kunt u beter niet klikken met een fout als gevolg.
 
 + Als uw abonnement een gebruiker naar een bestemmingspagina neemt, zorg ervoor dat de landingspagina een één-klik unsubscribe aanbiedt zodra de gebruiker op de pagina land.
 
-**DOEN:** Maak het proces gemakkelijk en transparant. Voorbeeld:
+**DOE:** maak het proces gemakkelijk en transparant. Voorbeeld:
 
 + &quot;Klik hierop om uw abonnement op alle e-mails over marketingobjecten op te zeggen.&quot; Dit zou de eerste optie moeten zijn die aan de gebruiker wordt gegeven.
 
 + &quot;Klik op deze optie om uw voorkeuren te wijzigen.&quot;
 
-**DOEN:** Neem het e-mailadres op de bestemmingspagina op.
+**DOE:** omvat het e-mailadres op de unsubscribe het landen pagina.
 
 + Belangrijk: afhankelijk van de locatie/jurisdictie van uw gebruikers kunnen er privacyproblemen zijn bij het opnemen van het volledige e-mailadres. Mogelijk moet u een gehashte versie van het e-mailadres vooraf invullen. De reden hiervoor is dat de e-mail mogelijk is doorgestuurd vanaf het oorspronkelijk geabonneerde adres. Raadpleeg uw juridische groep voor meer informatie over uw specifieke vereisten.
 
-**DOEN:** Bevestig dat het abonnement is verzonden en bevestig wanneer ze mogen verwachten geen e-mailberichten meer te ontvangen.
+**DOE:** bevestig dat unsubscribe met succes werd voorgelegd en bevestig wanneer zij kunnen verwachten ophouden ontvangend e-mail.
 
 + Als zij zich al hebben afgemeld en het opnieuw proberen, geven zij dan aan dat zij zich al hebben afgemeld en wanneer (datum/tijd).
 
-**DOEN:** Houd u aan het abonnement en verwijder het adres tijdig.
+**DOE:** respecteer unsubscribe en verwijder het adres op geschikte wijze.
 
 + Tijdigheid hangt af van lokale wetten en rechtsmacht. Raadpleeg daarom de juridische adviseur over wat van toepassing is op uw bedrijf.
 
-**DOEN:** Laat uw abonnees de relatie dicteren.
+**DOEN:** sta uw abonnees toe om de verhouding te dicteren.
 
 + Het is oké om uw abonneeopties te geven. U kunt deze beheren via een voorkeurscentrum/opt-down-initiatief.
 
-**DOEN:** Gebruik een List Unsubscribe-koptekst in uw e-mailsjablonen, zodat e-mailclients (bijvoorbeeld: gmail.com) die afmeldingskoppelingen boven aan de e-mail weergeven, gemakkelijk kunnen vinden waar de gebruiker gewend is aan het zoeken naar afmeldingsgegevens.
+**DOEN:** gebruik een Lijst Unsubscribe kopbal in uw e-mailmalplaatjes zodat de e-mailcliënten (bijvoorbeeld: gmail.com) die unsubscribe verbindingen bij de bovenkant van e-mail tonen gemakkelijk worden gevonden waar de gebruiker aan het zoeken naar unsubscribes gewend is.
 
 
 ## De notenties do
 
 
-**NIET:** Verbrand de link voor afmelden in uw inhoud in de hoop dat abonnees uit frustratie zullen &quot;opgeven&quot;.
+**NIET:** Drijf de unsubscribe verbinding in uw inhoud in de hoop dat de abonnees &quot;uit frustratie&quot;zullen opgeven.
 
 + Dit is een slechte ervaring voor eindgebruikers en kan leiden tot meer klachten, die een negatief effect kunnen hebben op uw leverbaarheid en reputatie.
 
-**NIET:** Maak het moeilijk om uw abonnement op te zeggen zodra de klant het formulier heeft ontvangen. Trickerij is onwettig - en in sommige gevallen ook onwettig.
+**NIET:** maak het moeilijk om af te melden zodra de klant bij de vorm is aangekomen. Trickerij is onwettig - en in sommige gevallen ook onwettig.
 
 + Wees direct en vermijd verwarring bij de eindgebruiker.
 
-**NIET:** Voeg handmatig een e-mailadres toe aan het formulier voor opzeggen.
+**NIET:** maak de gebruiker manueel een e-mailadres op het unsubscribe formulier toevoegen.
 
 + Het ingetekende adres kan van het adres verschillend zijn de gebruiker voor post het programma sloot (voorbeeld, door:sturen). Ze weten mogelijk niet welk e-mailadres is gebruikt voor het oorspronkelijke abonnement.
 
-**NIET:** Meld de gebruiker aan bij zijn account om zijn abonnement op te zeggen.
+**NIET:** maak het gebruikerslogin aan hun rekening aan unsubscribe.
 
 + Mogelijk verzendt u de e-mail naar het verkeerde adres en heeft de eigenaar van dat adres geen toegang tot de account. Als zij de e-mail ontvangen, moeten zij van de verbinding in e-mail slechts worden toegestaan; geen andere actie of informatie zou moeten worden vereist.
 + Hoe minder stappen een klant moet ondernemen, des te beter.
 
-**NIET:** Verzend een e-mail waarin wordt bevestigd dat de persoon zich heeft afgemeld.
+**NIET:** verzend een e-mail bevestigend dat de persoon heeft geabonneerd.
 
 + Als u dat wel doet, hebt u uw belofte om ze geen e-mail meer te sturen al geschonden.
 
-**NIET:** Wees slordig in je verbiage. &quot;Ik hoor niet graag over geweldige deals. Schrijf me alstublieft af!&quot;
+**NIET:** ben vastbesloten in uw verbiage. &quot;Ik hoor niet graag over geweldige deals. Schrijf me alstublieft af!&quot;
 
 + Dit kan als onbeleefd overkomen. Vermijd een negatieve toon.
 
-**NIET:** Dwing hen om u een reden te geven waarom zij afmelden alvorens u het verzoek verwerkt.
+**NIET:** dwingt hen om u een reden te geven waarom zij afsloot alvorens u het verzoek verwerkt.
 
 + Toestaan dat de klant deze informatie kan toevoegen, kan voor u van nut zijn voor toekomstige inzichten - maar maakt van de klant een optioneel veld op de bestemmingspagina.
 

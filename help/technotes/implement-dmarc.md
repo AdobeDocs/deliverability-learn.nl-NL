@@ -8,7 +8,7 @@ exl-id: f1c14b10-6191-4202-9825-23f948714f1e
 source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
 source-wordcount: '1284'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -22,9 +22,9 @@ De op domein-gebaseerde Authentificatie van het Bericht, Rapportering en Conform
 
 DMARC heeft drie beleidsopties:
 
-* **Monitor (p=none):** Instrueert de brievenbusleverancier/ISP om te doen wat zij normaal aan het bericht zouden doen.
-* **Quarantaine (p=quarantaine):** Instrueert de brievenbusleverancier/ISP om post te leveren die geen DMARC tot spam of junk omslag van de ontvanger overgaat.
-* **Afwijzen (p=afwijzen):** Instrueert de brievenbusleverancier/ISP om post te blokkeren die geen DMARC resulterend in een stuit overgaat.
+* **Monitor (p=none):** draagt de brievenbusleverancier/ISP op om te doen wat zij normaal aan het bericht zouden doen.
+* **Quarantine (p=quarantaine):** draagt de brievenbusleverancier/ISP op om post te leveren die geen DMARC tot spam of junk omslag van de ontvanger overgaat.
+* **Weigeren (p=verwerping):** draagt de brievenbusleverancier/ISP op om post te blokkeren die DMARC niet overgaat resulterend in een stuit.
 
 ## Hoe werkt DMARC? {#how}
 
@@ -44,7 +44,8 @@ DMARC is optioneel, en hoewel dit niet verplicht is, is het gratis en biedt e-ma
 
 ## Beste praktijken voor het Uitvoeren DMARC {#best-practice}
 
-Aangezien DMARC facultatief is, zal het niet door gebrek op om het even welk platform van ESP worden gevormd. Een DMARC- verslag moet in DNS voor uw domein worden gecreeerd opdat het werkt. Bovendien is een e-mailadres van uw keuze vereist om aan te geven waar DMARC-rapporten binnen uw organisatie moeten worden geplaatst. Als beste praktijken, wordt het geadviseerd om implementatie DMARC langzaam uit te voeren door uw beleid DMARC van p=none, aan p=quarantaine, aan p=weiger te escaleren aangezien u DMARC inzicht in de potentiële invloed van DMARC krijgt.
+Aangezien DMARC facultatief is, zal het niet door gebrek op om het even welk platform van ESP worden gevormd. Een DMARC- verslag moet in DNS voor uw domein worden gecreeerd opdat het werkt. Bovendien is een e-mailadres van uw keuze vereist om aan te geven waar DMARC-rapporten binnen uw organisatie moeten worden geplaatst. Als beste praktijk is het
+Aanbevolen wordt om de implementatie DMARC langzaam uit te voeren door uw beleid DMARC van p=none, aan p=quarantaine, aan p=weiger te escaleren aangezien u DMARC inzicht van de potentiële invloed van DMARC krijgt.
 
 1. Analyseer terugkoppelen u ontvangt en gebruikt (p=none), die de ontvanger vertelt om geen acties tegen berichten uit te voeren die authentificatie ontbreken, maar nog e-mailrapporten naar de afzender verzenden. Bekijk en los ook problemen met SPF/DKIM op als legitieme berichten niet kunnen worden geverifieerd.
 1. Bepaal als SPF en DKIM worden gericht en authentificatie voor al wettige e-mail overgaan, en dan het beleid verplaatsen naar (p=quarantaine), dat de ontvangende e-mailserver aan quarantainemail vertelt die authentificatie ontbreekt (dit betekent over het algemeen het plaatsen van die berichten in de spamomslag).
@@ -58,19 +59,19 @@ Aangezien DMARC facultatief is, zal het niet door gebrek op om het even welk pla
 
 DMARC biedt de mogelijkheid om rapporten te ontvangen over e-mailberichten die niet voldoen aan SPF/DKIM. Er zijn twee verschillende rapporten die door ISP diensten als deel van het authentificatieproces worden geproduceerd dat de afzenders door de markeringen RUA/RUF in hun beleid kunnen ontvangen DMARC:
 
-* **Samengevoegde verslagen (RUA):** Bevat geen PII (Persoonlijk identificeerbare Informatie) die GDPR gevoelig zou zijn.
-* **Forensische rapporten (RUF):** Bevat e-mailadressen die gevoelig zijn voor GDPR. Alvorens te gebruiken, is het best om intern te controleren hoe te om te gaan met informatie die GDPR volgzaam moet zijn.
+* **Samengevoegde Rapporten (RUA):** bevat geen PII (Persoonlijk Identificeerbare Informatie) die GDPR gevoelig zou zijn.
+* **Forensische Rapporten (RUF):** bevat e-mailadressen die gevoelig GDPR zijn. Alvorens te gebruiken, is het best om intern te controleren hoe te om te gaan met informatie die GDPR volgzaam moet zijn.
 
 Deze rapporten worden vooral gebruikt om een overzicht te krijgen van e-mails die spoofing proberen te maken. Dit zijn hoogst technische rapporten die het best door een derdehulpmiddel worden verteerd. Enkele bedrijven die gespecialiseerd zijn in DMARC-monitoring zijn:
 
-* [ValiMail](https://www.valimail.com/products/#automated-delivery)
-* [Agari](https://www.agari.com/)
-* [Dmarciaans](https://dmarcian.com/)
-* [Proofpoint](https://www.proofpoint.com/us)
+* [ ValiMail ](https://www.valimail.com/products/#automated-delivery)
+* [ Agari ](https://www.agari.com/)
+* [ Dmarcier ](https://dmarcian.com/)
+* [ Proofpoint ](https://www.proofpoint.com/us)
 
 >[!CAUTION]
 >
->Als de e-mailadressen u toevoegt om rapporten te ontvangen buiten het domein zijn waarvoor het DMARC- verslag wordt gecreeerd, moet u hun extern domein machtigen om aan DNS te specificeren dat u dit domein bezit. Hiervoor voert u de stappen uit die in het dialoogvenster [dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+>Als de e-mailadressen die u toevoegt om rapporten te ontvangen, zich buiten het domein bevinden waarvoor de DMARC- record is gemaakt, moet u hun externe domein machtigen om bij de DNS op te geven dat u de eigenaar van dit domein bent. Voer hiervoor de stappen uit die worden beschreven in de [documentatie van dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 ### Voorbeeld-DMARC-record {#example}
 
@@ -86,7 +87,7 @@ DMARC-records hebben meerdere componenten, DMARC-tags genoemd. Elke tag heeft ee
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | Vereist | Met deze DMARC-tag wordt de versie opgegeven. Er is momenteel slechts één versie, dus deze heeft een vaste waarde van v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | Vereist | Toont het geselecteerde beleid DMARC en geeft de ontvanger opdracht om post te melden, in quarantaine te plaatsen of te verwerpen die authentificatiecontroles ontbreekt. | p=none, quarantaine of afwijzen | - |
-| fo | Optioneel | Staat de domeineigenaar toe om rapporteringsopties te specificeren. | 0: Rapport genereren als alles mislukt<br/>1: Rapport genereren als iets ontbreekt<br/>d: Rapport genereren als DKIM mislukt<br/>s: Rapport genereren als SPF mislukt | 1 (aanbevolen voor DMARC-rapporten) |
+| fo | Optioneel | Staat de domeineigenaar toe om rapporteringsopties te specificeren. | 0: Genereer rapport als alles ontbreekt <br/> 1: Genereer rapport als om het even wat ontbreekt <br/> d: produceer rapport als DKIM ontbreekt <br/> het rapport als SPF ontbreekt | 1 (aanbevolen voor DMARC-rapporten) |
 | pct | Optioneel | Vertelt het percentage berichten die aan het filtreren worden onderworpen. | pct=20 | 100 |
 | ruw | Optioneel (aanbevolen) | Identificeert waar de samengevoegde rapporten zullen worden geleverd. | `rua=mailto:aggrep@example.com` | - |
 | ruf | Optioneel (aanbevolen) | Identificeert waar forensische rapporten zullen worden geleverd. | `ruf=mailto:authfail@example.com` | - |
@@ -98,7 +99,7 @@ DMARC-records hebben meerdere componenten, DMARC-tags genoemd. Elke tag heeft ee
 
 >[!NOTE]
 >
->Als uw instantie Campagne op AWS wordt ontvangen, kunt u DMARC voor uw subdomeinen met het Controlebord uitvoeren. [Leer hoe te om Verslagen DMARC uit te voeren gebruikend Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+>Als uw instantie Campagne op AWS wordt ontvangen, kunt u DMARC voor uw subdomeinen met het Controlebord uitvoeren. [ Leer hoe te om Verslagen uit te voeren DMARC gebruikend Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 Een algemene reden voor DMARC-fouten is een onjuiste afstemming tussen het adres &#39;Van&#39; en &#39;Fouten naar&#39; of &#39;Return-Path&#39;. Om dit te voorkomen, wordt het aanbevolen om bij het instellen van DMARC de instellingen voor het adres &#39;Van&#39; en &#39;Fouten-naar&#39; in uw leveringssjablonen tweemaal te controleren.
 
@@ -118,5 +119,5 @@ Zodra deze veranderingen worden bewaard, zult u met uw implementatie DMARC met c
 
 ## Nuttige koppelingen {#links}
 
-* [DMARC.org](https://dmarc.org/){target="_blank"}
-* [M3AWG-e-mailverificatie](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"}
+* [ DMARC.org ](https://dmarc.org/) {target="_blank"}
+* [ M3AWG e-mailAuthentificatie ](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf) {target="_blank"}

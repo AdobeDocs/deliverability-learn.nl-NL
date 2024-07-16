@@ -23,10 +23,10 @@ Verzendend permanent is het proces om een verenigbaar verzendend volume en strat
 * De consistentie is zeer belangrijk om aan ISPs te bewijzen dat de afzender betrouwbaar is en niet probeert om het even welke reputatie kwesties over te gaan die het resultaat van slechte verzendende praktijken zijn.
 * Het handhaven van deze verenigbare strategieën over een lange periode wordt vereist alvorens sommige ISPs zelfs de afzender geschikt zal overwegen.
 
-**Hier volgen enkele voorbeelden:**
+**hier zijn sommige voorbeelden:**
 
-![Goed verzendend blijvend](assets/Sender_Permanence_1.png)
+![ Goed verzendend permanent ](assets/Sender_Permanence_1.png)
 
-![Onjuist verzendend blijvend](assets/Sender_Permanence_2.png)
+![ Onjuist verzendend permanent ](assets/Sender_Permanence_2.png)
 
-![Aanvaardbaar permanent verzenden](assets/Sender_Permanence_3.png)
+![ Acceptabele verzendende permanent ](assets/Sender_Permanence_3.png)

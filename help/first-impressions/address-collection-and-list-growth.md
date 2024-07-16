@@ -10,8 +10,8 @@ team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 3%
+source-wordcount: '1594'
+ht-degree: 1%
 
 ---
 
@@ -21,15 +21,15 @@ De beste bronnen van nieuwe e-mailadressen zijn directe bronnen, zoals aanmeldin
 
 Sommige notities over deze aanmeldingsmethoden:
 
-**Fysieke opslag** de inzameling van de lijst kan uitdagingen wegens mondelinge of geschreven adresinput veroorzaken die spelfouten in de adressen veroorzaken . Het wordt aanbevolen zo snel mogelijk een bevestigingsbericht te verzenden nadat u zich in de winkel hebt aangemeld.
+**de lijstinzameling van de 0} Fysieke opslag {kan uitdagingen toe te schrijven aan verbale of geschreven adresinput voorstellen die misspelling in de adressen veroorzaken.** Het wordt aanbevolen zo snel mogelijk een bevestigingsbericht te verzenden nadat u zich in de winkel hebt aangemeld.
 
-De meest voorkomende vorm van **website-aanmelding** is &quot;één enkele opt-in.&quot; Dit is de absolute minimumnorm u zou moeten gebruiken om e-mailadressen te verwerven. Single-opt-in is wanneer de houder van een specifiek e-mailadres een afzender toestemming verleent om hen marketingberichten te sturen, meestal door het adres via een webformulier of in-store-berichten in te dienen. Hoewel het mogelijk is om een succesvolle e-mailcampagne met deze methode uit te voeren, kan dit de oorzaak van sommige problemen zijn.
+De gemeenschappelijkste vorm van **website aanmelding-omhoog** is &quot;enige opt-in.&quot; Dit is de absolute minimumnorm u zou moeten gebruiken om e-mailadressen te verwerven. Single-opt-in is wanneer de houder van een specifiek e-mailadres een afzender toestemming verleent om hen marketingberichten te sturen, meestal door het adres via een webformulier of in-store-berichten in te dienen. Hoewel het mogelijk is om een succesvolle e-mailcampagne met deze methode uit te voeren, kan dit de oorzaak van sommige problemen zijn.
 
 * Niet-bevestigde e-mailadressen kunnen typos hebben of onjuist zijn geformuleerd, onjuist zijn of slecht worden gebruikt. De typos en de misvormde adressen veroorzaken hoge stuittarieven, die en veroorzaken blokken die door ISPs of IP reputatieverlies worden uitgegeven.
 
 * De kwaadwillige voorlegging van bekende spamvallen (soms genoemd &quot;lijstvergiftiging&quot;) kan enorme problemen met levering en reputatie veroorzaken als de eigenaar van die val actie onderneemt. Het is onmogelijk om te weten of de ontvanger zonder bevestiging echt aan een marketinglijst wil worden toegevoegd. Dit maakt het even onmogelijk om de verwachtingen van de ontvanger te bepalen en kan tot verhoogde spamklachten leiden — en soms voegend op lijst van gewenste personen als de verzamelde e-mail een spamval blijkt te zijn.
 
-Voor hulp bij het minimaliseren van de problemen die zowel in de fysieke winkel als in de Single-opt-in worden voorgesteld, gaat u naar de [Kwaliteit en hygiëne van de gegevens](#data-quality-and-hygiene) in deze handleiding voor de details en voordelen van dubbele opt-in.
+Voor begeleiding op hoe te om de kwesties te minimaliseren die in zowel fysieke opslag als enige opt-in worden voorgesteld, ga naar de [ kwaliteit en hygiëne van Gegevens ](#data-quality-and-hygiene) sectie in deze gids voor de details en de voordelen van dubbel opt-in.
 
 >[!NOTE]
 >
@@ -54,14 +54,14 @@ Het verzamelen van gegevens is slechts een deel van de uitdaging. U moet er ook 
 Hier volgen enkele oplossingen voor veelvoorkomende problemen die u kunt oplossen met uw e-mailadresgegevens:
 
 **[!DNL Double opt-in (DOI)]**
-[!DNL Double opt-in (DOI)] wordt door de meeste e-mailexperts beschouwd als de beste manier om te leveren. Als u problemen hebt met spamtraps of klachten over uw welkome e-mails, is DOI een goede manier om ervoor te zorgen dat de abonnee die uw e-mailberichten ontvangt, zich daadwerkelijk heeft aangemeld voor uw e-mailprogramma en uw e-mails wil ontvangen.
+[!DNL Double opt-in (DOI)] wordt door de meeste e-mailexperts beschouwd als de beste manier om items te leveren. Als u problemen hebt met spamtraps of klachten over uw welkome e-mails, is DOI een goede manier om ervoor te zorgen dat de abonnee die uw e-mailberichten ontvangt, zich daadwerkelijk heeft aangemeld voor uw e-mailprogramma en uw e-mails wil ontvangen.
 
 DOI bestaat uit het verzenden van een bevestigingsbericht naar het e-mailadres van de abonnee dat zich heeft aangemeld bij uw e-mailprogramma en dat een koppeling bevat waarop moet worden geklikt om de toestemming te bevestigen. Als de abonnee deze methode niet bevestigt, stuurt de afzender de abonnee geen e-mails meer. Laat nieuwe abonnees weten dat u dit doet op de website en moedig ze aan om de aanmelding te voltooien voordat u verdergaat. Deze methode leidt weliswaar tot een vermindering van het aantal aanmeldingen, maar de mensen die zich wel aanmelden, zijn vaak zeer betrokken en blijven op de lange termijn. Het resulteert gewoonlijk in een veel hoger ROI voor de afzender.
 
-**Verborgen veld**
+**Verborgen gebied**
 Het toepassen van een verborgen veld op uw aanmeldingsformulier is een geweldige manier om automatische bot-aanmeldingen te onderscheiden van echte menselijke abonnees. Omdat het gegevensveld niet zichtbaar is en verborgen is in de HTML-code, voert een bot gegevens in waar een mens dat niet wil. Met deze methode kunt u regels maken om elke aanmelding te onderdrukken die gegevens bevat die in dat verborgen veld zijn ingevuld.
 
-**[!DNL re-CAPTCHA] Dit is een validatiemethode waarmee u de kans kunt verkleinen dat de abonnee een bot is en geen echte persoon. Er zijn verschillende versies, waarvan sommige trefwoordidentificatie of afbeeldingen bevatten. Sommige versies zijn effectiever dan andere en wat u wint aan beveiliging en het voorkomen van problemen met betrekking tot de leverbaarheid is veel hoger dan de negatieve gevolgen voor conversies.
+** [!DNL re-CAPTCHA] is een bevestigingsmethode u kunt gebruiken om de kansen te verminderen de abonnee zowel en geen echte persoon is. Er zijn verschillende versies, waarvan sommige trefwoordidentificatie of afbeeldingen bevatten. Sommige versies zijn effectiever dan andere en wat u wint aan beveiliging en het voorkomen van problemen met betrekking tot de leverbaarheid is veel hoger dan de negatieve gevolgen voor conversies.
 
 ## Juridische richtsnoeren
 
@@ -75,18 +75,18 @@ Raadpleeg uw advocaten om lokale en nationale wetten betreffende e-mail te inter
 
 Er zijn vele andere manieren om adressen te verzamelen, elk met zijn eigen kansen, uitdagingen, en nadelen. De Adobe adviseert deze in het algemeen niet, aangezien het gebruik vaak door leverancier aanvaardbaar gebruiksbeleid beperkt is. We zullen naar een paar voorbeelden kijken, zodat u de gevaren leert om u te helpen de risico&#39;s te beperken of te vermijden:
 
-**Een lijst kopen of huren**
+**koop of huur een lijst**
 Er zijn veel soorten e-mailadressen. Primaire e-mail, e-mails voor werk, e-mails voor scholen, secundaire e-mails en inactieve e-mails om er een paar te noemen. De typen adressen die via aangekochte of gehuurde lijsten worden verzameld en gedeeld, zijn zelden primaire e-mailaccounts, waar bijna alle betrokkenheid- en aankoopactiviteiten plaatsvinden.
 
-Als u geluk hebt, krijgt u secundaire accounts, waar mensen op zoek zijn naar deals en aanbiedingen wanneer ze klaar zijn om iets te zoeken. Dit resulteert gewoonlijk in lage betrokkenheidsniveaus - als om het even welk. Als je geluk hebt, is de lijst vol met inactieve e-mails, die kunnen nu spamvallen zijn. Vaak krijg je een mengeling van zowel secundaire als inactieve e-mails. Over het algemeen heeft een e-mailprogramma meer schade dan de kwaliteit van dit soort lijsten. Deze praktijk wordt door de [Beleid voor acceptabel gebruik van Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+Als u geluk hebt, krijgt u secundaire accounts, waar mensen op zoek zijn naar deals en aanbiedingen wanneer ze klaar zijn om iets te zoeken. Dit resulteert gewoonlijk in lage betrokkenheidsniveaus - als om het even welk. Als je geluk hebt, is de lijst vol met inactieve e-mails, die kunnen nu spamvallen zijn. Vaak krijg je een mengeling van zowel secundaire als inactieve e-mails. Over het algemeen heeft een e-mailprogramma meer schade dan de kwaliteit van dit soort lijsten. Deze praktijk wordt verboden door het [ Acceptabele Beleid van het Gebruik van Adobe Campaign ](https://www.adobe.com/legal/terms/aup.html).
 
 **Lijsten toevoegen**
-Dit zijn klanten die ervoor gekozen hebben om met uw merk in te gaan, wat geweldig is. Maar ze kozen ervoor om een andere methode te gebruiken dan e-mail (in-store, sociale media, enz.). Ze kunnen geen ongevraagde e-mail van u ontvangen en zijn ook bezorgd over de manier waarop u hun e-mailadres hebt gekregen omdat ze het niet hebben opgegeven. Deze methode houdt het risico in dat een klant of potentiële klant die zich met uw merk bezighoudt, wordt omgedoopt tot een aanjager die uw merk niet langer vertrouwt en in plaats daarvan naar uw concurrentie gaat. Deze praktijk wordt door de [Beleid voor acceptabel gebruik van Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+Dit zijn klanten die ervoor gekozen hebben om met uw merk in te gaan, wat geweldig is. Maar ze kozen ervoor om een andere methode te gebruiken dan e-mail (in-store, sociale media, enz.). Ze kunnen geen ongevraagde e-mail van u ontvangen en zijn ook bezorgd over de manier waarop u hun e-mailadres hebt gekregen omdat ze het niet hebben opgegeven. Deze methode houdt het risico in dat een klant of potentiële klant die zich met uw merk bezighoudt, wordt omgedoopt tot een aanjager die uw merk niet langer vertrouwt en in plaats daarvan naar uw concurrentie gaat. Deze praktijk wordt verboden door het [ Acceptabele Beleid van het Gebruik van Adobe Campaign ](https://www.adobe.com/legal/terms/aup.html).
 
-**Handelsshow of andere gebeurtenisverzameling**
+**De Handel toont of andere gebeurtenisinzameling**
 Het kan nuttig zijn adressen te verzamelen bij een cabine of via een andere officiële merkloze methode. Het risico is dat bij veel gebeurtenissen als deze alle adressen worden verzameld en verspreid via de promotor of gastheer van de gebeurtenis. Dit betekent dat de eigenaars van deze e-mailadressen nooit hebben gevraagd om e-mails van uw merk te ontvangen. Deze abonnees zullen waarschijnlijk uw post als spam klagen en merken, en zij zouden geen nauwkeurige contactinformatie kunnen hebben verstrekt.
 
-**Krenkte**
+**overdrijven**
 
 Zweepstakes biedt snel een groot aantal e-mailadressen. Maar deze abonnees willen de prijs, niet je e-mails. Ze hebben misschien zelfs niet eens aandacht besteed aan de naam van wie hen zou bereiken. Ze zullen waarschijnlijk een klacht indienen en je post als spam markeren, en het is onwaarschijnlijk dat ze ooit een aankoop zullen doen of doen.
 

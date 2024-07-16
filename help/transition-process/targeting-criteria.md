@@ -12,8 +12,8 @@ level: Beginner
 exl-id: e6a855ba-a929-477f-a339-6861a755a529
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 4%
+source-wordcount: '188'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 Wanneer het verzenden van nieuw verkeer, slechts richt uw hoogst betrokken gebruikers tijdens de vroege fasen van IP opwarming. Dit helpt een positieve reputatie van get-go te vestigen om vertrouwen effectief te bouwen alvorens in uw minder betrokken publiek te rollen. Hier volgt een basisformule voor betrokkenheid:
 
-![Formule voor betrokkenheid](../assets/formula-for-enagement.png)
+![ Formule voor overeenkomst ](../assets/formula-for-enagement.png)
 
 Doorgaans is een betrokkenheidspercentage gebaseerd op een specifieke periode. Deze metrische waarde kan drastisch variëren afhankelijk van als de formule op algemeen niveau of voor specifieke postingstypes of campagnes wordt toegepast. De specifieke het richten criteria moeten worden verstrekt door met uw consultant van de Adobe te werken leverability, aangezien elke afzender en ISP varieert en gewoonlijk een aangepast plan vereist.
 
@@ -29,8 +29,8 @@ Doorgaans is een betrokkenheidspercentage gebaseerd op een specifieke periode. D
 
 **Analytics**
 
-* [Hoe kan ik de betrokkenheid en het vasthoudpercentage verhogen (zelfstudie)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identificeer betrokken publiek door zijn gedrag gebruikend Cohorts en weet de onderliggende oorzaken drijvende kleverigheid in uw mobiele apps. Gebruik algoritmen voor gegevenswetenschap in Segment-IQ om de verschillen en overeenkomsten tussen segmenten te kennen.*
+* [ hoe te om overeenkomst en behoudstarieven (leerprogramma) te verhogen ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *identificeer betrokken publiek door hun gedrag gebruikend Cohorts en ken de onderliggende oorzaken drijvende kleverigheid in uw mobiele apps. De algoritmen van de gegevenswetenschap van het gebruik in Segment IQ om de verschillen en de gelijkenissen tussen segmenten te kennen.*
 
 **Campaign Standard**
 
-* [E-mails met een AI-processor: voorspellende betrokkenheidsscoring](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
+* [ op AI-Gerichte e-mails: Voorspelende betrokkenheidsscore ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
