@@ -99,7 +99,7 @@ DMARC-records hebben meerdere componenten, DMARC-tags genoemd. Elke tag heeft ee
 
 >[!NOTE]
 >
->Als uw instantie Campagne op AWS wordt ontvangen, kunt u DMARC voor uw subdomeinen met het Controlebord uitvoeren. [ Leer hoe te om Verslagen uit te voeren DMARC gebruikend Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+>Als uw instantie Campagne op AWS wordt ontvangen, kunt u DMARC voor uw subdomeinen met het Controlebord uitvoeren. [ Leer hoe te om Verslagen uit te voeren DMARC gebruikend Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=nl-NL).
 
 Een algemene reden voor DMARC-fouten is een onjuiste afstemming tussen het adres &#39;Van&#39; en &#39;Fouten naar&#39; of &#39;Return-Path&#39;. Om dit te voorkomen, wordt het aanbevolen om bij het instellen van DMARC de instellingen voor het adres &#39;Van&#39; en &#39;Fouten-naar&#39; in uw leveringssjablonen tweemaal te controleren.
 

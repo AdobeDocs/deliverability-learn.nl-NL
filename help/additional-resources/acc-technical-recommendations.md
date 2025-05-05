@@ -39,7 +39,7 @@ Meer bepaald, worden zij gebruikt om de snelheid te controleren waarbij Adobe Ca
 
 >[!NOTE]
 >
->Voor meer op MX beheer in Adobe Campaign Classic, verwijs naar [ deze sectie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Voor meer op MX beheer in Adobe Campaign Classic, verwijs naar [ deze sectie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=nl-NL#mx-configuration).
 
 ### TLS {#tls}
 
@@ -88,13 +88,13 @@ Recommendations voor het definiëren van een SPF-record:
 
 >[!NOTE]
 >
->Voor ontvangen of hybride installaties, als u aan [ Verbeterde MTA ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages) hebt bevorderd, wordt het ondertekenen van de e-mailauthentificatie DKIM gedaan door Verbeterde MTA voor alle berichten met alle domeinen.
+>Voor ontvangen of hybride installaties, als u aan [ Verbeterde MTA ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html?lang=nl-NL#sending-messages) hebt bevorderd, wordt het ondertekenen van de e-mailauthentificatie DKIM gedaan door Verbeterde MTA voor alle berichten met alle domeinen.
 
 Het gebruiken van [ DKIM ](/help/additional-resources/authentication.md#dkim) met Adobe Campaign Classic vereist de volgende voorwaarde:
 
 **de optiedeclaratie van Adobe Campaign**: in Adobe Campaign, is de privé sleutel DKIM gebaseerd op een selecteur DKIM en een domein. Het is momenteel niet mogelijk om meerdere persoonlijke sleutels voor hetzelfde domein of subdomein te maken met verschillende kiezers. Het is niet mogelijk om te bepalen welk selecteerdomein/subdomein voor de authentificatie in noch het platform noch e-mail moet worden gebruikt. Het platform zal alternatief één van de privé sleutels selecteren, wat betekent de authentificatie een hoge kans heeft om te ontbreken.
 
-* Als u DomainKeys voor uw instantie van Adobe Campaign hebt gevormd, moet u enkel **dkim** in de [ het beheersregels van het Domein ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules) selecteren. Indien niet, volg de zelfde configuratiestappen (privé/openbare sleutel) zoals voor DomainKeys (die DKIM verving).
+* Als u DomainKeys voor uw instantie van Adobe Campaign hebt gevormd, moet u enkel **dkim** in de [ het beheersregels van het Domein ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=nl-NL#email-management-rules) selecteren. Indien niet, volg de zelfde configuratiestappen (privé/openbare sleutel) zoals voor DomainKeys (die DKIM verving).
 * Het is niet noodzakelijk om zowel DomainKeys als DKIM voor het zelfde domein toe te laten aangezien DKIM een betere versie van DomainKeys is.
 * De volgende domeinen valideren momenteel DKIM: AOL, Gmail.
 
@@ -199,7 +199,7 @@ U kunt ook een dynamisch adres gebruiken. Als u bijvoorbeeld een e-mail wilt ver
 
 De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in de e-mailkopbal worden omvat.
 
-Leer hoe te om typologieregels in Adobe Campaign v7/v8 in [ tot stand te brengen deze sectie ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+Leer hoe te om typologieregels in Adobe Campaign v7/v8 in [ tot stand te brengen deze sectie ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=nl-NL#typology-rules).
 
 >[!NOTE]
 >

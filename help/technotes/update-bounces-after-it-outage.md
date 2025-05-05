@@ -45,8 +45,8 @@ Volgens de standaardlogica voor stuitverwerking heeft Adobe Campaign deze ontvan
 
 Om de ontvangers te vinden die door deze kwestie werden beïnvloed, of in het geval dit opnieuw met een andere ISP gebeurt, gelieve de instructies hieronder te zien:
 
-* Voor Campaign Classic v7 en Campagne v8, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk) {_blank}.
-* Voor Campaign Standard, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk) {_blank}.
+* Voor Campaign Classic v7 en Campagne v8, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=nl-NL#unquarantine-bulk) {_blank}.
+* Voor Campaign Standard, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=nl-NL#unquarantine-bulk) {_blank}.
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -54,5 +54,5 @@ Adobe Journey Optimizer heeft deze e-mailadressen automatisch, met de instelling
 
 Zodra geïdentificeerd, kunnen deze adressen manueel uit de onderdrukkingslijst worden verwijderd gebruikend de **[!UICONTROL Delete]** knoop. Deze adressen kunnen dan in toekomstige e-mailcampagnes worden omvat.
 
-Leer meer in [ deze sectie ](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list) {_blank}.
+Leer meer in [ deze sectie ](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=nl-NL#remove-from-suppression-list) {_blank}.
 

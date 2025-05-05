@@ -37,7 +37,7 @@ Hier zijn sommige manieren helpen een mogelijke kwestie identificeren waar u des
 **Adobe Campaign Standard**
 
 * [Een verzending controleren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=nl)
-* [Leveringsoverzicht](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
+* [Leveringsoverzicht](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html?lang=nl-NL)
 * [Afleverbaarheid controleren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=nl#testing-and-sending)
 
 ## Aanvullende bronnen

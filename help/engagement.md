@@ -59,13 +59,13 @@ Een laatste belangrijk onderdeel van de antwoordstrategie is dat als u een echt 
 
 **Adobe Campaign Classic**
 
-* [De juiste doelgroep definiëren](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
-* [Drukregels](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+* [De juiste doelgroep definiëren](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=nl-NL#communication-channels)
+* [Drukregels](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=nl-NL)
 
 **Adobe Campaign Standard**
 
-* [De juiste doelgroep definiëren](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Moeheidsregels](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [De juiste doelgroep definiëren](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=nl-NL)
+* [Moeheidsregels](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html?lang=nl-NL)
 
 ## Aanvullende bronnen
 

@@ -29,8 +29,8 @@ Inhoud is toets. U hebt al ons standpunt over relevantie gelezen, maar hier zijn
 
 **Campaign Classic**
 
-* [ Controlerend uw berichtinhoud ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+* [ Controlerend uw berichtinhoud ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html?lang=nl-NL)
 
 **Campaign Standard**
 
-* [E-mailcontent beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)
+* [E-mailcontent beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=nl-NL#testing-and-sending)

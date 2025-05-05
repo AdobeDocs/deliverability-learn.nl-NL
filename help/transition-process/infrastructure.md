@@ -66,8 +66,8 @@ De authentificatie is het proces dat ISPs gebruikt om de identiteit van een afze
 **Campaign**
 
 * Leer hoe te om een subdomain volledig aan Adobe Campaign Classic of Norm in [ te delegeren deze sectie ](/help/additional-resources/ac-domain-name-setup.md).
-* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe te om een subdomain aan Adobe Campaign Classic volledig te delegeren.*
-* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe te om een subdomain aan Adobe Campaign Standard volledig te delegeren.*
+* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=nl-NL) - *Leer hoe te om een subdomain aan Adobe Campaign Classic volledig te delegeren.*
+* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=nl-NL) - *Leer hoe te om een subdomain aan Adobe Campaign Standard volledig te delegeren.*
 * Leer meer bij het uitvoeren van een terugkoppel lijn voor een instantie van het Campaign Classic in [ deze sectie ](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Aanvullende bronnen

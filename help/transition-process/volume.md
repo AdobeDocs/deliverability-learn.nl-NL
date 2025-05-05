@@ -48,10 +48,10 @@ In veel omstandigheden volgt transactionele post niet de traditionele opwarmings
 **Campaign**
 
 * Leer meer over het beheren van leverbaarheid wanneer het beginnen van een nieuw platform met Adobe Campaign in [ deze sectie ](/help/additional-resources/ac-starting-new-platform.md).
-* Leer hoe te om het gebruiken van veelvoudige golven met Adobe Campaign Classic in [ te verzenden deze sectie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Leer hoe te om het gebruiken van veelvoudige golven met Adobe Campaign Classic in [ te verzenden deze sectie ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=nl-NL#sending-using-multiple-waves).
 * Leer hoe te om een subdomain volledig aan Adobe Campaign Classic of Norm in [ te delegeren deze sectie ](/help/additional-resources/ac-domain-name-setup.md).
-* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe te om een subdomain aan Adobe Campaign Classic volledig te delegeren.*
-* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Leer hoe te om een subdomain aan Adobe Campaign Standard volledig te delegeren.*
+* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=nl-NL) - *Leer hoe te om een subdomain aan Adobe Campaign Classic volledig te delegeren.*
+* [ Controlebord: Volledige subdomain delegatie (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=nl-NL) - *Leer hoe te om een subdomain aan Adobe Campaign Standard volledig te delegeren.*
 
 ## Aanvullende bronnen
 

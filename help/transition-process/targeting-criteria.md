@@ -29,8 +29,8 @@ Doorgaans is een betrokkenheidspercentage gebaseerd op een specifieke periode. D
 
 **Analytics**
 
-* [ hoe te om overeenkomst en behoudstarieven (leerprogramma) te verhogen ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *identificeer betrokken publiek door hun gedrag gebruikend Cohorts en ken de onderliggende oorzaken drijvende kleverigheid in uw mobiele apps. De algoritmen van de gegevenswetenschap van het gebruik in Segment IQ om de verschillen en de gelijkenissen tussen segmenten te kennen.*
+* [ hoe te om overeenkomst en behoudstarieven (leerprogramma) te verhogen ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=nl-NL#mobile-app-analytics): *identificeer betrokken publiek door hun gedrag gebruikend Cohorts en ken de onderliggende oorzaken drijvende kleverigheid in uw mobiele apps. De algoritmen van de gegevenswetenschap van het gebruik in Segment IQ om de verschillen en de gelijkenissen tussen segmenten te kennen.*
 
 **Campaign Standard**
 
-* [ op AI-Gerichte e-mails: Voorspelende betrokkenheidsscore ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
+* [ op AI-Gerichte e-mails: Voorspelende betrokkenheidsscore ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=nl-NL#predictive-scoring)

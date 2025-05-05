@@ -19,7 +19,7 @@ In dit document worden de zakelijke en technische vereisten beschreven voor het 
 
 >[!NOTE]
 >
->U kunt ook nieuwe subdomeinen instellen met het Configuratiescherm (beschikbaar als bèta). Lees meer in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
+>U kunt ook nieuwe subdomeinen instellen met het Configuratiescherm (beschikbaar als bèta). Lees meer in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl-NL#must-read).
 
 ## Subdomeinen
 
@@ -201,7 +201,7 @@ Zodra subdomeinen voor uw instantie worden gevormd, kunt u hen controleren gebru
 
 Op deze manier kunt u alle subdomeinen weergeven die u aan Adobe Campaign hebt gedelegeerd en kunt u de vernieuwing van hun SSL-certificaten aanvragen.
 
-Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html#subdomains-and-certificates) voor meer informatie.
+Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=nl-NL#subdomains-and-certificates) voor meer informatie.
 
 >[!NOTE]
 >
