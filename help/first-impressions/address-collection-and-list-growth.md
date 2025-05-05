@@ -21,7 +21,7 @@ De beste bronnen van nieuwe e-mailadressen zijn directe bronnen, zoals aanmeldin
 
 Sommige notities over deze aanmeldingsmethoden:
 
-**de lijstinzameling van de 0} Fysieke opslag {kan uitdagingen toe te schrijven aan verbale of geschreven adresinput voorstellen die misspelling in de adressen veroorzaken.** Het wordt aanbevolen zo snel mogelijk een bevestigingsbericht te verzenden nadat u zich in de winkel hebt aangemeld.
+**de lijstinzameling van de 0&rbrace; Fysieke opslag &lbrace;kan uitdagingen toe te schrijven aan verbale of geschreven adresinput voorstellen die misspelling in de adressen veroorzaken.** Het wordt aanbevolen zo snel mogelijk een bevestigingsbericht te verzenden nadat u zich in de winkel hebt aangemeld.
 
 De gemeenschappelijkste vorm van **website aanmelding-omhoog** is &quot;enige opt-in.&quot; Dit is de absolute minimumnorm u zou moeten gebruiken om e-mailadressen te verwerven. Single-opt-in is wanneer de houder van een specifiek e-mailadres een afzender toestemming verleent om hen marketingberichten te sturen, meestal door het adres via een webformulier of in-store-berichten in te dienen. Hoewel het mogelijk is om een succesvolle e-mailcampagne met deze methode uit te voeren, kan dit de oorzaak van sommige problemen zijn.
 

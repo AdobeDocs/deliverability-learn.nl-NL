@@ -41,13 +41,13 @@ Hieronder volgt een lijst van de meest gebruikte RBL&#39;s. Voor een uitvoeriger
 
   Verwijs naar [ https://www.uribl.com/](https://www.uribl.com/)
 
-  Deze lijst identificeert de domeinen die regelmatig in berichten verschijnen die als spam worden verklaard. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U zou de leverbaarheidsdiensten en ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk de Zorg van de Klant van de Adobe moeten informeren [.
+  Deze lijst identificeert de domeinen die regelmatig in berichten verschijnen die als spam worden verklaard. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U zou de leverbaarheidsdiensten en [&#128279;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk de Zorg van de Klant van de Adobe moeten informeren .
 
 * **SURBL**
 
   Verwijs naar [ https://surbl.org/](https://surbl.org/)
 
-  De SURBL identificeert de websites die regelmatig in spam verschijnen. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U zou de leverbaarheidsdiensten en ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk de Zorg van de Klant van de Adobe moeten informeren [.
+  De SURBL identificeert de websites die regelmatig in spam verschijnen. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U zou de leverbaarheidsdiensten en [&#128279;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk de Zorg van de Klant van de Adobe moeten informeren .
 
 * **iX Manitu**
 

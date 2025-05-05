@@ -45,7 +45,7 @@ DKIM (DomainKeys Identified Mail)-verificatie is een opvolger van SPF. Het gebru
 
 DKIM komt uit een combinatie DomainKeys, Yahoo! en Cisco identificeerde de authentificatieprincipes van de Post van Internet en wordt gebruikt om de authenticiteit van het afzenderdomein te controleren en de integriteit van het bericht te waarborgen.
 
-DKIM verving **authentificatie 0} DomainKeys.**
+DKIM verving **authentificatie 0&rbrace; DomainKeys.**
 
 Voor het gebruik van DKIM zijn enkele voorwaarden vereist:
 

@@ -119,5 +119,5 @@ Zodra deze veranderingen worden bewaard, zult u met uw implementatie DMARC met c
 
 ## Nuttige koppelingen {#links}
 
-* [ DMARC.org ](https://dmarc.org/) {target="_blank"}
-* [ M3AWG e-mailAuthentificatie ](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf) {target="_blank"}
+* [ DMARC.org ](https://dmarc.org/){target="_blank"} 
+* [ M3AWG e-mailAuthentificatie ](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"} 
