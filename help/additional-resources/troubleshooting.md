@@ -19,7 +19,7 @@ Hieronder vindt u een aantal tips en trucs die u kunnen helpen om problemen met 
 
 ## Identificeer een leveringsprobleem {#identify-deliverability-issue}
 
-Om een mogelijke kwestie te identificeren, kunnen de elementen die op [ worden vermeld die pagina ](/help/ongoing-monitoring.md) uw aandacht trekken.
+Om een mogelijke kwestie te identificeren, kunnen de elementen die op [&#x200B; worden vermeld die pagina &#x200B;](/help/ongoing-monitoring.md) uw aandacht trekken.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
@@ -44,13 +44,13 @@ Stel uzelf de volgende vragen om de mogelijke oorzaken van het probleem van de l
 
 ### Klachten
 
-[ Klachten ](/help/metrics/complaints.md) worden bepaald door abonnees die e-mail als spam melden door de overeenkomstige knoop van hun inbox te raken.
+[&#x200B; Klachten &#x200B;](/help/metrics/complaints.md) worden bepaald door abonnees die e-mail als spam melden door de overeenkomstige knoop van hun inbox te raken.
 
 Als uw bezorgingsprobleem is veroorzaakt door klachten:
 * U moet proberen te bepalen waarom de ontvangers klagen.
 * Je kunt ook overwegen om je afmeldingskoppeling naar de bovenkant van je e-mail te verplaatsen. Dit zal abonnees aanmoedigen om zich af te melden in plaats van met de spamknoop te klagen.
 
-De afzenders kunnen een rijkdom van informatie van hun [ terugkoppelen lijn ](/help/transition-process/infrastructure.md#feedback-loops) klachten verstrekken:
+De afzenders kunnen een rijkdom van informatie van hun [&#x200B; terugkoppelen lijn &#x200B;](/help/transition-process/infrastructure.md#feedback-loops) klachten verstrekken:
 * Het is belangrijk om de gegevens op te nemen en te zoeken naar patronen in zaken als opt-in-bron, hoe lang het adres is ingetekend, of zelfs bepaalde gedrags-demografie.
 * Klachten kunnen vaak een riskante gegevensbron of segment in het bestand identificeren. Risky wordt gedefinieerd als het meest waarschijnlijk om te klagen, wat reputatie, en beurtelings, inbox tarieven kan beschadigen.
 
@@ -74,6 +74,6 @@ Als deel van aan de gang zijnde reputatie onderhoud, is het belangrijk om te beg
 
 1. Bepaal actieve (&quot;veilige&quot;) segmenten voor elke verticaal. Dit zijn typisch abonnees die binnen de laatste 3-6 maanden actief zijn geweest.
 1. Verminder de frequentie tot inactieven.
-1. Creeer a [ re-engagement ](/help/additional-resources/re-engagement.md) reeksen voor gematigde risico inactieven. Dit is doorgaans 6 tot 9 maanden zonder betrokkenheid.
+1. Creeer a [&#x200B; re-engagement &#x200B;](/help/additional-resources/re-engagement.md) reeksen voor gematigde risico inactieven. Dit is doorgaans 6 tot 9 maanden zonder betrokkenheid.
 1. Ontwikkelen van een herbevestigingscampagne voor inactieven met een hoger risico. Dit zijn doorgaans abonnees die in 9 tot 12 maanden geen e-mailberichten hebben ontvangen.
 1. Stel ten slotte een keuzeregel in en verwijder abonnees die uw e-mails niet hebben geopend in &#39;x&#39; maanden. We raden doorgaans 12+ maanden aan, maar dit kan verschillen afhankelijk van de verkoop- en aankoopcyclus.

@@ -54,13 +54,13 @@ Raadpleeg de volgende secties voor meer informatie over de bovenstaande beginsel
 
 **Adobe Campaign Classic**
 
-* [ optimaliseer uw levering door quarantines ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=nl-NL#optimizing-your-delivery-through-quarantines)
-* [ identificeer quarantined adressen voor het volledige platform ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=nl-NL#identifying-quarantined-addresses-for-the-entire-platform)
-* [ het verzenden gebruikend veelvoudige golven ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=nl-NL#sending-using-multiple-waves)
+* [&#x200B; optimaliseer uw levering door quarantines &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=nl-NL#optimizing-your-delivery-through-quarantines)
+* [&#x200B; identificeer quarantined adressen voor het volledige platform &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=nl-NL#identifying-quarantined-addresses-for-the-entire-platform)
+* [&#x200B; het verzenden gebruikend veelvoudige golven &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=nl-NL#sending-using-multiple-waves)
 * [Verzendingscontrole](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=nl-NL#sending-messages)
 
 **Adobe Campaign Standard**
 
-* [ optimaliseer uw levering door quarantines ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=nl-NL#optimizing-your-delivery-through-quarantines)
-* [ identificeer quarantined adressen voor het volledige platform ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=nl-NL)
+* [&#x200B; optimaliseer uw levering door quarantines &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=nl-NL#optimizing-your-delivery-through-quarantines)
+* [&#x200B; identificeer quarantined adressen voor het volledige platform &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=nl-NL)
 * [Een verzending controleren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=nl)

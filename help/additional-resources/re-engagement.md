@@ -75,9 +75,9 @@ Abonnees die zich met de campagne bezighouden door de open- of klikactiviteiten 
 
 **Adobe Campaign**
 
-* [ het Volgen logboeken in Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=nl-NL#tracking-logs)
-* [ het Volgen logboeken in Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=nl-NL#tracking-logs)
+* [&#x200B; het Volgen logboeken in Campaign Classic &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=nl-NL#tracking-logs)
+* [&#x200B; het Volgen logboeken in Campaign Standard &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=nl-NL#tracking-logs)
 
 **Beheer van de Reis van de Klant van de Adobe**
 
-* [ het volgen van het Bericht ](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=nl)
+* [&#x200B; het volgen van het Bericht &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=nl)

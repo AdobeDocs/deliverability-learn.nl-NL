@@ -25,7 +25,7 @@ BIMI verbetert niet rechtstreeks de leverbaarheid of uw reputatie. Het kan helpe
 
 ## Hoe ziet het eruit?
 
-U kunt sommige voorbeelden van implementaties van verschillende leveranciers en meer details vinden waarop de leveranciers het embleem op de [ pagina van de Groep BIMI ](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}  tonen.
+U kunt sommige voorbeelden van implementaties van verschillende leveranciers en meer details vinden waarop de leveranciers het embleem op de [&#x200B; pagina van de Groep BIMI &#x200B;](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}  tonen.
 
 ## Wie is de BIMI-groep?
 
@@ -35,7 +35,7 @@ De BIMI-groep bestaat uit verschillende belanghebbenden uit verschillende sector
 
 ## Wie steunt BIMI?
 
-De lijst van aanbieders van postvakken die BIMI ondersteunen, wordt gestaag uitgebreid. Een bijgewerkte lijst kan [ hier ](https://bimigroup.org/bimi-infographic/){target="_blank"}  voor zowel steunverleners als leveranciers worden gevonden die BIMI overwegen.
+De lijst van aanbieders van postvakken die BIMI ondersteunen, wordt gestaag uitgebreid. Een bijgewerkte lijst kan [&#x200B; hier &#x200B;](https://bimigroup.org/bimi-infographic/){target="_blank"}  voor zowel steunverleners als leveranciers worden gevonden die BIMI overwegen.
 
 Vanaf april 2023 omvat de lijst Gmail, Yahoo, La Poste, Fastmail, Onet.pl en Zone, Proofpoint als antispamtoestel en Apple Mail (vanaf iOS 16).
 
@@ -45,15 +45,15 @@ De meest prominente namen op die lijst zijn natuurlijk Yahoo, Gmail en een recen
 
 De implementatie van BIMI gebeurt in verschillende stappen:
 
-1. DMARC (Op domein gebaseerde Authentificatie van het Bericht, het Melden en de Conformiteit) implementatie op handhavingsniveau voor zowel het verzendende domein als zijn organisatorisch domein - [ leer meer ](#dmarc)
+1. DMARC (Op domein gebaseerde Authentificatie van het Bericht, het Melden en de Conformiteit) implementatie op handhavingsniveau voor zowel het verzendende domein als zijn organisatorisch domein - [&#x200B; leer meer &#x200B;](#dmarc)
 
-1. Creatie van uw merkembleem in het formaat van SVG TinyPS - [ leer meer ](#create-brand-logo)
+1. Creatie van uw merkembleem in het formaat van SVG TinyPS - [&#x200B; leer meer &#x200B;](#create-brand-logo)
 
-1. Ondertekenend omhoog voor een Geverifieerd Certificaat van het Teken (slechts nodig voor sommige leveranciers) - [ leer meer ](#vmc)
+1. Ondertekenend omhoog voor een Geverifieerd Certificaat van het Teken (slechts nodig voor sommige leveranciers) - [&#x200B; leer meer &#x200B;](#vmc)
 
-1. Publish a BIMI DNS verslag met het embleem en het certificaat - [ Leer meer ](#publish-bimi-record)
+1. Publish a BIMI DNS verslag met het embleem en het certificaat - [&#x200B; Leer meer &#x200B;](#publish-bimi-record)
 
-1. Het hebben van een goede reputatie - [ leer meer ](#good-reputation)
+1. Het hebben van een goede reputatie - [&#x200B; leer meer &#x200B;](#good-reputation)
 
 >[!NOTE]
 >
@@ -62,17 +62,17 @@ De implementatie van BIMI gebeurt in verschillende stappen:
 
 ### DMARC {#dmarc}
 
-DMARC is een norm die het merk toestaat om te beslissen wat een brievenbusleverancier met e-mail zou moeten doen die [ authentificatie ](../additional-resources/authentication.md) ontbreekt. Het zogenaamde beleid varieert van &quot;niets&quot;over &quot;quarantaine&quot; (de omslagplaatsing van Spam) aan &quot;verwerpen&quot; (direct blok de post). Alleen de laatste twee beleidsvormen worden &quot;handhaving&quot; genoemd en komen in aanmerking voor BIMI. De post die door Adobe wordt verzonden gaat authentificatie over, aangezien SPF (het Kader van het Beleid van de Afzender) en DKIM (de Sleutels van het Domein Identified Mail) opstelling per gebrek zijn. Adobe stelt DMARC op uw verzendend domein op verzoek in.
+DMARC is een norm die het merk toestaat om te beslissen wat een brievenbusleverancier met e-mail zou moeten doen die [&#x200B; authentificatie &#x200B;](../additional-resources/authentication.md) ontbreekt. Het zogenaamde beleid varieert van &quot;niets&quot;over &quot;quarantaine&quot; (de omslagplaatsing van Spam) aan &quot;verwerpen&quot; (direct blok de post). Alleen de laatste twee beleidsvormen worden &quot;handhaving&quot; genoemd en komen in aanmerking voor BIMI. De post die door Adobe wordt verzonden gaat authentificatie over, aangezien SPF (het Kader van het Beleid van de Afzender) en DKIM (de Sleutels van het Domein Identified Mail) opstelling per gebrek zijn. Adobe stelt DMARC op uw verzendend domein op verzoek in.
 
 Naast DMARC op het verzendende domein, moet DMARC ook op handhavingsniveau voor het organisatorische domein worden gebruikt (als het verzendende domein news.example.com is, example.com is het organisatorische domein).
 
 ### Het logo van uw merk maken {#create-brand-logo}
 
-Het maken van het logo moet aan de vereisten voldoen tot 100%. Gelieve te verwijzen altijd naar de [ richtlijnen van de Groep BIMI ](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"} .
+Het maken van het logo moet aan de vereisten voldoen tot 100%. Gelieve te verwijzen altijd naar de [&#x200B; richtlijnen van de Groep BIMI &#x200B;](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"} .
 
 Het logo moet op een beveiligde locatie (HTTPS) worden opgeslagen, voor het geval dat een CDN (content delivery network) wordt gebruikt om het even welke bescherming te voorkomen die postbusproviders ervan weerhoudt het logo te verkrijgen (bv. Bot Protection), moet worden uitgeschakeld.
 
-Naast de technische vereisten zijn er enkele praktische aanbevelingen, zoals een vierkant logo, een effen kleur als achtergrond en andere. Deze aanbevelingen zijn bedoeld voor een optimale visualisatie. Sommige aanbieders hebben hun eigen vereisten die een aanvulling vormen op die van de BIMI-werkgroep. [ Gmail ](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}  bijvoorbeeld vereist het embleem om minstens 96 x 96 pixel te zijn.
+Naast de technische vereisten zijn er enkele praktische aanbevelingen, zoals een vierkant logo, een effen kleur als achtergrond en andere. Deze aanbevelingen zijn bedoeld voor een optimale visualisatie. Sommige aanbieders hebben hun eigen vereisten die een aanvulling vormen op die van de BIMI-werkgroep. [&#x200B; Gmail &#x200B;](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}  bijvoorbeeld vereist het embleem om minstens 96 x 96 pixel te zijn.
 Niet-naleving kan ertoe leiden dat het logo niet wordt weergegeven.
 
 ### Verified Mark Certificate (VMC) {#vmc}
@@ -107,10 +107,10 @@ Zelfs als je de moeite en kosten voor VMC doorloopt, wordt dit onderdeel niet ve
 
 ## Tips en trucs
 
-* De BIMI-groep biedt een handig valideringsinstrument voor BIMI. Als u wilt controleren als alles opstelling en klaar is, of enkel willen zien of is het embleem volgzaam, ga [ deze verbinding ](https://bimigroup.org/bimi-generator/){target="_blank"} . Voor de laatste klikt u gewoon op **[!UICONTROL Generate BIMI]** en voert u een plaatsaanduidingsdomein in, maar wel de juiste URL voor het logo. De inspecteur zal u vertellen als het embleem volgzaam is.
+* De BIMI-groep biedt een handig valideringsinstrument voor BIMI. Als u wilt controleren als alles opstelling en klaar is, of enkel willen zien of is het embleem volgzaam, ga [&#x200B; deze verbinding &#x200B;](https://bimigroup.org/bimi-generator/){target="_blank"} . Voor de laatste klikt u gewoon op **[!UICONTROL Generate BIMI]** en voert u een plaatsaanduidingsdomein in, maar wel de juiste URL voor het logo. De inspecteur zal u vertellen als het embleem volgzaam is.
 
 * U kunt veilig zonder VMC beginnen, is er geen schade op uw reputatie als uw BIMI-verslag geen VMC URL omvat, maar het embleem kan reeds in Yahoo worden getoond.
 
 * De organisatorische implementatie van DMARC is een grote onderneming. Sommige bedrijven zijn gespecialiseerd om merken te helpen een volledige goedkeuring DMARC bereiken.
 
-* Een uitgebreide lijst van vaak gestelde vragen wordt gepubliceerd [ hier ](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"} .
+* Een uitgebreide lijst van vaak gestelde vragen wordt gepubliceerd [&#x200B; hier &#x200B;](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"} .

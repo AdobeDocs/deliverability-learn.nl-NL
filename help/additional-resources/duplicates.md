@@ -37,8 +37,8 @@ Deduplicating adressen beschermt uw verzendende reputatie en verzekert goed quar
 
 **Adobe Campaign Classic**
 
-* [ activiteit van de Deduplicatie ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html?lang=nl-NL)
-* [ Gebruikend de functionaliteit van de Fusie van de Deduplicatie activiteit ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=nl-NL)
+* [&#x200B; activiteit van de Deduplicatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html?lang=nl-NL)
+* [&#x200B; Gebruikend de functionaliteit van de Fusie van de Deduplicatie activiteit &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=nl-NL)
 
 **Adobe Campaign Standard**
 

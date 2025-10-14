@@ -42,4 +42,4 @@ Hier zijn sommige manieren helpen een mogelijke kwestie identificeren waar u des
 
 ## Aanvullende bronnen
 
-* Leer hoe u leveringsproblemen in [ kunt richten deze sectie ](/help/additional-resources/troubleshooting.md).
+* Leer hoe u leveringsproblemen in [&#x200B; kunt richten deze sectie &#x200B;](/help/additional-resources/troubleshooting.md).

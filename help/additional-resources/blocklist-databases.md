@@ -23,35 +23,35 @@ Deze databases worden RBL&#39;s (Real-Time Blackgat Lists) genoemd en ze worden 
 * Door afzenderdomein: maakt een lijst van afzenderdomeinen (volledig domein van het stuiterende postadres) die spam verzenden of verkeerd gevormd.
 * Op webdomein: geeft een lijst weer van de domeinen (domeinen op hoog niveau die zijn geregistreerd bij de registrars) die worden gevonden in de URL&#39;s van de koppelingen en afbeeldingen in spaminhoud. In oplossingen van de Adobe, is het domein dat moet worden overwogen over het algemeen het adres dat voor het volgen wordt gebruikt.
 
-Hieronder volgt een lijst van de meest gebruikte RBL&#39;s. Voor een uitvoerigere lijst, kunt u naar [ https://www.dnsstuff.com/ ](https://tools.dnsstuff.com/) verwijzen.
+Hieronder volgt een lijst van de meest gebruikte RBL&#39;s. Voor een uitvoerigere lijst, kunt u naar [&#x200B; https://www.dnsstuff.com/ &#x200B;](https://tools.dnsstuff.com/) verwijzen.
 
 * **Spamhaus**
 
-  Verwijs naar [ https://www.spamhaus.org/](https://www.spamhaus.org/)
+  Verwijs naar [&#x200B; https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-  De database is belangrijker. De indeling op deze lijst is over het algemeen een ernstige situatie. Als dit gebeurt, moet u ONMIDDELLIJK handelen en commerciële diensten, leverbaarheid, en [ de Zorg van de Klant van de Adobe ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) waarschuwen.
+  De database is belangrijker. De indeling op deze lijst is over het algemeen een ernstige situatie. Als dit gebeurt, moet u ONMIDDELLIJK handelen en commerciële diensten, leverbaarheid, en [&#x200B; de Zorg van de Klant van de Adobe &#x200B;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) waarschuwen.
 
 * **SpamCop**
 
-  Verwijs naar [ https://www.spamcop.net/](https://www.spamcop.net/)
+  Verwijs naar [&#x200B; https://www.spamcop.net/](https://www.spamcop.net/)
 
   Het is een van de bekendste databases. Als één van uw IP adressen op deze lijst wordt geplaatst, betekent dit over het algemeen dat de gebruikers SpamCop uw berichten als spam hebben verklaard of dat u berichten naar een honeypot SpamCop hebt verzonden.
 
 * **URIBL**
 
-  Verwijs naar [ https://www.uribl.com/](https://www.uribl.com/)
+  Verwijs naar [&#x200B; https://www.uribl.com/](https://www.uribl.com/)
 
   Deze lijst identificeert de domeinen die regelmatig in berichten verschijnen die als spam worden verklaard. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U zou de leverbaarheidsdiensten en [&#128279;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk de Zorg van de Klant van de Adobe moeten informeren .
 
 * **SURBL**
 
-  Verwijs naar [ https://surbl.org/](https://surbl.org/)
+  Verwijs naar [&#x200B; https://surbl.org/](https://surbl.org/)
 
   De SURBL identificeert de websites die regelmatig in spam verschijnen. Als uw domein in deze lijst wordt weergegeven, kan dit van invloed zijn op de leesbaarheid. U zou de leverbaarheidsdiensten en [&#128279;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) onmiddellijk de Zorg van de Klant van de Adobe moeten informeren .
 
 * **iX Manitu**
 
-  Dit is een lijst van IP&#39;s en wordt in Duitsland op grote schaal gebruikt. Verwijs naar [ https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+  Dit is een lijst van IP&#39;s en wordt in Duitsland op grote schaal gebruikt. Verwijs naar [&#x200B; https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 

@@ -24,7 +24,7 @@ De beïnvloede domeinen zijn: **libero.it**, **virgilio.it**, **inwind.it**, **i
 
 Dit probleem heeft zich voorgedaan van 22-1-2023 tot 26-11-2023, maar het grootste deel van de ten onrechte in quarantaine gehouden dieren vond plaats op 26 januari.
 
-Leer meer in de officiële mededeling [ hier ](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832) {_blank}.
+Leer meer in de officiële mededeling [&#x200B; hier &#x200B;](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832) {_blank}.
 
 
 ## Gevolgen{#outage-impact}
@@ -45,8 +45,8 @@ Volgens de standaardlogica voor stuitverwerking heeft Adobe Campaign deze ontvan
 
 Om de ontvangers te vinden die door deze kwestie werden beïnvloed, of in het geval dit opnieuw met een andere ISP gebeurt, gelieve de instructies hieronder te zien:
 
-* Voor Campaign Classic v7 en Campagne v8, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=nl-NL#unquarantine-bulk) {_blank}.
-* Voor Campaign Standard, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=nl-NL#unquarantine-bulk) {_blank}.
+* Voor Campaign Classic v7 en Campagne v8, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=nl-NL#unquarantine-bulk) {_blank}.
+* Voor Campaign Standard, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=nl-NL#unquarantine-bulk) {_blank}.
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -54,5 +54,5 @@ Adobe Journey Optimizer heeft deze e-mailadressen automatisch, met de instelling
 
 Zodra geïdentificeerd, kunnen deze adressen manueel uit de onderdrukkingslijst worden verwijderd gebruikend de **[!UICONTROL Delete]** knoop. Deze adressen kunnen dan in toekomstige e-mailcampagnes worden omvat.
 
-Leer meer in [ deze sectie ](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=nl-NL#remove-from-suppression-list) {_blank}.
+Leer meer in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=nl-NL#remove-from-suppression-list) {_blank}.
 

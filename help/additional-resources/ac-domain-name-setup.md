@@ -25,7 +25,7 @@ In dit document worden de zakelijke en technische vereisten beschreven voor het 
 
 Met Adobe, kan de digitale marketing echt de contextafhankelijke motor worden die het de marketingprogramma van de klantenovereenkomst van uw merk drijft.  E-mail blijft de basis van digitale marketingprogramma&#39;s. Het is echter moeilijker geworden om de inbox te bereiken dan ooit.
 
-Creërend subdomain voor e-mailcampagnes staat brands toe om verschillende types van verkeer (marketing versus collectief bijvoorbeeld) in specifieke IP pools en met specifieke domeinen te isoleren, die het [ IP opwarmingsproces ](../../help/additional-resources/increase-reputation-with-ip-warming.md) zullen versnellen en over het algemeen leverbaarheid zullen verbeteren. Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden.  Als u uw hoofddomein als afzender of het adres &#39;Van&#39; voor meerdere e-mailstreams gebruikt, kan de e-mailverificatie ook worden verbroken, waardoor uw berichten worden geblokkeerd of in de spammap worden geplaatst.
+Creërend subdomain voor e-mailcampagnes staat brands toe om verschillende types van verkeer (marketing versus collectief bijvoorbeeld) in specifieke IP pools en met specifieke domeinen te isoleren, die het [&#x200B; IP opwarmingsproces &#x200B;](../../help/additional-resources/increase-reputation-with-ip-warming.md) zullen versnellen en over het algemeen leverbaarheid zullen verbeteren. Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden.  Als u uw hoofddomein als afzender of het adres &#39;Van&#39; voor meerdere e-mailstreams gebruikt, kan de e-mailverificatie ook worden verbroken, waardoor uw berichten worden geblokkeerd of in de spammap worden geplaatst.
 
 ### Delegatie
 
@@ -205,4 +205,4 @@ Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/do
 
 >[!NOTE]
 >
->[ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) is beschikbaar aan klanten die Adobe Managed Services slechts gebruiken.
+>[&#x200B; Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) is beschikbaar aan klanten die Adobe Managed Services slechts gebruiken.

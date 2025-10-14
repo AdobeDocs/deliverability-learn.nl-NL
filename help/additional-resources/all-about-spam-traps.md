@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Alles over spamvallen
 
-A [ spamval ](/help/metrics/spam-traps.md) is een geldig adres, zonder foutenmelding wanneer de e-mails worden verzonden naar. Een spamvanger heeft een hoofdtaak: spammers of afzenders identificeren zonder proces voor gegevenshygiëne.
+A [&#x200B; spamval &#x200B;](/help/metrics/spam-traps.md) is een geldig adres, zonder foutenmelding wanneer de e-mails worden verzonden naar. Een spamvanger heeft een hoofdtaak: spammers of afzenders identificeren zonder proces voor gegevenshygiëne.
 
 ## Wie beheert deze spamovervaladressen?
 

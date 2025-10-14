@@ -25,8 +25,8 @@ Verzendend permanent is het proces om een verenigbaar verzendend volume en strat
 
 **hier zijn sommige voorbeelden:**
 
-![ Goed verzendend permanent ](assets/Sender_Permanence_1.png)
+![&#x200B; Goed verzendend permanent &#x200B;](assets/Sender_Permanence_1.png)
 
-![ Onjuist verzendend permanent ](assets/Sender_Permanence_2.png)
+![&#x200B; Onjuist verzendend permanent &#x200B;](assets/Sender_Permanence_2.png)
 
-![ Acceptabele verzendende permanent ](assets/Sender_Permanence_3.png)
+![&#x200B; Acceptabele verzendende permanent &#x200B;](assets/Sender_Permanence_3.png)

@@ -69,4 +69,4 @@ Een laatste belangrijk onderdeel van de antwoordstrategie is dat als u een echt 
 
 ## Aanvullende bronnen
 
-* Leer meer op re-engagement (of win-back) strategieën in [ deze sectie ](/help/additional-resources/re-engagement.md).
+* Leer meer op re-engagement (of win-back) strategieën in [&#x200B; deze sectie &#x200B;](/help/additional-resources/re-engagement.md).

@@ -21,7 +21,7 @@ ht-degree: 16%
 
 ISPs heeft verschillende regels en verschillende manieren om hun verkeer te bekijken. Bijvoorbeeld, is Gmail één van de verfijnde ISPs omdat zij betrokkenheid zeer strikt (opent en klikt) naast alle andere reputatiemaatregelen bekijken. Dit vereist een aangepast plan dat slechts op de hoogste betrokken gebruikers bij de aanvang richt. Andere ISPs kan het zelfde ook vereisen. Werk voor een specifiek plan samen met uw consultant voor Adobe-items.
 
-Zie de [ dienstverlener van Internet specificeert ](/help/internet-service-provider-specifics/overview.md) sectie voor meer informatie over de belangrijke verschillen tussen de volgende geselecteerde groep van leveranciers:
+Zie de [&#x200B; dienstverlener van Internet specificeert &#x200B;](/help/internet-service-provider-specifics/overview.md) sectie voor meer informatie over de belangrijke verschillen tussen de volgende geselecteerde groep van leveranciers:
 
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live, enz.)](/help/internet-service-provider-specifics/microsoft.md)
@@ -29,4 +29,4 @@ Zie de [ dienstverlener van Internet specificeert ](/help/internet-service-provi
 
 ## Aanvullende bronnen
 
-* Leer meer bij het verhogen van uw e-mailreputatie met IP opwarmen in [ deze sectie ](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* Leer meer bij het verhogen van uw e-mailreputatie met IP opwarmen in [&#x200B; deze sectie &#x200B;](/help/additional-resources/increase-reputation-with-ip-warming.md).

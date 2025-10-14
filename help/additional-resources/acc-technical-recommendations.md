@@ -25,11 +25,11 @@ Adobe Campaign controleert of omgekeerde DNS voor een IP adres wordt gegeven en 
 
 Een belangrijk punt in de netwerkconfiguratie zorgt ervoor dat correcte omgekeerde DNS voor elk van de IP adressen voor uitgaande berichten wordt bepaald. Dit betekent dat voor een bepaald IP adres, er een omgekeerd DNS verslag (PTR verslag) met een passende DNS (een verslag van A) die terug naar het aanvankelijke IP adres van een lus voorzien is.
 
-De domeinkeus voor omgekeerde DNS heeft een effect wanneer het behandelen van bepaalde ISPs. AOL, in het bijzonder, keurt slechts terugkoppelt lijnen met een adres in het zelfde domein zoals omgekeerde DNS (zie [ terugkoppelen lijn ](#feedback-loop)) goed.
+De domeinkeus voor omgekeerde DNS heeft een effect wanneer het behandelen van bepaalde ISPs. AOL, in het bijzonder, keurt slechts terugkoppelt lijnen met een adres in het zelfde domein zoals omgekeerde DNS (zie [&#x200B; terugkoppelen lijn &#x200B;](#feedback-loop)) goed.
 
 >[!NOTE]
 >
->U kunt [ dit externe hulpmiddel ](https://mxtoolbox.com/SuperTool.aspx) gebruiken om de configuratie van een domein te verifiëren.
+>U kunt [&#x200B; dit externe hulpmiddel &#x200B;](https://mxtoolbox.com/SuperTool.aspx) gebruiken om de configuratie van een domein te verifiëren.
 
 ### MX-regels {#mx-rules}
 
@@ -39,7 +39,7 @@ Meer bepaald, worden zij gebruikt om de snelheid te controleren waarbij Adobe Ca
 
 >[!NOTE]
 >
->Voor meer op MX beheer in Adobe Campaign Classic, verwijs naar [ deze sectie ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=nl-NL#mx-configuration).
+>Voor meer op MX beheer in Adobe Campaign Classic, verwijs naar [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=nl-NL#mx-configuration).
 
 ### TLS {#tls}
 
@@ -76,25 +76,25 @@ Recommendations voor het definiëren van een SPF-record:
 
 >[!NOTE]
 >
->Leer meer op SPF in [ deze sectie ](/help/additional-resources/authentication.md#spf).
+>Leer meer op SPF in [&#x200B; deze sectie &#x200B;](/help/additional-resources/authentication.md#spf).
 
 ## Verificatie
 
 >[!NOTE]
 >
->Leer meer op de verschillende vormen van e-mailauthentificatie in [ deze sectie ](/help/additional-resources/authentication.md).
+>Leer meer op de verschillende vormen van e-mailauthentificatie in [&#x200B; deze sectie &#x200B;](/help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 
 >[!NOTE]
 >
->Voor ontvangen of hybride installaties, als u aan [ Verbeterde MTA ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html?lang=nl-NL#sending-messages) hebt bevorderd, wordt het ondertekenen van de e-mailauthentificatie DKIM gedaan door Verbeterde MTA voor alle berichten met alle domeinen.
+>Voor ontvangen of hybride installaties, als u aan [&#x200B; Verbeterde MTA &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html?lang=nl-NL#sending-messages) hebt bevorderd, wordt het ondertekenen van de e-mailauthentificatie DKIM gedaan door Verbeterde MTA voor alle berichten met alle domeinen.
 
-Het gebruiken van [ DKIM ](/help/additional-resources/authentication.md#dkim) met Adobe Campaign Classic vereist de volgende voorwaarde:
+Het gebruiken van [&#x200B; DKIM &#x200B;](/help/additional-resources/authentication.md#dkim) met Adobe Campaign Classic vereist de volgende voorwaarde:
 
 **de optiedeclaratie van Adobe Campaign**: in Adobe Campaign, is de privé sleutel DKIM gebaseerd op een selecteur DKIM en een domein. Het is momenteel niet mogelijk om meerdere persoonlijke sleutels voor hetzelfde domein of subdomein te maken met verschillende kiezers. Het is niet mogelijk om te bepalen welk selecteerdomein/subdomein voor de authentificatie in noch het platform noch e-mail moet worden gebruikt. Het platform zal alternatief één van de privé sleutels selecteren, wat betekent de authentificatie een hoge kans heeft om te ontbreken.
 
-* Als u DomainKeys voor uw instantie van Adobe Campaign hebt gevormd, moet u enkel **dkim** in de [ het beheersregels van het Domein ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=nl-NL#email-management-rules) selecteren. Indien niet, volg de zelfde configuratiestappen (privé/openbare sleutel) zoals voor DomainKeys (die DKIM verving).
+* Als u DomainKeys voor uw instantie van Adobe Campaign hebt gevormd, moet u enkel **dkim** in de [&#x200B; het beheersregels van het Domein &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=nl-NL#email-management-rules) selecteren. Indien niet, volg de zelfde configuratiestappen (privé/openbare sleutel) zoals voor DomainKeys (die DKIM verving).
 * Het is niet noodzakelijk om zowel DomainKeys als DKIM voor het zelfde domein toe te laten aangezien DKIM een betere versie van DomainKeys is.
 * De volgende domeinen valideren momenteel DKIM: AOL, Gmail.
 
@@ -102,7 +102,7 @@ Het gebruiken van [ DKIM ](/help/additional-resources/authentication.md#dkim) me
 
 Een feedbacklijn werkt door op het ISP niveau een bepaald e-mailadres voor een waaier van IP adressen te verklaren die voor het verzenden van berichten worden gebruikt. ISP zal naar deze brievenbus, op een gelijkaardige manier verzenden zoals wat voor stuitberichten wordt gedaan, die berichten die door ontvangers als spam worden gemeld. Het platform moet zo worden geconfigureerd dat toekomstige leveringen aan gebruikers die een klacht hebben ingediend, worden geblokkeerd. Het is belangrijk dat zij niet langer contact met hen opnemen, ook al hebben zij niet de juiste opt-out-link gebruikt. Het is gebaseerd op deze klachten dat ISP een IP adres aan zijn lijst van gewezen personen zal toevoegen. Afhankelijk van ISP, zal een klachtentarief van rond 1% in het blokkeren van een IP adres resulteren.
 
-Een norm wordt momenteel opgesteld om het formaat van te bepalen terugkoppelt lusberichten: [ de Terugkoppeling meldend Formaat van de Misbruik (ARF) ](https://tools.ietf.org/html/rfc6650).
+Een norm wordt momenteel opgesteld om het formaat van te bepalen terugkoppelt lusberichten: [&#x200B; de Terugkoppeling meldend Formaat van de Misbruik (ARF) &#x200B;](https://tools.ietf.org/html/rfc6650).
 
 Het implementeren van een feedbacklus voor een instantie vereist:
 
@@ -179,9 +179,9 @@ U kunt ook een dynamische &quot;mailto&quot; List-Unsubscribe maken met behulp v
 
 Om **&quot;mailto&quot;lijst-Unsubscribe** in Campagne uit te voeren, kunt u of:
 
-* Voeg direct de bevellijn in het levering of leveringsmalplaatje toe - [ leer hoe ](#adding-a-command-line-in-a-delivery-template)
+* Voeg direct de bevellijn in het levering of leveringsmalplaatje toe - [&#x200B; leer hoe &#x200B;](#adding-a-command-line-in-a-delivery-template)
 
-* Creeer een typologieregel - [ Leer hoe ](#creating-a-typology-rule)
+* Creeer een typologieregel - [&#x200B; Leer hoe &#x200B;](#creating-a-typology-rule)
 
 #### Een opdrachtregel toevoegen in een levering of sjabloon {#adding-a-command-line-in-a-delivery-template}
 
@@ -199,7 +199,7 @@ U kunt ook een dynamisch adres gebruiken. Als u bijvoorbeeld een e-mail wilt ver
 
 De regel moet het manuscript bevatten dat de bevellijn produceert en het moet in de e-mailkopbal worden omvat.
 
-Leer hoe te om typologieregels in Adobe Campaign v7/v8 in [ tot stand te brengen deze sectie ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=nl-NL#typology-rules).
+Leer hoe te om typologieregels in Adobe Campaign v7/v8 in [&#x200B; tot stand te brengen deze sectie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=nl-NL#typology-rules).
 
 >[!NOTE]
 >
@@ -221,12 +221,12 @@ Als u de reactie van de POST List-Unsubscribe met één klik rechtstreeks in Ado
 
 1. Ga naar **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]** .
 
-1. Upload &quot;unsubscribe ontvangers zonder-klik&quot;[ dossier van XML ](/help/assets/WebAppUnsubNoClick.xml.zip).
+1. Upload &quot;unsubscribe ontvangers zonder-klik&quot;[&#x200B; dossier van XML &#x200B;](/help/assets/WebAppUnsubNoClick.xml.zip).
 
 Om **te vormen één-Klik lijst-unsubscribe** in Campagne, kunt u of:
 
-* Voeg de bevellijn in het levering of leveringsmalplaatje toe - [ leer hoe ](#one-click-delivery-template)
-* Creeer een typologieregel - [ Leer hoe ](#one-click-typology-rule)
+* Voeg de bevellijn in het levering of leveringsmalplaatje toe - [&#x200B; leer hoe &#x200B;](#one-click-delivery-template)
+* Creeer een typologieregel - [&#x200B; Leer hoe &#x200B;](#one-click-typology-rule)
 
 #### Het vormen van lijst-Signaal van één-Klik in de levering of het malplaatje {#one-click-delivery-template}
 

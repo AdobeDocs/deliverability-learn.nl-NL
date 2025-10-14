@@ -29,7 +29,7 @@ Inhoud is toets. U hebt al ons standpunt over relevantie gelezen, maar hier zijn
 
 **Campaign Classic**
 
-* [ Controlerend uw berichtinhoud ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html?lang=nl-NL)
+* [&#x200B; Controlerend uw berichtinhoud &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html?lang=nl-NL)
 
 **Campaign Standard**
 

@@ -64,10 +64,10 @@ DMARC biedt de mogelijkheid om rapporten te ontvangen over e-mailberichten die n
 
 Deze rapporten worden vooral gebruikt om een overzicht te krijgen van e-mails die spoofing proberen te maken. Dit zijn hoogst technische rapporten die het best door een derdehulpmiddel worden verteerd. Enkele bedrijven die gespecialiseerd zijn in DMARC-monitoring zijn:
 
-* [ ValiMail ](https://www.valimail.com/products/#automated-delivery)
-* [ Agari ](https://www.agari.com/)
-* [ Dmarcier ](https://dmarcian.com/)
-* [ Proofpoint ](https://www.proofpoint.com/us)
+* [&#x200B; ValiMail &#x200B;](https://www.valimail.com/products/#automated-delivery)
+* [&#x200B; Agari &#x200B;](https://www.agari.com/)
+* [&#x200B; Dmarcier &#x200B;](https://dmarcian.com/)
+* [&#x200B; Proofpoint &#x200B;](https://www.proofpoint.com/us)
 
 >[!CAUTION]
 >
@@ -99,7 +99,7 @@ DMARC-records hebben meerdere componenten, DMARC-tags genoemd. Elke tag heeft ee
 
 >[!NOTE]
 >
->Als uw instantie Campagne op AWS wordt ontvangen, kunt u DMARC voor uw subdomeinen met het Controlebord uitvoeren. [ Leer hoe te om Verslagen uit te voeren DMARC gebruikend Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=nl-NL).
+>Als uw instantie Campagne op AWS wordt ontvangen, kunt u DMARC voor uw subdomeinen met het Controlebord uitvoeren. [&#x200B; Leer hoe te om Verslagen uit te voeren DMARC gebruikend Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=nl-NL).
 
 Een algemene reden voor DMARC-fouten is een onjuiste afstemming tussen het adres &#39;Van&#39; en &#39;Fouten naar&#39; of &#39;Return-Path&#39;. Om dit te voorkomen, wordt het aanbevolen om bij het instellen van DMARC de instellingen voor het adres &#39;Van&#39; en &#39;Fouten-naar&#39; in uw leveringssjablonen tweemaal te controleren.
 
@@ -119,5 +119,5 @@ Zodra deze veranderingen worden bewaard, zult u met uw implementatie DMARC met c
 
 ## Nuttige koppelingen {#links}
 
-* [ DMARC.org ](https://dmarc.org/){target="_blank"} 
-* [ M3AWG e-mailAuthentificatie ](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"} 
+* [&#x200B; DMARC.org &#x200B;](https://dmarc.org/){target="_blank"} 
+* [&#x200B; M3AWG e-mailAuthentificatie &#x200B;](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"} 
