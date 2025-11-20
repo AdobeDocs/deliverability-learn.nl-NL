@@ -9,7 +9,7 @@ auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
    + [Klachten](/help/metrics/complaints.md)
    + [Spamvallen](/help/metrics/spam-traps.md)
    + [Berichten in map voor ongewenste e-mail plaatsen en e-mails blokkeren](/help/metrics/bulking-and-blocking.md)
-+ [Engagement](/help/engagement.md)
++ [Betrokkenheid](/help/engagement.md)
 + Overgangsproces - Overstappen naar een ander e-mailplatform {#transition-process}
    + [Zorgen voor een soepele overgang bij de overstap naar een ander e-mailplatform](/help/transition-process/switching-email-platforms.md)
    + [Infrastructuur](/help/transition-process/infrastructure.md)
@@ -37,7 +37,7 @@ ht-degree: 100%
    + [Welkomstmails versturen](/help/first-impressions/welcome-emails.md)
 + [Best practices wat betreft content voor optimale leverbaarheid](/help/content-best-practices-for-optimal-delivery.md)
 + [Consistentie in de verzending](/help/sender-permanence.md)
-+ Specifieke aspecten van internetserviceproviders {#internet-service-provider-specifics}
++ Specifieke kenmerken van internetserviceproviders {#internet-service-provider-specifics}
    + [Overzicht](/help/internet-service-provider-specifics/overview.md)
    + [Gmail](/help/internet-service-provider-specifics/gmail.md)
    + [Microsoft (Hotmail, Outlook, Windows Live, enz.)](/help/internet-service-provider-specifics/microsoft.md)
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Proces voor het aanvragen van een SSL-certificaat](/help/additional-resources/ac-ssl-certificate-request.md)
       + [Een nieuw platform starten](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic - Technische aanbevelingen](/help/additional-resources/acc-technical-recommendations.md)
-   + Technische opmerkingen {#technotes}
+   + Technische opmerkingen{#technotes}
       + [DMARC implementeren](/help/technotes/implement-dmarc.md)
       + [BIMI implementeren](/help/technotes/implement-bimi.md)
       + [Bounces updaten na Italia Online-storing](/help/technotes/update-bounces-after-it-outage.md)
