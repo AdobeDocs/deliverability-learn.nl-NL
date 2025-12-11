@@ -1,12 +1,12 @@
 ---
 title: SSL-certificaataanvraagproces
-description: Leer hoe u SSL-certificaten installeert op de subdomeinen die u aan de Adobe hebt gedelegeerd.
+description: Leer hoe u SSL-certificaten installeert op de subdomeinen die u aan Adobe hebt gedelegeerd.
 topics: Deliverability
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 57016f89df54d5c74755a6a108a92db45153ec18
+source-git-commit: 0be68f5674904aa105985a6e5fc4771c41f7fe48
 workflow-type: tm+mt
 source-wordcount: '2124'
 ht-degree: 1%
@@ -15,22 +15,22 @@ ht-degree: 1%
 
 # Proces voor het aanvragen van een SSL-certificaat
 
-Zodra u een domein aan Adobe voor het verzenden van e-mail (zie [&#x200B; de naamopstelling van het Domein &#x200B;](/help/additional-resources/ac-domain-name-setup.md)) hebt gedelegeerd, zal de Adobe bepaalde subdomeinen voor specifieke functies tot stand brengen en gebruiken.
+Zodra u een domein aan Adobe voor het verzenden van e-mail (zie [ de naamopstelling van het Domein ](/help/additional-resources/ac-domain-name-setup.md)) hebt gedelegeerd, zal Adobe bepaalde subdomeinen voor specifieke functies creëren en gebruiken.
 
-Bijvoorbeeld, als u *email.example.com* aan Adobe voor het verzenden van e-mails hebt gedelegeerd, zal de Adobe subdomeinen zoals het volgende tot stand brengen:
+Bijvoorbeeld, als u *email.example.com* aan Adobe voor het verzenden van e-mails hebt gedelegeerd, zal Adobe subdomeinen zoals het volgende tot stand brengen:
 * *t.email.example.com* - voor het volgen verbindingen
 * *m.email.example.com* - voor spiegelpagina&#39;s
 * *res.email.example.com* - voor ontvangen middelen (zoals beelden)
 
 Het wordt geadviseerd om **deze domeinen via SSL (HTTPS) te beveiligen**. Onbeveiligde koppelingen (HTTP) zijn immers kwetsbaar voor interceptie en zullen waarschuwingen afgeven aan moderne browsers.
 
-Als u SSL-certificaten op deze subdomeinen wilt installeren, dient u een CSR-bestand aan te vragen en vervolgens SSL-certificaten aan te schaffen voor Adobe voor installatie of vernieuwing.
+Als u SSL-certificaten op deze subdomeinen wilt installeren, dient u een CSR-bestand aan te vragen en vervolgens SSL-certificaten aan te schaffen die Adobe kan installeren of vernieuwen.
 
 >[!CAUTION]
 >
->Alvorens een SSL certificaat te installeren, zorg ervoor u zich van de eerste vereisten bewust bent die op [&#x200B; worden vermeld deze pagina &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#installing-ssl-certificate).
+>Alvorens een SSL certificaat te installeren, zorg ervoor u zich van de eerste vereisten bewust bent die op [ worden vermeld deze pagina ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#installing-ssl-certificate).
 >
->Adobe ondersteunt alleen maximaal 2048-bits certificaten. 4096-bits certificaten worden nog niet ondersteund.
+>Adobe biedt alleen ondersteuning voor maximaal 2048-bits certificaten. 4096-bits certificaten worden nog niet ondersteund.
 
 ## Woordenlijst
 
@@ -54,11 +54,11 @@ Als u SSL-certificaten op deze subdomeinen wilt installeren, dient u een CSR-bes
 
 ## Belangrijkste stappen
 
-1. Vragen om een CSR-bestand (Certificate Signing Request) en de vereiste informatie (land, land, stad, naam van de organisatie, naam van de organisatie, naam van de organisatie enz.) aan de Adobe.
-1. Valideer het CSR-bestand dat door de Adobe wordt gegenereerd en controleer of alle gegevens die u hebt opgegeven correct zijn.
+1. Vraag om een CSR-bestand (Certificate Signing Request) en geef Adobe de vereiste informatie (land, staat, plaats, naam van de organisatie, naam van de organisatie enz.).
+1. Valideer het CSR-bestand dat door Adobe is gegenereerd en controleer of alle gegevens die u hebt opgegeven correct zijn.
 1. Gebruik de details CSR om een certificaat te produceren dat door een vertrouwde op CertificatieInstantie <!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server--> wordt ondertekend.
 1. Valideer het SSL-certificaat en controleer of dit overeenkomt met de CSR.
-1. Geef het SSL-certificaat door aan de Adobe, die het zal installeren.
+1. Geef het SSL-certificaat door aan Adobe, die het zal installeren.
 1. Test of het SSL-certificaat is geïnstalleerd voor elk beveiligd subdomein.
 1. Controleer de geldigheidsperiode van het SSL-certificaat.
 1. Werk een specifieke configuratie in Adobe Campaign bij.
@@ -67,23 +67,23 @@ Als u SSL-certificaten op deze subdomeinen wilt installeren, dient u een CSR-bes
 
 ### Vereisten
 
-U moet de domeinnamen en de functies identificeren (bijhouden, pagina&#39;s spiegelen, webapps enzovoort) om te beveiligen.
+U moet de domeinnamen en de functies (bijhouden, pagina&#39;s spiegelen, webapps enz.) identificeren om te beveiligen.
 >[!NOTE]
 >
->Adobe kan helpen bij het definiëren van de domeinnamen en -functies die moeten worden betrokken. Neem voor meer informatie contact op met het accountteam van de Adobe.
+>Adobe kan u helpen bij het definiëren van de domeinnamen en -functies die moeten worden gebruikt. Neem voor meer informatie contact op met uw Adobe-accountteam.
 
 ### Stap 1 - krijg een CSR- dossier
 
 Voer de onderstaande stappen uit om een CSR-bestand (Certificate Signing Request) te verkrijgen.
 
-* Als u toegang tot het [&#x200B; Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) hebt, volg de instructies op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#subdomains-and-certificates) om een Csr- dossier van het Controlebord te produceren en te downloaden.
+* Als u toegang tot het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) hebt, volg de instructies op [ deze pagina ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#subdomains-and-certificates) om een Csr- dossier van het Controlebord te produceren en te downloaden.
 
 * Als dat niet het geval is, maakt u een ondersteuningsticket via https://adminconsole.adobe.com/ om een CSR-bestand op te halen van de Adobe Customer Care voor de vereiste subdomein(s).
 
 Hier volgen enkele aanbevolen procedures:
 
 * Eén aanvraag per gedelegeerd subdomein opheffen.
-* Het is mogelijk om veelvoudige subdomeinen in één enkel CSR- verzoek te combineren, maar slechts binnen het zelfde milieu. Bijvoorbeeld, in Campaign Classic, zijn de marketing server, de [&#x200B; midsourcing server &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html?lang=nl-NL), en de [&#x200B; uitvoeringsinstantie &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html?lang=nl-NL#execution-instance) drie afzonderlijke milieu&#39;s.
+* Het is mogelijk om veelvoudige subdomeinen in één enkel CSR- verzoek te combineren, maar slechts binnen het zelfde milieu. Bijvoorbeeld, in Campaign Classic, zijn de marketing server, [ midsourcing server ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html), en de [ uitvoeringsinstantie ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html#execution-instance) drie afzonderlijke milieu&#39;s.
 * U moet een nieuwe CSR krijgen alvorens om het even welke SSL certificaatvernieuwing. Gebruik geen oud CSR-bestand van een jaar geleden of meer.
 
 U moet de volgende informatie opgeven.
@@ -92,26 +92,26 @@ U moet de volgende informatie opgeven.
 >
 >Alle velden die in de onderstaande tabellen worden vermeld, moeten worden ingevuld. Anders, kan het CSR- verzoek niet worden verwerkt.
 
-**Informatie om van de hulp van het team van de Adobe te voorzien:**
+**Informatie om van de hulp van het team van Adobe te voorzien:**
 
 | Te verstrekken informatie | Voorbeeldwaarde | Opmerking |
 |--- |--- |--- |
-| Clientnaam | My Company Inc. | Naam van uw organisatie. Dit veld wordt door de Adobe gebruikt voor het bijhouden van uw aanvraag (het maakt geen deel uit van het CSR/SSL-certificaat). |
+| Clientnaam | My Company Inc. | Naam van uw organisatie. Dit veld wordt door Adobe gebruikt voor het bijhouden van uw aanvraag (het maakt geen deel uit van het CSR/SSL-certificaat). |
 | URL Adobe Campaign-omgeving | https://client-mid-prod1.campaign.adobe.com | Adobe Campaign instance URL. |
 | Gemeenschappelijke Naam [ CN ] | t.subdomain.customer.com | Dit kan om het even welke relevante domeinen zijn, maar gewoonlijk het volgende domein. |
 | De Alternatieve Naam van het onderwerp [ San ] | t.subdomain.customer.com | Zorg ervoor dat u het volgende subdomein opneemt als een SAN. |
-| De Alternatieve Naam van het onderwerp [ San ] | m.subdomain.customer.com |
-| De Alternatieve Naam van het onderwerp [ San ] | res.subdomain.customer.com |
+| De Alternatieve Naam van het onderwerp [ San ] | m.subdomain.customer.com | |
+| De Alternatieve Naam van het onderwerp [ San ] | res.subdomain.customer.com | |
 
 **Informatie door uw intern team van IT/SSL te verstrekken:**
 
 | Te verstrekken informatie | Voorbeeldwaarde | Opmerking |
 |--- |--- |--- |
-| Land [ C ] | VS | Dit moet een code van twee letters zijn. Heb toegang tot de volledige landlijst [&#x200B; hier &#x200B;](https://www.ssl.com/csrs/country_codes/).</br>*Nota: Voor Verenigd Koninkrijk, gebruik GB (niet VK).* |
+| Land [ C ] | VS | Dit moet een code van twee letters zijn. Heb toegang tot de volledige landlijst [ hier ](https://www.ssl.com/csrs/country_codes/).</br>*Nota: Voor Verenigd Koninkrijk, gebruik GB (niet VK).* |
 | Staat (of de Naam van de Provincie) [ ST ] | Illinois | Indien van toepassing. De waarde moet een volledige naam zijn en mag niet worden afgekort. |
-| Plaats/Localiteitsnaam [ L ] | Chicago |
-| De Naam van de organisatie [ O ] | ACME |
-| De Naam van de eenheid van de organisatie [ OU ] | IT |
+| Plaats/Localiteitsnaam [ L ] | Chicago | |
+| De Naam van de organisatie [ O ] | ACME | |
+| De Naam van de eenheid van de organisatie [ OU ] | IT | |
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ U moet de volgende informatie opgeven.
 
 ### Stap 2 - Valideer het CSR-bestand
 
-Nadat u uw verzoek met de relevante informatie hebt verzonden, genereert de Adobe een CSR-bestand (Certificate Signing Request).
+Nadat u uw verzoek met de relevante informatie hebt verzonden, genereert Adobe een CSR-bestand (Certificate Signing Request).
 
 De tekst in het resulterende Csr- dossier moet met **beginnen&quot;—BEGIN CERTIFICAATVERZOEK—&quot;**.
 
-Nadat u het CSR-bestand van de Adobe hebt ontvangen, voert u de onderstaande stappen uit:
+Voer de volgende stappen uit nadat u het CSR-bestand van Adobe hebt ontvangen:
 
 1. Kopieer en plak de tekst van het CSR-bestand in een onlindecoder, zoals https://www.sslshopper.com/csr-decoder.html, <!--https://www.certlogik.com/decoder/,--> of https://www.entrust.net/ssl-technical/csr-viewer.cfm.
 Alternatief, kunt u het ** bevel gebruiken OpenSSL plaatselijk op een machine van Linux.
@@ -140,8 +140,8 @@ Wanneer het CSR-bestand is opgegeven, moet u een SSL-certificaat voor de juiste 
    * mag niet langer zijn dan 2048 bits;
    * moet worden ondertekend door een geldige certificeringsinstantie (certificeringsinstantie);
    * moeten alle SAN&#39;s (Alternatieve namen van onderwerp) bevatten, zoals vermeld in het CSR-bestand.
-* Als er een of meer tussenliggende certificaten zijn, moet u het basiscertificaat en alle tussenliggende certificaten aan de Adobe verstrekken.
-* U kunt elke geldigheidsperiode van een certificaat instellen, maar de Adobe raadt u aan deze lang genoeg te kiezen (bijvoorbeeld twee jaar).
+* Als er een of meer tussenliggende certificaten zijn, moet u het basiscertificaat en alle tussenliggende certificaten aan Adobe verstrekken.
+* U kunt elke geldigheidsperiode van een certificaat instellen, maar Adobe raadt u aan deze lang genoeg te kiezen (bijvoorbeeld twee jaar).
 
 >[!NOTE]
 >
@@ -149,20 +149,20 @@ Wanneer het CSR-bestand is opgegeven, moet u een SSL-certificaat voor de juiste 
 
 ### Stap 4 - Valideer het SSL-certificaat
 
-Nadat het SSL-certificaat is gegenereerd, moet u het valideren voordat u het naar de Adobe verzendt. Hiervoor voert u de volgende stappen uit:
+Nadat het SSL-certificaat is gegenereerd, moet u het valideren voordat u het naar Adobe verzendt. Hiervoor voert u de volgende stappen uit:
 
 1. Controleer of het certificaat de extensie .pem heeft. Als dit niet het geval is, zet het in formaat PEM om. U kunt de omzetting maken gebruikend *OpenSSL*.
 1. Bevestig dat het certificaat met **&quot;&quot;—BEGIN CERTIFICAAT—&quot;** begint.
 1. Kopieer de certificaattekst naar een online decoder, zoals https://www.sslshopper.com/certificate-decoder.html of https://www.entrust.net/ssl-technical/csr-viewer.cfm.
-Alternatief, kunt u het ** bevel gebruiken OpenSSL plaatselijk op een machine van Linux. Voor meer op dit, verwijs naar [&#x200B; deze externe pagina &#x200B;](https://www.shellhacks.com/decode-ssl-certificate/).
+Alternatief, kunt u het ** bevel gebruiken OpenSSL plaatselijk op een machine van Linux. Voor meer op dit, verwijs naar [ deze externe pagina ](https://www.shellhacks.com/decode-ssl-certificate/).
 1. Zorg ervoor dat het certificaat correct is omgezet, inclusief de Common Name, SAN, Issuer and Validity Period.
-1. Als de SSL certificaatcontrole succesvol is, controleer dat het certificaat CSR gebruikend [&#x200B; deze website &#x200B;](https://www.sslshopper.com/certificate-key-matcher.html) aanpast: selecteer **Controle als CSR en een certificaat** aanpassen, en uw certificaat en uw CSR op de overeenkomstige gebieden ingaan. Ze moeten overeenkomen.
+1. Als de SSL certificaatcontrole succesvol is, controleer dat het certificaat CSR gebruikend [ deze website ](https://www.sslshopper.com/certificate-key-matcher.html) aanpast: selecteer **Controle als CSR en een certificaat** aanpassen, en uw certificaat en uw CSR op de overeenkomstige gebieden ingaan. Ze moeten overeenkomen.
 
 ### Stap 5 - Vraag de SSL certificaatinstallatie aan
 
-* Als u toegang tot het [&#x200B; Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) hebt, volg de instructies op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#installing-ssl-certificate) om het certificaat aan Controlebord te uploaden.
+* Als u toegang tot het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) hebt, volg de instructies op [ deze pagina ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#installing-ssl-certificate) om het certificaat aan Controlebord te uploaden.
 
-* Anders maakt u een ander ondersteuningsticket via https://adminconsole.adobe.com/ om Adobe aan te vragen om het certificaat op de Adobe server(s) te installeren.
+* Anders maakt u een ander ondersteuningsticket via https://adminconsole.adobe.com/ om Adobe te verzoeken het certificaat op de Adobe-server(s) te installeren.
 
 U moet het volgende opgeven:
 
@@ -172,13 +172,13 @@ U moet het volgende opgeven:
 
 ### Stap 6 - Test de SSL certificaatinstallatie
 
-Nadat het SSL-certificaat is geïnstalleerd en bevestigd door de klantenservice van de Adobe, controleert u of het voor alle URL&#39;s is geïnstalleerd.
+Nadat het SSL-certificaat is geïnstalleerd en bevestigd door Adobe Customer Care, moet u controleren of het voor alle URL&#39;s is geïnstalleerd.
 
-Voer de tests hieronder uit alvorens het SSL installatiekaartje te sluiten. Zorg ook ervoor u om het even welke specifieke configuratie zoals die in [&#x200B; wordt opgedragen deze sectie &#x200B;](#update-configuration) bijwerkt.
+Voer de tests hieronder uit alvorens het SSL installatiekaartje te sluiten. Zorg ook ervoor u om het even welke specifieke configuratie zoals die in [ wordt opgedragen deze sectie ](#update-configuration) bijwerkt.
 
 Navigeer naar de volgende URL&#39;s in uw browser (vervang &quot;subdomain.customer.com&quot; door uw subdomein):
 
-* https://subdomain.customer.com/r/test (voor [&#x200B; Webtoepassingen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=nl-NL) slechts subdomeinen - is niet op e-mailsubdomeinen van toepassing)
+* https://subdomain.customer.com/r/test (voor [ Webtoepassingen ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html) slechts subdomeinen - is niet op e-mailsubdomeinen van toepassing)
 * https://t.subdomain.customer.com/r/test
 * https://m.subdomain.customer.com/r/test
 * https://res.subdomain.customer.com/r/test
@@ -195,11 +195,11 @@ Als het SSL-certificaat niet correct is geïnstalleerd, wordt de volgende waarsc
 
 U kunt de geldigheidsperiode van het certificaat in uw browser controleren. Bijvoorbeeld, in Google Chrome, klik **Veilig** > **Certificaat**.
 
-Het is uw verantwoordelijkheid om de geldigheidsperiode te controleren. Adobe raadt u aan een proces te implementeren om de certificaatvervaldatum te controleren. Leer meer op wat gebeurt wanneer uw SSL certificaat in [&#x200B; dit artikel &#x200B;](https://www.thesslstore.com/blog/what-happens-when-your-ssl-certificate-expires/) verloopt.
+Het is uw verantwoordelijkheid om de geldigheidsperiode te controleren. Adobe raadt u aan een proces te implementeren om de vervaldatum van certificaten te controleren. Leer meer op wat gebeurt wanneer uw SSL certificaat in [ dit artikel ](https://www.thesslstore.com/blog/what-happens-when-your-ssl-certificate-expires/) verloopt.
 
 * Maak een ondersteuningsticket om een bijgewerkt certificaat aan te vragen ten minste twee weken voor de vervaldatum van het certificaat. U te hoeven om geen extra CSR aan te vragen, tenzij de details CSR zijn veranderd.
 
-* Als u toegang tot het [&#x200B; Controlebord &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) hebt, en als uw milieu door Adobe in een milieu van AWS wordt ontvangen, kunt u het Controlebord gebruiken om het certificaat te vernieuwen alvorens het verloopt. Lees meer in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl-NL#monitoring-certificates).
+* Als u toegang tot het [ Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) hebt, en als uw milieu door Adobe in een milieu van AWS wordt ontvangen, kunt u het Controlebord gebruiken om het certificaat te vernieuwen alvorens het verloopt. Lees meer in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
 
 ### Stap 8 - werk om het even welke specifieke configuratie bij {#update-configuration}
 
@@ -207,7 +207,7 @@ Als u zeker weet dat de aangevraagde SSL-certificaten correct zijn geïnstalleer
 
 >[!NOTE]
 >
->Voor Campaign Classic, wordt URLs om bij te werken hoofdzakelijk gevestigd in de [&#x200B; tovenaar van de Plaatsing &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html?lang=nl-NL#deployment-wizard) en in de [&#x200B; Externe rekeningen &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html?lang=nl-NL) (het volgen, spiegelpagina, en openbare middeldomeinen). Voor Campaign Standard, verwijs naar [&#x200B; Brandende configuratie &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html?lang=nl-NL#about-brand-identity).
+>Voor Campaign Classic, wordt URLs om bij te werken hoofdzakelijk gevestigd in de [ tovenaar van de Plaatsing ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) en in de [ Externe rekeningen ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html) (het volgen, spiegelpagina, en openbare middeldomeinen). Voor Campaign Standard, verwijs naar [ Brandende configuratie ](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
 
 Zodra configuraties zijn bijgewerkt, worden nieuwe e-mailberichten verzonden met HTTPS-URL&#39;s in plaats van met HTTP. Als u wilt controleren of de URL&#39;s nu veilig zijn, kunt u snel de volgende tests uitvoeren:
 
@@ -218,8 +218,8 @@ Zodra configuraties zijn bijgewerkt, worden nieuwe e-mailberichten verzonden met
 
 **Campaign Classic**
 
-* [&#x200B; Controlebord: Het toevoegen van SSL certificaten (leerprogramma) &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=nl-NL) - leer hoe te om SSL certificaten toe te voegen om uw subdomeinen te beveiligen.
+* [ Controlebord: Het toevoegen van SSL certificaten (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - leer hoe te om SSL certificaten toe te voegen om uw subdomeinen te beveiligen.
 
 **Campaign Standard**
 
-* [&#x200B; Controlebord: Het toevoegen van SSL certificaten (leerprogramma) &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=nl-NL) - leer hoe te om SSL certificaten toe te voegen om uw subdomeinen te beveiligen.
+* [ Controlebord: Het toevoegen van SSL certificaten (leerprogramma) ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - leer hoe te om SSL certificaten toe te voegen om uw subdomeinen te beveiligen.
